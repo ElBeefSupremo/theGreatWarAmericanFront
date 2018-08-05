@@ -1,0 +1,88 @@
+ideas={
+	political_advisor={
+			CSA_b_b_comer={ allowed={ tag=CSA } traits={ silent_workhorse } ai_will_do={ factor=1 } }
+			CSA_augustus_bacon={ allowed={ tag=CSA } traits={ quartermaster_general } ai_will_do={ factor=1 } }
+			CSA_nathan_b_forrest_jr={ allowed={ tag=CSA } traits={ ideological_crusader } ai_will_do={ factor=1 } }
+			CSA_edward_house={ allowed={ tag=CSA } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
+			CSA_garland_longstreet={ allowed={ tag=CSA } traits={ democratic_reformer } ai_will_do={ factor=1 } }
+			#CSA_samuel_gompers={ allowed={ tag=CSA } traits={ communist_revolutionary } ai_will_do={ factor=1 } }
+			CSA_ben_w_hooper={ allowed={ tag=CSA } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
+			CSA_willy_naylor={ allowed={ tag=CSA } traits={ war_industrialist } ai_will_do={ factor=1 } }
+			CSA_robert_sloss={ allowed={ tag=CSA } traits={ captain_of_industry } ai_will_do={ factor=1 } }
+			CSA_martin_ensley={ allowed={ tag=CSA } traits={ armaments_organizer } ai_will_do={ factor=1 } }
+			CSA_thomas_m_campbell={ allowed={ tag=CSA } traits={ popular_figurehead } ai_will_do={ factor=1 } }
+			CSA_john_s_moseby_jr={ allowed={ tag=CSA } traits={ prince_of_terror } ai_will_do={ factor=1 } }
+			}
+
+#to do -
+	theorist={
+			CSA_jeb_stuart_jr={ allowed={ tag=CSA } traits={ military_theorist } ai_will_do={ factor=1 } }
+			}
+	army_chief={
+			CSA_henry_p_mccain={ allowed={ tag=CSA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			CSA_jeb_stuart_jr={ allowed={ tag=CSA } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			}
+
+
+
+	navy_chief={
+			CSA_robert_e_coontz={ allowed={ tag=CSA } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
+			CSA_george_dewey={ allowed={ tag=CSA } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
+			}
+	air_chief={
+			CSA_mason_patrick={ allowed={ tag=CSA } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
+			CSA_augustus_e_hirsch={ allowed={ tag=CSA } traits={ air_chief_ground_support_1 } ai_will_do={ factor=1 } }
+			}
+	high_command={
+			CSA_mason_patrick={ allowed={ tag=CSA } traits={ air_air_combat_training_1 } ai_will_do={ factor=1 } }
+			CSA_alex_michaels={ allowed={ tag=CSA } traits={ air_tactical_bombing_1 } ai_will_do={ factor=1 } }
+			CSA_mason_patrick={ allowed={ tag=CSA } traits={ air_bomber_interception_1 } ai_will_do={ factor=1 } }
+			CSA_augustus_e_hirsch={ allowed={ tag=CSA} traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
+			CSA_edward_p_alexander={ allowed={ tag=CSA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			CSA_anson_pendleton={ allowed={ tag=CSA} traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			CSA_william_r_smith={ allowed={ tag=CSA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			CSA_robert_k_evans={ allowed={ tag=CSA } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			CSA_hugh_l_scott={ allowed={ tag=CSA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			CSA_william_l_sibert={ allowed={ tag=CSA } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			CSA_frank_mcintyre={ allowed={ tag=CSA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			CSA_hiram_king_williams={ allowed={ tag=CSA } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
+			}
+#end todo
+	naval_manufacturer={
+			designer = yes 
+			newport_news_shipbuilding={ allowed={ TAG=CSA } research_bonus={ naval_equipment=0.10 } traits={ pacific_fleet_naval_manufacturer } }
+			new_orleans_naval_yard={ allowed={ TAG=CSA } research_bonus={ naval_equipment=0.10 } traits={ atlantic_fleet_naval_manufacturer } }
+			norfolk_naval_yard={ allowed={ TAG=CSA } research_bonus={ naval_equipment=0.10 } traits={ coastal_defence_naval_manufacturer } }
+			houston_naval_shipyard={ allowed={ TAG=CSA } research_bonus={ naval_equipment=0.10 } traits={ convoy_escort_naval_manufacturer } picture=generic_naval_manufacturer_2 }
+			}
+	aircraft_manufacturer={
+			designer = yes 
+			texas_aviation={ allowed={ TAG=CSA } research_bonus={ air_equipment=0.10 } traits={ light_aircraft_manufacturer } picture=generic_air_manufacturer_3 }
+			douglas_aircraft_company={ allowed={ TAG=CSA } research_bonus={ air_equipment=0.10 } traits={ CAS_manufacturer } }
+			consolidated_aircraft={ allowed={ TAG=CSA } research_bonus={ air_equipment=0.10 } traits={ heavy_aircraft_manufacturer } }
+			}
+	materiel_manufacturer={
+			designer = yes 
+			tredegar_arms_co={ allowed={ TAG=CSA } research_bonus={ infantry_weapons=0.10 } traits={ infantry_equipment_manufacturer } }
+			nashville_arsenal={ allowed={ TAG=CSA } research_bonus={ artillery=0.10 } traits={ artillery_manufacturer } }
+			}
+	industrial_concern={
+			designer = yes 
+			sloss_works={ allowed={ TAG=CSA }    research_bonus = {
+							    industry = 0.10
+							    
+							   } traits={ industrial_concern } }
+			texas_oil_company={ allowed={ TAG=CSA }    research_bonus = {
+							    industry = 0.10
+							    synth_resources = 0.1
+							   } traits={ refinery_concern } picture=generic_tank_manufacturer_3 }
+			dixie_electric={ allowed={ TAG=CSA }    research_bonus = {
+							    electronics = 0.10
+							   } traits={ electronics_concern } }
+			}
+
+
+	tank_manufacturer={
+			designer = yes 
+			Dixie_Flyer_Motors={ allowed={ TAG=CSA } research_bonus={ armor=0.10 } traits={ fast_tank_manufacturer } }
+			}

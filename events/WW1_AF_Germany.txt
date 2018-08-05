@@ -1,0 +1,31 @@
+﻿add_namespace = ww1_af_germany
+#____________________________________________________________
+
+# Germany Incites the Easter Rebellion
+#____________________________________________________________
+country_event = {
+	id = ww1_af_germany.1
+	title = "Germany incites Irish Revolt and sends Irische Armee to aid Rebels"
+	desc = "Mobilize The Irische Armee"
+	picture=GFX_report_event_swedish_soldier
+
+	is_triggered_only=yes
+
+	option = {
+		name = "Send the Irische Armee to aid the Irish Rebels!"
+
+		IRE = {
+			
+				transfer_state = 113
+				transfer_state = 135
+				transfer_state = 134
+				load_oob="IRE_1914"
+
+			}
+		GER = {
+			give_military_access = IRE
+			add_to_faction = IRE
+			load_oob="WW1_IrischeArmee"
+			}
+		}
+	}

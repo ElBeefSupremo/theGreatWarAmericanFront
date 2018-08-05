@@ -1,0 +1,94 @@
+###################################################################
+
+division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Militia Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Cavalry Division"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+###################################################################
+
+units = {
+	division= { 
+			name = "1st Afrikaners"
+			location=10668 # Cape Town
+			division_template="Militia Division"
+			start_experience_factor=0.02
+			}
+	
+	
+	division= { 
+			name = "2nd Afrikaners"
+			location=5231 # Cape Town
+			division_template="Militia Division"
+			start_experience_factor=0.02
+			}
+	
+	
+	division= { 
+			name = "3rd Afrikaners"
+			location=10566 # Cape Town
+			division_template="Militia Division"
+			start_experience_factor=0.02
+			}
+	
+	
+	division= { 
+			name = "4th Afrikaners"
+			location=12604 # Cape Town
+			division_template="Militia Division"
+			start_experience_factor=0.02
+			}
+	
+	
+	division= { 
+			name = "1st Maritz Loyalists"
+			location = 10400 # East London
+			division_template="Infantry Division"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "2nd Maritz Loyalists"
+			location=10400 # Durban
+			division_template="Infantry Division"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "1st Afrikaner Cavalry"
+			location=10400 # Cape Town
+			division_template="Cavalry Division"
+			start_experience_factor=0.02
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}

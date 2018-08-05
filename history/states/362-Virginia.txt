@@ -1,0 +1,62 @@
+state={
+	id=362
+	name="STATE_362"
+	manpower = 5851054
+	state_category=metropolis
+	provinces={ 788 865 873 951 1506 3823 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 }
+	resources={
+		wood=62
+		coal=75
+		metal=24
+		}
+	history={
+		victory_points={ 788 30 }
+		victory_points={ 11841 40 }
+		owner=CSA
+		add_core_of=CSA
+		1936.1.1={
+			owner=CSA
+			add_core_of=CSA
+			victory_points={ 788 30 }
+			buildings={
+				infrastructure=7
+				industrial_complex=1
+				arms_factory=4
+				air_base=10
+				dockyard=4
+				788={ naval_base=10  }
+				6846={ bunker=1 trench=1 }
+				873={ bunker=1 trench=1 }
+				951={ bunker=1 trench=1 }
+				11873={ bunker=1 trench=1 }
+				10343={ bunker=1 trench=1 }
+				1506={ bunker=1 trench=1 }
+				7558={ bunker=1 trench=1 }
+				9779={ bunker=1 trench=1 }
+				3823={ bunker=1 trench=1 }
+				865={ bunker=1 trench=1 }
+
+				}
+			}
+		buildings={
+				infrastructure=7
+				industrial_complex=1
+				arms_factory=4
+				air_base=10
+				dockyard=2
+				788={ naval_base=10  }
+				6846={ bunker=1 trench=1 }
+				873={ bunker=1 trench=1 }
+				951={ bunker=1 trench=1 }
+				11873={ bunker=1 trench=1 }
+				10343={ bunker=1 trench=1 }
+				1506={ bunker=1 trench=1 }
+				7558={ bunker=1 trench=1 }
+				9779={ bunker=1 trench=1 }
+				3823={ bunker=1 trench=1 }
+				865={ bunker=1 trench=1 }			
+
+			}
+		}
+		
+	}

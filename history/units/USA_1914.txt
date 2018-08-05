@@ -1,0 +1,1883 @@
+###################################################################
+
+division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "National Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "US Rangers"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }	
+	}
+}
+
+
+division_template = {
+	name = "Scout Division"		# Special
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }		
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+###################################################################
+
+units = 
+{
+	division= { 
+			name = "1st Infantry Division"
+			location=3878 # New York
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Puerto Rico Garrison"
+			location = 1440 # Puerto Rico
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "3rd Infantry Division"
+			location=9671 # San Francisco
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "4th Infantry Division"
+			location=9671 # San Francisco
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}	
+	
+	division= { 
+			name = "5th Infantry Division"
+			location=9671 # San Francisco
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "6th Infantry Division"
+			location=9671 # San Francisco
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	division= { 
+			name = "National Guard of the District of Columbia"
+			location = 9673 # Newburg
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "National Guard of Colorado"
+			location=1827 # Denver
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Connecticut National Guard"
+			location = 11782 # Trenton
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Illinois National Guard"
+			location=9450 # Chicago
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Indiana National Guard"
+			location=1595 # Indianapolis
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "7th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}	
+	
+	division= { 
+			name = "Iowa National Guard"
+			location=1770 # Des Moines
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Maryland National Guard"
+			location = 6984 # Baltimore
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Massachusetts Volunteer Militia"
+			location=6732 # Boston
+			division_template="National Guard"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "8th Infantry Division"
+			location=6732 # Boston
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}	
+
+	division= { 
+			name = "9th Infantry Division"
+			location=6732 # Boston
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "10th Infantry Division"
+			location=6732 # Boston
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}
+	
+	division= { 
+			name = "11th Infantry Division"
+			location=6732 # Boston
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "3rd Infantry Division"
+			location=9671 # San Francisco
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}
+	division= { 
+			name = "Minnesota National Guard"
+			location=1866 # Minneapolis
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "National Guard of California"
+			location=9713 # Sacramento
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+
+	
+	division= { 
+			name = "National Guard of Missouri"
+			location = 4569 # St. Louis
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "12th Infantry Division"
+			location = 4569 # St. Louis
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}	
+
+	division= { 
+			name = "13th Infantry Division"
+			location=4569 # St. Louis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "14th Infantry Division"
+			location=4569 # St. Louis
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "National Guard of New Jersey"
+			location = 6882 # Newark
+			division_template="National Guard"
+			start_experience_factor=0.2
+			}
+	
+	
+	division= { 
+			name = "National Guard of New York"
+			location = 9673 # Albany
+			division_template="National Guard"
+			start_experience_factor=0.2
+			}
+	
+	division= { 
+			name = "15th Infantry Division"
+			location=9673 # Albany
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}
+	
+	division= { 
+			name = "National Guard of Pennsylvania"
+			location = 6885 # Harrisburg
+			division_template="National Guard"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "16th Infantry Division"
+			location=6885 # Harrisburg
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}	
+
+	division= { 
+			name = "17th Infantry Division"
+			location=6885 # Harrisburg
+			division_template="Infantry Division"
+			start_experience_factor=0.2
+			}	
+
+	division= { 
+			name = "18th Infantry Division"
+			location=6885 # Harrisburg
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}	
+
+	division= { 
+			name = "19th Infantry Division"
+			location=6885 # Harrisburg
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}	
+
+
+
+	
+	division= { 
+			name = "Nebraska National Guard"
+			location = 7852 # Grand Island
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+
+	
+	division= { 
+			name = "Ohio National Guard"
+			location=6855 # Columbus
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Wisconsin National Guard"
+			location=12357 # Milwaukee
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "National Guard of New Mexico"
+			location = 4975 # Santa Fe
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Wyoming National Guard"
+			location = 1815 # Jackson
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Oregon National Guard"
+			location=3513 # Portland
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "National Guard of Washington"
+			location=7315 # Seattle
+			division_template="National Guard"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "20th Infantry Division"
+			location=7315 # Seattle
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "21st Infantry Division"
+			location=7315 # Seattle
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	
+	division= { 
+			name = "22nd Infantry Division"
+			location=7315 # Seattle
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "23rd Infantry Division"
+			location=7315 # Seattle
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "24th Infantry Division"
+			location=7315 # Seattle
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "25th Infantry Division"
+			location=7315 # Seattle
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "26th Infantry Division"
+			location=7315 # Seattle
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "27th Infantry Division"
+			location=1836 # Bismark
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "28th Infantry Division"
+			location=1836 # Bismark
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "29th Infantry Division"
+			location=1836 # Bismark
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "30th Infantry Division"
+			location=1836 # Bismark
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "31st Infantry Division"
+			location=1836 # Bismark
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "32nd Infantry Division"
+			location=1836 # Bismark
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "33rd Infantry Division"
+			location=1836 # Bismark
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "34th Infantry Division"
+			location=853 # Phoenix
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "35th Infantry Division"
+			location=853 # Phoenix
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "36th Infantry Division"
+			location=853 # Phoenix
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "37th Infantry Division"
+			location=853 # Phoenix
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "38th Infantry Division"
+			location=853 # Phoenix
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "39th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "40th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "41st Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "42nd Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "43rd Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "44th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "45th Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+
+	division= { 
+			name = "46th Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "47th Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "48th Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "49th Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "50th Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "51st Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "52nd Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "53rd Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "54th Infantry Division"
+			location = 6984 # Baltimore
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	division= { 
+			name = "55th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "56th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "57th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "58th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "59th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "60th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "61st Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "62nd Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "63rd Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "64th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "65th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "66th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "67th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "68th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "69th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "70th Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "71st Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "72nd Infantry Division"
+			location=1595 # Indianapolis
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "1st Cavalry"
+			location=1770 # Des Moines
+			division_template="Cavalry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "2nd Cavalry"
+			location=1770 # Des Moines
+			division_template="Cavalry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "3rd Cavalry"
+			location=1770 # Des Moines
+			division_template="Cavalry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "4th Cavalry"
+			location=1770 # Des Moines
+			division_template="Cavalry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "5th Cavalry"
+			location=1770 # Des Moines
+			division_template="Cavalry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "6th Cavalry"
+			location=1770 # Des Moines
+			division_template="Cavalry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "1st Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "2nd Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "3rd Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "4th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "5th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "6th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "7th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "8th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "9th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+	
+	division= { 
+			name = "10th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "11th Scout Division"
+			location=1770 # Des Moines
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "12th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "13th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "14th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "15th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "16th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "17th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "18th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "19th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "20th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "21st Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "22nd Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "23rd Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "24th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "25th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "26th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "27th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "28th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "29th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "30th Scout Division"
+			location=6855 # Columbus
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "1st US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "2nd US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "3rd US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "4th US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+	division= { 
+			name = "5th US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "6th US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "7th US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "8th US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "9th US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "10th US Rangers"
+			location=11654 # Buffalo
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "11th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "12th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "13th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "14th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "15th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "16th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "17th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "18th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "19th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "20th US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "21st US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "22nd US Rangers"
+			location=10717 # Kansas City
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "23rd US Rangers"
+			location=6710 # Detroit
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "24th US Rangers"
+			location=6710 # Detroit
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "25th US Rangers"
+			location=6710 # Detroit
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "26th US Rangers"
+			location=6710 # Detroit
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "27th US Rangers"
+			location=6710 # Detroit
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "28th US Rangers"
+			location=6710 # Detroit
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "29th US Rangers"
+			location=1595 # Indianapolis
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "30th US Rangers"
+			location=1595 # Indianapolis
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "31st US Rangers"
+			location=1595 # Indianapolis
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "32nd US Rangers"
+			location=1595 # Indianapolis
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "33rd US Rangers"
+			location=1595 # Indianapolis
+			division_template="US Rangers"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "31st Scout Division"
+			location = 7892 # Wichita
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "32nd Scout Division"
+			location = 7892 # Wichita
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "33rd Scout Division"
+			location = 7892 # Wichita
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "34th Scout Division"
+			location = 7892 # Wichita
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "35th Scout Division"
+			location = 7892 # Wichita
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "36th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "37th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "38th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "39th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "40th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "41st Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "42nd Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "43rd Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "44th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "45th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "46th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "47th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "48th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "49th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "50th Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "51st Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "52nd Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "53rd Scout Division"
+			location = 1562 # San Diego
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "1st Samoan Garrison"
+			location = 7290 # Samoa
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "1st Canal Zone Garrison"
+			location = 7617 # Colón
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+		division= { 
+			name = "2nd Canal Zone Garrison"
+			location = 7617 # Colón
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+		division= { 
+			name = "3rd Canal Zone Garrison"
+			location = 7617 # Colón
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}	
+
+		division= { 
+			name = "4th Canal Zone Garrison"
+			location = 7617 # Colón
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+		division= { 
+			name = "5th Canal Zone Garrison"
+			location = 7617 # Colón
+			division_template="Scout Division"
+			start_experience_factor=0.1
+			}
+
+	 navy = {
+		name = "Atlantic Fleet"
+		location=3878 # New York
+		base=3878 # New York
+ship = { name = "USS Delaware" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS North Dakota" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Florida" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Utah" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Wyoming" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS W. Scott" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Maine" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Missouri" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Ohio" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Nebraska" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Georgia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Louisiana" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Vermont" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Minnesota" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS South Carolina" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS New Hampshire" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS New Mexico" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS H. Dearborn" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Des Moines" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Bloomington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Galveston" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tacoma" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Cleveland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Maryland" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Boston" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Chicago" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Newark" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Baltimore" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Philadelphia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS San Francisco" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Olympia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Raleigh" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Montgomery" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Marblehead" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS New Orleans" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Albany" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Paulding" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Drayton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Roe" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Terry" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Perkins" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Sterett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS McCall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Burrows" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Warrington" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Mayrant" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Monaghan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Trippe" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Walke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Ammen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Patterson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Fanning" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Jarvis" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Henley" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Beale" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Jouett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Jennings" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Bryant" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tingle" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Wormkey" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Warner" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Childers" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Stanley" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Marlette" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Rheinhardt" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Case" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Olafsson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Downes" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Duncan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Aylwin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Parker" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Benham" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Balch" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "Submarine Flotilla"
+		location=3878 # New York
+		base=3878 # New York
+ship = { name = "USS Plunger" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Adder" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Grampus" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Moccasin" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Pike" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Porpoise" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Shark" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Viper" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Cuttlefish" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tarantula" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Octopus" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Stingray" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tarpon" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Bonita" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Snapper" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Narwhal" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Grayling" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Salmon" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Skipjack" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Sturgeon" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Carp" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Barracuda" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Pickerel" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Skate" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Seal" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Thresher" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tuna" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Turbot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Seawolf" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Nautilus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Garfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Haddock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Cachalot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "Pacific Battleship Taskforce"
+		location=9814 # Los Angeles
+		base=9814 # Los Angeles
+ship = { name = "USS Indiana" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Massachusetts" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Oregon" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Iowa" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Kearsarge" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Washington DC" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Illinois" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Nebraska" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Wisconsin" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Missouri" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Idaho" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Brooklyn" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Colombia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Minneapolis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "Atlantic Squadron"
+		location=3878 # New York
+		base=3878 # New York
+ship = { name = "USS West Virginia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS New Jersey" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Rhode Island" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Connecticut" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Kansas" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Michigan" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Chester" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Birmingham" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Salem" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Truxtun" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Whipple" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Worden" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Smith" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Lamson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Preston" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Flusser" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Reid" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "Pacific Fleet"
+		location=9814 # Los Angeles
+		base=9814 # Los Angeles
+ship = { name = "USS California" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS South Dakota" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tennessee" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Washington" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS West Virginia" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Colorado" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS St. Louis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Charleston" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hopkins" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hull" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Lawrence" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Macdonough" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Paul Jones" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Perry" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Preble" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Stewart" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "1st Pacific Squadron"
+		location=9814 # Los Angeles
+		base=9814 # Los Angeles
+ship = { name = "USS Saratoga" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Pittsburgh" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Denver" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Bainbridge" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Barry" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Chauncey" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Dale" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Decatur" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+		}
+
+
+	 navy = {
+		name = "2nd Pacific Squadron"
+		location=9814 # Los Angeles
+		base=9814 # Los Angeles
+ship = { name = "USS Burlington" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Springfield" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Aspen" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Breckenridge" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Darrel" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Scadoodle" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Harrison" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Garison" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "3rd Pacific Squadron"
+		location=9671 # San Francisco
+		base=9671 # San Francisco
+ship = { name = "USS Sherman" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tom Custer" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Boulder" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Bisby" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hamilton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Anaheim" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Jensen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Kokomo" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+}
+
+	 navy = {
+		name = "Pacific Sub Flotilla"
+		location=9671 # San Francisco
+		base=9671 # San Francisco
+ship = { name = "1st Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "2nd Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "3rd Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "4th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "5th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "6th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "7th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "8th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "9th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "10th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "11th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "12th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "13th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "14th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "15th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "16th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "17th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "18th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "19th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "20th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "21st Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "22nd Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "23rd Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "24th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "25th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "26th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "27th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "28th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "29th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "30th Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "31st Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "32nd Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+ship = { name = "33rd Submarine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "North Atlantic Fleet"
+		location=6732 # Boston
+		base=6732 # Boston
+ship = { name = "USS Minnesota" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Madison" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Brown" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Winder" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Pike" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Adirondack" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Franklin" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hancock" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Washington" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Harrison" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Kansas City" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS St. Louis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Topeka" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Olympia W" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Burlington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Pawtucket" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS South Beach" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Eaton" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Toledo" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Chippewa Falls" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Reno" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Provo" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Gainesville" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Mann" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS McBride" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Macdonolds" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Schroeder" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Heinreich" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Ralston" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Stewerd" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Gainesville" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Thann" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Dulaney" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Andersen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Macintosh" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Scherer" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Macgilicuddy" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Johnson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Richey" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+}
+
+	 navy = {
+		name = "North Pacific Fleet"
+		location=7315 # Los Angeles
+		base=7315 # Los Angeles
+ship = { name = "USS Hannibal Hamlin" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Thomas B. Reed" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Alfred T. Mahan" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Washington" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Samuel Tilden" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS James Blaine" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS George Clinton" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Elbridge Gerry" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Daniel D. Thompkins" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS John C. Calhoun" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS George M. Dallas" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Richard Johnson" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Muncie" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Rome" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Charlesburg" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Anderson" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Flint" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Springfield" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hopewell" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Huller" definition = destroyer equipment = { destroyer_1906= { amount = 1 owner = USA } } }
+ship = { name = "USS Laird" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Donahue" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS McBoatface" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Winkler" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Premble" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Stenton" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hopewell" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Huller" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Laird" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Donahue" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS McBoatface" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Perrywinkles" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Premble" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Rigsby" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+}
+
+	 navy = {
+		name = "Caribbean Squadron"
+		location=1440 # San Juan
+		base=1440 # San Juan
+ship = { name = "USS Anthony Wayne" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Aaron Burr" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS George Clinton" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Elbrige Gerry" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Daniel Tompkins" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Martin Van Buren" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+ship = { name = "USS Chesterfield" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Mobile" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Salem" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Alexandria" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Ballard" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Nance" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Lynch" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS McElroy" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Prestley" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Fleury" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Rhett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+		}
+
+	 navy = {
+		name = "Atlantic Battlecruiser Taskforce"
+		location=6732 # Philadelphia
+		base=6732 # Philadelphia
+ship = { name = "USS Buchanan" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Jackson" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Tyler" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Wayne" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Madison" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Dearborn" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Franklin" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Scott" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Cincinattus" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Gage" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Amherst" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Joplin" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Fargo" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Dayton" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Terre Haute" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Bloomington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Bangor" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Portland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Deadwood" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Kokomo" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Albany" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Providence" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Burlington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Mahan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Hallsy" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS McBane" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Reynolds" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Schiff" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Gustavsson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Burns" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+ship = { name = "USS Shelton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+}
+
+air_wings = {
+
+6929 = { ""1st U.S. Air Corps""
+	ww1_fighter_equipment_1 = { owner = "USA" amount = 65 } # type = scout  experience = 15  name = ""1st U.S. Air Corps"" historical_model = 0 
+
+}
+}
+
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "USA" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "USA" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "USA" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "USA" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "USA" } requested_factories = 2 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.98 amount = 1  }
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.68 amount = 1  }
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.68 amount = 1  }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.98 amount = 1  }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.88 amount = 1  }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.78 amount = 1  }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.68 amount = 1  }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "USA" } requested_factories = 1 progress = 0.68 amount = 1  }}

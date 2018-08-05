@@ -1,0 +1,28 @@
+state={
+	id=626
+	name="STATE_626"
+	manpower = 83041
+	state_category=rural
+	provinces={ 4429 7419 10145 }
+	resources={
+		wood=28
+		rubber=10
+		metal=8
+		}
+	history={
+		owner=JAP
+		add_core_of=PHI
+		1936.1.1={ 
+			owner=PHI
+			add_core_of=PHI
+			buildings={
+				infrastructure=3
+				4429={ naval_base=6 }
+				}
+			}
+		buildings={
+			infrastructure=3
+			4429={ naval_base=6 }
+			}
+		}
+	}

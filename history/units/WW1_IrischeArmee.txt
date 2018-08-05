@@ -1,0 +1,36 @@
+﻿units = {
+	division= { 
+		name = "1st Irische Armee Division"
+		location = 7394
+		division_template="Stoßtruppen Division"
+		start_experience_factor=0.3
+	}
+		
+	division= { 
+		name = "2nd Irishce Armee Division"
+		location = 7394 
+		division_template="Stoßtruppen Division"
+		start_experience_factor=0.3
+	}
+		
+	division= { 
+		name = "3rd Irische Armee Division"
+		location = 7394
+		division_template="Stoßtruppen Division"
+		start_experience_factor=0.3
+	}	
+	
+	division= { 
+		name = "4th Irische Armee Division"
+		location = 7394
+		division_template="Stoßtruppen Division"
+		start_experience_factor=0.3
+	}
+
+		division= { 
+		name = "5th Irische Armee Division"
+		location = 7394
+		division_template="Stoßtruppen Division"
+		start_experience_factor=0.3
+	}
+}
