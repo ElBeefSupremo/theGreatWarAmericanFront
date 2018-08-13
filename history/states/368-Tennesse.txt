@@ -10,7 +10,8 @@ state={
 		steel=171
 		}
 	history={
-		victory_points={ 12501 3 }
+		victory_points={ 12501 25 }
+		victory_points={ 7797 10 }
 		owner=CSA
 		add_core_of=CSA
 		1936.1.1={

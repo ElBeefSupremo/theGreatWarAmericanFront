@@ -26,14 +26,12 @@ state={
 			victory_points={ 10404 3 }
 			buildings={
 				infrastructure=3
-				industrial_complex=1
 				air_base=2
 				}
 			}
 		1938.10.25={ owner=CHI }
 		buildings={
 			infrastructure=3
-			industrial_complex=1
 			}
 		}
 	}

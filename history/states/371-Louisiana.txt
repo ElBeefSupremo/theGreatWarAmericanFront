@@ -9,7 +9,7 @@ state={
 		oil=66
 		}
 	history={
-		victory_points={ 7552 10 }
+		victory_points={ 7552 20 }
 		owner=CSA
 		add_core_of=CSA
 		1936.1.1={

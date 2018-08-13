@@ -21,9 +21,7 @@ state={
 			#add_core_of=PRC
 			victory_points={ 11752 3 }
 			buildings={
-				infrastructure=3
-				industrial_complex=1
-				}
+				infrastructure=3				}
 			}
 		1939.1.1={ owner=JAP controller=JAP }
 		buildings={

@@ -8,7 +8,7 @@ state={
 		wood=0
 		}
 	history={
-		victory_points={ 12384 10 }
+		victory_points={ 12384 30 }
 		owner=CSA
 		add_core_of=CSA
 		1936.1.1={

@@ -6,7 +6,7 @@ state={
 	provinces={ 1117 9952 10128 11930 11989 12007 }
 	resources={
 		wood=20
-		steel=24
+		steel=8
 		aluminium=4
 		tungsten=4
 		}
