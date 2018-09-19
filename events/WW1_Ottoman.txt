@@ -63,7 +63,7 @@ country_event = {
 #____________________________________________________________
 
 country_event = {
-    id = ottoman.entente
+    id = ww1_ottoman.entente
     title = "The Ottomans Join the Entente!"
     desc = "The Italian Opportunists have joined Germany. We can no longer trust the Germans. Let us join the entente!" #Italy joined the Central Powers, should we join the Entente?
     picture = xxxxxxxxx
@@ -71,13 +71,14 @@ country_event = {
     fire_only_once = yes
 
     trigger ={
+    TAG = TUR
     ITA = { is_in_faction_with = GER }
     NOT = { ITA = {is_in_faction_with = TUR} }
     }
     option = {  #Yes
-        name = ottoman.entente.o1
+        name = "We shall join the entente!"
         
-        TUR = { add_to_faction = entente }
+        FRA = { add_to_faction = TUR }
     
         ai_chance = {
             factor = 90
@@ -85,7 +86,7 @@ country_event = {
     }
     
     option = {  #No
-        name = ottoman.entente.o2
+        name = "We will stay out of it for now, Germany may not yet be an enemy!"
         
         ai_chance = {
             factor = 10

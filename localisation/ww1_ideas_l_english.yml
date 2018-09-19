@@ -514,23 +514,16 @@
  RUS_ww1_tsushima_humiliation_desc:0 "The Battle of Tsushima was humiliating for Russia, which lost all its battleships and most of its cruisers and destroyers. The battle effectively ended the Russo-Japanese War in Japan's favour."
  RUS_ww1_mixed_railways:0 "Limited Railway Infrastructure"
  RUS_ww1_mixed_railways_desc:0 "Due in part to the poor financial state of the Tsarist government and their inability to finance railroad construction, by the early 1880s all railroads were private companies. But then as private railroads got into financial difficultly, the government took over some of them, resulting in mixed system of private and government railways."
- RUS_ww1_central_powers_disunity:0 "Poor Austro-German Coordination"
- RUS_ww1_central_powers_disunity_desc:1 "The Central Powers are currently cunducting offensives elsewhere. For now they will be unable to affectively conduct offensives against us."
- 
+
  FRA_ww1_Revanchism:0 "Revanchism"
  FRA_ww1_Revanchism_desc:0 "In the aftermath of the Franco-Prussian War of 1870, a lot of nationalists wanted to avenge the French defeat and reclaim the lost territories of Alsace-Lorraine."
- FRA_ww1_unprepared_army:0 "Unprepared Army"
- FRA_ww1_unprepared_army_desc:0 "The German assault through Belgium has caught our forces off guard. It will take time to shift our forces to defend our Belgian brothers."
 
- BEL_ww1_chocolate_soldiers:0 "Chocolate Soldiers"
- BEL_ww1_chocolate_soldiers_desc:0 "The German assault has caught us off guard, but we will defend none the less! We are not Chocolate Soldiers! None-the-less, it will take us some time to catch our footing..."
-
- CAN_ww1_canadian_grit:0
- CAN_ww1_canadian_grit_desc:0 "Repel the invaders!"
- 
  AUH_ww1_Trialism:0 "Trialism"
  AUH_ww1_Trialism_desc:0 "In the history of the Austria-Hungary Trialism refers to the political movement that aimed to reorganize the bipartite Empire into a tripartite one, creating a Croatian state equal in status to Austria and Hungary."
  
+ canadian_grit:0 "Canadian Grit"
+ canadian_grit_desc:0 "The Canadians were known for their fighting spirit, and superb military leadership in the Great War"
+
  prohibition_accepted:0 "Prohibition Enforced"
  prohibition_accepted_desc:0 "With the ratification of the 18th Amendment and corresponding legislation, the production, sale, or transport of alcohol inside, into, or out of the USA is now illegal. A lack of alcohol will cause a decline in the demand for consumer alcoholic goods, but this great political crusade will make future political decisions much more divisive."
  prohibition_rejected:0 "Prohibition Rejected"

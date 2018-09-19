@@ -336,7 +336,7 @@ focus_tree = {
 			modifier = HOI4_opinion_improved_diplomatic_relations
 		}
 
-		add_national_unity=0.05 
+		add_stability=0.05 
 		add_political_power=100
 
 		}

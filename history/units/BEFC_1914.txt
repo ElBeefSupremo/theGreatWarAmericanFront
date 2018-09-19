@@ -1,0 +1,29 @@
+units = {
+	division= { 
+		name = "1st BEFC Division"
+		location = 10244
+		division_template="Royal Guards"
+		start_experience_factor=0.3
+	}
+		
+	division= { 
+		name = "2nd BEFC Division"
+		location = 7644 
+		division_template="Royal Guards"
+		start_experience_factor=0.3
+	}
+		
+	division= { 
+		name = "3rd BEFC Division"
+		location = 7361
+		division_template="Royal Guards"
+		start_experience_factor=0.3
+	}	
+	
+	division= { 
+		name = "4th BEFC Division"
+		location = 7304
+		division_template="Royal Guards"
+		start_experience_factor=0.3
+	}
+}

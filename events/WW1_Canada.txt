@@ -1,2 +1,18 @@
 ﻿add_namespace = ww1_canada
 
+country_event = {
+	id = ww1_canada.2
+	title = "The British Send an Expedition!"
+	desc = "Mobilize the BEFC"
+	picture=ww1_france_15
+
+	is_triggered_only=yes
+
+	option = {
+		name = "Mobilize the BEFC!"
+
+		CAN = {
+			load_oob="WW1_BEFC"
+		}
+	}
+}

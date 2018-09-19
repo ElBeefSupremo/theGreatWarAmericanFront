@@ -283,7 +283,7 @@ country_event = {
 			target = TUR
 			modifier = medium_increase
 		}
-		add_national_unity = 0.10
+		add_stability = 0.10
 		#ITA = {
 		#	#country_event = { days = id = ww1_franzferdinand.6 }
 		#}
@@ -380,7 +380,7 @@ country_event = {
 			}
 			add_timed_idea = {
 				idea = schlieffen
-				days = 180
+				days = 120
 			}
 		}
 
@@ -419,7 +419,7 @@ country_event = {
 			BEL = {
 			country_event = {
 				id = ww1_belgium.2 
-				days = 1
+			#	days = 1
 			}
 			}
 		}
@@ -443,7 +443,7 @@ country_event = {
 			}
 			add_timed_idea = {
 				idea = schlieffen
-				days = 180
+				days = 120
 			}
 		}
 		
@@ -475,7 +475,8 @@ country_event = {
 			}
 			}
 			BEL = {
-			country_event = { ww1_belgium.2 days = 1
+			country_event = { 
+			id = ww1_belgium.2 days = 1
 			}
 			}
 		

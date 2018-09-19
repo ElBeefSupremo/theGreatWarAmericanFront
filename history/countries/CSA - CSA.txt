@@ -347,7 +347,10 @@ create_navy_leader={  name = "Earl E. Scruggs" id=93396 portrait_path="gfx/hoi4t
 			neutrality={ 
 				popularity=4 } 
 			}  
-			ruling_party=democratic last_election="1909.01.09" election_frequency=72  elections_allowed=yes 
+			ruling_party=democratic 
+			last_election="1909.01.09" 
+			election_frequency=72  
+			elections_allowed=yes 
 		}
 
 
