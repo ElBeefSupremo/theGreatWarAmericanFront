@@ -7,7 +7,7 @@ state={
 	resources={
 		wood=34
 		rubber=4
-		metal=4
+		steel=4
 		aluminium=6
 		}
 	history={

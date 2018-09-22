@@ -48,7 +48,7 @@ country_event = {
 		}
 	option={
 		name=ww1_france.3.a
-		add_national_unity=0.10
+		add_stability=0.10
 		}
 	}
 #____________________________________________________________

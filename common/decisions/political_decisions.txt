@@ -27,7 +27,7 @@ political_actions = {
             stability_factor = -0.05
         }
 
-        remove = {
+        remove_trigger = {
             OR = {
                 GER = { has_government = ROOT }
                 AND = {
@@ -72,7 +72,7 @@ political_actions = {
             stability_factor = -0.05
         }
 
-        remove = {
+        remove_trigger = {
             ITA = { has_government = ROOT }
         }
         ai_will_do = {

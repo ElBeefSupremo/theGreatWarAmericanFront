@@ -6,7 +6,11 @@ sub_units = {
 		active = yes
 		type = { infantry artillery }
 		need = { light_field_gun_equipment=36 }
-		categories = { category_army category_line_artillery category_artillery }
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
 		map_icon_category = infantry
 		group = infantry
 		combat_width = 3
@@ -17,7 +21,6 @@ sub_units = {
 		manpower = 500
 		weight = 0.5
 		supply_consumption = 0.2
-		support_brigade = yes
 		forest = { attack=-0.2 movement=-0.2 }
 		jungle = { attack=-0.25 movement=-0.2 }
 		marsh = { attack=-0.2 movement=-0.3 }

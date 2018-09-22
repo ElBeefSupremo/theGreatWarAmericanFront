@@ -7,7 +7,7 @@ state={
 	resources={
 		wood=10
 		rubber=30
-		metal=16
+		steel=16
 		}
 	history={
 		victory_points={ 1415 1 }

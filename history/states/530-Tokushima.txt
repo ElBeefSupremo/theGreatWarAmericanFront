@@ -6,7 +6,7 @@ state={
 	provinces={ 4094 4179 7046 7197 9965 11997 12028 }
 	resources={
 		wood=18
-		metal=15
+		steel=15
 		}
 	history={
 		victory_points={ 7197 10 }

@@ -134,8 +134,8 @@ country_event = {
 	desc = "A national assembly was convened in Weimar, where a new constitution for the German Reich was written."
 	picture = GFX_report_event_gathering_protest
 	
-	fire_only_once=yes
-	is_triggered_only=yes
+	fire_only_once = yes
+	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
@@ -153,15 +153,14 @@ country_event = {
 # Boer Revolt
 #____________________________________________________________
 country_event = {
-	id=ww1_germany.20
-	title="Boer Revolt"
-	desc="The Maritz Rebellion has begun! Armed rebels have once again declared the independence of the South African Republic in the Transvaal from their British oppressors. The arrival of experienced German soldiers ensures that this rebellion will not be so easily crushed."
+	id = ww1_germany.20
+	title = "Boer Revolt"
+	desc = "The Maritz Rebellion has begun! Armed rebels have once again declared the independence of the South African Republic in the Transvaal from their British oppressors. The arrival of experienced German soldiers ensures that this rebellion will not be so easily crushed."
 	picture = GFX_report_event_swedish_soldier
 	
-	fire_only_once=yes
-	is_triggered_only=yes
+	fire_only_once = yes
+	is_triggered_only = yes
 	
-
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -170,53 +169,50 @@ country_event = {
 		name = "Gut!"
 
 		ZAR = {
-
-				transfer_state = 275
-				load_oob="ZAR_1914"
-				add_manpower = 20000
-
+			transfer_state = 275
+			load_oob = "ZAR_1914"
+			add_manpower = 20000
 		}
+		
 		GER = {
 			give_military_access = ZAR
 			add_to_faction = ZAR
-			load_oob="BOER_1914" # Boer Revolt in South Africa"
-			}
+			load_oob = "BOER_1914" # Boer Revolt in South Africa"
 		}
 	}
-
 }
 #____________________________________________________________
 
 # Germany Incites the Easter Rebellion
 #____________________________________________________________
-country_event = {
-	id = ww1_af_germany.1
-	title = ww1_af_germany.1.t
-	desc = ww1_af_germany.1.d
-	picture=GFX_report_event_swedish_soldier
+#country_event = {
+#	id = ww1_af_germany.1
+#	title = ww1_af_germany.1.t
+#	desc = ww1_af_germany.1.d
+#	picture = GFX_report_event_swedish_soldier
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = ww1_af_germany.1.a
+#
+#		IRE = {
+#				transfer_state = 113
+#				transfer_state = 135
+#				transfer_state = 134
+#				load_oob = "IRE_1914"
+#		}
+#
+#		GER = {
+#			give_military_access = IRE
+#			add_to_faction = IRE
+#			load_oob = "WW1_IrischeArmee"
+#		}
+#	}
+#}
 
-	is_triggered_only=yes
-
-	option = {
-		name = ww1_af_germany.1.a
-
-		IRE = {
-
-				transfer_state = 113
-				transfer_state = 135
-				transfer_state = 134
-				load_oob="IRE_1914"
-
-		}
-		GER = {
-			give_military_access = IRE
-			add_to_faction = IRE
-			load_oob="WW1_IrischeArmee"
-			}
-		}
-	}
 #____________________________________________________________
-
+#
 # Military Access from HOL
 #____________________________________________________________
 country_event = {
@@ -238,7 +234,6 @@ country_event = {
 				active = yes
 			}
 		}
-
 	}
 	option = {
 		name = ww1_germany.21.b

@@ -6,7 +6,7 @@ state={
 	provinces={ 914 3448 6900 11767 }
 	resources={
 		wood=0
-		}
+	}
 	history={
 		owner=TUR
 		add_core_of=ALB
@@ -15,6 +15,6 @@ state={
 		#1914.2.28 = { owner = GRE }
 		buildings={
 			infrastructure=4
-			}
 		}
 	}
+}

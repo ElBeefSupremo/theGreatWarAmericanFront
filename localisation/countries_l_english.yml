@@ -1365,7 +1365,7 @@
  ZAR_democratic_DEF:"Transvaal"
  ZAR_neutrality:"Transvaal"
  ZAR_neutrality_DEF:"Transvaal"
- ZAR_communism:0:"Transvaal"
+ ZAR_communism:0 "Transvaal"
  ZAR_communism_DEF:"Transvaal"
  ZAR_fascism_ADJ:0 "Boer"
  ZAR_democratic_ADJ:0 "Boer"

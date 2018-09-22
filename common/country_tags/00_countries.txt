@@ -117,7 +117,7 @@ GMJ = "countries/Guominjun.txt"
 HNC = "countries/Hunan.txt"
 FNR = "countries/FinnishReds.txt"
 
-#KAZ = "countries/Kazakhstan.txt" #For a later time
+KAZ = "countries/Kazakhstan.txt" #For a later time
 
 MTN = "countries/Montenegro.txt"
 MNT = "countries/BUG_Montenegro.txt" # <<< THANKS SUNFLOWER 1.2 PATCH
@@ -149,5 +149,5 @@ BAV = "countries/Bavaria.txt"				# Kingdom of Bavaria
 BOS = "countries/BosniaHerzegovina.txt"		# Bosnia and Herzegovina / Condominium of Bosnia and Herzegovina
 TUN = "countries/Tunisia.txt" # French Protectorate of Tunisia
 
-
+# American Front Countries
 ZAR = "countries/Republic of Transvaal.txt"

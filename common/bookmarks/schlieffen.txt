@@ -70,7 +70,6 @@ bookmarks = {
 			focuses = {
 				GER_strat_bombing
 				GER_asienkorps
-				GER_ww1_zimmermann_telegram
 			}
 		}
 		AUH = {

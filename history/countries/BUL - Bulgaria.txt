@@ -4,7 +4,8 @@
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_research_slots = 3
-set_national_unity = 0.7
+set_stability = 0.7
+set_war_support = 0.70
 set_convoys = 5
 
 #-------------------------------------------------------
@@ -144,7 +145,7 @@ create_navy_leader={  name = "Serafimov" id=12081 portrait_path="gfx/admiral/BUL
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
-	#Army
+	# Army
 	complete_national_focus = BUL_ww1_army_effort
 	complete_national_focus = BUL_ww1_equipment_effort
 	complete_national_focus = BUL_ww1_artillery_effort_1

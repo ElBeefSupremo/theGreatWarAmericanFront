@@ -14,8 +14,10 @@ state={
 		add_core_of=QIN
 		add_core_of=CHI
 		#add_core_of=PRC
-		1912.2.12={ owner=CHI }
-		1936.1.1={ 
+		1912.2.12={
+			owner=CHI
+			}
+		1936.1.1={
 			owner=XSM
 			add_core_of=XSM
 			add_core_of=CHI
@@ -24,8 +26,10 @@ state={
 			buildings={
 				infrastructure=3
 			}
-		1938.10.25={ owner=CHI }
-		buildings={
+		}
+		1938.10.25={
+			owner = CHI
+			buildings={
 			infrastructure=3
 			arms_factory=0
 			}

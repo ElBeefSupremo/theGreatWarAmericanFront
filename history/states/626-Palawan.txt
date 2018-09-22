@@ -7,7 +7,7 @@ state={
 	resources={
 		wood=28
 		rubber=10
-		metal=8
+		steel=8
 		}
 	history={
 		owner=JAP

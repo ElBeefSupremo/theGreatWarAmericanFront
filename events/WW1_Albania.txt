@@ -109,7 +109,7 @@ country_event = {
 					controls_state = 766
 				}
 			}
-			transfer_state=766
+			transfer_state = 766
 			}
 		if = {
 			limit = {
@@ -149,15 +149,15 @@ country_event = {
 			add_opinion_modifier={
 				target=ALB
 				modifier=medium_decrease
-				}
 			}
+		}
 		ALB={
 			GRE={
-				transfer_state=764
-				}
+				transfer_state=766
 			}
 		}
 	}
+}
 
 
 # 

@@ -8,7 +8,7 @@ state={
 		wood=16
 		chromium=4
 		rubber=8
-		metal=8
+		steel=8
 		}
 	history={
 		victory_points={ 13087 3 }
