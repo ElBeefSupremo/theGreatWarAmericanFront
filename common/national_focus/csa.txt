@@ -18,7 +18,7 @@ focus_tree = {
 		y = 0
 	}
 
-	#----------------------------------------------------------------------- 
+	#-----------------------------------------------------------------------
 	# Bloc 1 - Support the Republic
 	#-----------------------------------------------------------------------
 
@@ -68,7 +68,7 @@ focus_tree = {
 		prerequisite = { focus=CSA_ww1_freespeech }
 		icon = GFX_goal_generic_position_armies
 		completion_reward = {
-		add_ideas = hispanic_confederate_full_citizenship
+			add_ideas = hispanic_confederate_full_citizenship
 		}
 		ai_will_do = { factor = 10 }
 		cost = 10
@@ -90,11 +90,11 @@ focus_tree = {
 					OR = {
 						is_in_home_area = yes NOT = {
 							owner = {
-							any_owned_state = {
-								free_building_slots = {
-								building = industrial_complex size > 0 include_locked = yes
-								}
-								is_in_home_area = yes
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex size > 0 include_locked = yes
+									}
+									is_in_home_area = yes
 								}
 							}
 						}
@@ -121,10 +121,10 @@ focus_tree = {
 
 		completion_reward = {
 
-		add_ideas=militarism_focus
-		add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=land_doctrine }
-		add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=naval_doctrine }
-		add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=air_doctrine }
+			add_ideas=militarism_focus
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=land_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=naval_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=air_doctrine }
 		}
 
 		ai_will_do = { factor = 10 }
@@ -134,9 +134,9 @@ focus_tree = {
 
 
 	}
-	#----------------------------------------------------------------------- 
+	#-----------------------------------------------------------------------
 
-	#----------------------------------------------------------------------- 
+	#-----------------------------------------------------------------------
 	# Bloc 2 - Contest the Republic
 	#-----------------------------------------------------------------------
 	focus = {
@@ -159,15 +159,15 @@ focus_tree = {
 		prerequisite = { focus=CSA_ww1_reject_status_quo }
 		available = {
 			OR={
-	 			SOV = {
-	 				exists = yes
+				SOV = {
+					exists = yes
 					has_government=communism
-	 			}
+				}
 
-	 			RUS = {
-	 				exists = yes
+				RUS = {
+					exists = yes
 					has_government=communism
-	 			}
+				}
 			}
 		}
 		icon = GFX_goal_support_communism
@@ -225,20 +225,20 @@ focus_tree = {
 		prerequisite = { focus=CSA_ww1_install_communism }
 		icon = GFX_goal_generic_forceful_treaty
 		available = { }
-		completion_reward = 
+		completion_reward =
 		{ add_ideas=
-		political_commissars_focus 
-		if={ limit={ has_government=fascism } 
-		add_popularity={ 
-		ideology=fascism popularity=0.2 
-		} 
+			political_commissars_focus
+			if={ limit={ has_government=fascism }
+			add_popularity={
+				ideology=fascism popularity=0.2
+			}
 		} if={ limit={ has_government=communism } add_popularity={ ideology=communism popularity=0.2 } } add_political_power=200 }
 		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 3
 		y = 6
 	}
-	#----------------------------------------------------------------------- 
+	#-----------------------------------------------------------------------
 
 	focus = {
 		id = CSA_ww1_conscription_limited_rights_for_blacks
@@ -266,10 +266,10 @@ focus_tree = {
 			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 
 			army_experience=20
-			add_political_power=30 
+			add_political_power=30
 
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -279,7 +279,7 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 		}
 
@@ -296,16 +296,16 @@ focus_tree = {
 		x = 4
 		y = 7
 		cost = 10
-		ai_will_do = { factor = 10 }	
+		ai_will_do = { factor = 10 }
 		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } add_political_power=50 }
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 	}
 
-	#----------------------------------------------------------------------- 
+	#-----------------------------------------------------------------------
 
 	#Diplomatic Effort
 
-	#----------------------------------------------------------------------- 
+	#-----------------------------------------------------------------------
 	focus = {
 		id = CSA_ww1_diplomatic_effort
 		icon = GFX_goal_generic_intelligence_exchange
@@ -325,21 +325,21 @@ focus_tree = {
 
 		completion_reward = {
 
-		add_opinion_modifier = {
-			target = CAN
-			modifier = HOI4TGW_opinion_improved_diplomatic_relations
-		}
-		
-		add_opinion_modifier = {
-			target = MEX
-			modifier = HOI4TGW_opinion_improved_diplomatic_relations
+			add_opinion_modifier = {
+				target = CAN
+				modifier = HOI4TGW_opinion_improved_diplomatic_relations
+			}
+
+			add_opinion_modifier = {
+				target = MEX
+				modifier = HOI4TGW_opinion_improved_diplomatic_relations
+			}
+
+			add_stability=0.05
+			add_political_power=100
+
 		}
 
-		add_stability=0.05 
-		add_political_power=100
-
-		}
-		
 		ai_will_do = { factor = 2000	}
 		cost = 10
 		x = 8
@@ -354,20 +354,20 @@ focus_tree = {
 
 		available = { NOT={ has_war_with=CAN } }
 
-		completion_reward = { 
+		completion_reward = {
 
-			add_opinion_modifier = { 
+			add_opinion_modifier = {
 				target = CAN
 				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
 			}
 
 
-			add_opinion_modifier = { 
+			add_opinion_modifier = {
 				target = MEX
 				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
 			}
 		}
-		
+
 		ai_will_do = { factor = 2000 }
 		cost = 10
 		x = 8
@@ -391,8 +391,8 @@ focus_tree = {
 			has_war_with = CAN
 		}
 		completion_reward = {
-			CAN = { 
-			add_manpower = 75000
+			CAN = {
+				add_manpower = 75000
 			}
 		}
 		x = 8
@@ -404,11 +404,11 @@ focus_tree = {
 	focus = {
 		id = CSA_ww1_support_canada_weapons
 		icon = GFX_goal_generic_attack_allies
-			prerequisite = { focus= CSA_ww1_volunteers_to_canada }
+		prerequisite = { focus= CSA_ww1_volunteers_to_canada }
 
 		available = {
-			USA = { 
-				exists = yes 
+			USA = {
+				exists = yes
 				is_in_faction_with = GER
 			}
 		}
@@ -425,7 +425,7 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 1
-		}	
+		}
 	}
 	focus = {
 		id = CSA_ww1_celebrate_independence
@@ -452,7 +452,7 @@ focus_tree = {
 		}
 		available = {
 
-		has_war_with = USA
+			has_war_with = USA
 
 		}
 
@@ -460,8 +460,8 @@ focus_tree = {
 		y = 7
 		cost = 10
 		completion_reward = {
-				add_state_claim = 376
-				add_state_claim = 377
+			add_state_claim = 376
+			add_state_claim = 377
 		}
 	}
 
@@ -473,13 +473,13 @@ focus_tree = {
 
 		prerequisite = { focus = CSA_ww1_north_american_effort }
 		available = {
-		NOT={ has_war_with = GER }
+			NOT={ has_war_with = GER }
 			NOT = { has_global_flag = kis_treaty_of_versailles }
 		}
 		x = 12
 		y = 2
 		cost = 10
-		completion_reward = { 
+		completion_reward = {
 
 			diplomatic_relation = {
 				country = GER
@@ -499,7 +499,7 @@ focus_tree = {
 		icon = GFX_hoi4tgw_marianne
 
 		completion_reward = {
-			add_opinion_modifier = { 
+			add_opinion_modifier = {
 				target = FRA
 				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
 			}
@@ -510,35 +510,35 @@ focus_tree = {
 		x = 14
 		y = 2
 		mutually_exclusive = { focus=CSA_ww1_csa_first
-		 }
+		}
 	}
 
 	focus = {
 		id = CSA_ww1_pan_american_agreement
 
 		prerequisite = { focus= CSA_ww1_csa_first }
-#		prerequisite = { focus= CSA_ww1_appease_usa }
+		#		prerequisite = { focus= CSA_ww1_appease_usa }
 
 		icon = GFX_hoi4tgw_austriahungary
 
 		available = { NOT={ has_war_with=USA } }
 
-		completion_reward = { 
+		completion_reward = {
 
-			add_opinion_modifier = { 
+			add_opinion_modifier = {
 				target = USA
 				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
 			}
 			ENG = {
 				remove_from_faction = CSA
 			}
-			add_opinion_modifier = { 
+			add_opinion_modifier = {
 				target = ENG
 				modifier =  HOI4TGW_Opinion_Russia_Leave_Entente
 			}
 
 		}
-		
+
 		ai_will_do = { factor = 0	}
 		cost = 10
 		x = 11
@@ -619,20 +619,20 @@ focus_tree = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
-					}
 				}
-				
-			483 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-						}
-						}
+			}
 
-        }
-        ai_will_do = {factor = 100}
-    }
+			483 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		}
+		ai_will_do = {factor = 100}
+	}
 
 	focus = {
 		id = CSA_ww1_invest_west
@@ -640,8 +640,8 @@ focus_tree = {
 		available = {}
 
 		prerequisite = {
-		focus = CSA_ww1_csa_first
-		focus = CSA_ww1_celebrate_entente
+			focus = CSA_ww1_csa_first
+			focus = CSA_ww1_celebrate_entente
 		}
 
 		x = 13
@@ -680,10 +680,10 @@ focus_tree = {
 
 			add_resource = {
 				type = tungsten
-				amount = 23		
+				amount = 23
 				state = 483
 			}
-			
+
 			482 = {
 				add_building_construction = {
 					type = infrastructure
@@ -711,7 +711,7 @@ focus_tree = {
 	focus = {
 		id = CSA_ww1_EmbargoUK
 
-        prerequisite = { focus = CSA_ww1_pan_american_agreement }
+		prerequisite = { focus = CSA_ww1_pan_american_agreement }
 
 		icon = GFX_goal_generic_trade
 
@@ -719,7 +719,7 @@ focus_tree = {
 		completion_reward = {
 			add_opinion_modifier = { target = ENG modifier = minor_sanctions }
 			ENG = {
-				add_opinion_modifier = { 
+				add_opinion_modifier = {
 					target = RUS
 					modifier =  HOI4TGW_Opinion_Russia_Leave_Entente
 				}
@@ -737,11 +737,11 @@ focus_tree = {
 	#-----------------------------------------
 	focus = {
 		id = CSA_ww1_AntiImperialPact
-        prerequisite = { focus = CSA_ww1_EmbargoUK }
-        available = {
-            NOT={ has_war_with = USA }
-            NOT = { has_global_flag = kis_treaty_of_versailles }
-        }
+		prerequisite = { focus = CSA_ww1_EmbargoUK }
+		available = {
+			NOT={ has_war_with = USA }
+			NOT = { has_global_flag = kis_treaty_of_versailles }
+		}
 		icon = GFX_hoi4tgw_knifeintheback
 
 		completion_reward = {
@@ -762,303 +762,303 @@ focus_tree = {
 
 
 
-    focus = {
-        id = CSA_ww1_reinforce_northeast_forts
-        icon = GFX_goal_generic_fortify_city
+	focus = {
+		id = CSA_ww1_reinforce_northeast_forts
+		icon = GFX_goal_generic_fortify_city
 
-        prerequisite = {
-            focus = CSA_ww1_celebrate_entente
-        }
+		prerequisite = {
+			focus = CSA_ww1_celebrate_entente
+		}
 
-        available = {
+		available = {
 
 
-        }
+		}
 
 		x = 14
-        y = 4
-        cost = 10
-        completion_reward = {
-            362 = {
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 865
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 6846
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 873
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 951
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 11873
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 10343
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 1506
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 7558
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 9779
-                    instant_build = yes
-                }
-            }
+		y = 4
+		cost = 10
+		completion_reward = {
+			362 = {
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 865
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 6846
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 873
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 951
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 11873
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 10343
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 1506
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 7558
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 2
+					province = 9779
+					instant_build = yes
+				}
+			}
 
-            369 = {
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 327
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 6296
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 3392
-                    instant_build = yes
-                }
-            }
+			369 = {
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 327
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 6296
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 3392
+					instant_build = yes
+				}
+			}
 
-            368 = {
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 369
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 12637
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 7547
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 4452
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 1445
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 6696
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 10727
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 4402
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 10586
-                    instant_build = yes
-                }
-            }
+			368 = {
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 369
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 12637
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 7547
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 4452
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 1445
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 6696
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 10727
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 4402
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 10586
+					instant_build = yes
+				}
+			}
 
-            372 = {
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 4625
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 7586
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 4597
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 1
-                    province = 4567
-                    instant_build = yes
-                }
-            }
+			372 = {
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 4625
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 7586
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 4597
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 4567
+					instant_build = yes
+				}
+			}
 
-            368 = {
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 7615
-            		instant_build = yes
-            	}
-            }
-        }
-        ai_will_do = { factor = 20	}
-    }
-
-
-
-    focus = {
-        id = CSA_ww1_reinforce_northwestern_forts
-
-        prerequisite = { focus = CSA_ww1_reinforce_northeast_forts }
-
-        icon = GFX_hoi4tgw_wggrus
-
-        available = {
+			368 = {
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 7615
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 20	}
+	}
 
 
-        }
+
+	focus = {
+		id = CSA_ww1_reinforce_northwestern_forts
+
+		prerequisite = { focus = CSA_ww1_reinforce_northeast_forts }
+
+		icon = GFX_hoi4tgw_wggrus
+
+		available = {
+
+
+		}
 		x = 14
-        y = 5
-        cost = 10
-        completion_reward = {
+		y = 5
+		cost = 10
+		completion_reward = {
 
 
-            374 = {
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 2043
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 1806
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 7904
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 11802
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 7762
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 12624
-            		instant_build = yes
-            	}            	
-            }
+			374 = {
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 2043
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 1806
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 7904
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 11802
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 7762
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 12624
+					instant_build = yes
+				}
+			}
 
-            375 = {
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 9908
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 12893
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 9773
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 1998
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 4655
-            		instant_build = yes
-            	}
-             	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 10894
-            		instant_build = yes
-            	}
-            	add_building_construction = {
-            		type = trench
-            		level = 1
-            		province = 10740
-            		instant_build = yes
-            	}           	
-            }
-        }
+			375 = {
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 9908
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 12893
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 9773
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 1998
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 4655
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 10894
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = trench
+					level = 1
+					province = 10740
+					instant_build = yes
+				}
+			}
+		}
 
-        ai_will_do = { factor = 20	}
-    }
+		ai_will_do = { factor = 20	}
+	}
 
 
 
@@ -1068,25 +1068,25 @@ focus_tree = {
 	focus = {
 		id = CSA_ww1_mexican_expedition
 		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { 
-		focus = CSA_ww1_expand_cs_pafic_railway 
+		prerequisite = {
+			focus = CSA_ww1_expand_cs_pafic_railway
 		}
-	 	available = {
-                MEX = { exists = yes}
-				has_war_with = USA
+		available = {
+			MEX = { exists = yes}
+			has_war_with = USA
 
-            }
+		}
 
-		completion_reward = { 
+		completion_reward = {
 
-		add_political_power = 100
-		CSA = { add_manpower = 2000 }
-		MEX = { add_manpower = 25000 }
-        send_equipment = {
-        	target = CAN
-        	type = infantry_equipment_1
-       		 amount = 4000
-       		 }
+			add_political_power = 100
+			CSA = { add_manpower = 2000 }
+			MEX = { add_manpower = 25000 }
+			send_equipment = {
+				target = CAN
+				type = infantry_equipment_1
+				amount = 4000
+			}
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
@@ -1099,67 +1099,67 @@ focus_tree = {
 
 
 	focus = {
-        id = CSA_ww1_call_argentina_to_arms
-        icon = GFX_goal_generic_more_territorial_claims
+		id = CSA_ww1_call_argentina_to_arms
+		icon = GFX_goal_generic_more_territorial_claims
 
 		prerequisite = { focus = CSA_ww1_mexican_expedition }
-        available = {
-        	MON = {
-        		exists = yes
-        	}
-        }
+		available = {
+			MON = {
+				exists = yes
+			}
+		}
 		x = 17
-        y = 4
-        cost = 10
-        completion_reward = {
+		y = 4
+		cost = 10
+		completion_reward = {
 			ENG={
-					add_to_faction=ARG
-				}
-			add_opinion_modifier = { 
+				add_to_faction=ARG
+			}
+			add_opinion_modifier = {
 				target = ARG
 				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
 			}
-        }
-        ai_will_do = { factor = 200 }
-    }
+		}
+		ai_will_do = { factor = 200 }
+	}
 
-    
-    focus = {
-        id = CSA_ww1_expand_guaymas_naval_base
-        icon = GFX_goal_generic_build_navy
+
+	focus = {
+		id = CSA_ww1_expand_guaymas_naval_base
+		icon = GFX_goal_generic_build_navy
 
 		prerequisite = { focus = CSA_ww1_call_argentina_to_arms }
 
-        available = {
-			date > 1914.9.1        
-        }
+		available = {
+			date > 1914.9.1
+		}
 		x = 17
-        y = 5
-        cost = 10
-        completion_reward = {
-            483 = {
-                add_building_construction = {
-                    type = bunker
-                    level = 1
-                    province = 4908
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = coastal_bunker
-                    level = 2
-                    province = 4908
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = naval_base
-                    level = 2
-                    province = 4908
-                    instant_build = yes
-                }
-            }
-        }
-        ai_will_do = { factor = 0 }
-    }
+		y = 5
+		cost = 10
+		completion_reward = {
+			483 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 4908
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 4908
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 4908
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 
 	focus = {
 		id = CSA_ww1_special_embassy_japan
@@ -1167,9 +1167,9 @@ focus_tree = {
 
 		icon = GFX_goal_tripartite_pact
 
-		available = { 
-			NOT={ 
-				has_war_with = JAP 
+		available = {
+			NOT={
+				has_war_with = JAP
 			}
 
 			CSA = {
@@ -1181,18 +1181,18 @@ focus_tree = {
 
 
 		}
-		completion_reward = { 
+		completion_reward = {
 
 			ENG={
-					add_to_faction=JAP
-				}
-			add_opinion_modifier = { 
+				add_to_faction=JAP
+			}
+			add_opinion_modifier = {
 				target = JAP
 				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
 			}
 
 		}
-		
+
 		ai_will_do = { factor = 0	}
 		cost = 10
 		x = 16
@@ -1211,8 +1211,8 @@ focus_tree = {
 		cost = 10
 		x = 23
 		y = 0
-		}
-	
+	}
+
 	focus = {
 		id = CSA_ww1_equipment_effort
 		prerequisite = { focus=CSA_ww1_army_effort }
@@ -1649,7 +1649,7 @@ focus_tree = {
 			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 
 
-			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } 
+			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 		}
 
 
@@ -1774,7 +1774,7 @@ focus_tree = {
 		completion_reward = {
 
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1784,10 +1784,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1797,10 +1797,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1810,8 +1810,8 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
-			}			
+				}
+			}
 		}
 	}
 
@@ -1943,7 +1943,7 @@ focus_tree = {
 		completion_reward = {
 
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1953,10 +1953,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1966,10 +1966,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1979,8 +1979,8 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
-			}			
+				}
+			}
 		}
 	}
 
@@ -2114,45 +2114,45 @@ focus_tree = {
 
 		completion_reward = {
 
-				random_owned_state = {
-					limit = { 
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
 					}
-					add_building_construction = {
-						type = air_base
-						level = 1
-						instant_build = yes
-					}							
 				}
-				random_owned_state = {
-					limit = { 
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
-					add_building_construction = {
-						type = air_base
-						level = 1
-						instant_build = yes
-					}							
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
 				}
-				random_owned_state = {
-					limit = { 
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
 					}
-					add_building_construction = {
-						type = air_base
-						level = 1
-						instant_build = yes
-					}							
-				}			
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -2201,7 +2201,7 @@ focus_tree = {
 
 	focus = {
 		id = CSA_ww1_naval_effort
-		icon = GFX_goal_generic_build_navy 
+		icon = GFX_goal_generic_build_navy
 		available = { any_state={ is_coastal=yes is_controlled_by=ROOT } }
 		completion_reward = { navy_experience=25 if={ limit={ NOT={ any_owned_state={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } } any_owned_state={ is_coastal=yes } } random_owned_state={ limit={ is_coastal=yes free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } set_country_flag=naval_effort_built } if={ limit={ NOT={ has_country_flag=naval_effort_built } any_owned_state={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } } random_owned_state={ limit={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } set_country_flag=naval_effort_built } if={ limit={ NOT={ has_country_flag=naval_effort_built } NOT={ any_owned_state={ free_building_slots={ building=dockyard size > 2 include_locked=yes } } } } random_state={ limit={ controller={ tag=ROOT } free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } }			 }
 		complete_tooltip = { navy_experience=25 add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } }
@@ -2374,5 +2374,5 @@ focus_tree = {
 	}
 
 
-	
+
 }

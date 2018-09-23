@@ -24,8 +24,8 @@ focus_tree = {
 		icon = GFX_goal_generic_territory_or_war
 
 		available = { }
-		completion_reward = { 
-			add_political_power=150 
+		completion_reward = {
+			add_political_power=150
 			add_ideas = authoritarianism
 		}
 		cost = 10
@@ -41,7 +41,7 @@ focus_tree = {
 		icon = GFX_goal_molotov_ribbentrop_pact
 
 		completion_reward = {
-		 	random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } } 
+			random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } }
 			add_political_power=30
 		}
 
@@ -60,7 +60,7 @@ focus_tree = {
 		x = 3
 		y = 4
 		cost = 10
-		ai_will_do = { factor = 10 }	
+		ai_will_do = { factor = 10 }
 		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } add_political_power=50 }
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 
@@ -118,9 +118,9 @@ focus_tree = {
 			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 
 			army_experience=20
-			add_political_power=30 
+			add_political_power=30
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -130,7 +130,7 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 
 		}
@@ -149,7 +149,7 @@ focus_tree = {
 		mutually_exclusive = { focus = HUN_ww1_fortify_coast }
 		cost = 10
 
-		completion_reward = { 
+		completion_reward = {
 			random_owned_state = {
 				add_building_construction = {
 					type = bunker
@@ -171,7 +171,7 @@ focus_tree = {
 		mutually_exclusive = { focus = HUN_ww1_fortify_city }
 		cost = 10
 
-		completion_reward = { 
+		completion_reward = {
 			random_owned_state = {
 				add_building_construction = {
 					type = coastal_bunker
@@ -186,7 +186,7 @@ focus_tree = {
 
 	###########################################################################################################################
 	# DIPLOMATIC
-	########################################################################################################################### 
+	###########################################################################################################################
 
 	focus ={
 		id = HUN_ww1_diplomatic_effort
@@ -206,25 +206,25 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_diplomatic_effort }
 		icon = GFX_hoi4tgw_austriahungary
 
-		 	available = {
-		 		NOT = { has_war_with = AUH }
-		 		
-		 		AUH = {
-		 			exists = yes
-		 		}
-			}
+		available = {
+			NOT = { has_war_with = AUH }
 
-			completion_reward = {
-
-					add_opinion_modifier = { 
-						target = AUH
-						modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
-					}
-					add_opinion_modifier = { 
-						target = RUS
-						modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
-					}
+			AUH = {
+				exists = yes
 			}
+		}
+
+		completion_reward = {
+
+			add_opinion_modifier = {
+				target = AUH
+				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
+			}
+		}
 
 		ai_will_do = { factor=10 }
 
@@ -239,25 +239,25 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_supportaustria }
 		icon = GFX_hoi4tgw_ironcross
 
-		 	available = {
-		 		NOT = { has_war_with = GER }
-		 		
-		 		GER = {
-		 			exists = yes
-		 		}
-			}
+		available = {
+			NOT = { has_war_with = GER }
 
-			completion_reward = {
-
-					add_opinion_modifier = { 
-						target = GER 
-						modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
-					}
-					add_opinion_modifier = { 
-						target = FRA
-						modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
-					}
+			GER = {
+				exists = yes
 			}
+		}
+
+		completion_reward = {
+
+			add_opinion_modifier = {
+				target = GER
+				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
+			}
+		}
 
 		ai_will_do = { factor=10 }
 		cost = 10
@@ -300,7 +300,7 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		available = { threat > 0.50 }
 
-		completion_reward = { 
+		completion_reward = {
 			random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } }
 			complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes }
 
@@ -355,7 +355,7 @@ focus_tree = {
 		y = 0
 		ai_will_do = { factor = 30 }
 	}
-	
+
 	focus ={
 		id = HUN_ww1_equipment_effort
 		prerequisite = { focus = HUN_ww1_army_effort }
@@ -792,8 +792,8 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		bypass = { custom_trigger_tooltip={ tooltip=infrastructure_effort_tt all_owned_state={			 free_building_slots={ building=infrastructure size < 1 } } } }
 		completion_reward = {
-		random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
-		random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 		}
 
 		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
@@ -915,45 +915,45 @@ focus_tree = {
 
 		completion_reward = {
 
-				random_owned_state = {
-					limit = { 
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
 					}
-					add_building_construction = {
-						type = air_base
-						level = 1
-						instant_build = yes
-					}							
 				}
-				random_owned_state = {
-					limit = { 
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
-					add_building_construction = {
-						type = air_base
-						level = 1
-						instant_build = yes
-					}							
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
 				}
-				random_owned_state = {
-					limit = { 
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
 					}
-					add_building_construction = {
-						type = air_base
-						level = 1
-						instant_build = yes
-					}							
-				}			
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1084,7 +1084,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1094,10 +1094,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1107,10 +1107,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1120,8 +1120,8 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
-			}			
+				}
+			}
 		}
 	}
 
@@ -1257,7 +1257,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1267,10 +1267,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1280,10 +1280,10 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
+				}
 			}
 			random_owned_state = {
-				limit = { 
+				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
@@ -1293,8 +1293,8 @@ focus_tree = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}							
-			}			
+				}
+			}
 		}
 	}
 
@@ -1330,7 +1330,7 @@ focus_tree = {
 
 	focus ={
 		id = HUN_ww1_naval_effort
-		icon = GFX_goal_generic_build_navy 
+		icon = GFX_goal_generic_build_navy
 		available = { any_state={ is_coastal=yes is_controlled_by=ROOT } }
 		completion_reward = { navy_experience=25 if={ limit={ NOT={ any_owned_state={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } } any_owned_state={ is_coastal=yes } } random_owned_state={ limit={ is_coastal=yes free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } set_country_flag=naval_effort_built } if={ limit={ NOT={ has_country_flag=naval_effort_built } any_owned_state={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } } random_owned_state={ limit={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } set_country_flag=naval_effort_built } if={ limit={ NOT={ has_country_flag=naval_effort_built } NOT={ any_owned_state={ free_building_slots={ building=dockyard size > 2 include_locked=yes } } } } random_state={ limit={ controller={ tag=ROOT } free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } }			 }
 		complete_tooltip = { navy_experience=25 add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } }

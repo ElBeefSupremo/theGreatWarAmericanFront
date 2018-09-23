@@ -10,7 +10,7 @@
 
 opinion_modifiers = {
 
-##### HOI4 TGW KiS
+	##### HOI4 TGW KiS
 
 	##############################################
 	# Balkans
@@ -164,13 +164,13 @@ opinion_modifiers = {
 	holds_our_claims = {
 		value = -15
 	}
-	claims_on_us = { 
+	claims_on_us = {
 		value = -45
 	}
 	at_war_with_faction = {
 		value = -25
 	}
-	
+
 	justifying_war_goal = {
 		value = -10
 		min_trust = -10
@@ -193,12 +193,12 @@ opinion_modifiers = {
 	tripartite_pact_opinion = {
 		value = 75
 	}
-	
+
 	triple_alliance_opinion = {
 		value = 35
 	}
 
-	
+
 
 	refused_tripartite_pact_opinion = {
 		value = -25
@@ -228,21 +228,21 @@ opinion_modifiers = {
 		value = -50
 		months = 12
 	}
-	
+
 	condemn_aggression = {
 		value = -50
 		months = 24
 	}
-	
+
 	western_betrayal = {
 		value = -50
 	}
-	
+
 	offered_support = {
 		value = 50
 		months = 24
 	}
-	
+
 	abandoned_czechs = {
 		value = -20
 		months = 12
@@ -262,7 +262,7 @@ opinion_modifiers = {
 		value = 25
 	}
 
-	SOV_FRA_join_comintern_reject = {		
+	SOV_FRA_join_comintern_reject = {
 		value = -30
 	}
 
@@ -273,7 +273,7 @@ opinion_modifiers = {
 	MR_pact = {
 		value = 40
 	}
-	
+
 	MR_pact_fascists = {
 		value = -25
 	}
@@ -289,33 +289,33 @@ opinion_modifiers = {
 		decay = 3
 		max_trust = 100
 	}
-	
+
 	guarantee = {
 		value = 0
 	}
-	
+
 	guarantee = {
 		target = yes
 		value = 75
 	}
-	
+
 	betrayed_guarantee = {
 		value = -100
 		months = 36
 	}
-	
+
 	at_war = {
 		value = -75
 	}
-	
+
 	in_faction = {
 		value = 100
 	}
-	
+
 	military_access = {
 		value = 30
 	}
-	
+
 	non_aggression_pact = {
 		value = 25
 	}
@@ -338,24 +338,24 @@ opinion_modifiers = {
 		value = 50
 		decay = 1
 	}
-	
+
 	same_ruling_party = {
 		value = 20
 	}
-	
+
 	similar_ruling_party = {
 		value = 10
 	}
-	
+
 	different_party_types = {
 		value = -10
 	}
-	
+
 	long_term_trade_partner = {
 		value = 1
 	}
-	
-	puppet_opinion = 
+
+	puppet_opinion =
 	{
 		value = 200
 	}
@@ -391,7 +391,7 @@ opinion_modifiers = {
 	ger_ita_alliance_focus = {
 		value = 50
 	}
-	
+
 	ger_auh_alliance_focus = {
 		value = 50
 	}
@@ -553,7 +553,7 @@ opinion_modifiers = {
 	aided_industry = {
 		value = 30
 	}
-	
+
 	pan_slavic_opinion = {
 		value = 30
 	}
@@ -572,13 +572,13 @@ opinion_modifiers = {
 	anti_german_coup = {
 		value = -40
 	}
-	
+
 	communist_collaborators = {
 		value = -125
 		months = 48
 		decay = 1
 	}
-	
+
 	unholy_alliance  = {
 		value = -50
 		months = 48
@@ -705,7 +705,7 @@ opinion_modifiers = {
 	}
 
 	### UK/BRITAIN/ENG FOCUS TREE ###
-	
+
 	ENG_benelux_intervention_USA = {
 		value = -20
 	}
@@ -716,23 +716,23 @@ opinion_modifiers = {
 	### GER focus tree
 
 	GER_anschluss_rejected = { value = -40 }
-	
+
 	GER_demand_sudetenland_rejected = { value = -40 }
 
 	GER_demand_slovenia_YUG = { value = -50 }
 
 	GER_first_vienna_award_GER = { value = 10 }
-	
+
 	GER_first_vienna_award_other = { value = -25 }
 
 	GER_second_vienna_award_HUN_north = { value = 10 }
 
 	GER_second_vienna_award_HUN_all = { value = 20 }
-	
+
 	GER_second_vienna_award_ROM_north = { value = -10 }
 
 	GER_second_vienna_award_ROM_all = { value = -20 }
-	
+
 	GER_second_vienna_award_other = { value = -25 }
 
 	GER_second_vienna_award_noland = { value = -25 }
@@ -740,17 +740,17 @@ opinion_modifiers = {
 	GER_treaty_of_craiova_GER = { value = 30 }
 
 	GER_treaty_of_craiova_noland = { value = -25 }
-	
+
 	GER_treaty_of_craiova_other = { value = -25 }
-	
+
 	GER_first_ljubljana_award_GER = { value = 30 }
-	
+
 	GER_first_ljubljana_award_other = { value = -25 }
 
 	GER_second_ljubljana_award_GER = { value = 30 }
 
 	GER_second_ljubljana_award_noland = { value = -25 }
-	
+
 	GER_second_ljubljana_award_other = { value = -25 }
 
 	### BUL seeking an alliance
@@ -763,7 +763,7 @@ opinion_modifiers = {
 	### Polish focus tree ###
 
 	POL_treaty_with_lithuania = { value = 50 }
-	
+
 	POL_the_baltic_alliance = { value = 50 }
 
 	POL_seek_accommodation_with_germany = { value = 50 }
@@ -771,4 +771,4 @@ opinion_modifiers = {
 	POL_seek_accommodation_with_USSR = { value = 50 }
 
 	POL_draw_closer_to_britain = { value = 50 }
-}	
+}

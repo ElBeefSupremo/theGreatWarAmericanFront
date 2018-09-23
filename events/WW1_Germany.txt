@@ -2,20 +2,20 @@
 add_namespace = ww1_af_germany
 
 news_event = {
-    id = ww1_germany.2
-    title = ww1_germany.2.t
-    desc = ww1_germany.2.d
-    picture = ww1_germany_2
+	id = ww1_germany.2
+	title = ww1_germany.2.t
+	desc = ww1_germany.2.d
+	picture = ww1_germany_2
 
-    major = yes
-    is_triggered_only = yes
+	major = yes
+	is_triggered_only = yes
 
-    option = {
-        name = ww1_germany.2.a
-        ai_chance = {
-            factor = 100
-        }
-    }
+	option = {
+		name = ww1_germany.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
 }
 
 country_event = {
@@ -27,19 +27,19 @@ country_event = {
 	is_triggered_only=no
 	mean_time_to_happen={
 		days=1
-		}
+	}
 	trigger={
 		tag=GER
 		GER={
 			has_war_with=ENG
-			}
+		}
 		6={
 			is_controlled_by=GER
-			}
+		}
 		NOT={
 			has_country_flag=brussels_taken
-			}
 		}
+	}
 	option={
 		name=ww1_germany.9.a
 		add_manpower=100
@@ -50,23 +50,23 @@ country_event = {
 
 
 country_event = {
-    id = ww1_germany.16
-    title = ww1_germany.16.t
-    desc = ww1_germany.16.d
-    picture = ww1_germany_16
+	id = ww1_germany.16
+	title = ww1_germany.16.t
+	desc = ww1_germany.16.d
+	picture = ww1_germany_16
 
-    fire_only_once = yes
-    is_triggered_only = yes
+	fire_only_once = yes
+	is_triggered_only = yes
 
-    option = {
-        name = ww1_germany.16.a
-        ai_chance = {
-            factor = 100
-        }
-        GER = {
-            load_oob = "KIS_GER_Schutztruppe"#Schutztruppe Deployment
-        }
-    }
+	option = {
+		name = ww1_germany.16.a
+		ai_chance = {
+			factor = 100
+		}
+		GER = {
+			load_oob = "KIS_GER_Schutztruppe"#Schutztruppe Deployment
+		}
+	}
 }
 
 
@@ -77,7 +77,7 @@ country_event = {
 	title = "Ludendorff Putsch"
 	desc = "Ludendorff Putsch"
 	picture = GFX_report_event_fascist_gathering
-	
+
 	fire_only_once=yes
 	is_triggered_only=yes
 
@@ -92,10 +92,10 @@ country_event = {
 			ruling_party = fascism
 			elections_allowed = no
 			parties = {
-		        fascism = {
-		            popularity = 100
-		        }
-		    }
+				fascism = {
+					popularity = 100
+				}
+			}
 		}
 		add_timed_idea = { idea = reign_of_terror days = 730 }
 	}
@@ -108,7 +108,7 @@ country_event = {
 	title = "Revolution in Germany"
 	desc = "Revolution in Germany"
 	picture = GFX_report_event_gathering_protest
-	
+
 	fire_only_once=yes
 	is_triggered_only=yes
 
@@ -133,7 +133,7 @@ country_event = {
 	title = "Weimar Republic is Proclaimed."
 	desc = "A national assembly was convened in Weimar, where a new constitution for the German Reich was written."
 	picture = GFX_report_event_gathering_protest
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -157,14 +157,14 @@ country_event = {
 	title = "Boer Revolt"
 	desc = "The Maritz Rebellion has begun! Armed rebels have once again declared the independence of the South African Republic in the Transvaal from their British oppressors. The arrival of experienced German soldiers ensures that this rebellion will not be so easily crushed."
 	picture = GFX_report_event_swedish_soldier
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "Gut!"
 
@@ -173,7 +173,7 @@ country_event = {
 			load_oob = "ZAR_1914"
 			add_manpower = 20000
 		}
-		
+
 		GER = {
 			give_military_access = ZAR
 			add_to_faction = ZAR
@@ -220,7 +220,7 @@ country_event = {
 	title = ww1_germany.21.t
 	desc = ww1_germany.21.d
 	picture = GFX_report_event_generic_read_write
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -249,7 +249,7 @@ country_event = {
 	title = ww1_germany.22.t
 	desc = ww1_germany.22.d
 	picture = GFX_report_event_generic_read_write
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -282,7 +282,7 @@ country_event = {
 	title = ww1_germany.23.t
 	desc = ww1_germany.23.d
 	picture = GFX_report_event_gathering_protest
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 

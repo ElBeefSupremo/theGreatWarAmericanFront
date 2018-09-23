@@ -1,20 +1,20 @@
-state={
-	id=779
-	name="STATE_779"
-	manpower=400000
-	state_category=rural
+﻿state={
+	id=762
+	name="STATE_762" #South Bulgaria
+	manpower = 400000
+	state_category = rural
 	provinces = { 878 893 3937 6857 9818 9862 9888 9902 11813 }
-	resources={
-		wood=9
+	resources = {
+		wood = 9
 	}
 	history = {
-		owner=TUR
+		owner = TUR
 		add_claim_by = BUL
 		1913.5.30 = {
 			owner = BUL
 		}
 		buildings = {
-			infrastructure=4
+			infrastructure = 4
 		}
 	}
 }

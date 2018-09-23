@@ -201,21 +201,21 @@ create_navy_leader = { name = "Earl E. Scruggs" id=93396 portrait_path="gfx/hoi4
 	}
 
 	set_politics = {
-		parties = { 
-			democratic = { 
+		parties = {
+			democratic = {
 				popularity=94 }
-			fascism = { 
+			fascism = {
 				popularity=0 }
-			communism = { 
+			communism = {
 				popularity=2 }
-			neutrality = { 
+			neutrality = {
 				popularity=4 }
-			}
-			ruling_party=democratic
-			last_election="1909.01.09"
-			election_frequency=72
-			elections_allowed=yes
 		}
+		ruling_party=democratic
+		last_election="1909.01.09"
+		election_frequency=72
+		elections_allowed=yes
+	}
 
 	add_ideas = {
 		limited_conscription
@@ -345,17 +345,16 @@ create_navy_leader = { name = "Earl E. Scruggs" id=93396 portrait_path="gfx/hoi4
 				popularity=2}
 			neutrality = {
 				popularity=4}
-			}
-			ruling_party=democratic
-			last_election="1909.01.09"
-			election_frequency=72
-			elections_allowed=yes
 		}
+		ruling_party=democratic
+		last_election="1909.01.09"
+		election_frequency=72
+		elections_allowed=yes
+	}
 
 
 	add_ideas = {
 		limited_conscription
 		partial_economic_mobilisation
 		limited_exports
-
 	}
