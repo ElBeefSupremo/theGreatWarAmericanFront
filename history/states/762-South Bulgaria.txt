@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=762
 	name="STATE_762" #South Bulgaria
 	manpower = 400000
