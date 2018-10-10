@@ -14,7 +14,6 @@ create_country_leader={ name = "Wilhelmina" desc=HOL_wilhelmina_DESC picture="gf
 create_country_leader={ name = "Abraham Kuyper" desc=HOL_Abraham_DESC picture="gfx/leaders/HOL_Abraham.dds" expire="1935.1.1" ideology=centrism traits={  } }
 create_country_leader={ name = "Pieter Jelles Troelstra" desc=HOL_Pieter_DESC picture="gfx/leaders/HOL_pieter.dds" expire="1935.1.1" ideology=marxism traits={  } }
 
-
 create_corps_commander={  name = "Dufour" id=39002 portrait_path="gfx/generals/HOL_dufour.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Cool" id=39003 portrait_path="gfx/generals/HOL_cool.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Weber" id=39004 portrait_path="gfx/generals/HOL_weber.tga" traits={   } skill=3 }
@@ -147,7 +146,7 @@ create_navy_leader={  name = "Conrad E. L. Helfrich" id=39031 portrait_path="gfx
 
 	#Diplomatic
 	complete_national_focus = HOL_ww1_diplomatic_effort
-	complete_national_focus = HOL_neutrality_focus
+	complete_national_focus = HOL_ww1_supportgermany
 
 
 	#-------------------------------------------------------

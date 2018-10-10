@@ -3,6 +3,7 @@ state={
 	name="STATE_754"
 	manpower=10000
 	state_category=wasteland
+	impassable = yes
 	provinces={ 4191 1994 1057 10104 }
 	resources={
 		wood=0
