@@ -12,7 +12,6 @@ division_template = {
 		infantry = { x = 2 y = 1 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
 		artillery = { x = 0 y = 2 }
 	}
@@ -29,7 +28,6 @@ division_template = {
 		infantry = { x = 2 y = 1 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
 		logistics_company = { x = 0 y = 2 }
 		field_hospital = { x = 0 y = 3 }
@@ -47,7 +45,6 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }		
 	}
 }
@@ -61,7 +58,6 @@ division_template = {
 		mountaineers = { x = 1 y = 1 }
 	}
 	support = {
-        recon = { x = 0 y = 0 }
    		engineer = { x = 0 y = 1 }
         logistics_company = { x = 0 y = 2 }
 	}
