@@ -6,10 +6,11 @@ ideas={
 			removal_cost = -10
 			picture = generic_victors_of_ww1
 			modifier = {
-				army_core_defence_factor = -0.75
-				army_core_attack_factor = -0.35
-				army_morale_factor = -0.15
-				land_reinforce_rate = -0.02
+				army_org = -10
+				army_core_defence_factor = -0.3
+				#army_core_attack_factor = -0.35
+				army_morale_factor = -0.3
+				land_reinforce_rate = -0.3
 			}
 		}
 	}

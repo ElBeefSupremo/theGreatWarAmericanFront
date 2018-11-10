@@ -8,21 +8,9 @@ state={
 		wood=0
 		}
 	history={
-		owner=QIN
-		add_core_of=MEN
-		add_core_of=QIN
-		#add_core_of=PRC
-		1912.2.12={ owner=CHI }
-		1936.1.1={ 
-			owner=MEN
-			add_core_of=MEN
-			add_core_of=CHI
-			#add_core_of=PRC
-			buildings={
-				infrastructure=1
-				}
-			}
-		1937.10.1={ owner=JAP controller=JAP }
+		owner=CHI
+		add_core_of=CHI
+		
 		buildings={
 			infrastructure=1
 			}

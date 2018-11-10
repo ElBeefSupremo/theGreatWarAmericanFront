@@ -571,7 +571,7 @@ technologies = {
 			battle_cruiser_1890
 		}
 
-		sub_technologies = sub_technologies={ ww1_battlecruiser0b }
+		sub_technologies = { ww1_battlecruiser0b }
 		
 		path = {
 			leads_to_tech = ww1_battlecruiser1
@@ -1245,7 +1245,7 @@ technologies = {
 		enable_equipments = { 
 			submarine_1906
 		}
-		sub_technologies = sub_technologies={ ww1_coastal_submarine1 }
+		sub_technologies = { ww1_coastal_submarine1 }
 		
 		path = {
 			leads_to_tech = ww1_submarine2 
@@ -1296,7 +1296,7 @@ technologies = {
 		enable_equipments = { 
 			submarine_1914
 		}
-		sub_technologies = sub_technologies={ ww1_coastal_submarine2 }
+		sub_technologies = { ww1_coastal_submarine2 }
 		
 		path = {
 			leads_to_tech = early_submarine 

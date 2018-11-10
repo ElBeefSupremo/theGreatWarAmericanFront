@@ -97,7 +97,18 @@ create_corps_commander={  name = "Jan Kemp" id=78004 portrait_path="gfx/generals
 		# Industry
 	}
 
-	set_politics={  parties={ neutrality={ popularity=95 } democratic={ popularity=5 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=neutrality last_election="1910.9.15" election_frequency=60 elections_allowed=yes }
+	set_politics = { 
+		parties = {
+			neutrality = { popularity=95 }
+			democratic={ popularity=5 }
+			fascism={ popularity=0 }
+			communism={ popularity=0  }
+		}
+			ruling_party = neutrality
+			last_election="1910.9.15"
+			election_frequency=60
+			elections_allowed=yes
+	}
 
 	add_ideas = {
 

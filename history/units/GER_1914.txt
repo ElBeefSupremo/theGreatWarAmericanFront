@@ -7,17 +7,20 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+
+		infantry = { x = 3 y = 0 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
 	}
 }
 
@@ -27,44 +30,50 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
-		field_hospital = { x = 0 y = 3 }
-		artillery = { x = 0 y = 4 }
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
 	}
 	priority = 2
 }
 
 division_template = {
-    name = "Sturmtruppen Division"       # Elite
-    regiments = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 1 y = 1 }
-        infantry = { x = 1 y = 2 }
-        infantry = { x = 1 y = 3 }
-        
-        artillery_brigade = { x = 2 y = 0 }
-        artillery_brigade = { x = 2 y = 1 }
-    }
-    support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        logistics_company = { x = 0 y = 2 }
-        field_hospital = { x = 0 y = 3 }
-    }
-    priority = 2
+	name = "Sturmtruppen Division"		# Elite
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+	}
+	priority = 2
 }
 
 division_template = {
@@ -72,12 +81,13 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }		
+		engineer = { x = 0 y = 0 }		
 	}
 }
 
@@ -90,9 +100,8 @@ division_template = {
 		mountaineers = { x = 1 y = 1 }
 	}
 	support = {
-        recon = { x = 0 y = 0 }
-   		engineer = { x = 0 y = 1 }
-        logistics_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -100,6 +109,7 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
@@ -111,31 +121,34 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
 	}
 }
 
 division_template = {
-    name = "Armored Car Division"
+	name = "Armored Car Division"
 
-    regiments = {
-        armored_car = { x = 0 y = 0 }
-        armored_car = { x = 0 y = 1 }       
-        cavalry = { x = 1 y = 0 }
-        cavalry = { x = 1 y = 1 }
-    }
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
 
-    support = {
-        engineer = { x = 0 y = 0 }
-    }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
 }
 
 ###################################################################
+
+#--------------"Infanterie Division"
 
 units = {
     division = {
@@ -180,14 +193,12 @@ units = {
         start_experience_factor = 0.1
     }
 
-
     division = {
         name = "17. Infanterie-Division"
         location = 321#Greifswald
         division_template = "Infanterie Division"
         start_experience_factor = 0.1
     }
-
 
     division = {
         name = "18. Infanterie-Division"
@@ -196,6 +207,7 @@ units = {
         start_experience_factor = 0.1
     }
 
+#===================="Hussars"
 
     division = {
         name = "2. Kavallerie-Division"
@@ -204,14 +216,12 @@ units = {
         start_experience_factor = 0.1
     }
 
-
     division = {
         name = "4. Kavallerie-Division"
         location = 9496#Frankfurt an der Oder
         division_template = "Hussars"
         start_experience_factor = 0.1
     }
-
 
     division = {
         name = "9. Kavallerie-Division"
@@ -220,76 +230,71 @@ units = {
         start_experience_factor = 0.1
     }
 
+#==================="Ersatz Division"
 
     division = {
         name = "5. Reserve-Division"
         location = 11219#Pritzwalk
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
-
 
     division = {
         name = "6. Reserve-Division"
         location = 11219#Pritzwalk
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
-
 
     division = {
         name = "7. Reserve-Division"
         location = 6487#Wittenberg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
-
 
     division = {
         name = "22. Reserve-Division"
         location = 6487#Wittenberg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
 
-
+#================="Schutztruppe Division"
     division = {
         name = "11th Mixed Infantry Brigade"
         location = 11219#Pritzwalk
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
-
 
     division = {
         name = "27th Mixed Infantry Brigade"
         location = 6402#Kolberg
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
-
 
     division = {
         name = "10th Mixed Infantry Brigade"
         location = 6282#Stettin
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
-
 
     division = {
         name = "1. Infanterie-Division"
@@ -298,7 +303,6 @@ units = {
         start_experience_factor = 0.1
     }
 
-
     division = {
         name = "2. Infanterie-Division"
         location = 6332#Königsberg
@@ -306,14 +310,12 @@ units = {
         start_experience_factor = 0.1
     }
 
-
     division = {
         name = "35. Infanterie-Division"
         location = 362#Danzig
         division_template = "Infanterie Division"
         start_experience_factor = 0.1
     }
-
 
     division = {
         name = "36. Infanterie-Division"
@@ -351,7 +353,7 @@ units = {
         name = "1. Reserve-Division"
         location = 6332#Königsberg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -361,7 +363,7 @@ units = {
         name = "36. Reserve-Division"
         location = 6332#Königsberg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -371,7 +373,7 @@ units = {
         name = "3. Reserve-Division"
         location = 3351#Torun
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -466,7 +468,7 @@ units = {
         name = "Konigsberg Garrison"
         location = 6332#Königsberg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -476,7 +478,7 @@ units = {
         name = "43 Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -486,7 +488,7 @@ units = {
         name = "45. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -496,7 +498,7 @@ units = {
         name = "53. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -506,7 +508,7 @@ units = {
         name = "9. Bayerisches Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -516,7 +518,7 @@ units = {
         name = "16. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -526,7 +528,7 @@ units = {
         name = "9. Reserve-Division"
         location = 6488#Grünberg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -536,7 +538,7 @@ units = {
         name = "10. Reserve-Division"
         location = 6488#Grünberg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -546,7 +548,7 @@ units = {
         name = "11. Reserve-Division"
         location = 9570#Breslau
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -556,7 +558,7 @@ units = {
         name = "12. Reserve-Division"
         location = 9570#Breslau
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -582,7 +584,7 @@ units = {
         name = "35. Reserve Division"
         location = 3351#Torun
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -592,7 +594,7 @@ units = {
         name = "19. Infantry Brigade"
         location = 6558#Poznan
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -602,7 +604,7 @@ units = {
         name = "69. Ersatz Division"
         location = 11467#Katowice
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -612,7 +614,7 @@ units = {
         name = "Bayerisches Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -632,7 +634,7 @@ units = {
         name = "4. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -642,7 +644,7 @@ units = {
         name = "8. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -652,7 +654,7 @@ units = {
         name = "10. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -662,7 +664,7 @@ units = {
         name = "19. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -672,7 +674,7 @@ units = {
         name = "4. Infantry Kommando"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -682,7 +684,7 @@ units = {
         name = "3. Infantry Kommando"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -692,7 +694,7 @@ units = {
         name = "2. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -702,7 +704,7 @@ units = {
         name = "6. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -712,7 +714,7 @@ units = {
         name = "70. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -738,7 +740,7 @@ units = {
         name = "1. Bayerisches Infanterie-Division"
         location = 9545#Heidenheim
         division_template = "Infanterie Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
     }
 
 
@@ -786,7 +788,7 @@ units = {
         name = "1.Bayerisches Reserve-Division"
         location = 692#München
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -796,7 +798,7 @@ units = {
         name = "5. Bayerisches Reserve-Division"
         location = 692#München
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -806,7 +808,7 @@ units = {
         name = "5. Bayerisches Infantry Brigade"
         location = 692#München
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -832,7 +834,7 @@ units = {
         name = "26. Reserve-Division"
         location = 6581#Mosbach
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -842,7 +844,7 @@ units = {
         name = "28. Reserve-Division"
         location = 6581#Mosbach
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -852,7 +854,7 @@ units = {
         name = "60. Mixed Infantry Brigade"
         location = 9655#Konstanz
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -862,7 +864,7 @@ units = {
         name = "30. Bayerisches Reserve Division"
         location = 9503#Straßburg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -872,7 +874,7 @@ units = {
         name = "33. Reserve Division"
         location = 9559#Metz
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -906,7 +908,7 @@ units = {
         name = "Upper Rhine Fortress Troops"
         location = 6581#Mosbach
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1028,7 +1030,7 @@ units = {
         name = "21. Reserve-Division"
         location = 678#Mühlhausen
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1038,7 +1040,7 @@ units = {
         name = "25. Reserve-Division"
         location = 678#Mühlhausen
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1048,7 +1050,7 @@ units = {
         name = "15. Reserve-Division"
         location = 529#Bonn
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1058,7 +1060,7 @@ units = {
         name = "16. Reserve-Division"
         location = 529#Bonn
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1095,7 +1097,7 @@ units = {
         start_experience_factor = 0.1
     }
 
-
+#---------"Stoßtruppen Division"
     division = {
         name = "1. Garde-Infanterie-Division"
         location = 6487#Wittenberge
@@ -1146,7 +1148,7 @@ units = {
         name = "19. Reserve-Division"
         location = 6377#Hannover
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1156,7 +1158,7 @@ units = {
         name = "13. Reserve-Division"
         location = 6570#Düsseldorf
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1166,7 +1168,7 @@ units = {
         name = "14. Reserve-Division"
         location = 6570#Düsseldorf
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1176,7 +1178,7 @@ units = {
         name = "25. Mixed Infantry Brigade"
         location = 241#Wilhelmshaven
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1186,7 +1188,7 @@ units = {
         name = "29. Mixed Infantry Brigade"
         location = 11360#Emden
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1260,7 +1262,7 @@ units = {
         name = "23. Reserve-Division"
         location = 6487#Halle
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1270,7 +1272,7 @@ units = {
         name = "24. Reserve-Division"
         location = 6487#Halle
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1280,7 +1282,7 @@ units = {
         name = "47. Mixed Infantry Brigade"
         location = 6487#Halle
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1290,7 +1292,7 @@ units = {
         name = "17. Reserve-Division"
         location = 9347#Hamburg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1300,7 +1302,7 @@ units = {
         name = "18. Reserve-Division"
         location = 9347#Hamburg
         division_template = "Ersatz Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1310,7 +1312,7 @@ units = {
         name = "33. Infantry Brigade"
         location = 11331#Lübeck
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1320,7 +1322,7 @@ units = {
         name = "34. Infantry Mixed Brigade"
         location = 11331#Plön
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1330,7 +1332,7 @@ units = {
         name = "37. Infantry Mixed Brigade"
         location = 9347#Hamburg
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1340,7 +1342,7 @@ units = {
         name = "38. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1349,7 +1351,7 @@ units = {
         name = "39. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1358,7 +1360,7 @@ units = {
         name = "40. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1367,7 +1369,7 @@ units = {
         name = "41. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1376,7 +1378,7 @@ units = {
         name = "42. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1385,7 +1387,7 @@ units = {
         name = "43. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1394,7 +1396,7 @@ units = {
         name = "44. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1403,7 +1405,7 @@ units = {
         name = "45. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1412,7 +1414,7 @@ units = {
         name = "46. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1421,7 +1423,7 @@ units = {
         name = "47. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1430,7 +1432,7 @@ units = {
         name = "48. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1439,7 +1441,7 @@ units = {
         name = "49. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1448,7 +1450,7 @@ units = {
         name = "50. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1457,7 +1459,7 @@ units = {
         name = "51. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1466,7 +1468,7 @@ units = {
         name = "52. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1475,7 +1477,7 @@ units = {
         name = "53. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1484,7 +1486,7 @@ units = {
         name = "54. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1493,7 +1495,7 @@ units = {
         name = "55. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1502,7 +1504,7 @@ units = {
         name = "56. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1511,7 +1513,7 @@ units = {
         name = "57. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.05
+        start_experience_factor = 0.1
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
@@ -1601,125 +1603,125 @@ units = {
         name = "4. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "5. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "6. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "7. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
         division = {
         name = "8. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "9. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "10. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "11. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "12. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "13. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
     division = {
         name = "14. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "15. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "16. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "17. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "18. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "19. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "20. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
 
     division = {
         name = "21. Garde Infanterie Division"
         location = 321#Rostock
         division_template = "Sturmtruppen Division"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.3
     }
     navy = {
         name = "Mittelmeer-Division"
@@ -4224,9 +4226,11 @@ units = {
         }
     }
 }
+
 air_wings = {
 
 }
+
 instant_effect = {
     add_equipment_production = {
         equipment = {
@@ -4238,7 +4242,7 @@ instant_effect = {
         equipment = {
             type = support_equipment_1 creator = "GER"
         }
-        requested_factories = 10 progress = 0.1 efficiency = 50
+        requested_factories = 5 progress = 0.1 efficiency = 50
     }
     add_equipment_production = {
         equipment = {
@@ -4250,7 +4254,7 @@ instant_effect = {
         equipment = {
             type = motorized_equipment_0 creator = "GER"
         }
-        requested_factories = 5 progress = 0.1 efficiency = 50
+        requested_factories = 2 progress = 0.1 efficiency = 50
     }
     add_equipment_production = {
         equipment = {

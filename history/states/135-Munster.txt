@@ -14,20 +14,10 @@ state={
 		owner=ENG
 		add_core_of=IRE
 		add_core_of=ENG
-		1936.1.1={ 
-			owner=IRE
-			add_core_of=IRE
-			victory_points={ 7394 1 }
-			buildings={
-			infrastructure=6
-			industrial_complex=3
-			7394={ naval_base=6 }
-				}
-			}
 		buildings={
 			infrastructure=6
 			industrial_complex=3
-			arms_factory=2
+			arms_factory=1
 			7394={ naval_base=6 }
 			}
 		}

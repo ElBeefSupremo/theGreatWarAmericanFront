@@ -2,9 +2,10 @@ bookmarks = {
 	bookmark = {
 		name = "SCHLIEFFEN_NAME"
 		desc = "SCHLIEFFEN_DESC"
-		date = 1914.1.1.1
+		date = 1914.1.1.12
 		picture = "GFX_select_date_1914"
 		default_country = "USA"
+		default = yes
 
 		USA = {
 			history = USA_SCHLIEFFEN_DESC
@@ -36,14 +37,6 @@ bookmarks = {
 				FRA_ww1_gasmask_focus
 			}
 		}
-		#TUR = {
-		#	history = TUR_SCHLIEFFEN_DESC
-		#	ideology = democratic
-		#	ideas = {
-		#		ww1_Faith_Allah
-		#	}
-		#}
-
 		ENG = {
 			history = ENG_SCHLIEFFEN_DESC
 			ideology = democratic
@@ -109,7 +102,7 @@ bookmarks = {
 			history = "TUR_SCHLIEFFEN_DESC"
 			ideology = democratic
 			ideas = {
-
+				ww1_Faith_Allah
 			}
 			focuses = {
 				TUR_russian_ports

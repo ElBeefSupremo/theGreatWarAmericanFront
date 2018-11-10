@@ -105,14 +105,14 @@ units = {
 	division= { 
 			name = "5th Irish Infantry"
 			location = 11293 # Dublin
-			division_template="Division"
+			division_template="Infantry Division"
 			start_experience_factor=2
 			}
 
 	division= { 
 			name = "6th Irish Infantry"
 			location = 11293 # Dublin
-			division_template="Division"
+			division_template="Infantry Division"
 			start_experience_factor=2
 			}
 			
