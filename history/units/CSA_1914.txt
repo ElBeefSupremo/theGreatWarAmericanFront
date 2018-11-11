@@ -395,14 +395,57 @@ units = {
 	}
 
 	division = {
-		name = "1st Infantry Brigade"
+		name = "Rocksprings Volunteers"
 		location = 2019 # Rocksprings
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 	}
 
 	division = {
-		name = "2nd Infantry Brigade"
+		name = "El Paso Volunteers"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+
+	division = {
+		name = "1st Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3rd Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4th Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5th Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6th Texas State Infantry"
 		location = 12728 # El Paso
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
@@ -1061,11 +1104,9 @@ units = {
 air_wings = {
 
 	362 = { #Raleigh ""1st Confederate Air Corps""
-		ww1_fighter_equipment_1 = { owner = "CSA" amount = 65 }
-		type = scout
-		experience = 15
-		name = ""1st C.S. Air Corps""
-		historical_model = 0
+		ww1_fighter_equipment_1 = { owner = "CSA" amount = 30 }
+		ww1_fighter_equipment_1 = { owner = "CSA" amount = 30 }
+		ww1_fighter_equipment_1 = { owner = "CSA" amount = 30 }
 	}
 }
 

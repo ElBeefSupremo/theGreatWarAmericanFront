@@ -7,16 +7,18 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		#artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 2 }
 	}
 }
 
@@ -25,15 +27,16 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+
 	}
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
 		field_hospital = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 	}
@@ -45,6 +48,7 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
@@ -59,6 +63,7 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
@@ -85,8 +90,9 @@ division_template = {
     regiments = {
         armored_car = { x = 0 y = 0 }
         armored_car = { x = 0 y = 1 }       
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 1 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
     }
 
     support = {
@@ -103,8 +109,6 @@ units = {
 			location = 11121 # Petsamo
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -113,8 +117,6 @@ units = {
 			location=3134 # Murmansk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -123,8 +125,6 @@ units = {
 			location = 11121 # Oulu
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -133,8 +133,6 @@ units = {
 			location = 9228 # Mariehamn
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -143,8 +141,6 @@ units = {
 			location=3083 # Turku
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -153,8 +149,6 @@ units = {
 			location = 3122 # Isokyrö
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -163,8 +157,6 @@ units = {
 			location = 7661 # Baki
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -173,8 +165,6 @@ units = {
 			location=10696 # Omsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -183,8 +173,6 @@ units = {
 			location=4797 # Irkutsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -193,8 +181,6 @@ units = {
 			location=12189 # Khabarovsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -203,8 +189,6 @@ units = {
 			location = 305 # Ulya
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -213,8 +197,6 @@ units = {
 			location = 10641 # Jakutsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -223,8 +205,6 @@ units = {
 			location=7274 # Novosibirsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -233,8 +213,6 @@ units = {
 			location=1459 # Tashkent
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -243,8 +221,6 @@ units = {
 			location=6338 # Kazan
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -273,13 +249,33 @@ units = {
 	
 	
 	division= { 
-			name = "Gvardeyskaya Strelkovaya Brigada"
+			name = "1 Gvardeyskaya Strelkovaya"
 			location = 3151 # St. Petersburg
 			division_template="Imperial Guard"
 			start_experience_factor=0.2
 			}
 	
-	
+		division= { 
+			name = "2 Gvardeyskaya Strelkovaya"
+			location = 3151 # St. Petersburg
+			division_template="Imperial Guard"
+			start_experience_factor=0.2
+			}
+
+		division= { 
+			name = "3 Gvardeyskaya Strelkovaya"
+			location = 3151 # St. Petersburg
+			division_template="Imperial Guard"
+			start_experience_factor=0.2
+			}
+
+		division= { 
+			name = "4 Gvardeyskaya Strelkovaya"
+			location = 3151 # St. Petersburg
+			division_template="Imperial Guard"
+			start_experience_factor=0.2
+			}
+
 	division= { 
 			name = "1-ya Gvardeyskaya Kavaleriiskaya Diviziya"
 			location = 3151 # St. Petersburg
@@ -365,8 +361,6 @@ units = {
 			location = 3151 # St. Petersburg
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -375,8 +369,6 @@ units = {
 			location = 3151 # St. Petersburg
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -385,8 +377,6 @@ units = {
 			location = 3151 # St. Petersburg
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -395,8 +385,6 @@ units = {
 			location = 3151 # St. Petersburg
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -405,8 +393,6 @@ units = {
 			location = 3151 # St. Petersburg
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -415,8 +401,6 @@ units = {
 			location = 3338 # Arkhangelsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -425,8 +409,6 @@ units = {
 			location = 3151 # St. Petersburg
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -523,8 +505,6 @@ units = {
 			location=3320 # Wilno
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -533,8 +513,6 @@ units = {
 			location=3320 # Wilno
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -543,8 +521,6 @@ units = {
 			location=3320 # Wilno
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -553,8 +529,6 @@ units = {
 			location=3320 # Wilno
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -563,8 +537,6 @@ units = {
 			location=3320 # Wilno
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -573,8 +545,6 @@ units = {
 			location=11370 # Minsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -583,8 +553,6 @@ units = {
 			location=9340 # Riga
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -593,8 +561,6 @@ units = {
 			location = 3544 # Warszawa
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -603,8 +569,6 @@ units = {
 			location = 3544 # Warszawa
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -613,8 +577,6 @@ units = {
 			location = 3544 # Warszawa
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -623,8 +585,6 @@ units = {
 			location = 3544 # Warszawa
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -633,8 +593,6 @@ units = {
 			location = 3544 # Warszawa
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -787,8 +745,6 @@ units = {
 			location = 525 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -797,8 +753,6 @@ units = {
 			location = 525 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -807,8 +761,6 @@ units = {
 			location = 525 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -817,8 +769,6 @@ units = {
 			location = 525 # Kyiv
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -827,8 +777,6 @@ units = {
 			location=418 # Kharkov
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -837,8 +785,6 @@ units = {
 			location = 559 # Poltava
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1031,8 +977,6 @@ units = {
 			location=11670 # Odessa
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1041,8 +985,6 @@ units = {
 			location=3686 # Sevastopol
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1051,8 +993,6 @@ units = {
 			location = 6380 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1061,8 +1001,6 @@ units = {
 			location = 6380 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1071,8 +1009,6 @@ units = {
 			location = 6380 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1081,8 +1017,6 @@ units = {
 			location = 6380 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1091,8 +1025,6 @@ units = {
 			location = 6380 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1101,8 +1033,6 @@ units = {
 			location = 6380 # Kyiv
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1111,8 +1041,6 @@ units = {
 			location = 6380 # Kyiv
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1121,8 +1049,6 @@ units = {
 			location = 121 # Jaroslavl
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1131,8 +1057,6 @@ units = {
 			location=306 # Smolensk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1141,8 +1065,6 @@ units = {
 			location = 11323 # Tambov
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1311,8 +1233,6 @@ units = {
 			location=6338 # Kazan
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1321,8 +1241,6 @@ units = {
 			location=6338 # Kazan
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1331,8 +1249,6 @@ units = {
 			location=6338 # Kazan
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1341,8 +1257,6 @@ units = {
 			location=6338 # Kazan
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1351,8 +1265,6 @@ units = {
 			location=6338 # Kazan
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1361,8 +1273,6 @@ units = {
 			location = 12115 # Turgay
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1371,8 +1281,6 @@ units = {
 			location = 4261 # Orenburg
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1381,8 +1289,6 @@ units = {
 			location=3578 # Saratov
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1391,8 +1297,6 @@ units = {
 			location = 1406 # Ural
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1401,8 +1305,6 @@ units = {
 			location=7375 # Perm
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1515,8 +1417,6 @@ units = {
 			location=1599 # Tbilisi
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1525,8 +1425,6 @@ units = {
 			location=1599 # Tbilisi
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1535,8 +1433,6 @@ units = {
 			location=1599 # Tbilisi
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1545,8 +1441,6 @@ units = {
 			location=1599 # Tbilisi
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1555,8 +1449,6 @@ units = {
 			location=1599 # Tbilisi
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1565,8 +1457,6 @@ units = {
 			location=1599 # Tbilisi
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1575,8 +1465,6 @@ units = {
 			location=12320 # Yerevan
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1641,8 +1529,6 @@ units = {
 			location=1459 # Tashkent
 			division_template="Infantry Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1651,8 +1537,6 @@ units = {
 			location=1459 # Tashkent
 			division_template="Infantry Division"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1669,8 +1553,6 @@ units = {
 			location=1459 # Tashkent
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1687,8 +1569,6 @@ units = {
 			location=10696 # Omsk
 			division_template="Cossacks"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1697,8 +1577,6 @@ units = {
 			location=10696 # Omsk
 			division_template="Siberian Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1707,8 +1585,6 @@ units = {
 			location=10696 # Omsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1733,8 +1609,6 @@ units = {
 			location=4797 # Irkutsk
 			division_template="Cossacks"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1759,8 +1633,6 @@ units = {
 			location=4797 # Irkutsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1769,8 +1641,6 @@ units = {
 			location=4797 # Irkutsk
 			division_template="Siberian Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1795,8 +1665,6 @@ units = {
 			location=957 # Vladivostok
 			division_template="Cossacks"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1837,8 +1705,6 @@ units = {
 			location=12189 # Khabarovsk
 			division_template="Siberian Division"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1847,8 +1713,6 @@ units = {
 			location=957 # Vladivostok
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	
 	
@@ -1857,8 +1721,6 @@ units = {
 			location=12189 # Khabarovsk
 			division_template="Narodnoe Opolcheniye"
 			start_experience_factor=0.05
-			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
 			}
 	 navy = {
 		name = "Baltiyskiy Flot"
@@ -2047,19 +1909,10 @@ ship = { name = "Gromki" definition = destroyer equipment = { destroyer_1914 = {
 	}
 air_wings = { 
 	195 = { # St. Petersburg "1 Imperial Air Service"
-		ww1_fighter_equipment_1 = { owner = "RUS" amount = 50 } # type = scout  experience = 15  name = "1 Otryady" historical_model = 0 
+		ww1_fighter_equipment_1 = { owner = "RUS" amount = 25 } # type = scout  experience = 15  name = "1 Otryady" historical_model = 0 
 		}
 	10 = { # Warszawa "2 Imperial Air Service"
-		ww1_fighter_equipment_1 = { owner = "RUS" amount = 50 } # type = scout  experience = 15  name = "2 Otryady" historical_model = 0 
-		}
-	202 = { # Kyiv "3 Imperial Air Service"
-		ww1_fighter_equipment_1 = { owner = "RUS" amount = 50 } # type = scout  experience = 15  name = "3 Otryady" historical_model = 0 
-		}
-	192 = { # Odessa "4 Imperial Air Service"
-		ww1_fighter_equipment_1 = { owner = "RUS" amount = 50 } # type = scout  experience = 15  name = "4 Otryady" historical_model = 0 
-		}
-	219 = { # Moskva "5 Imperial Air Service"
-		ww1_fighter_equipment_1 = { owner = "RUS" amount = 50 } # type = scout  experience = 15  name = "5 Otryady" historical_model = 0 
+		ww1_fighter_equipment_1 = { owner = "RUS" amount = 25 } # type = scout  experience = 15  name = "2 Otryady" historical_model = 0 
 		}
 	}
 instant_effect = {

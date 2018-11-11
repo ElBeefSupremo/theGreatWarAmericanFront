@@ -770,6 +770,40 @@ units =
 			}
 
 	division= { 
+			name = "73rd Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "74th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "75th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "76th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "77th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	division= { 
 			name = "1st Cavalry"
 			location=1770 # Des Moines
 			division_template="Cavalry Division"
@@ -1868,14 +1902,14 @@ units =
 	}
 }
 
-#air_wings = {
-#	6929 = { ""1st U.S. Air Corps""
-#		ww1_fighter_equipment_1 = { owner = "USA" amount = 65 }
-#		type = scout  experience = 15
-#		name = ""1st U.S. Air Corps""
-#		historical_model = 0
-#	}
-#}
+air_wings = {
+	6929 = {
+		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
+		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
+		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
+		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
+	}
+}
 
 
 instant_effect = {

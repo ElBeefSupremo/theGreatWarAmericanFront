@@ -71,18 +71,16 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
-				# picture = #TODO
 
 			modifier = {
-				conscription_factor = 0.30
+				conscription_factor = 0.50
 				experience_gain_army = 0.03
 				planning_speed = -0.05
 				land_reinforce_rate = 0.05
 				max_planning = 0.3
 				army_morale_factor = 0.25
 				attrition = -0.1
-				army_core_attack_factor = 0.2
+				army_core_attack_factor = 0.15
 				army_core_defence_factor = 0.1
 			}
 		}
@@ -102,8 +100,6 @@ ideas = {
 			picture = can_defence_of_canada_regulations_democratic
 			
 			modifier = {
-				#communism_drift = -0.01
-				#fascism_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
@@ -123,8 +119,6 @@ ideas = {
 			picture = can_defence_of_canada_regulations_fascism
 			
 			modifier = {
-				#democratic_drift = -0.01
-				#communism_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
@@ -144,8 +138,6 @@ ideas = {
 			picture = can_defence_of_canada_regulations_communism
 			
 			modifier = {
-				#democratic_drift = -0.01
-				#fascism_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}

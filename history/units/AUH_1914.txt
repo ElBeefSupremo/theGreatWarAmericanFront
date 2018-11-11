@@ -5,10 +5,13 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 2 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
@@ -33,7 +36,6 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
 		field_hospital = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 	}
@@ -47,6 +49,7 @@ division_template = {
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
 }
 
@@ -61,15 +64,6 @@ division_template = {
 }
 
 division_template = {
-	name = "Kavallerie Truppendivisionen"
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-	}
-}
-
-division_template = {
     name = "Sturmtruppen Division"       # Elite
     regiments = {
         infantry = { x = 0 y = 0 }
@@ -77,7 +71,8 @@ division_template = {
         infantry = { x = 0 y = 2 }
         infantry = { x = 1 y = 0 }
         infantry = { x = 1 y = 1 }
-        infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
         
         artillery_brigade = { x = 2 y = 0 }
         artillery_brigade = { x = 2 y = 1 }
@@ -113,12 +108,11 @@ division_template = {
 		mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
 		mountaineers = { x = 2 y = 0 }
 		mountaineers = { x = 2 y = 1 }
-		mountaineers = { x = 2 y = 2 }
 
-
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
 	}
 	support = {
         recon = { x = 0 y = 0 }
@@ -131,6 +125,7 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
@@ -142,8 +137,10 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -175,8 +172,6 @@ units = {
 			location = 9630 # Lienz
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -185,8 +180,6 @@ units = {
 			location=6626 # Trieste
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -195,8 +188,6 @@ units = {
 			location=11581 # Zagreb
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -213,8 +204,6 @@ units = {
 			location = 11542 # Praha
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -223,8 +212,6 @@ units = {
 			location = 11542 # Praha
 			division_template="Ersatz Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -249,8 +236,6 @@ units = {
 			location = 11608 # Caransebes
 			division_template="Landwehr Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -283,8 +268,6 @@ units = {
 			location = 646 # Timisoara
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -363,8 +346,6 @@ units = {
 			location=3924 # Split
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -381,8 +362,6 @@ units = {
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -431,8 +410,6 @@ units = {
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -465,28 +442,24 @@ units = {
 			location = 9427 # Kraków
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
 	division= { 
-			name = "1. LstrInfanteriebrigaden"
+			name = "1. Sturmtrupen"
 			location = 9427 # Kraków
-			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.15
+
 			}
 	
 	
 	division= { 
-			name = "101. Landsturminfanteriebrigaden"
+			name = "2. Sturmtrupen"
 			location = 6522 # Przemysl
-			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.15
+
 			}
 	
 	
@@ -526,9 +499,8 @@ units = {
 			name = "22. Landwehrinfanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			start_experience_factor=0.1
+
 			}
 	
 	
@@ -590,32 +562,54 @@ units = {
 			name = "43. Landwehrinfanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			start_experience_factor=0.1
 			}
 	
 	
 	division= { 
-			name = "35. LstrInfanteriebrigaden"
+			name = "3. Sturmtruppen"
 			location = 9598 # Trento
-			division_template="Ersatz Division"
+			division_template="Sturmtruppen Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+
 			}
 	
 	
 	division= { 
-			name = "40. LstrInfanteriebrigaden"
+			name = "4. Sturmtruppen"
 			location = 9692 # Brezno
-			division_template="Ersatz Division"
+			division_template="Sturmtruppen Division"
 			start_experience_factor=0.00
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			}
+
+	division= { 
+			name = "5. Sturmtruppen"
+			location = 9692 # Brezno
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
 			}
 	
+	division= { 
+			name = "6. Sturmtruppen"
+			location = 9692 # Brezno
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
 	
+	division= { 
+			name = "7. Sturmtruppen"
+			location = 9692 # Brezno
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
+
+	division= { 
+			name = "8. Sturmtruppen"
+			location = 9692 # Brezno
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
+
 	division= { 
 			name = "1. Kavalleriedivision"
 			location=9660 # Budapest
@@ -736,8 +730,6 @@ units = {
 			location=673 # Innsbruck
 			division_template="Landwehr Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -746,8 +738,6 @@ units = {
 			location = 11666 # Wien
 			division_template="Ersatz Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -756,8 +746,6 @@ units = {
 			location=673 # Innsbruck
 			division_template="Ersatz Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -774,8 +762,6 @@ units = {
 			location=6711 # Cluj
 			division_template="Landwehr Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -810,7 +796,47 @@ units = {
 			start_experience_factor=0.1
 			}
 	
-	
+	division= { 
+			name = "40. Honvedinfanteriedivision"
+			location = 3743 # Sighetu Marmatiei
+			division_template="Landwehr Division"
+			start_experience_factor=0.1
+			}
+
+
+	division= { 
+			name = "41. Honvedinfanteriedivision"
+			location = 3743 # Sighetu Marmatiei
+			division_template="Landwehr Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "42. Honvedinfanteriedivision"
+			location = 3743 # Sighetu Marmatiei
+			division_template="Landwehr Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "43. Honvedinfanteriedivision"
+			location = 3743 # Sighetu Marmatiei
+			division_template="Landwehr Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "44. Honvedinfanteriedivision"
+			location = 3743 # Sighetu Marmatiei
+			division_template="Landwehr Division"
+			start_experience_factor=0.1
+			}
+	division= {
+			name = "45. Honvedinfanteriedivision"
+			location = 3743 # Sighetu Marmatiei
+			division_template="Landwehr Division"
+			start_experience_factor=0.1
+			}
 	division= { 
 			name = "10. Infanteriedivision"
 			location = 9670 # Gheorgheni
@@ -824,8 +850,6 @@ units = {
 			location = 9670 # Gheorgheni
 			division_template="Landwehr Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -854,7 +878,7 @@ units = {
 
 	division= { 
 			name = "1. Infanterie Truppendivisionen"
-			location = 6716 #
+			location = 6711 # Cluj
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.04
 	}	
@@ -867,16 +891,16 @@ units = {
 	}
 
 	division= { 
-			name = "1. Kavallerie Truppendivisionen"
+			name = "1. Hussars"
 			location = 614 #
-			division_template="Kavallerie Truppendivisionen"
+			division_template="Hussars"
 			start_experience_factor=0.03
 	}
 
 	division= { 
-			name = "2. Kavallerie Truppendivisionen"
+			name = "2. Hussars"
 			location = 614 #
-			division_template="Kavallerie Truppendivisionen"
+			division_template="Hussars"
 			start_experience_factor=0.02
 	}
 
@@ -888,35 +912,35 @@ units = {
 	}
 
 	division= { 
-			name = "2. Infanteriebrigaden"
+			name = "1. MP"
 			location = 614 #
-			division_template="Infanteriebrigaden"
+			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.02
 	}
 
 	division= { 
-			name = "3. Infanteriebrigaden"
+			name = "2. MP"
 			location = 614 #
-			division_template="Infanteriebrigaden"
+			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.02
 	}
 
 	division= { 
-			name = "3. Infanterie Truppendivisionen"
+			name = "3. MP"
 			location = 3709 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.03
 	}
 
 	division= { 
-			name = "4. Infanterie Truppendivisionen"
+			name = "4. MP"
 			location = 3709 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.03
 	}
 
 	division= { 
-			name = "5. Infanterie Truppendivisionen"
+			name = "5. MP"
 			location = 3709 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.03
@@ -937,19 +961,18 @@ ship = { name = "SMS Viribus Unitis" definition = battleship equipment = { battl
 		ship = { name = "SMS Erzherzog Franz Ferdinand" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Radetzky" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Zristi" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
-
-ship = { name = "SMS Turul" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Pandur" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Csikos" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Reka" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Dinara" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Velebit" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Tátra" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Balaton" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Csepel" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Lika" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Triglav" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Orjen" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Turul" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Pandur" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Csikos" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Reka" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Dinara" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Velebit" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Tátra" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Balaton" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Csepel" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Lika" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Triglav" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Orjen" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = AUH } } }
 
 		}
 	 navy = {
@@ -1041,8 +1064,8 @@ ship = { name = "SMS SM U-12" definition = coastal_submarine equipment = { coas
 	}
 air_wings = { 
 	4 = { # Wien "Luftfahrtruppen"
-		ww1_fighter_equipment_1 = { owner = "AUH" amount = 45 } # type = scout  experience = 10  name = "1. Fliegerkompagnie" historical_model = 0 
-		ww1_fighter_equipment_1 = { owner = "AUH" amount = 40 } # type = scout  experience = 10  name = "2. Fliegerkompagnie" historical_model = 0 
+		ww1_fighter_equipment_1 = { owner = "AUH" amount = 30 } # type = scout  experience = 10  name = "1. Fliegerkompagnie" historical_model = 0 
+		ww1_fighter_equipment_1 = { owner = "AUH" amount = 30 } # type = scout  experience = 10  name = "2. Fliegerkompagnie" historical_model = 0 
 		}
 	}
 
@@ -1054,7 +1077,7 @@ add_equipment_production = { equipment = { type = support_equipment_1 creator = 
 add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "AUH" } requested_factories = 5 progress = 0.1 efficiency = 50}
 add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "AUH" } requested_factories = 5 progress = 0.1 efficiency = 50}
 
-add_equipment_production = { equipment = { type = battleship_1906 creator = "AUH" } requested_factories = 1 progress = 0.70 amount = 1 } # name = "SMS Prinz Eugen" historical_model = 2 
+add_equipment_production = { equipment = { type = battleship_1906 creator = "AUH" } requested_factories = 1 progress = 0.60 amount = 1 } # name = "SMS Prinz Eugen" historical_model = 2 
 add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "AUH" } requested_factories = 1 progress = 0.40 amount = 1 } # name = "SMS Saida" historical_model = 3 
 add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "AUH" } requested_factories = 1 progress = 0.40 amount = 1 } # name = "SMS Helgoland" historical_model = 3 
 add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "AUH" } requested_factories = 1 progress = 0.00 amount = 1 } # name = "SMS Novara" historical_model = 3 
