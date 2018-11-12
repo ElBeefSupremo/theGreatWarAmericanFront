@@ -75,6 +75,7 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 	}
@@ -1909,10 +1910,11 @@ ship = { name = "Gromki" definition = destroyer equipment = { destroyer_1914 = {
 	}
 air_wings = { 
 	195 = { # St. Petersburg "1 Imperial Air Service"
-		ww1_fighter_equipment_1 = { owner = "RUS" amount = 25 } # type = scout  experience = 15  name = "1 Otryady" historical_model = 0 
+		ww1_fighter_equipment_1 = { owner = "RUS" amount = 25 }
+		ww1_fighter_equipment_1 = { owner = "RUS" amount = 25 }
 		}
 	10 = { # Warszawa "2 Imperial Air Service"
-		ww1_fighter_equipment_1 = { owner = "RUS" amount = 25 } # type = scout  experience = 15  name = "2 Otryady" historical_model = 0 
+		ww1_fighter_equipment_1 = { owner = "RUS" amount = 25 }
 		}
 	}
 instant_effect = {

@@ -1207,8 +1207,14 @@ ship = { name = "HMS Pegasus" definition = light_cruiser equipment = { light_cru
 air_wings = {
 
 130 = { # Dover ""Royal Flying Corps""
-	ww1_fighter_equipment_1 = { owner = "ENG" amount = 65 } # type = scout  experience = 15  name = ""Royal Flying Corps"" historical_model = 0 
+	ww1_fighter_equipment_1 = { owner = "ENG" amount = 30 } 
+	ww1_fighter_equipment_1 = { owner = "ENG" amount = 30 } 
+	ww1_fighter_equipment_1 = { owner = "ENG" amount = 30 } 
 
+}
+
+7361 = { # Halifax ""BEF Flying Corps"""
+	ww1_fighter_equipment_1 = { owner =  "ENG" amount = 30 }
 }
 }
 
