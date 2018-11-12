@@ -277,6 +277,20 @@ units = {
 			start_experience_factor=0.2
 			}
 
+		division= { 
+			name = "5 Gvardeyskaya Strelkovaya"
+			location = 3151 # St. Petersburg
+			division_template="Imperial Guard"
+			start_experience_factor=0.2
+			}
+
+		division= { 
+			name = "6 Gvardeyskaya Strelkovaya"
+			location = 3151 # St. Petersburg
+			division_template="Imperial Guard"
+			start_experience_factor=0.2
+			}
+
 	division= { 
 			name = "1-ya Gvardeyskaya Kavaleriiskaya Diviziya"
 			location = 3151 # St. Petersburg

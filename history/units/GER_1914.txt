@@ -1584,6 +1584,34 @@ units = {
         start_experience_factor = 0.1
     }
 
+    division = {
+        name = "68. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "69. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "70. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "71. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
     #Review
     division = {
         name = "Kamerun Garrison"
