@@ -8,6 +8,7 @@ state = {
 		wood = 0
 		coal = 20
 	}
+	
 	history = {
 		victory_points = { 7361 3 }
 		owner = CAN
