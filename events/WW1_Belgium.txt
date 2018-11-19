@@ -67,7 +67,7 @@ country_event = {
 		BEL = {
 				add_timed_idea = {
 				idea = BEL_ww1_chocolate_soldiers
-				days = 120
+				days = 30
 			}
 		}
 	}

@@ -1,48 +1,38 @@
-state={
-	id=276
-	name="STATE_276" # Southern Ontario
+state = {
+	id = 276
+	name = "STATE_276" # Southern Ontario
 	manpower = 4617017
-	state_category=large_city
-	provinces={ 605 722 749 774 779 3605 3608 3635 3640 3661 3763 3775 3778 4270 6607 6610 6625 6630 6662 6676 6797 9580 9583 9585 9634 9667 9711 9743 11567 11569 11585 11602 11695 11725 11728 13156 }
-	resources={
-		wood=0
-		}
-	history={
-		victory_points={ 3778 20 }
-		victory_points={ 3775 10 }
-		owner=CAN
-		add_core_of=CAN
-		1936.1.1={ 
-			owner=CAN
-			add_core_of=CAN
-			victory_points={ 3778 20 }
-			victory_points={ 3775 10 }
-			buildings={
-				infrastructure=7
-				industrial_complex=4
-				air_base=5
-				arms_factory=2
-				}
-			}
-		buildings={
-			infrastructure=7
-			industrial_complex=4
-			arms_factory=2
-			4270={ bunker=1 trench=1 }
-			6625={ bunker=1 trench=1 }
-			3605={ bunker=1 trench=1 }
-			3778={ bunker=1 trench=1 }
-			6630={ bunker=1 trench=1 }
-			749={ bunker=1 trench=1 }
-			3763={ bunker=1 trench=1 }
-			11695={ bunker=1 trench=1 }
-			722={ bunker=1 trench=1 }
-			9711={ bunker=1 trench=1 }
-			9667={ bunker=2 trench=2 }
-			3775={ bunker=1 trench=1 }
-			774={ bunker=1 trench=1 }
-			11725={ bunker=1 trench=1 }
-			6607={ bunker=1 trench=1 }
-			}
+	state_category = large_city
+	provinces = { 605 722 749 774 779 3605 3608 3635 3640 3661 3763 3775 3778 4270 6607 6610 6625 6630 6662 6676 6797 9580 9583 9585 9634 9667 9711 9743 11567 11569 11585 11602 11695 11725 11728 13156 }
+	resources = {
+		wood = 0
+	}
+	
+	history = {
+		victory_points = { 3778 20 }
+		victory_points = { 3775 10 }
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 5
+			4270 = { bunker = 1 trench = 1 }
+			6625 = { bunker = 1 trench = 1 }
+			3605 = { bunker = 1 trench = 1 }
+			3778 = { bunker = 1 trench = 1 }
+			6630 = { bunker = 1 trench = 1 }
+			749 = { bunker = 1 trench = 1 }
+			3763 = { bunker = 1 trench = 1 }
+			11695 = { bunker = 1 trench = 1 }
+			722 = { bunker = 1 trench = 1 }
+			9711 = { bunker = 1 trench = 1 }
+			9667 = { bunker = 2 trench = 2 }
+			3775 = { bunker = 1 trench = 1 }
+			774 = { bunker = 1 trench = 1 }
+			11725 = { bunker = 1 trench = 1 }
+			6607 = { bunker = 1 trench = 1 }
 		}
 	}
+}

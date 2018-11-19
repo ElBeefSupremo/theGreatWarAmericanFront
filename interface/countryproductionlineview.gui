@@ -2452,7 +2452,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "speed"
-			position = { x = 154 y = 35~ }
+			position = { x = 154 y = 35 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "--"

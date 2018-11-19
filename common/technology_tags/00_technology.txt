@@ -89,5 +89,3 @@ technology_folders = {
 	electronics_folder
 	#secret_weapons_folder
 }
-
- 

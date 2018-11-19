@@ -39,4 +39,4 @@ country_event = {
 		name = ww1_bulgaria.1.b
 		ai_chance = { factor = 0 }
 	}
-#____________________________________________________________
+}

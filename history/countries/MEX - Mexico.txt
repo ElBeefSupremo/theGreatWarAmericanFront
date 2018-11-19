@@ -184,6 +184,9 @@ create_navy_leader={  name = "Malpica" id=55261 portrait_path="gfx/admiral/MEX_m
 		heavy_field_gun1 = 1
 		bonus_bertha1 = 1
 
+		# Land Doctrine
+		ww1_landdoctrine = 1
+
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
