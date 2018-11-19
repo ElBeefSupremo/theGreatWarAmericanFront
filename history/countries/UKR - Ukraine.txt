@@ -83,7 +83,7 @@ create_corps_commander={  name = "Tiutiunnik" id=91031 portrait_path="gfx/genera
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "UKR_1914"
 
 

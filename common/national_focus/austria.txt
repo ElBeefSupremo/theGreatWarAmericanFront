@@ -1637,7 +1637,7 @@ focus_tree = {
 		prerequisite = { focus=AUH_ww1_doctrine_effort }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 23

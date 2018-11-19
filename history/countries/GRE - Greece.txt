@@ -112,7 +112,7 @@ create_navy_leader={  name = "Hatzikiriakos" id=35033 portrait_path="gfx/admiral
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "GRE_1914"
 
 	create_country_leader={ name = "Constantine I" desc=GRE_constantine_i_DESC picture="gfx/leaders/GRE_constantine_i.dds" expire="1935.1.1" ideology=despotism traits={  } }

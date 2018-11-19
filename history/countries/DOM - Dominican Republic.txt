@@ -76,7 +76,7 @@ create_country_leader={ name = "Ramón Cáceres" desc=DOM_ramon_caceres_DESC pic
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "DOM_1914"
 
 

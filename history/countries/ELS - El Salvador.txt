@@ -93,7 +93,7 @@ create_field_marshal={  name = "Figueroa" id=79002 portrait_path="gfx/fieldmarsh
 1911.3.1 = {
 	create_country_leader={ name = "Carlos Meléndez" desc=ELS_carlos_melendez_DESC picture="gfx/leaders/ELS_carlos_melendez.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 }
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "ELS_1914"
 
 

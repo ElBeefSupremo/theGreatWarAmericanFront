@@ -19,7 +19,7 @@ create_corps_commander={  name = "Manie Maritz" id=78002 portrait_path="gfx/gene
 create_corps_commander={  name = "Christiaan de Wet" id=78003 portrait_path="gfx/generals/SAF_smuts_jc.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Jan Kemp" id=78004 portrait_path="gfx/generals/SAF_van_deventer.tga" traits={ trickster  } skill=2 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 
 	oob = "ZAR_1914"
 

@@ -83,7 +83,7 @@ create_corps_commander={  name = "de Wet" id=78013 portrait_path="gfx/generals/S
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "SAF_1914"
 
 

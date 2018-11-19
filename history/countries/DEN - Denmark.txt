@@ -84,7 +84,7 @@ create_navy_leader={  name = "Juel-Brockdorff" id=25007 portrait_path="gfx/admir
 	set_country_flag=frederick_died
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "DEN_1914"
 
 

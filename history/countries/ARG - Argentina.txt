@@ -106,7 +106,7 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
     }
     set_country_flag = roque_died
 }
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "ARG_1910"
 
 

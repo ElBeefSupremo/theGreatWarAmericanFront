@@ -12,7 +12,7 @@ set_convoys = 0
 #-------------------------------------------------------
 create_country_leader={ name = "Muhammad ibn Ali al-Idrisi" desc=ASR_muhammad_ibn_ali_al_idrisi_DESC picture="gfx/leaders/ASR_muhammad_ibn_ali_al_idrisi.dds" expire="1935.1.1" ideology=despotism traits={  } }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "ASR_1914"
 
 

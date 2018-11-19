@@ -31,7 +31,7 @@ create_corps_commander = { name = "Otter" id=13030 portrait_path = "gfx/generals
 create_corps_commander = { name = "Lake" id=13031 portrait_path = "gfx/generals/CAN_lake.tga" traits = {  } skill = 2 }
 create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmarshal/CAN_cochrane.tga" traits = {  } skill = 2 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "CAN_1914"
 
 	create_country_leader = {

@@ -74,7 +74,7 @@ create_corps_commander={  name = "Aiken" id=44002 portrait_path="gfx/generals/IR
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "IRE_1914"
 
 

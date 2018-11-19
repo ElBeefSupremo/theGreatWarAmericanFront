@@ -91,7 +91,7 @@ create_field_marshal={  name = "Schmidt" id=87021 portrait_path="gfx/fieldmarsha
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "SWE_1914"
 
 

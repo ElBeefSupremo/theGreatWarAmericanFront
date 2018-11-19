@@ -39,12 +39,12 @@ set_technology={
 set_politics={  parties={ democratic={ popularity=17 }  fascism={ popularity=2 }  communism={ popularity=1 }  neutrality={ popularity=80 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
 set_stability=0.45
 set_convoys=20
-1914.1.1 = { oob="RAJ_1914" }
-1914.1.1 = { set_politics={  parties={ democratic={ popularity=17 }  fascism={ popularity=2 }  communism={ popularity=1 }  neutrality={ popularity=80 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no } }
+1913.8.10.12 = { oob="RAJ_1914" }
+1913.8.10.12 = { set_politics={  parties={ democratic={ popularity=17 }  fascism={ popularity=2 }  communism={ popularity=1 }  neutrality={ popularity=80 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no } }
 1910.11.23={
 	create_country_leader={ name = "Lord Hardinge of Penhurst" desc=RAJ_lord_hardinge_DESC picture="gfx/leaders/RAJ_lord_hardinge.dds" expire="1935.1.1" ideology=despotism traits={  } }
 	}
-1914.1.1 = {
+1913.8.10.12 = {
 
 	#-------------------------------------------------------
 	#							NF

@@ -75,7 +75,7 @@ create_corps_commander={  name = "Anandyn Amar" id=56003 portrait_path="gfx/gene
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "MON_1914"
 
 

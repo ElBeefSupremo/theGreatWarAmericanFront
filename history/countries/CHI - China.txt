@@ -115,7 +115,7 @@ create_navy_leader={  name = "Xu Zushan" id=15101 portrait_path="gfx/admiral/CHI
 	}
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "CHI_1914"
 
 

@@ -82,7 +82,7 @@ create_field_marshal={  name = "Miranda" id=66002 portrait_path="gfx/fieldmarsha
 1912.10.1 = {
 	create_country_leader={ name = "Belisario Barahona" desc=PAN_belisario_barahona_DESC picture="gfx/leaders/PAN_belisario_barahona.dds" expire="1935.1.1" ideology=liberalism traits={  } }
 }
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "PAN_1914"
 
 
