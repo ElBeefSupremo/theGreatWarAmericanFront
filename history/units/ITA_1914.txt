@@ -6,10 +6,14 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -27,12 +31,14 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
-		field_hospital = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 	}
 	priority = 2
@@ -43,12 +49,14 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }		
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
 	}
 }
 
@@ -57,13 +65,18 @@ division_template = {
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
 	}
 	support = {
         recon = { x = 0 y = 0 }
    		engineer = { x = 0 y = 1 }
-        logistics_company = { x = 0 y = 2 }
 	}
 }
 
@@ -72,6 +85,7 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
@@ -83,6 +97,7 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 	}
@@ -100,8 +115,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Alpini Division"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 			
 	division= { 
@@ -109,8 +122,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Alpini Division"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 
 	division= { 
@@ -118,8 +129,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Alpini Division"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}			
 	
 	division= { 
@@ -134,8 +143,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Fanteria Brigata"
 			start_experience_factor=0
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -192,8 +199,6 @@ units = {
 			location=11837 # Taranto
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -202,8 +207,6 @@ units = {
 			location=11837 # Taranto
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -265,8 +268,6 @@ units = {
 			location = 6788 # Genova
 			division_template="Fanteria Brigata"
 			start_experience_factor=0
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -281,8 +282,7 @@ units = {
 			location = 3772 # Savona
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+
 			}
 	
 	division= { 
@@ -311,8 +311,7 @@ units = {
 			location = 3772 # Savona
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+
 			}
 	
 	division= { 
@@ -327,8 +326,7 @@ units = {
 			location = 6780 # Torino
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+
 			}
 	
 	division= { 
@@ -364,8 +362,6 @@ units = {
 			location = 3780 # Milano
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -380,8 +376,6 @@ units = {
 			location = 3776 # Verona
 			division_template="Fanteria Brigata"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -403,8 +397,6 @@ units = {
 			location = 6661 # Chiavenna
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -426,8 +418,6 @@ units = {
 			location = 11587 # Lasa
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -435,8 +425,6 @@ units = {
 			location = 11587 # Lasa
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 		
 	division= { 
@@ -444,8 +432,6 @@ units = {
 			location = 11587 # Lasa
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}			
 			
 	division= { 
@@ -523,8 +509,6 @@ units = {
 			location = 9907 # Firenze
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -541,8 +525,6 @@ units = {
 			location = 9907 # Firenze
 			division_template="Fanteria Brigata"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	

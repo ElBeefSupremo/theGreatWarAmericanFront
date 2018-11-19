@@ -803,6 +803,126 @@ units =
 			division_template="Infantry Division"
 			start_experience_factor=0.1
 			}
+
+	division= {
+			name = "78th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "79th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+		}
+
+	division= { 
+			name = "80th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}	
+
+	division= { 
+			name = "81st Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "82nd Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "83rd Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "84th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= { 
+			name = "85th Infantry Division"
+			location=12357 # Milwaukee
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "86th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "87th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "88th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "89th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "90th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "91st Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "92nd Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}			
+
+	division= {
+			name = "93rd Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
+	division= {
+			name = "94th Infantry Division"
+			location=12459 # Bangor
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+
 	division= { 
 			name = "1st Cavalry"
 			location=1770 # Des Moines

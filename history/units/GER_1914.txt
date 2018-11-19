@@ -95,9 +95,15 @@ division_template = {
 	name = "Gebirgsjäger Division"		# Mountain Division
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
+        mountaineers = { x = 1 y = 1 }
+        mountaineers = { x = 2 y = 0 }
+        mountaineers = { x = 2 y = 1 }
+
+        artillery_brigade = { x = 3 y = 0 }
+        artillery_brigade = { x = 3 y = 1 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -1573,6 +1579,34 @@ units = {
 
     division = {
         name = "67. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "68. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "69. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "70. Infantry Mixed Brigade"
+        location = 6389#Kiel
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "71. Infantry Mixed Brigade"
         location = 6389#Kiel
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1

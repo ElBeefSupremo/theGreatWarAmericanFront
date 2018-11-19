@@ -51,16 +51,9 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
-}
-
-division_template = {
-	name = "Infanteriebrigaden"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
+	support = {
+		engineer = { x = 0 y = 0 }
 	}
-	priority = 0
 }
 
 division_template = {
@@ -80,7 +73,6 @@ division_template = {
     support = {
         recon = { x = 0 y = 0 }
         engineer = { x = 0 y = 1 }
-        logistics_company = { x = 0 y = 2 }
         field_hospital = { x = 0 y = 3 }
     }
     priority = 2
@@ -117,7 +109,6 @@ division_template = {
 	support = {
         recon = { x = 0 y = 0 }
    		engineer = { x = 0 y = 1 }
-        logistics_company = { x = 0 y = 2 }
 	}
 }
 division_template = {
@@ -884,9 +875,9 @@ units = {
 	}	
 	
 	division= { 
-			name = "1. Infanteriebrigaden"
+			name = "1. Honvedsturmtruppen"
 			location = 11644 #
-			division_template="Infanteriebrigaden"
+			division_template="Sturmtruppen"
 			start_experience_factor=0.02
 	}
 
