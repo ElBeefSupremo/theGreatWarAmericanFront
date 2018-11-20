@@ -63,7 +63,7 @@ country_event = {
 		}
 	option={
 		name=ww1_southafrica.2.a
-		set_country_flag=boer_rebellion
+		set_country_flag = boer_rebellion
 		#SAF={
 		#	remove_unit_leader=78011
 		#	remove_unit_leader=78013

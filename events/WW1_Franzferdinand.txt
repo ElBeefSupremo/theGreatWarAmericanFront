@@ -391,13 +391,6 @@ country_event = {
 				name = "The Great War"
 			}
 
-			#GER = {
-			#	create_wargoal = {
-			#		type = annex_everything
-			#		target = FRA
-			#	}
-			#}
-
 			AUH = {
 				add_to_war = {
 					targeted_alliance = GER enemy = BEL
@@ -453,12 +446,7 @@ country_event = {
 				threat = 10
 				name = "The Great War"
 			}
-			#GER = {
-			#	create_wargoal = {
-			#		type = annex_everything
-			#		target = FRA
-			#	}
-			#}
+
 			AUH = {
 				add_to_war = {
 					targeted_alliance = GER enemy = BEL

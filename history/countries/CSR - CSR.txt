@@ -1,0 +1,107 @@
+capital = 7202
+
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.9
+set_convoys = 25
+
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+
+create_country_leader={ name = "Cassius Forester" desc=HAI_oreste_zamor_DESC picture="gfx/leaders/HAI_oreste_zamor.dds" expire="1935.1.1" ideology=leninism  traits={  } }
+create_country_leader={ name = "Julius Gardener" desc=HAI_joseph_davilmar_theodore_DESC picture="gfx/leaders/HAI_joseph_davilmar_theodore.dds" expire="1935.1.1" ideology=leninism  traits={  } }
+create_country_leader={ name = "Hamilcar Freeman" desc=HAI_vilbrun_guillaume_sam_DESC picture="gfx/leaders/HAI_vilbrun_guillaume_sam.dds" expire="1935.1.1" ideology=marxism  traits={  } }
+create_country_leader={ name = "Romulus Butler" desc=HAI_philippe_sudre_dartiguenave_DESC picture="gfx/leaders/HAI_philippe_sudre_dartiguenave.dds" expire="1935.1.1" ideology=leninism  traits={  } }
+create_country_leader={ name = "Marcus Pastor" desc=HAI_louis_borno_DESC picture="gfx/leaders/HAI_louis_borno.dds" expire="1935.1.1" ideology=leninism  traits={  } }
+create_country_leader={ name = "Publius Freedman" desc=HAI_francois_c_antoine_simon_DESC picture="gfx/leaders/HAI_francois_c_antoine_simon.dds" expire="1935.1.1" ideology=leninism traits={  } }
+create_corps_commander={  name = "Brutus Cook" id=37002 portrait_path="gfx/generals/HAI_c_zamor.tga" traits={  } skill=1 }
+create_corps_commander={  name = "Antonius Farmer" id=37003 portrait_path="gfx/generals/HAI_o_zamor.tga" traits={   } skill=1 }
+create_corps_commander={  name = "Remus Freeman" id=30002 portrait_path="gfx/generals/ETH_baria_gabr.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Quintus Carpenter" id=30014 portrait_path="gfx/generals/ETH_yohannes.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Maharbal Smith" id=30015 portrait_path="gfx/generals/ETH_saffo.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Hasdrubal Baker" id=30016 portrait_path="gfx/generals/ETH_aboye.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Atticus Freeman" id=30017 portrait_path="gfx/generals/ETH_haimanot.tga" traits={   } skill=2 }
+create_field_marshal={  name = "Hannibal Rider" id=30004 portrait_path="gfx/fieldmarshal/ETH_nessibu.tga" traits={   } skill=2 }
+
+1913.8.10.12 = {
+	oob = "CSR_Red_Rebellion"
+    
+        #-------------------------------------------------------
+        #							NF
+        #-------------------------------------------------------
+    
+        #-------------------------------------------------------
+    
+        set_technology = {
+    
+            # Infantry
+            infantry_weapons = 1
+            support_weapons = 1
+            infantry_binoculars = 1
+            motorised_infantry = 1
+            ww1_ambulance1 = 1
+    
+    
+            # Support
+            tech_support = 1
+            tech_engineers = 1
+            tech_recon = 1
+    
+            # Armor
+    
+            # Artillery
+            light_field_gun1 = 1
+            heavy_field_gun1 = 1
+    
+            # Navy
+            ww1_destroyer0 = 1
+            ww1_destroyer1 = 1
+            ww1_light_cruiser1 = 1
+            ww1_light_cruiser0 = 1
+            ww1_battlecruiser0 = 1
+            ww1_battleship0 = 1
+            ww1_submarine1 = 1
+            ww1_coastal_submarine1 = 1
+            transport = 1
+    
+            # Air
+    
+            # Engineering
+            electronic_mechanical_engineering = 1
+    
+            # Industry
+        }
+    
+        set_politics={  
+            parties={ 
+                democratic={ 
+                    popularity=0  
+                    banned = yes
+                }  
+                fascism={ 
+                    popularity=0 
+                    banned = yes } 
+                    neutrality={ 
+                        popularity=0 
+                        banned = yes 
+                    } 
+                    communism={ 
+                        popularity=100 
+                    } 
+                }  
+                ruling_party=communism 
+                last_election="1910.1.1" 
+                election_frequency=48 
+                elections_allowed=no 
+            }
+    
+        add_ideas = {
+            home_of_revolution
+        }	
+    }
