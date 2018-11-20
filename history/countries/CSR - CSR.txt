@@ -102,6 +102,5 @@ create_field_marshal={  name = "Hannibal Rider" id=30004 portrait_path="gfx/fiel
             }
     
         add_ideas = {
-            home_of_revolution
         }	
     }
