@@ -1,7 +1,7 @@
 ﻿add_namespace = ww1_xinhai
 country_event = {
-	title=ww1_xinhai.1.t#Revolutionaries Name List
-	desc=ww1_xinhai.1.d#On 9th October 1911 a leader of Gongjinhui - Sun Wu - had an accidental explosion in Wuchang when he was making explosives. Governor-General of Hubei-Hunan Rui Cheng sent some soldiers to search the city and tried to find the cause of the explosion. ,At 21:00 they arrested five revolutionaries and killed three of them the next morning. The Government also got a name list of all the revolutionaries and Rui Cheng ordered the arrest of all of them and declared martial law in Wuchang.
+	title=ww1_xinhai.1.t #Revolutionaries Name List
+	desc=ww1_xinhai.1.d #On 9th October 1911 a leader of Gongjinhui - Sun Wu - had an accidental explosion in Wuchang when he was making explosives. Governor-General of Hubei-Hunan Rui Cheng sent some soldiers to search the city and tried to find the cause of the explosion. ,At 21:00 they arrested five revolutionaries and killed three of them the next morning. The Government also got a name list of all the revolutionaries and Rui Cheng ordered the arrest of all of them and declared martial law in Wuchang.
 	id=ww1_xinhai.1
 	picture=ww1_xinhai_1
 	is_triggered_only=no
@@ -24,8 +24,8 @@ country_event = {
 		}
 	}
 country_event = {
-	title=ww1_xinhai.2.t#Xinhai Revolution
-	desc=ww1_xinhai.2.d#The Xinhai Revolution or Hsinhai Revolution was a revolution that overthrew Chinas last imperial dynasty, the Qing, and established the Republic of China. The revolution was named Xinhai because it occurred in 1911, the year of the Xinhai stem-branch in the sexagenary cycle of the Chinese calendar. The revolution consisted of many revolts and uprisings. The turning point is the Wuchang Uprising on October 10 1911, that was a result of the mishandling of the Railway Protection Movement. The revolution ended with the abdication of the Last Emperor Puyi on February 12 1912, that marked the end of over 2000 years of Imperial China and the beginning of China's Republican era.
+	title=ww1_xinhai.2.t #Xinhai Revolution
+	desc=ww1_xinhai.2.d #The Xinhai Revolution or Hsinhai Revolution was a revolution that overthrew Chinas last imperial dynasty, the Qing, and established the Republic of China. The revolution was named Xinhai because it occurred in 1911, the year of the Xinhai stem-branch in the sexagenary cycle of the Chinese calendar. The revolution consisted of many revolts and uprisings. The turning point is the Wuchang Uprising on October 10 1911, that was a result of the mishandling of the Railway Protection Movement. The revolution ended with the abdication of the Last Emperor Puyi on February 12 1912, that marked the end of over 2000 years of Imperial China and the beginning of China's Republican era.
 	id=ww1_xinhai.2
 	picture=ww1_xinhai_2
 	is_triggered_only=no

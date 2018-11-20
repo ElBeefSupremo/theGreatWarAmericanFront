@@ -93,7 +93,7 @@ create_navy_leader={  name = "Ravia" id=92018 portrait_path="gfx/admiral/URG_rav
 1911.1.1 = {
 	create_country_leader={ name = "José Torcuato Batlle" desc=URG_jose_torcuato_batlle_DESC picture="gfx/leaders/URG_jose_torcuato_batlle.dds" expire="1935.1.1" ideology=liberalism traits={  } }
 }
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "URG_1914"
 
 

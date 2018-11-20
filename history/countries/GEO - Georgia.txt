@@ -41,9 +41,9 @@ set_politics={  parties={ democratic={ popularity=20 }  fascism={ popularity=18 
 add_ideas=neutrality_idea 
 set_stability=0.75
 set_convoys=10
-1914.1.1 = { oob="GEO_1914" }
-1914.1.1 = {set_politics={  parties={ democratic={ popularity=20 }  fascism={ popularity=18 }  communism={ popularity=2 }  neutrality={ popularity=60 } }  ruling_party=neutrality last_election="1919.1.1" election_frequency=48 elections_allowed=yes } }
-1914.1.1 = { set_technology={ 
+1913.8.10.12 = { oob="GEO_1914" }
+1913.8.10.12 = {set_politics={  parties={ democratic={ popularity=20 }  fascism={ popularity=18 }  communism={ popularity=2 }  neutrality={ popularity=60 } }  ruling_party=neutrality last_election="1919.1.1" election_frequency=48 elections_allowed=yes } }
+1913.8.10.12 = { set_technology={ 
 		#KiS #Scout1=1
 		
 		#KiS #airship1=1

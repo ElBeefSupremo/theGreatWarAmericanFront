@@ -759,21 +759,21 @@ ship = { name = "RN Ostro" definition = destroyer equipment = { destroyer_1890 =
 		name = "Squadra di Tripoli"
 		location=1149 # Tripoli
 		base=1149 # Tripoli
-ship = { name = "RN Liguria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Umbria Class" } } }
-ship = { name = "RN Giovanni Bausan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Bausan Class" } } }
-ship = { name = "RN Etna" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Etna Class" } } }
+ship = { name = "RN Liguria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+ship = { name = "RN Giovanni Bausan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+ship = { name = "RN Etna" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Nembo" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Turbine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Aquilone" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Borea" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Zeffiro" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-ship = { name = "RN Espero" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } } } }
+ship = { name = "RN Espero" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } } 
 		}
 	 navy = {
 		name = "Squadra Eritrea"
 		location = 12766 # Edd
 		base =  12766 # Edd
-ship = { name = "RN Calabria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Calabria Class" } } }
+ship = { name = "RN Calabria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
 		}
 
 air_wings = { 
@@ -783,17 +783,109 @@ air_wings = {
 		ww1_fighter_equipment_1 = { owner = "ITA" amount = 50 } # type = scout  experience = 15  name = "3. Squadriglia" historical_model = 0 
 		}
 	}
+}
+
+
+
 instant_effect = {
-add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "ITA" } requested_factories = 10 progress = 0.1 efficiency = 50}
+	add_equipment_production = { 
+		equipment = { 
+			type = infantry_equipment_1 
+			creator = "ITA" 
+		} 
+		requested_factories = 10 
+		progress = 0.1 
+		efficiency = 50
+	}
 
-add_equipment_production = { equipment = { type = support_equipment_1 creator = "ITA" } requested_factories = 5 progress = 0.1 efficiency = 50}
-add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "ITA" } requested_factories = 5 progress = 0.1 efficiency = 50}
-add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "ITA" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { 
+		equipment = { 
+			type = support_equipment_1 
+			creator = "ITA" 
+		} 
+		requested_factories = 5 
+		progress = 0.1 
+		efficiency = 50
+	}
 
-add_equipment_production = { equipment = { type = battleship_1906 creator = "ITA" } } }#KiS#version_name = "Cavour Class" } requested_factories = 1 progress = 0.80 amount = 1 } # name = "RN Giulio Cesare" historical_model = 3 
-add_equipment_production = { equipment = { type = battleship_1906 creator = "ITA" } } }#KiS#version_name = "Cavour Class" } requested_factories = 1 progress = 0.79 amount = 1 } # name = "RN Leonardo da Vinci" historical_model = 3 
-add_equipment_production = { equipment = { type = battleship_1906 creator = "ITA" } } }#KiS#version_name = "Cavour Class" } requested_factories = 1 progress = 0.31 amount = 1 } # name = "RN Conte di Cavour" historical_model = 3 
-add_equipment_production = { equipment = { type = battleship_1914 creator = "ITA" } requested_factories = 1 progress = 0.25 amount = 1 } # name = "RN Caio Duilio" historical_model = 4 
-add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "ITA" } } }#KiS#version_name = "Bixio Class" } requested_factories = 1 progress = 0.65 amount = 1 } # name = "RN Nino Bixio" historical_model = 3 
-add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "ITA" } } }#KiS#version_name = "Bixio Class" } requested_factories = 1 progress = 0.39 amount = 1 } # name = "RN Marsala" historical_model = 3 
+	add_equipment_production = { 
+		equipment = { 
+			type = light_field_gun_equipment_1 
+			creator = "ITA" 
+		} 
+		requested_factories = 5 
+		progress = 0.1 
+		efficiency = 50
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = motorized_equipment_0 
+			creator = "ITA" 
+		} 
+		requested_factories = 5 
+		progress = 0.1 
+		efficiency = 50
+	}
+##							  ##
+## naval equipment production ##
+## 							  ##
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		}
+		requested_factories = 1 
+		progress = 0.80 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.79 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		}
+		requested_factories = 1 
+		progress = 0.51 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.45 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = light_cruiser_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.65 
+		amount = 1 
+	}
+	add_equipment_production = { 
+		equipment = { 
+			type = light_cruiser_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.39 
+		amount = 1 
+	} 
 }

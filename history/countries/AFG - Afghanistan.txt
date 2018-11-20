@@ -84,7 +84,7 @@ create_field_marshal={  name = "Abdul Wakil Nuristani" id=1011 portrait_path="gf
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "AFG_1914"
 
 

@@ -120,7 +120,7 @@ create_corps_commander={  name = "Wildbolz" id=81029 portrait_path="gfx/generals
 	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "SWI_1914"
 
 

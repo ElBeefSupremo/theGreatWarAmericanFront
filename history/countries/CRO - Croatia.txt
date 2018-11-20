@@ -36,7 +36,7 @@ set_politics={  parties={ democratic={ popularity=15 }  fascism={ popularity=75 
 set_stability=0.75
 set_convoys=5
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob="CRO_1914"
 
 	set_politics={

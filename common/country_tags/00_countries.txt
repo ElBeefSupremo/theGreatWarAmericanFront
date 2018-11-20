@@ -91,6 +91,7 @@ RUS = "countries/Russia.txt"
 CSA = "countries/CSA.txt"
 AUH = "countries/Austria-Hungary.txt"
 SER = "countries/Serbia.txt"
+CSR = "countries/CSR.txt"
 
 ARM = "countries/Armenia.txt"
 UKR = "countries/Ukraine.txt"

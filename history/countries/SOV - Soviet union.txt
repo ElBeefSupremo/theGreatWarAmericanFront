@@ -117,7 +117,7 @@ create_navy_leader={  name = "Kireev" id=85075 portrait_path="gfx/admiral/SOV_ki
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "SOV_1914"
 
 

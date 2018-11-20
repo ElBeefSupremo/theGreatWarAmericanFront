@@ -83,7 +83,7 @@ create_field_marshal={  name = "Nessibu" id=30004 portrait_path="gfx/fieldmarsha
 	create_country_leader={ name = "Iyasu V" desc=ETH_iyasu_v_DESC picture="gfx/leaders/ETH_iyasu_v.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 	set_country_flag=menelik_died
 }
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "ETH_1914"
 
 

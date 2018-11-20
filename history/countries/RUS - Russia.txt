@@ -146,7 +146,7 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 }
 
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "RUS_1914"
 
 	#-------------------------------------------------------

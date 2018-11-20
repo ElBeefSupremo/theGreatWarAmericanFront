@@ -39,9 +39,9 @@ set_technology={
 }
 set_politics={  parties={ neutrality={ popularity=75 }  fascism={ popularity=5 }  democratic={ popularity=19 }  communism={ popularity=1 } }  ruling_party=neutrality last_election="1919.2.16" election_frequency=48 elections_allowed=yes }
 set_stability=0.50
-1914.1.1 = { oob="AUS_1914" }
-1914.1.1 = { set_politics={  parties={ neutrality={ popularity=75 }  fascism={ popularity=5 }  democratic={ popularity=19 }  communism={ popularity=1 } }  ruling_party=neutrality last_election="1919.2.16" election_frequency=48 elections_allowed=yes } }
-1914.1.1 = {
+1913.8.10.12 = { oob="AUS_1914" }
+1913.8.10.12 = { set_politics={  parties={ neutrality={ popularity=75 }  fascism={ popularity=5 }  democratic={ popularity=19 }  communism={ popularity=1 } }  ruling_party=neutrality last_election="1919.2.16" election_frequency=48 elections_allowed=yes } }
+1913.8.10.12 = {
 	set_technology={
 		#KiS #Scout1=1
 		#KiS #airship1=1

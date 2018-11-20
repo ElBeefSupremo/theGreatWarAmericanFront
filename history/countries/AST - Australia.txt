@@ -107,7 +107,7 @@ create_navy_leader={  name = "Beresford" id=5024 portrait_path="gfx/admiral/AST_
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "AST_1914"
 
 

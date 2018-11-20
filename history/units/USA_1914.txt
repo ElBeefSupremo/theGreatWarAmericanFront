@@ -1612,81 +1612,746 @@ units =
 		name = "Atlantic Fleet"
 		location=3878 # New York
 		base=3878 # New York
-		ship = { name = "USS Delaware" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS North Dakota" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Florida" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Utah" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Wyoming" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS W. Scott" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Maine" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Missouri" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Ohio" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Nebraska" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Georgia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Louisiana" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Vermont" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Minnesota" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS South Carolina" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS New Hampshire" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
-		ship = { name = "USS New Mexico" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS H. Dearborn" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Des Moines" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Bloomington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Galveston" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Tacoma" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Cleveland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Maryland" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Boston" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Chicago" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Newark" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Baltimore" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Philadelphia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS San Francisco" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Olympia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Raleigh" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Montgomery" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Marblehead" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS New Orleans" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Albany" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Paulding" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Drayton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Roe" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Terry" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Perkins" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Sterett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS McCall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Burrows" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Warrington" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Mayrant" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Monaghan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Trippe" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Walke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Ammen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Patterson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Fanning" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Jarvis" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Henley" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Beale" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Jouett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Jennings" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Bryant" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Tingle" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Wormkey" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Warner" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Childers" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Stanley" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Marlette" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Rheinhardt" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Case" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Olafsson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Downes" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Duncan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Aylwin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Parker" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Benham" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Balch" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
+		ship = { 
+			name = "USS Delaware" 
+			definition = battleship 
+			equipment = { 
+				battleship_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
 		}
+		ship = { 
+			name = "USS North Dakota" 
+			definition = battleship 
+			equipment = { 
+				battleship_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Florida" 
+			definition = battleship 
+			equipment = { 
+				battleship_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Utah" 
+			definition = battleship 
+			equipment = { 
+				battleship_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Wyoming" 
+			definition = battleship 
+			equipment = { 
+				battleship_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS W. Scott" 
+			definition = battleship 
+			equipment = { 
+				battleship_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Maine" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Missouri" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Ohio" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Nebraska" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Georgia" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Louisiana" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Vermont" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Minnesota" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS South Carolina" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS New Hampshire" 
+			definition = battleship 
+			equipment = { 
+				battleship_1890 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS New Mexico" 
+			definition = battle_cruiser 
+			equipment = { 
+				battle_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS H. Dearborn" 
+			definition = battle_cruiser 
+			equipment = { 
+				battle_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Des Moines" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Bloomington" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Galveston" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Tacoma" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Cleveland" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Maryland" 
+			definition = battle_cruiser 
+			equipment = { 
+				battle_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Cincinnati" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+				amount = 1 
+				owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Boston" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Chicago" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Newark" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Baltimore" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Philadelphia" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS San Francisco" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Olympia" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Raleigh" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Lansing" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Marblehead" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS New Orleans" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Albany" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			}	
+		}
+		ship = { 
+			name = "USS Paulding" 
+			definition = destroyer 
+			equipment = { 
+				estroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Drayton" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Roe" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Terry" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Perkins" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = {
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Sterett" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS McCall" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Burrows" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Warrington" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Mayrant" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Monaghan" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Trippe" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Walke" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Ammen" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Patterson" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Fanning" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Jarvis" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Henley" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Beale" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Jouett" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Jennings" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Bryant" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Tingle" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Wormkey" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Warner" 
+			definition = destroyer
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Childers" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Stanley" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Marlette" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Rheinhardt" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Case" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Olafsson" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Downes" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Duncan" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Aylwin" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Parker" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Benham" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+		ship = { 
+			name = "USS Balch" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = USA 
+				} 
+			} 
+		}
+	}
 
 	 navy = {
 		name = "Submarine Flotilla"
@@ -2029,6 +2694,10 @@ air_wings = {
 		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
 		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
 	}
+	385 = {
+		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
+	}
+
 }
 
 

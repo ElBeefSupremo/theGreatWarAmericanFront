@@ -74,7 +74,7 @@ create_navy_leader={  name = "Henning von Holtzendorff" id=34312 portrait_path="
 create_navy_leader={  name = "Friedrich Graf von Baudissin" id=34313 portrait_path="gfx/admiral/GER_von_baudissin.dds" traits={   } skill=3 }
 create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admiral/GER_von_fischel.dds" traits={   } skill=3 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "GER_1914"
 
 

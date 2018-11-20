@@ -41,7 +41,7 @@ set_politics={  parties={ democratic={ popularity=20 }  fascism={ popularity=18 
 add_ideas=neutrality_idea
 set_stability=0.75
 set_convoys=10
-1914.1.1 = {
+1913.8.10.12 = {
 	oob="ARM_1914"
 
 	set_politics = {

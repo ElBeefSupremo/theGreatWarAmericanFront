@@ -202,7 +202,7 @@ create_navy_leader={  name = "Tyrwhitt" id=28485 portrait_path="gfx/admiral/ENG_
 	set_country_flag = king_death_george
 	set_country_flag = saf_release
 }
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "ENG_1914"
 
 	#-------------------------------------------------------

@@ -256,7 +256,7 @@ create_navy_leader={
 }
 
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "FRA_1914"
 
 	add_to_faction = ENG # In 1914, United Kingdom and its Puppets are in the Entente

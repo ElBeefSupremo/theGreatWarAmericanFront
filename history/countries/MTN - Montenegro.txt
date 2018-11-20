@@ -85,7 +85,7 @@ create_corps_commander={ name = "Crown Prince Danilo" id=58008 portrait_path="gf
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "MTN_1914"
 
 
