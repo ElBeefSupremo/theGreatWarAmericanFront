@@ -1,4 +1,4 @@
-# !!!CSR_Red_Rebellion!!!
+# !!!Deseret Utah Rebellion!!!
 ####################################################################
 division_template = {
 	name = "Infantry Division"
@@ -16,9 +16,7 @@ division_template = {
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
-	support = {
-		artillery = { x = 0 y = 2 }
-	}
+
 }
 
 division_template = {
@@ -35,64 +33,64 @@ division_template = {
 
 units = {
     division = {
-		name = "1st Red Guard"
-		location = 7202 # Charleston
+		name = "1st Deseret Home Guard"
+		location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
 		start_experience_factor = 0.0
 	}
 
 	division = {
-		name = "2nd Red Guard"
-		location = 7202 # Charleston
+		name = "2nd Deseret Home Guard"
+		location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
 		start_experience_factor = 0.0
 	}
 
 	division = {
-		name = "6th Red Guard"
-		location = 7202 # Charleston
+		name = "6th Deseret Home Guard"
+		location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
 		start_experience_factor = 0.0
 	}
 
 	division = {
-		name = "7th Red Guard"
-		Location = 7202 # Charleston
+		name = "7th Deseret Home Guard"
+		Location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
 		start_experience_factor = 0.0
 	}
 
 	division = {
-		name = "8th Red Guard"
-		location = 7202 # Charleston
+		name = "8th Deseret Home Guard"
+		location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
 		start_experience_factor = 0.0
 	}
 
 	division = {
-		name = "9th Red Guard"
-		location = 7202 # Charleston
+		name = "9th Deseret Home Guard"
+		location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
 		start_experience_factor = 0.0
 	}
 
 	division = {
-		name = "10th Red Guard"
-		location = 7202 # Charleston
+		name = "10th Deseret Home Guard"
+		location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
 		start_experience_factor = 0.0
 	}
 
 	division = {
-		name = "11th Red Guard"
-		location = 7202 # Charleston
-		division_template = "Infantry Division"
+		name = "11th Deseret Home Guard"
+		location = 4865 #Salt Lake City
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.0
 	}
 }
 
 instant_effect = {
-	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "CSR" } requested_factories = 4 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "CSR" } requested_factories = 3 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "CSR" } requested_factories = 2 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "DES" } requested_factories = 2 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "DES" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "DES" } requested_factories = 2 progress = 0.1 efficiency = 50}
 	}

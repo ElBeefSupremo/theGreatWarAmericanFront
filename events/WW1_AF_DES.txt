@@ -1,11 +1,9 @@
-﻿add_namespace = ww1_usa
-
-add_namespeace = ww1_af_usa_des_rebellion
+add_namespeace = ww1_af_des
 country_event = {
 	id = ww1_af_des.1
-	title = ww1_af_des.1.t # The Congaree Uprising!
-	desc = ww1_af_des.1.d # Rebels from the newly declared "Congaree Socialist Republic" have raided army depots all over South Carolina and managed to fully equip a small army rapidly, though they lack training.
-	picture=GFX_Red_Rebel_Soldiers
+	title = ww1_af_des.1.t # The Utah Uprising!
+	desc = ww1_af_des.1.d #Mormon rebels have smuggled in weapons purchased from our enemies and risen against us!
+	picture = GFX_report_event_fascist_gathering
 
     
     fire_only_once = yes
@@ -31,4 +29,3 @@ country_event = {
 		}
 	}
 }
-

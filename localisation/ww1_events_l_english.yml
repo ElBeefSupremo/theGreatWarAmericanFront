@@ -1563,7 +1563,9 @@ ww1_af_germany.1.a:0 "Will the Irish win their freedom?"
 
 #AF USA
 #Mormon Uprising
-
+ww1_af_des.1.t:0 "The Mormon Rebellion"
+ww1_af_des.1.d:0 "The Mormons, equipped by our enemies, have rebelled again!"
+ww1_af_des.1.a:0 "We must put down the rebels!"
 #AF CSA
 #CSR Uprising
 ww1_af_CSR.1.t:0 "The Red Risings - The Congaree Revolution!"
