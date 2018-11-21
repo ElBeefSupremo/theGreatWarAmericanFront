@@ -1,4 +1,4 @@
 graphical_culture = african_gfx
 
 
-color = { 152  130  191 }
+color = { 130  20  20 }

@@ -10,11 +10,11 @@ default = {
 		surnames = { }
 		callsigns = { }
 	}
-	#female = {
-	#	names = { "Juliette" "Anna" }
-	#	surnames = { }
-	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
-	#}
+	# female = {
+	# 	names = { "Juliette" "Anna" }
+	# 	surnames = { }
+	# 	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	# }
 	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
 }
@@ -1866,6 +1866,23 @@ CSR = {
 	callsigns = { }
 }
 
+DES ={
+	male = {
+		names{
+			Mitt John Joseph Mark Luke John Abraham Japeth Isaac Ammon Bart Simon Brigham Matthias James
+			Peter "L. Ron"
+		}
+	}
+	female = {
+		names ={
+
+		}
+	}
+	
+	surnames = {
+		Young Smith Grant Roberts Smoot Romney Talmage Cowley Arrington Brown Cummins Hubbard
+	}
+}
 ###############################################################
 # South America
 ###############################################################

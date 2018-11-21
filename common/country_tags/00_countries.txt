@@ -88,10 +88,9 @@ PAL = "countries/Palestine.txt"
 ISR = "countries/Israel.txt"
 
 RUS = "countries/Russia.txt"
-CSA = "countries/CSA.txt"
 AUH = "countries/Austria-Hungary.txt"
 SER = "countries/Serbia.txt"
-CSR = "countries/CSR.txt"
+
 
 ARM = "countries/Armenia.txt"
 UKR = "countries/Ukraine.txt"
@@ -147,4 +146,7 @@ BOS = "countries/BosniaHerzegovina.txt"		# Bosnia and Herzegovina / Condominium 
 TUN = "countries/Tunisia.txt" # French Protectorate of Tunisia
 
 # American Front Countries
+CSA = "countries/CSA.txt"
 ZAR = "countries/Republic of Transvaal.txt"
+CSR = "countries/CSR.txt"
+DES = "countries/Deseret.txt"
