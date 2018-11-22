@@ -125,7 +125,7 @@ create_corps_commander={  name = "de Witte de Haelen" id=9012 portrait_path="gfx
 	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "BEL_1914"
 
 

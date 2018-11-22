@@ -93,7 +93,7 @@ country_event = {
 		FRA = {
 					add_timed_idea = {
 				idea = FRA_ww1_Unprepared_Army
-				days = 120
+				days = 30
 			}
 	}
 }

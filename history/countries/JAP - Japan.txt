@@ -152,7 +152,7 @@ create_navy_leader={  name = "Prince Fushimi H." id=47178 portrait_path="gfx/adm
 	}
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "JAP_1914"
 	create_country_leader={ name = "Emperor Taishō " desc=JAP_emperor_taisho_DESC picture="gfx/leaders/JAP_emperor_taisho.dds" expire="1940.1.1" ideology=autocracy traits={  } }
 

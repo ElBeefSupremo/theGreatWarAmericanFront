@@ -87,7 +87,7 @@ create_field_marshal={  name = "López" id=10002 portrait_path="gfx/fieldmarshal
 	create_country_leader={ name = "Ismael Montes" desc=BOL_ismael_montes_DESC picture="gfx/leaders/BOL_ismael_montes.dds" expire="1935.1.1" ideology=moderatism traits={  } }
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "BOL_1914"
 
 

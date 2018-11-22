@@ -6,10 +6,14 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 1 }
@@ -26,11 +30,13 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
-		field_hospital = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 	}
 	priority = 2
@@ -41,11 +47,18 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
 	support = {
+<<<<<<< HEAD
 		engineer = { x = 0 y = 1 }		
+=======
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+>>>>>>> 0edaa9c152f8672ffa19c5af5fbc990dbbf32e14
 	}
 }
 
@@ -54,12 +67,17 @@ division_template = {
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
 	}
 	support = {
    		engineer = { x = 0 y = 1 }
-        logistics_company = { x = 0 y = 2 }
 	}
 }
 
@@ -68,6 +86,7 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
@@ -79,6 +98,7 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 	}
@@ -96,8 +116,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Alpini Division"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 			
 	division= { 
@@ -105,8 +123,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Alpini Division"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 
 	division= { 
@@ -114,8 +130,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Alpini Division"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}			
 	
 	division= { 
@@ -130,8 +144,6 @@ units = {
 			location = 9904 # Roma
 			division_template="Fanteria Brigata"
 			start_experience_factor=0
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -188,8 +200,6 @@ units = {
 			location=11837 # Taranto
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -198,8 +208,6 @@ units = {
 			location=11837 # Taranto
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -261,8 +269,6 @@ units = {
 			location = 6788 # Genova
 			division_template="Fanteria Brigata"
 			start_experience_factor=0
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -277,8 +283,7 @@ units = {
 			location = 3772 # Savona
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+
 			}
 	
 	division= { 
@@ -307,8 +312,7 @@ units = {
 			location = 3772 # Savona
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+
 			}
 	
 	division= { 
@@ -323,8 +327,7 @@ units = {
 			location = 6780 # Torino
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+
 			}
 	
 	division= { 
@@ -360,8 +363,6 @@ units = {
 			location = 3780 # Milano
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -376,8 +377,6 @@ units = {
 			location = 3776 # Verona
 			division_template="Fanteria Brigata"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -399,8 +398,6 @@ units = {
 			location = 6661 # Chiavenna
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -422,8 +419,6 @@ units = {
 			location = 11587 # Lasa
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	division= { 
@@ -431,8 +426,6 @@ units = {
 			location = 11587 # Lasa
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 		
 	division= { 
@@ -440,8 +433,6 @@ units = {
 			location = 11587 # Lasa
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}			
 			
 	division= { 
@@ -519,8 +510,6 @@ units = {
 			location = 9907 # Firenze
 			division_template="Alpini Division"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -537,8 +526,6 @@ units = {
 			location = 9907 # Firenze
 			division_template="Fanteria Brigata"
 			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
 			}
 	
 	
@@ -776,21 +763,21 @@ ship = { name = "RN Ostro" definition = destroyer equipment = { destroyer_1890 =
 		name = "Squadra di Tripoli"
 		location=1149 # Tripoli
 		base=1149 # Tripoli
-ship = { name = "RN Liguria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Umbria Class" } } }
-ship = { name = "RN Giovanni Bausan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Bausan Class" } } }
-ship = { name = "RN Etna" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Etna Class" } } }
+ship = { name = "RN Liguria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+ship = { name = "RN Giovanni Bausan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+ship = { name = "RN Etna" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Nembo" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Turbine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Aquilone" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Borea" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
 ship = { name = "RN Zeffiro" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-ship = { name = "RN Espero" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } } } }
+ship = { name = "RN Espero" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } } 
 		}
 	 navy = {
 		name = "Squadra Eritrea"
 		location = 12766 # Edd
 		base =  12766 # Edd
-ship = { name = "RN Calabria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Calabria Class" } } }
+ship = { name = "RN Calabria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
 		}
 
 air_wings = { 
@@ -800,17 +787,109 @@ air_wings = {
 		ww1_fighter_equipment_1 = { owner = "ITA" amount = 50 } # type = scout  experience = 15  name = "3. Squadriglia" historical_model = 0 
 		}
 	}
+}
+
+
+
 instant_effect = {
-add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "ITA" } requested_factories = 10 progress = 0.1 efficiency = 50}
+	add_equipment_production = { 
+		equipment = { 
+			type = infantry_equipment_1 
+			creator = "ITA" 
+		} 
+		requested_factories = 10 
+		progress = 0.1 
+		efficiency = 50
+	}
 
-add_equipment_production = { equipment = { type = support_equipment_1 creator = "ITA" } requested_factories = 5 progress = 0.1 efficiency = 50}
-add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "ITA" } requested_factories = 5 progress = 0.1 efficiency = 50}
-add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "ITA" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { 
+		equipment = { 
+			type = support_equipment_1 
+			creator = "ITA" 
+		} 
+		requested_factories = 5 
+		progress = 0.1 
+		efficiency = 50
+	}
 
-add_equipment_production = { equipment = { type = battleship_1906 creator = "ITA" } } }#KiS#version_name = "Cavour Class" } requested_factories = 1 progress = 0.80 amount = 1 } # name = "RN Giulio Cesare" historical_model = 3 
-add_equipment_production = { equipment = { type = battleship_1906 creator = "ITA" } } }#KiS#version_name = "Cavour Class" } requested_factories = 1 progress = 0.79 amount = 1 } # name = "RN Leonardo da Vinci" historical_model = 3 
-add_equipment_production = { equipment = { type = battleship_1906 creator = "ITA" } } }#KiS#version_name = "Cavour Class" } requested_factories = 1 progress = 0.31 amount = 1 } # name = "RN Conte di Cavour" historical_model = 3 
-add_equipment_production = { equipment = { type = battleship_1914 creator = "ITA" } requested_factories = 1 progress = 0.25 amount = 1 } # name = "RN Caio Duilio" historical_model = 4 
-add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "ITA" } } }#KiS#version_name = "Bixio Class" } requested_factories = 1 progress = 0.65 amount = 1 } # name = "RN Nino Bixio" historical_model = 3 
-add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "ITA" } } }#KiS#version_name = "Bixio Class" } requested_factories = 1 progress = 0.39 amount = 1 } # name = "RN Marsala" historical_model = 3 
+	add_equipment_production = { 
+		equipment = { 
+			type = light_field_gun_equipment_1 
+			creator = "ITA" 
+		} 
+		requested_factories = 5 
+		progress = 0.1 
+		efficiency = 50
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = motorized_equipment_0 
+			creator = "ITA" 
+		} 
+		requested_factories = 5 
+		progress = 0.1 
+		efficiency = 50
+	}
+##							  ##
+## naval equipment production ##
+## 							  ##
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		}
+		requested_factories = 1 
+		progress = 0.80 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.79 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		}
+		requested_factories = 1 
+		progress = 0.51 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = battleship_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.45 
+		amount = 1 
+	}
+
+	add_equipment_production = { 
+		equipment = { 
+			type = light_cruiser_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.65 
+		amount = 1 
+	}
+	add_equipment_production = { 
+		equipment = { 
+			type = light_cruiser_1906 
+			creator = "ITA" 
+		} 
+		requested_factories = 1 
+		progress = 0.39 
+		amount = 1 
+	} 
 }

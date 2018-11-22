@@ -20,7 +20,7 @@ create_country_leader={ name = "Mustafa Kemal" desc=TUR_mustafa_kemal_DESC pictu
 create_country_leader={ name = "Mehmed V" desc=TUR_mehmed_v_DESC picture="gfx/hoi4tgw_portraits/TUR/country_leaders/TUR_mehmed_v.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 
 #ARMY
-1914.1.1 = {
+1913.8.10.12 = {
 	create_field_marshal={  name = "Liman von Sanders" id=90147 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/GER_von_Snaders.dds" traits={ offensive_doctrine } skill=3 }
 }
 create_field_marshal={  name = "Mustafa Kemal Paşa" id=90013 portrait_path="gfx/fieldmarshal/TUR_mustafa_kemal.dds" traits={ fast_planner defensive_doctrine } skill=4 }
@@ -30,7 +30,7 @@ create_corps_commander={  name = "Mehmed Esad Paşa" id=90008 portrait_path="gfx
 create_corps_commander={  name = "Hasan Tahsin Paşa" id=90138 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Hasan_Tahsin.dds" traits={ old_guard desert_fox } skill=3 }
 
 #NAVY
-1914.1.1 = {
+1913.8.10.12 = {
 	create_navy_leader={  name = "Wilhelm Souchon" id=90162 portrait_path="gfx/hoi4tgw_portraits/TUR/navy_admirals/GER_souchon.dds" traits={ superior_tactician  } skill=4 }
 }
 create_navy_leader={  name = "Ahmed Ramiz Bey" id=90159 portrait_path="gfx/hoi4tgw_portraits/TUR/navy_admirals/TUR_Ahmed_Ramiz_Bey.dds" traits={   } skill=2 }
@@ -132,7 +132,7 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 	}
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "TUR_1914"
 
 	#-------------------------------------------------------

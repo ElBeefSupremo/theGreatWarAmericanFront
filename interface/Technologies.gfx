@@ -1,6 +1,4 @@
-spriteTypes = {	
-
-
+spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_ww1_infantry_equip1_medium"
@@ -16,7 +14,6 @@ spriteTypes = {
 		name = "GFX_ww1_infantry_equip3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/equip3.dds"
 	}	
-
 
 	SpriteType = {
 		name = "GFX_ww1infantry_weapons1_medium"
@@ -38,8 +35,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/binoculars.dds"
 	}
 
-
-
 	SpriteType = {
 		name = "GFX_infantry_ww1_machinegun1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/light_machine_gun1.dds"
@@ -57,7 +52,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/light_machine_gun4.dds"
 	}
 
-
 	SpriteType = {
 		name = "GFX_infantry_ww1_mortar1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/mortar1.dds"
@@ -70,8 +64,6 @@ spriteTypes = {
 		name = "GFX_infantry_ww1_mortar3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/mortar3.dds"
 	}
-
-
 
 	### generic equipment tech ###
 
@@ -151,16 +143,11 @@ spriteTypes = {
 	}		
 
 
-
-
-	
 	SpriteType = {
 		name = "GFX_infantry_weapons1_medium"
 		#texturefile = "gfx/interface/technologies/infantry1.dds"
 		texturefile = "gfx/interface/technologies/hoi4tgw/weapons4.dds"
-	}	
-	
-
+	}
 
 	SpriteType = {
 		name = "GFX_GER_infantry_weapons1_medium"
@@ -170,41 +157,39 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
-	}	
+	}
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry2_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_2.dds"
-	}	
+	}
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
-	}	
+	}
 	
 	SpriteType = {
 		name = "GFX_interwar_antitank_medium"
 		texturefile = "gfx/interface/technologies/AT_1_allies.dds"
-	}	
+	}
 	
 	SpriteType = {
 		name = "GFX_rocket_artillery_medium"
 		texturefile = "gfx/interface/technologies/Rocket_Art_1_allies.dds"
-	}	
+	}
 	
 	SpriteType = {
 		name = "GFX_standard_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
-	}	
+	}
 	
 	SpriteType = {
 		name = "GFX_interwar_antiair_medium"
 		texturefile = "gfx/interface/technologies/AA_1_allies.dds"
-	}	
-
+	}
 
 	# HOI4 TGW - Artillery / Heavy Artillery
-
 
 	SpriteType = {
 		#KiS# name = "GFX_gw_artillery_medium"
@@ -236,7 +221,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/artillery/bertha3.dds"
 	}
 
-	
 
 	SpriteType = {
 		name = "GFX_bonus_artillery1_medium"

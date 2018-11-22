@@ -109,7 +109,7 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "BRA_1914"
 
 

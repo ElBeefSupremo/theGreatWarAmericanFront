@@ -1,5 +1,4 @@
-﻿capital = 362
-
+﻿
 capital = 362
 
 #-------------------------------------------------------
@@ -7,6 +6,7 @@ capital = 362
 #-------------------------------------------------------
 set_research_slots = 4
 set_stability = 0.7
+set_war_support = 0.7
 set_convoys = 100
 
 #DIPLOMACY
@@ -230,7 +230,7 @@ create_navy_leader = { name = "Earl E. Scruggs" id=93396 portrait_path="gfx/hoi4
 
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "CSA_1914"
 
 	#-------------------------------------------------------
@@ -338,13 +338,17 @@ create_navy_leader = { name = "Earl E. Scruggs" id=93396 portrait_path="gfx/hoi4
 	set_politics = {
 		parties = {
 			democratic = {
-				popularity=94}
+				popularity=94 
+			}
 			fascism = {
-				popularity=0}
+				popularity=0 
+			}
 			communism = {
-				popularity=2}
+				popularity=2 
+			}
 			neutrality = {
-				popularity=4}
+				popularity=4 
+			}
 		}
 		ruling_party=democratic
 		last_election="1909.01.09"
@@ -357,4 +361,5 @@ create_navy_leader = { name = "Earl E. Scruggs" id=93396 portrait_path="gfx/hoi4
 		limited_conscription
 		partial_economic_mobilisation
 		limited_exports
-	}
+		}
+}

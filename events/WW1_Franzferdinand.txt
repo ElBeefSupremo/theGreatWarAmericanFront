@@ -17,13 +17,13 @@ news_event = {
 		NOT = { has_global_flag = kis_fra_war_ger } # Set by France
 		country_exists=SER
 		SER = {
-        	is_puppet = no 
-        	has_war = no
-        }		
+			is_puppet = no 
+			has_war = no
+		}		
 		GER = {
-        	is_puppet = no 
-        	exists = yes
-        }
+			is_puppet = no 
+			exists = yes
+		}
 		AUH = {
 			has_war = no
 		}
@@ -39,10 +39,10 @@ news_event = {
 			AUH = {
 				set_country_flag=murder_of_franz_ferdinand
 			}
-            HUN = {
-                kill_country_leader = yes
-                create_country_leader={ name = "Karl I" desc=AUH_karl_i_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_karl_i.dds" expire="1935.1.1" ideology=autocracy  traits={  } }
-            }
+			HUN = {
+				kill_country_leader = yes
+				create_country_leader={ name = "Karl I" desc=AUH_karl_i_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_karl_i.dds" expire="1935.1.1" ideology=autocracy  traits={  } }
+			}
 			SER = {
 				set_country_flag=murder_of_franz_ferdinand
 				add_political_power=-5
@@ -99,7 +99,7 @@ country_event = {
 		tag = SER
 		country_exists=AUH
 		has_global_flag = kis_franzferdinand_murdered
-		has_war=no
+		has_war = no
 		date > 1914.6.28
 
 		NOT = {
@@ -188,13 +188,13 @@ country_event = {
 
 		HUN = {
 			add_to_war = {
-	            targeted_alliance = AUH enemy = SER
-	        }
+				targeted_alliance = AUH enemy = SER
+			}
 		}
 		CRO = {
 			add_to_war = {
-	            targeted_alliance = AUH enemy = SER
-	        }
+				targeted_alliance = AUH enemy = SER
+			}
 		}
 
 		set_global_flag = kis_war
@@ -290,8 +290,8 @@ country_event = {
 		GER = {
 			set_country_flag = russia_mobilized
 			add_to_war = {
-	            targeted_alliance = AUH enemy = SER
-	        }
+				targeted_alliance = AUH enemy = SER
+			}
 		}
 	}
 }
@@ -380,7 +380,7 @@ country_event = {
 			}
 			add_timed_idea = {
 				idea = schlieffen
-				days = 120
+				days = 30
 			}
 		}
 
@@ -390,45 +390,39 @@ country_event = {
 				threat = 10
 				name = "The Great War"
 			}
-			#GER = {
-			#	create_wargoal = {
-			#		type = annex_everything
-			#		target = FRA
-			#	}
-			#}
 
-	        AUH = {
+			AUH = {
 				add_to_war = {
-		            targeted_alliance = GER enemy = BEL
-		        }
-		    }
-			
-			FRA = {
-			country_event = {
-				id = ww1_france.17 days = 1
+					targeted_alliance = GER enemy = BEL
+				}
 			}
 			
+			FRA = {
+				country_event = {
+					id = ww1_france.17
+					#days = 1
+				}
 			}
 			
 			RUS = {
-			country_event = {
-				id = ww1_russia.21 days = 1
-			}
+				country_event = {
+					id = ww1_russia.21 days = 1
+				}
 			}
 
 			BEL = {
-			country_event = {
-				id = ww1_belgium.2 
-			#	days = 1
-			}
+				country_event = {
+					id = ww1_belgium.2
+				#	days = 1
+				}
 			}
 		}
 
 		LUX = {
 			add_to_war = {
-	            targeted_alliance = BEL enemy = GER
-	        }
-        }
+				targeted_alliance = BEL enemy = GER
+			}
+		}
 	}
 
 	# New Schlieffen Plan - War with FRA, BEL, HOL and RUS, Invasion of LUX
@@ -443,7 +437,7 @@ country_event = {
 			}
 			add_timed_idea = {
 				idea = schlieffen
-				days = 120
+				days = 30
 			}
 		}
 		
@@ -452,17 +446,12 @@ country_event = {
 				threat = 10
 				name = "The Great War"
 			}
-			#GER = {
-			#	create_wargoal = {
-			#		type = annex_everything
-			#		target = FRA
-			#	}
-			#}
-	        AUH = {
+
+			AUH = {
 				add_to_war = {
-		            targeted_alliance = GER enemy = BEL
-		        }
-		    }
+					targeted_alliance = GER enemy = BEL
+				}
+			}
 						FRA = {
 			country_event = {
 				id = ww1_france.17 days = 1
@@ -484,14 +473,14 @@ country_event = {
 
 		HOL = {
 			add_to_war = {
-	            targeted_alliance = BEL enemy = GER
-	        }
+				targeted_alliance = BEL enemy = GER
+			}
 		}
 		LUX = {
 			add_to_war = {
-	            targeted_alliance = BEL enemy = GER
-	        }
-        }
+				targeted_alliance = BEL enemy = GER
+			}
+		}
 	}
 
 	option = {

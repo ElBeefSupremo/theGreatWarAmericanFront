@@ -1,11 +1,12 @@
 ﻿capital = 360
 
+oob = "USA_1914"
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_research_slots = 4
-set_stability = 0.5
-set_war_support = 0.60
+set_stability = 0.85
+set_war_support = 0.90
 set_convoys = 100
 
 # DIPLOMACY
@@ -22,26 +23,41 @@ if = {
 
 	else = {
 		puppet = GUA
-
 	}
 }
 
-#-------------------------------------------------------
-#					POLITICS & ARMY
-#-------------------------------------------------------
-create_country_leader={ name = "Leonard Wood" desc=USA_leonard_wood_DESC picture="gfx/leaders/USA_leonard_wood.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Charles Evans Hughes" desc=USA_charles_evans_hughes_DESC picture="gfx/leaders/USA_charles_evans_hughes.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "James P. Cannon" desc=USA_james_p_cannon_DESC picture="gfx/leaders/USA_james_p_cannon.dds" expire="1935.1.1" ideology=stalinism traits={  } }
-create_country_leader={ name = "Alton B. Parker" desc=USA_alton_b_parker_DESC picture="gfx/leaders/USA_alton_b_parker.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Allan L. Benson" desc=USA_allan_l_benson_DESC picture="gfx/leaders/USA_allan_l_benson.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Eugene V. Debs" desc=USA_eugene_v_debs_DESC picture="gfx/leaders/USA_eugene_v_debs.dds" expire="1935.1.1" ideology=marxism traits={  } }
-create_country_leader={ name = "Warren G. Harding" desc=USA_warren_g_harding_DESC picture="gfx/leaders/USA_warren_g_harding.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "William McKinley" desc=USA_william_mckinley_DESC picture="gfx/leaders/USA_william_mckinley.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Garret A. Hobart" desc=USA_garret_a_hobart_DESC picture="gfx/leaders/USA_garret_a_hobart.dds" expire="1935.1.1" ideology=conservatism traits={  } }
+#=======================POLITICS & ARMY
+create_country_leader = {
+	name = "Charles Evans Hughes"
+	desc=USA_charles_evans_hughes_DESC
+	picture="gfx/leaders/USA_charles_evans_hughes.dds"
+	expire="1935.1.1"
+	ideology=liberalism traits = {  }
+}
 
-create_country_leader={ name = "William H. Taft" desc=USA_william_h_taft_DESC picture="gfx/leaders/USA_william_h_taft.dds" expire="1935.1.1" ideology=conservatism traits={  } }
+create_country_leader = {
+	name = "Theodore Roosevelt"
+	desc=USA_Theodore_Roosevelt_DESC
+	picture = "gfx/leaders/USA_theodore_roosevelt.dds"
+	expire="1935.1.1"
+	ideology = liberalism
+	traits = {  }
+}
 
 
+
+create_country_leader = { name = "Leonard Wood" desc=USA_leonard_wood_DESC picture="gfx/leaders/USA_leonard_wood.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+
+create_country_leader = { name = "James P. Cannon" desc=USA_james_p_cannon_DESC picture="gfx/leaders/USA_james_p_cannon.dds" expire="1935.1.1" ideology=stalinism traits={  } }
+create_country_leader = { name = "Alton B. Parker" desc=USA_alton_b_parker_DESC picture="gfx/leaders/USA_alton_b_parker.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader = { name = "Allan L. Benson" desc=USA_allan_l_benson_DESC picture="gfx/leaders/USA_allan_l_benson.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader = { name = "Eugene V. Debs" desc=USA_eugene_v_debs_DESC picture="gfx/leaders/USA_eugene_v_debs.dds" expire="1935.1.1" ideology=marxism traits={  } }
+create_country_leader = {
+	name = "Warren G. Harding" desc=USA_warren_g_harding_DESC picture="gfx/leaders/USA_warren_g_harding.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader = {
+	name = "William McKinley" desc=USA_william_mckinley_DESC picture="gfx/leaders/USA_william_mckinley.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader = {
+	name = "Garret A. Hobart" desc=USA_garret_a_hobart_DESC picture="gfx/leaders/USA_garret_a_hobart.dds" expire="1935.1.1" ideology=conservatism traits={  } }
 
 create_field_marshal={  name = "George A. Custer" id=93065 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_George_Custer.dds" traits={ offensive_doctrine } skill=2 }
 #create_field_marshal={  name = "Tasker H. Bliss" id=93552 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Tasker_Bliss.dds" traits={ offensive_doctrine thorough_planner } skill=4 }
@@ -55,7 +71,6 @@ create_corps_commander={  name = "William Crozier" id=93045 portrait_path="gfx/h
 create_corps_commander={  name = "John J. Pershing" id=93284 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_John_Pershing.dds" traits={ panzer_leader } skill=4 }
 create_corps_commander={  name = "Frank Parker" id=93296 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Frank_Parker.dds" traits={ commando  } skill=3 }
 create_corps_commander={  name = "Douglas MacArthur" id=93020 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Douglas_MacArthur.dds" traits={ trait_engineer } skill=4 }
-
 
 #create_field_marshal={  name = "Bates" id=93186 portrait_path="gfx/fieldmarshal/USA_bates.tga" traits={ defensive_doctrine  } skill=3 }
 #create_field_marshal={  name = "Schofield" id=93332 portrait_path="gfx/fieldmarshal/USA_schofield.tga" traits={ old_guard  } skill=2 }
@@ -88,7 +103,6 @@ create_navy_leader={  name = "Henry T. Mayo" id=93116 portrait_path="gfx/hoi4tgw
 create_navy_leader={  name = "William B. Caperton" id=93407 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Caperton.dds" traits={ blockade_runner spotter } skill=3 }
 create_navy_leader={  name = "Frank F. Fletcher" id=93121 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Frank_Fletcher.dds" traits={ superior_tactician  } skill=4 }
 create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Richmond_Hobson.dds" traits={ spotter  } skill=3 }
-
 #create_navy_leader={  name = "Eberle" id=93113 portrait_path="gfx/admiral/USA_eberle.tga" traits={   } skill=3 }
 #create_navy_leader={  name = "Smith" id=93118 portrait_path="gfx/admiral/USA_rodman.tga" traits={ spotter  } skill=3 }
 #create_navy_leader={  name = "Badger" id=93367 portrait_path="gfx/admiral/USA_badger.tga" traits={ spotter  } skill=3 }
@@ -100,127 +114,19 @@ create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/ho
 #create_navy_leader={  name = "Blue" id=93607 portrait_path="gfx/admiral/USA_blue.tga" traits={ spotter  } skill=3 }
 #create_navy_leader={  name = "Howard" id=93613 portrait_path="gfx/admiral/USA_howard.tga" traits={   } skill=3 }
 #create_navy_leader={  name = "Davis" id=93663 portrait_path="gfx/admiral/USA_davis.tga" traits={ spotter  } skill=3 }
-
 #create_navy_leader={  name = "Knight" id=93407 portrait_path="gfx/admiral/USA_knight.tga" traits={ blockade_runner spotter } skill=3 }
 
 
-1910.1.1 = {
-	oob = "USA_1910"
-
-	#-------------------------------------------------------
-	#							NF
-	#-------------------------------------------------------
-	#Army
-	complete_national_focus = USA_ww1_army_effort
-
-	#industry
-	complete_national_focus = USA_ww1_industrial_effort
-	
-	#navy
-	complete_national_focus = USA_ww1_naval_effort
-
-	#Diplomatic
-	complete_national_focus = USA_ww1_diplomatic_effort
-	#-------------------------------------------------------
-
-	set_technology = {
-
-		# Infantry
-		infantry_weapons = 1
-		ww1infantry_weapons1 = 1
-		ww1_infantry_equip1 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		infantry_binoculars = 1
-		infantry_grenade = 1
-		motorised_infantry = 1
-		ww1_ambulance1 = 1
-		tech_mountaineers = 1
-
-		# Support
-		tech_support = 1
-		tech_engineers = 1
-		tech_recon = 1
-		#tech_military_police = 1
-		#tech_maintenance_company = 1
-		#tech_field_hospital = 1
-		#tech_logistics_company = 1
-
-		# Armor
-		gwtank=1 # 1910 Armored Car
-
-		# Artillery
-		light_field_gun1 = 1
-		bonus_artillery1 = 1
-		heavy_field_gun1 = 1
-		bonus_bertha1 = 1
-
-		# Land Doctrine
-		ww1_landdoctrine = 1
-		ww1_directfire = 1
-
-		# Navy
-		ww1_destroyer0 = 1
-		ww1_destroyer1 = 1
-		ww1_destroyer2 = 1
-		ww1_light_cruiser0 = 1
-		ww1_light_cruiser1 = 1
-		ww1_battlecruiser0 = 1
-		ww1_battlecruiser0b = 1
-		ww1_battlecruiser1 = 1
-		ww1_battleship0 = 1
-		ww1_battleship1 = 1
-		ww1_submarine1 = 1
-		ww1_coastal_submarine1 = 1
-		transport = 1
-
-		# Air
-		ww1_fighter1 = 1
-		ww1_fighter1b = 1
-		ww1_zeppelin1 = 1
-
-		# Engineering
-		electronic_mechanical_engineering = 1
-		chemical_research = 1
-
-		# Industry
-		ww1_fortification1 = 1
-	}
-
-	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 94
-	        }
-	        fascism = {
-	            popularity = 0
-	        }
-	        communism = {
-	            popularity = 6
-	        }
-	    }
-	    ruling_party = democratic last_election = "1908.11.5"
-	    election_frequency = 48 elections_allowed = yes
-	}
-
-	add_ideas = {
-		limited_conscription
-		partial_economic_mobilisation
-		limited_exports
-		free_trade
-	}
-}
 1913.3.14 = {
 	create_country_leader = { name = "Theodore Roosevelt" desc=USA_Theodore_Roosevelt_DESC picture="gfx/leaders/USA_theodore_roosevelt.dds" expire="1935.1.1" ideology=liberalism traits={  } }
 
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "USA_1914"
 
-	#-------------------------------------------------------
-	#							NF
-	#-------------------------------------------------------
+	#======================National Foci
+	
 
 	#Army
 	complete_national_focus = USA_ww1_army_effort
@@ -258,9 +164,7 @@ create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/ho
 	complete_national_focus = USA_ww1_dreadnought_effort
 	complete_national_focus = USA_ww1_newnavalcanons_2
 
-
-	#-------------------------------------------------------
-	#-------------------------------------------------------
+	#=============================================================
 
 	set_technology = {
 

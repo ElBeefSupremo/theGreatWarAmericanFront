@@ -122,7 +122,7 @@ create_navy_leader={  name = "Conrad E. L. Helfrich" id=39031 portrait_path="gfx
 
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "HOL_1914"
 
 
@@ -131,23 +131,18 @@ create_navy_leader={  name = "Conrad E. L. Helfrich" id=39031 portrait_path="gfx
 	#-------------------------------------------------------
 
 	#Army
-	complete_national_focus = HOL_ww1_army_effort
-	complete_national_focus = HOL_ww1_equipment_effort
-	complete_national_focus = HOL_ww1_artillery_effort_1
-	complete_national_focus = HOL_ww1_doctrine_effort
-	complete_national_focus = HOL_ww1_trenchwarfare
 
 	#Industrial
-	complete_national_focus = HOL_ww1_industrial_effort
-	complete_national_focus = HOL_ww1_infrastructure_effort
 
 	#Political
-	complete_national_focus = HOL_political_effort
 
 	#Diplomatic
+<<<<<<< HEAD
 	complete_national_focus = HOL_ww1_diplomatic_effort
 	complete_national_focus = HOL_ww1_supportgermany
 
+=======
+>>>>>>> 0edaa9c152f8672ffa19c5af5fbc990dbbf32e14
 
 	#-------------------------------------------------------
 

@@ -6,7 +6,7 @@
 set_research_slots = 3
 set_stability = 0.75
 set_convoys = 20
-set_country_flag=monroe_doctrine
+set_country_flag = monroe_doctrine
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
@@ -90,7 +90,7 @@ create_field_marshal={  name = "Chacón" id=36001 portrait_path="gfx/fieldmarsha
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "GUA_1914"
 
 
@@ -140,6 +140,7 @@ create_field_marshal={  name = "Chacón" id=36001 portrait_path="gfx/fieldmarsha
 		tech_maintenance_company = 1
 		tech_field_hospital = 1
 		tech_logistics_company = 1
+		
 
 		# Armor
 		gwtank = 1 # 1910 Armored Car
@@ -147,6 +148,9 @@ create_field_marshal={  name = "Chacón" id=36001 portrait_path="gfx/fieldmarsha
 		# Artillery
 		light_field_gun1 = 1
 		bonus_artillery1 = 1
+
+		# Land Doctrine
+		ww1_landdoctrine = 1
 
 		# Navy
 		ww1_destroyer0 = 1

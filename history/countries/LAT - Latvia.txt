@@ -85,7 +85,7 @@ create_corps_commander={  name = "Adienis" id=50009 portrait_path="gfx/generals/
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "LAT_1914"
 
 

@@ -1,0 +1,98 @@
+# !!!CSR_Red_Rebellion!!!
+####################################################################
+division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+###################################################################
+
+units = {
+    division = {
+		name = "1st Red Guard"
+		location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "2nd Red Guard"
+		location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "6th Red Guard"
+		location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "7th Red Guard"
+		Location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "8th Red Guard"
+		location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "9th Red Guard"
+		location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "10th Red Guard"
+		location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "11th Red Guard"
+		location = 7202 # Charleston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "CSR" } requested_factories = 4 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "CSR" } requested_factories = 3 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "CSR" } requested_factories = 2 progress = 0.1 efficiency = 50}
+	}

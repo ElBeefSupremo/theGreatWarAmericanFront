@@ -6,10 +6,14 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -21,7 +25,10 @@ division_template = {
 	name = "Infantry Brigade"
 	regiments = {
 		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 	priority = 0
 }
@@ -33,6 +40,7 @@ division_template = {
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
 }
 
@@ -372,24 +380,139 @@ units = {
 			start_experience_factor=0.25
 			}
 
+	division= { 
+			name = "49. Canadian Infantry Div."
+			location=4872 # Winnipeg
+			division_template="Infantry Division"
+			start_experience_factor=0.25
+			}
+
+	division= { 
+			name = "50. Canadian Infantry Div."
+			location=4872 # Winnipeg
+			division_template="Infantry Division"
+			start_experience_factor=0.25
+			}
+
+	division= { 
+			name = "51. Canadian Infantry Div."
+			location=4872 # Winnipeg
+			division_template="Infantry Division"
+			start_experience_factor=0.25
+			}
+
 	 navy = {
 		name = "Royal Canadian Navy"
 		location=7361 # Halifax
 		base=7361 # Halifax
-		ship = { name = "HMS Rainbow" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CAN } } }#KiS#version_name = "Apollo Class" } } }
-		ship = { name = "HMS Niobe" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = CAN } } }#KiS#version_name = "Diadem Class" } } }
-		ship = { name = "Destroyer Flotilla 1" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CAN } } } #type = destroyer  historical_model = 9
-		ship = { name = "HMCS Shart" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CAN } } }
-		ship = { name = "HMCS Dingle" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CAN } } }
-		ship = { name = "HMCS Flouncer" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CAN } } }
-		ship = { name = "HMCS Bodangle" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CAN } } } 
+		ship = { 
+			name = "HMS Rainbow" 
+			definition = light_cruiser 
+			equipment = { 
+				light_cruiser_1906 = { 
+					amount = 1 
+					owner = CAN 
+				} 
+			} 
+		}
+		ship = { 
+			name = "HMS Niobe" 
+			definition = battle_cruiser 
+			equipment = { 
+				battle_cruiser_1890 = { 
+					amount = 1 
+					owner = CAN 
+				} 
+			} 
+		}
+		ship = { 
+			name = "Destroyer Flotilla 1" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1890 = { 
+					amount = 1 
+					owner = CAN 
+				} 
+			} 
+		}
+		ship = { 
+			name = "HMCS Shart" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = CAN 
+				} 
+			} 
+		}
+		ship = { 
+			name = "HMCS Dingle" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = CAN 
+				} 
+			} 
+		}
+		ship = { 
+			name = "HMCS Flouncer" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = CAN 
+				} 
+			} 
+		}
+		ship = { 
+			name = "HMCS Bodangle" 
+			definition = destroyer 
+			equipment = { 
+				destroyer_1906 = { 
+					amount = 1 
+					owner = CAN 
+				} 
+			} 
 		}
 	}
-air_wings = { 
+		
+
+	air_wings = {
+		362 = {
+			ww1_fighter_equipment_1 = { 
+				owner = "CAN" 
+				amount = 30 
+			}
+		}
 	}
+}
 instant_effect = {
-add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "CAN" } requested_factories = 5 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "CAN" } requested_factories = 3 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "CAN" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { 
+		equipment = { 
+			type = infantry_equipment_0 
+			creator = "CAN" 
+		} 
+		requested_factories = 5 
+		progress = 0.1 
+		efficiency = 50
+	}
+	add_equipment_production = { 
+		equipment = { 
+			type = support_equipment_1 
+			creator = "CAN" 
+		} 
+		requested_factories = 3 
+		progress = 0.1 
+		efficiency = 50
+	}
+	add_equipment_production = { 
+		equipment = { 
+			type = light_field_gun_equipment_1 
+			creator = "CAN" 
+		} 
+		requested_factories = 1 
+		progress = 0.1 
+		efficiency = 50
 	}
 }

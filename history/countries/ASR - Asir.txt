@@ -12,76 +12,7 @@ set_convoys = 0
 #-------------------------------------------------------
 create_country_leader={ name = "Muhammad ibn Ali al-Idrisi" desc=ASR_muhammad_ibn_ali_al_idrisi_DESC picture="gfx/leaders/ASR_muhammad_ibn_ali_al_idrisi.dds" expire="1935.1.1" ideology=despotism traits={  } }
 
-1910.1.1 = {
-	oob = "ASR_1910"
-
-	#-------------------------------------------------------
-	#							NF
-	#-------------------------------------------------------
-
-	#-------------------------------------------------------
-
-	set_technology = {
-
-		# Infantry
-		infantry_weapons = 1
-		support_weapons = 1
-		infantry_binoculars = 1
-		motorised_infantry = 1
-		ww1_ambulance1 = 1
-
-
-		# Support
-		tech_support = 1
-		tech_engineers = 1
-		tech_recon = 1
-		#tech_military_police = 1
-		#tech_maintenance_company = 1
-		#tech_field_hospital = 1
-		#tech_logistics_company = 1
-
-		# Armor
-
-		# Artillery
-		light_field_gun1 = 1
-		heavy_field_gun1 = 1
-
-		# Navy
-		ww1_destroyer0 = 1
-		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
-		ww1_light_cruiser0 = 1
-		ww1_battlecruiser0 = 1
-		ww1_battleship0 = 1
-		ww1_submarine1 = 1
-		ww1_coastal_submarine1 = 1
-		transport = 1
-
-		# Air
-
-		# Engineering
-		electronic_mechanical_engineering = 1
-
-		# Industry
-	}
-
-	set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=0 }  communism={ popularity=0  }  neutrality={ popularity=100 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
-
-	add_ideas={ ww1_Faith_Allah }
-}
-
-
-# Rebel War vs. Ottoman Empire
-1910.1.1 = {
-	declare_war_on = {
-		target = TUR
-		type = take_state
-		generator = {747}
-	}
-}
-
-
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "ASR_1914"
 
 

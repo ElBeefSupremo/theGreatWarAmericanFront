@@ -19,7 +19,7 @@ create_corps_commander={  name = "Manie Maritz" id=78002 portrait_path="gfx/gene
 create_corps_commander={  name = "Christiaan de Wet" id=78003 portrait_path="gfx/generals/SAF_smuts_jc.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Jan Kemp" id=78004 portrait_path="gfx/generals/SAF_van_deventer.tga" traits={ trickster  } skill=2 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 
 	oob = "ZAR_1914"
 
@@ -97,7 +97,18 @@ create_corps_commander={  name = "Jan Kemp" id=78004 portrait_path="gfx/generals
 		# Industry
 	}
 
-	set_politics={  parties={ neutrality={ popularity=95 } democratic={ popularity=5 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=neutrality last_election="1910.9.15" election_frequency=60 elections_allowed=yes }
+	set_politics = { 
+		parties = {
+			neutrality = { popularity=95 }
+			democratic={ popularity=5 }
+			fascism={ popularity=0 }
+			communism={ popularity=0  }
+		}
+			ruling_party = neutrality
+			last_election="1910.9.15"
+			election_frequency=60
+			elections_allowed=yes
+	}
 
 	add_ideas = {
 

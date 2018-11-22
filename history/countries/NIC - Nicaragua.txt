@@ -81,7 +81,7 @@ create_field_marshal={  name = "Chamorro" id=61001 portrait_path="gfx/fieldmarsh
 1911.5.9 = {
 	create_country_leader={ name = "Adolfo Díaz" desc=NIC_adolfo_diaz_DESC picture="gfx/leaders/NIC_adolfo_diaz.dds" expire="1935.1.1" ideology=conservatism  traits={  } }
 }
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "NIC_1914"
 
 

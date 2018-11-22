@@ -1,0 +1,31 @@
+add_namespeace = ww1_af_des
+country_event = {
+	id = ww1_af_des.1
+	title = ww1_af_des.1.t # The Utah Uprising!
+	desc = ww1_af_des.1.d #Mormon rebels have smuggled in weapons purchased from our enemies and risen against us!
+	picture = GFX_report_event_fascist_gathering
+
+    
+    fire_only_once = yes
+
+    trigger ={
+	date>1915.3.1
+	NOT = {
+		has_global_flag = usa_utah_rebellion
+	}
+
+	immediate = { #Organize the Deseret Home Guard!
+		set_global_flag = usa_utah_rebellion
+		DES = {
+			declare_war_on = {
+				type = annex_everything
+				target = USA
+			}
+			transfer_state = 380
+			load_oob="DES_rebellion"
+            add_state_claim = 380
+            add_state_claim = 379
+			}
+		}
+	}
+}

@@ -80,7 +80,7 @@ create_navy_leader={  name = "O. Zamor" id=37004 portrait_path="gfx/admiral/HAI_
 	}	
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "HAI_1914"
 
 

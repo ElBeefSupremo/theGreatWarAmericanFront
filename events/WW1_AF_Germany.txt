@@ -5,8 +5,8 @@
 #____________________________________________________________
 country_event = {
 	id = ww1_af_germany.1
-	title = "Germany incites Irish Revolt and sends Irische Armee to aid Rebels"
-	desc = "Mobilize The Irische Armee"
+	title = ww1_af_germany.1.t   #Germany incites Irish Revolt and sends Irische Armee to aid Rebels"
+	desc = ww1_af_germany.1.d
 	picture=GFX_report_event_swedish_soldier
 
 	is_triggered_only=yes

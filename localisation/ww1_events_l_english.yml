@@ -1563,3 +1563,11 @@ ww1_af_germany.1.a:0 "Will the Irish win their freedom?"
 
 #AF USA
 #Mormon Uprising
+ww1_af_des.1.t:0 "The Mormon Rebellion"
+ww1_af_des.1.d:0 "The Mormons, equipped by our enemies, have rebelled again!"
+ww1_af_des.1.a:0 "Can the Mormon Rebels win independence?"
+#AF CSA
+#CSR Uprising
+ww1_af_CSR.1.t:0 "The Red Risings - The Congaree Revolution!"
+ww1_af_CSR.1.d:0 "The Red Rebels have managed to equip themselves rapidly by raiding depots, and by subvertly stealing them before the uprising."
+ww1_af_CSR.1.a:0 "This doesn't make matters any better for the CSA..."

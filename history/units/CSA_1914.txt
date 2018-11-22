@@ -2,23 +2,26 @@
 ###################################################################
 
 division_template = {
-	name = "Infantry Division"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
+name = "Infantry Division"
+regiments = {
+	infantry = { x = 0 y = 0 }
+	infantry = { x = 0 y = 1 }
+	infantry = { x = 0 y = 2 }
+	infantry = { x = 0 y = 3 }
+
+	infantry = { x = 1 y = 0 }
+	infantry = { x = 1 y = 1 }
+	infantry = { x = 1 y = 2 }
+
+	infantry = { x = 2 y = 0 }
+	infantry = { x = 2 y = 1 }
+	infantry = { x = 2 y = 2 }
+}
+support = {
+	recon = { x = 0 y = 0 }
+	engineer = { x = 0 y = 1 }
+	artillery = { x = 0 y = 2 }
+}
 }
 
 division_template = {
@@ -27,6 +30,7 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
@@ -38,8 +42,7 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
-		field_hospital = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 2 }
 	}
 	priority = 2
 }
@@ -49,6 +52,8 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
@@ -60,1013 +65,1062 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }
 	}
 }
 
 ###################################################################
-units ={
+units = {
 
-    division= {
-        name = "1st Infantry Brigade"
-        location = 2019 # Rocksprings
-        division_template="Infantry Division"
-        start_experience_factor=0.1
-    }
+	#Infantry Division
+	division = {
+		name = "1st Dixie Guards"
+		location = 873 # Richmond
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        name = "2nd Infantry Brigade"
-        location = 12728 # El Paso
-        division_template="Infantry Division"
-        start_experience_factor=0.1
-        }
+	division = {
+		name = "2nd Dixie Guards"
+		location = 873 # Richmond
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-      		name = "The Cavalry Division"
-      		location = 2019 # Rocksprings
-      		division_template="Cavalry Division"
-      		start_experience_factor=0.1
-      		}
+	division = {
+		name = "6th Infantry Division"
+		location = 6696 # Louisville
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "3rd Infantry Division"
-        	location=10337 # Houston
-        	division_template="Infantry Division"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "7th Infantry Division"
+		Location = 6696 # Louisville
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "4th Infantry Division"
-        	location = 7640 # Dothan
-        	division_template="Infantry Division"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "8th Infantry Division"
+		location = 6696 # Louisville
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "5th Infantry Division"
-        	location = 12568 # Corbin
-        	division_template="Infantry Division"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "9th Infantry Division"
+		location = 6696 # Louisville
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "6th Home Guard"
-          location=12384 # Atlanta
-          division_template="State Guard"
-          start_experience_factor=0.1
-        	}
+	division = {
+		name = "10th Infantry Division"
+		location = 12489 # Little Rock
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "1st Home Guard"
-          location=12384 # Atlanta
-          division_template="State Guard"
-          start_experience_factor=0.1
-        	}
+	division = {
+		name = "11th Infantry Division"
+		location = 12489 # Little Rock
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "2nd Home Guard"
-          location=12384 # Atlanta
-          division_template="State Guard"
-          start_experience_factor=0.1
-        	}
+	division = {
+		name = "12th Infantry Division"
+		location = 12489 # Little Rock
+		division_template = "Infantry Division"
+		Start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "3rd Home Guard"
-          location=12384 # Atlanta
-          division_template="State Guard"
-          start_experience_factor=0.1
-        	}
+	division = {
+		name = "13th Infantry Division"
+		location = 12489 # Little Rock
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "4th Home Guard"
-          location=12384 # Atlanta
-          division_template="State Guard"
-          start_experience_factor=0.1
-        	}
+	division = {
+		name = "14th Infantry Division"
+		location = 1806 # Tulsa
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "5th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "Native Volunteers"
+		location = 1806 # Tulsa
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "6th Home Guard"
-        	location = 11783 # Raleigh
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "15th Infantry Division"
+		location = 1806 # Tulsa
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "7th Home Guard"
-        	location = 11783 # Raleigh
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "16th Infantry Division"
+		location = 3960 # Dallas
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "8th Home Guard"
-        	location = 11783 # Raleigh
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "17th Infantry Division"
+		location = 3960 # Dallas
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "9th Home Guard"
-        	location = 11783 # Raleigh
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "18th Infantry Division"
+		location = 3960 # Dallas
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "10th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "19th Infantry Division"
+		location = 3960 # Dallas
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "11th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "20th Infantry Division"
+		location = 3960 # Dallas
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "12th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "21st Infantry Division"
+		location = 10809 # Juarez
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "13th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "22nd Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "14th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "23rd Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "15th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "24th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "16th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "25th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "17th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "26th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "18th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "27th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "19th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "28th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "20th Home Guard"
-        	location = 10029 # Columbia
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "29th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "1st Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "30th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "2nd Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "31st Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "3rd Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "32nd Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "4th Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "33rd Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "5th Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "34th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "6th Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "35th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "7th Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "36th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = "8th Texas Guard"
-          location = 5022 # Austin
-          division_template="State Guard"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "37th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "38th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "39th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "40th Infantry Division"
+		location = 12735 # Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Chihuahua Volunteers"
+		location = 10809 # Juarez
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sonora Volunteers"
+		location = 10809 # Juarez
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = " 1st Texas Rangers"
+		location = 5022 # Austin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = " 2nd Texas Rangers"
+		location = 5022 # Austin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = " 3rd Texas Rangers"
+		location = 5022 # Austin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = " 4th Texas Rangers"
+		location = 5022 # Austin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Virginia Volunteers"
+		location = 873 # Richmond
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Rocksprings Volunteers"
+		location = 2019 # Rocksprings
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "El Paso Volunteers"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
 
-    division= {
-          name = " 1st Texas Rangers"
-          location = 5022 # Austin
-          division_template="Infantry Division"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "1st Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = " 2nd Texas Rangers"
-          location = 5022 # Austin
-          division_template="Infantry Division"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "2nd Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = " 3rd Texas Rangers"
-          location = 5022 # Austin
-          division_template="Infantry Division"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "3rd Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-          name = " 4th Texas Rangers"
-          location = 5022 # Austin
-          division_template="Infantry Division"
-          start_experience_factor=0.1
-          }
+	division = {
+		name = "4th Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "Virginia Volunteers"
-        	location = 873 # Richmond
-        	division_template="Infantry Division"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "5th Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "10th Home Guard"
-        	location = 873 # Richmond
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "6th Texas State Infantry"
+		location = 12728 # El Paso
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "11th Home Guard"
-        	location = 873 # Richmond
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "3rd Infantry Division"
+		location=10337 # Houston
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-    division= {
-        	name = "12th Home Guard"
-        	location = 873 # Richmond
-        	division_template="State Guard"
-        	start_experience_factor=0.1
-        	}
+	division = {
+		name = "4th Infantry Division"
+		location = 7640 # Dothan
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-	division= {
-				name = "1st Dixie Guards"
-				location = 873 # Richmond
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-				}
+	division = {
+		name = "5th Infantry Division"
+		location = 12568 # Corbin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
 
-	division= {
-			name = "2nd Dixie Guards"
-			location = 873 # Richmond
-			division_template = "Infantry Division"
-			start_experience_factor=0.1
-				}
+	#State Guard
+	division = {
+		name = "6th Home Guard"
+		location=12384 # Atlanta
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
 
-	division= {
-			name = "6th Infantry Division"
-			location = 6696 # Louisville
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			}
+	division = {
+		name = "1st Home Guard"
+		location=12384 # Atlanta
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
 
-	division= {
-			name = "7th Infantry Division"
-			Location = 6696 # Louisville
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			}
+	division = {
+		name = "2nd Home Guard"
+		location=12384 # Atlanta
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
 
-	division= {
-			name = "8th Infantry Division"
-			location = 6696 # Louisville
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			}
+	division = {
+		name = "3rd Home Guard"
+		location=12384 # Atlanta
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
 
-	division= {
-			name = "9th Infantry Division"
-			location = 6696 # Louisville
-			division_template="Infantry Division"
-			start_experience_factor=0.1
+	division = {
+		name = "4th Home Guard"
+		location=12384 # Atlanta
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6th Home Guard"
+		location = 11783 # Raleigh
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 11783 # Raleigh
+		name = "7th Home Guard"
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "8th Home Guard"
+		location = 11783 # Raleigh
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "9th Home Guard"
+		location = 11783 # Raleigh
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "10th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "11th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "12th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "13th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "14th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "15th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "16th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "17th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "18th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "19th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "20th Home Guard"
+		location = 10029 # Columbia
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1st Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
 		}
 
-	division= {
-				name = "10th Infantry Division"
-				location = 12489 # Little Rock
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name = "11th Infantry Division"
-				location = 12489 # Little Rock
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name = "12th Infantry Division"
-				location = 12489 # Little Rock
-				division_template="Infantry Division"
-				Start_experience_factor=0.1
-		}
-
-		division= {
-				name = "13th Infantry Division"
-				location = 12489 # Little Rock
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name = "14th Infantry Division"
-				location = 1806 # Tulsa
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-    	division= {
-        		name = "13th Home Guard"
-				location = 1806 # Tulsa
-        		division_template="State Guard"
-        		start_experience_factor=0.1
-        		}
-
-    	division= {
-        		name = "14th Home Guard"
-				location = 1806 # Tulsa
-        		division_template="State Guard"
-        		start_experience_factor=0.1
-        		}
-
-    	division= {
-        		name = "15th Home Guard"
-				location = 1806 # Tulsa
-        		division_template="State Guard"
-        		start_experience_factor=0.1
-        		}
-
-    	division= {
-        		name = "16th Home Guard"
-				location = 1806 # Tulsa
-        		division_template="State Guard"
-        		start_experience_factor=0.1
-        		}
-
-
-		division= {
-				name = "Native Volunteers"
-				location = 1806 # Tulsa
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name = "15th Infantry Division"
-				location = 1806 # Tulsa
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name = "Choktaw Scouts"
-				location = 1806 # Tulsa
-				division_template="State Guard"
-				start_experience_factor=0.1
-		}
-		division= {
-				name = "Cherokee Cavalry"
-				location = 1806 # Tulsa
-				division_template="Cavalry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "16th Infantry Division"
-				location = 3960 # Dallas
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "17th Infantry Division"
-				location = 3960 # Dallas
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "18th Infantry Division"
-				location = 3960 # Dallas
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "19th Infantry Division"
-				location = 3960 # Dallas
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "20th Infantry Division"
-				location = 3960 # Dallas
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "21st Infantry Division"
-				location = 10809 # Juarez
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "22nd Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "23rd Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "24th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "25th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "26th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "27th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "28th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "29th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "30th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "31st Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "32nd Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "33rd Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "34th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "35th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "36th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "37th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "38th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "39th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "40th Infantry Division"
-				location = 12735 # Birmingham
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "Chihuahua Volunteers"
-				location = 10809 # Juarez
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "Sonora Volunteers"
-				location = 10809 # Juarez
-				division_template="Infantry Division"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "Chihuahua State Guard"
-				location = 10809 # Juarez
-				division_template="State Guard"
-				start_experience_factor=0.1
-		}
-		division= {
-				name= "Sonora State Guard"
-				location = 10809 # Juarez
-				division_template="State Guard"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "Guaymas Port Guards"
-				location =4908
-				division_template="State Guard"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "Havana Port Guards"
-				location =7622
-				division_template="State Guard"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "1st Cuba Garrison Division"
-				location =1550
-				division_template="State Guard"
-				start_experience_factor=0.1
-		}
-
-		division= {
-				name= "1st Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "2nd Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "3rd Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "4th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "5th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "6th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "7th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "8th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "9th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "10th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "11th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "12th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "13th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "14th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "15th Grenadiers"
-				location = 7138 # Charlotte
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "16th Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "17th Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "18th Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-		division= {
-				name= "19th Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-				division= {
-				name= "20th Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}		
-
-				division= {
-				name= "21st Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}	
-
-
-				division= {
-				name= "22nd Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}
-
-				division= {
-				name= "23rd Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}	
-
-				division= {
-				name= "24th Grenadiers"
-				location = 7464 # Northern Mississippi
-				division_template="Army Grenadier Division"
-				start_experience_factor=0.2
-		}		
-		navy= {
+	division = {
+		name = "2nd Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3rd Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4th Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5th Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6th Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "7th Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "8th Texas Guard"
+		location = 5022 # Austin
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "10th Home Guard"
+		location = 873 # Richmond
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "11th Home Guard"
+		location = 873 # Richmond
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "12th Home Guard"
+		location = 873 # Richmond
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "13th Home Guard"
+		location = 1806 # Tulsa
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "14th Home Guard"
+		location = 1806 # Tulsa
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "15th Home Guard"
+		location = 1806 # Tulsa
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "16th Home Guard"
+		location = 1806 # Tulsa
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Choctaw Scouts"
+		location = 1806 # Tulsa
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Chihuahua State Guard"
+		location = 10809 # Juarez
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sonora State Guard"
+		location = 10809 # Juarez
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Guaymas Port Guards"
+		location =4908
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Havana Port Guards"
+		location =7622
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1st Cuba Garrison Division"
+		location =1550
+		division_template = "State Guard"
+		start_experience_factor = 0.1
+	}
+
+	#Cavalry Division
+	division = {
+		name = "Cherokee Cavalry"
+		location = 1806 # Tulsa
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "The Cavalry Division"
+		location = 2019 # Rocksprings
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+
+	#Army Grenadier Division
+	division = {
+		name = "1st Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "8th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "9th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "10th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "11th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "12th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "13th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "14th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "15th Grenadiers"
+		location = 7138 # Charlotte
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "16th Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "17th Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "18th Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "19th Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "20th Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "21st Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "22nd Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "23rd Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "24th Grenadiers"
+		location = 7464 # Northern Mississippi
+		division_template = "Army Grenadier Division"
+		start_experience_factor = 0.2
+	}
+
+	navy= {
 		name = "Atlantic Fleet"
 		location=788 # Norfolk
 		base=788 # Norfolk
-ship = { name = "CSS Joe Johnston" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS " definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Texas" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Arkansas" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Alabama" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Mississippi" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Missouri" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Florida" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Roanoke" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Oklahoma City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Bowling Green" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Downes" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Duncan" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Aylwin" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Parker" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Benham" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Hathcoat" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Downthett" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Denton" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Aykin" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Parks" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS McBrian" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Hatcher" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		}
 
-		navy= {
+		ship = { name = "CSS Joe Johnston" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS " definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Texas" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Arkansas" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Alabama" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Mississippi" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Missouri" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Florida" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Roanoke" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Oklahoma City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Bowling Green" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Downes" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Duncan" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Aylwin" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Parker" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Benham" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hathcoat" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Downthett" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Denton" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Aykin" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Parks" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS McBrian" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hatcher" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+	}
+
+	navy= {
 		name = "Caribbean Squadron"
 		location=7552 # New Orleans
 		base=7552 # New Orleans
-ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Sonora" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Cuba" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Tennessee" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Buchanan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Birmingham" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Semmes" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Beall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Breckenridge" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Bulloch" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Duke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Glassel" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Hogg" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Huger" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Henderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Buell" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Moneyhun" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Balantine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Drake" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Jensen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Haggart" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-ship = { name = "CSS Hubler" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		}
 
-		navy = {
-		 name = "Submarine Flotilla"
-		 location=7552 # New Orleans
-		 base=7552 # New Orleans
- ship = { name = "CSS Skipjack" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Sturgeon" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Carp" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Barracuda" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Pickerel" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Skate" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Seal" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Thresher" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Tuna" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Turbot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Seawolf" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Nautilus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Garfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Haddock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Cachalot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Sonora" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Cuba" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Tennessee" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Buchanan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Birmingham" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Semmes" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Beall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Breckenridge" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Bulloch" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Duke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Glassel" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hogg" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Huger" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Henderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Buell" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Moneyhun" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Balantine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Drake" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Jensen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Haggart" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hubler" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+	}
 
-				}
+	navy = {
+		name = "Submarine Flotilla"
+		location=7552 # New Orleans
+		base=7552 # New Orleans
+		ship = { name = "CSS Skipjack" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Sturgeon" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Carp" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Barracuda" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Pickerel" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Skate" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Seal" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Thresher" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Tuna" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Turbot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Seawolf" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Nautilus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Garfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Haddock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Cachalot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+	}
 
-		navy = {
-		 name = "2nd Submarine Flotilla"
-		 location=1843 # Miami
-		 base=1843 # Miami
- ship = { name = "CSS Bonefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Triton" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Catfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Hammerhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Great White" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Tigershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Walrus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Coyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Kingcrab" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Sardine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Whitefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Jellyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Pollock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Barnacle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Squidbilly" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+	navy = {
+		name = "2nd Submarine Flotilla"
+		location = 1843 # Miami
+		base = 1843 # Miami
+		ship = { name = "CSS Bonefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Triton" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Catfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hammerhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Great White" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Tigershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Walrus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Coyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Kingcrab" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Sardine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Whitefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Jellyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Pollock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Barnacle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Squidbilly" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+	}
 
-				}
+	navy = {
+		name = "3rd Submarine Flotilla"
+		location = 6785 # Corpus Christi
+		base = 6785 # Corpus Christi
+		ship = { name = "CSS Blackfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Whitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Bluefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Gulper Shark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Dogfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Kitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Pygmyshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Brambleshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hook-tooth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Highfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Lanternshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Shortfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Sleepershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Spinefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Spurdog" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+	}
 
-		navy = {
-		 name = "3rd Submarine Flotilla"
-		 location=6785 # Corpus Christi
-		 base=6785 # Corpus Christi
- ship = { name = "CSS Blackfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Whitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Bluefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Gulper Shark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Dogfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Kitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Pygmyshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Brambleshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Hook-tooth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Highfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Lanternshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Shortfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Sleepershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Spinefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Spurdog" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-
-				}
-
-		navy = {
-		 name = "4th Submarine Flotilla"
-		 location=7622 # Havana
-		 base=7622 # Havana
- ship = { name = "CSS Sawshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Longnose" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Sixgill" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Saw-back" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Angelshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Hornshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Bullhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Baskingshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Mako" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Porbeagle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Megamouth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Goblinshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Sandtiger" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Crocodile" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
- ship = { name = "CSS Carpetshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-				}
+	navy = {
+		name = "4th Submarine Flotilla"
+		location = 7622 # Havana
+		base = 7622 # Havana
+		ship = { name = "CSS Sawshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Longnose" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Sixgill" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Saw-back" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Angelshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hornshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Bullhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Baskingshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Mako" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Porbeagle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Megamouth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Goblinshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Sandtiger" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Crocodile" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Carpetshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+	}
+}
 
 air_wings = {
 
-3823 = { # Raleigh ""1st Confederate Air Corps""
-	ww1_fighter_equipment_1 = { owner = "CSA" amount = 65 } # type = scout  experience = 15  name = ""1st C.S. Air Corps"" historical_model = 0 
+	362 = { #Raleigh ""1st Confederate Air Corps""
+		ww1_fighter_equipment_1 = { owner = "CSA" amount = 30 }
+		ww1_fighter_equipment_1 = { owner = "CSA" amount = 30 }
+		ww1_fighter_equipment_1 = { owner = "CSA" amount = 30 }
+	}
+}
 
-}
-}
-}
 instant_effect = {
 	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "CSA" } requested_factories = 10 progress = 0.1 efficiency = 50}
 	add_equipment_production = { equipment = { type = support_equipment_1 creator = "CSA" } requested_factories = 5 progress = 0.1 efficiency = 50}
 	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "CSA" } requested_factories = 5 progress = 0.1 efficiency = 50}
 	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "CSA" } requested_factories = 2 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.90 amount = 1  }
-	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.90 amount = 1  }
-	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1  }
-	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.60 amount = 1  }
-	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.88 amount = 1  }
-	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1  }
-	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1  }
-	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1  }
-
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.90 amount = 1 }
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.90 amount = 1 }
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1 }
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.60 amount = 1 }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.88 amount = 1 }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1 }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1 }
+	add_equipment_production = { equipment = { type = light_cruiser_1906 creator = "CSA" } requested_factories = 1 progress = 0.80 amount = 1 }
 	}

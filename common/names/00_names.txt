@@ -10,11 +10,11 @@ default = {
 		surnames = { }
 		callsigns = { }
 	}
-	#female = {
-	#	names = { "Juliette" "Anna" }
-	#	surnames = { }
-	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
-	#}
+	# female = {
+	# 	names = { "Juliette" "Anna" }
+	# 	surnames = { }
+	# 	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	# }
 	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
 }
@@ -174,24 +174,52 @@ USA = {
 		names = { Mary Jane }
 	}
 	surnames = { 
-		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
-		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren
+		Ayres Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames
+		Armstrong Arthur Atkins Asboth Baker Pope Banks Barnard Barnes Barnum Barstow Briggs Hammond
+		Baxter Beatty Belknap Benton Blair Bradley Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Clayton Coburn Connor Conrad Davies Davidson Doubleday Ewing Farnsworth Anderson
+		Ford Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamilton Hamlin Hancock Harrison Hatch
+		Hooker Howard Johnson Jones Keyes Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Reynolds Rice Rhodes Robinson Rosencrans Scott Sedgwick Bailey Bierce Buell
+		Seward Sheridan Sickles Stevens Stevenson Stone Sullivan Tyler Wallace Ward Warner Connor
+		Wilson Wright Young Johnson Floyd Emmanuel Danko Hudson Guthrie Seeger Chambers Cochran
+		Hayes Haskel Hoffman Howe Kane Kilpatrick O'Shaughnesey Polaski McCook Revere Rodman Ruger
+		Schimmelfennig Osthaus Whitaker Wilcox Zook
 
 	}
-	callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog"}
+	callsigns = { "Deadeye" "Merlin" "Maverick" "Apollo" "Hermes" "Colt" "Tornado" "Cyclone" "Twitch" "Challenger" "Jumbo" "Dizzy" "Bam" "Hawkeye" "Razors" "Tubby" "Mad Mallard"}
+}
+
+CSA = {
+	male = {
+		names = { 
+		
+			Adam Alexander William Henry Michael Samuel George John Matthew Mark Luke Geoffry Tom Clarence
+			Joseph Charles Russell Benjamin Robert Christopher Richard Lafayette Nathaniel James Hank Chet
+			Edward Norton Abner Isaac Thomas Randolph Frank Pierre Gabriel Willy Roger Levon Evander J.B.
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Pierre Moxley Clevon Harvey
+			Jonas Frank Charles Peter Howard Henry Edward Isaac Jefferson Ansom Anslem Clemson Burgess
+			Matthew Richard Thomas John William James Thaddius Paul Peyton Doc D.H. John-Paul Cotton
+			Henry Jerome Lawrence Louis Steven Zachary Elijah Jeb Jack Reginald Rhett Sydney Jedediah
+			Jeremiah Ezekiel Townes
+		
+		  }
+	}
+	female = {
+		names = { Mary Jane Clara Scarlett}
+	}
+	surnames = { 
+		Wheeler Hickman Lee Jackson Early Alexander Porter Potter Sherrod Harrison Farquhar Johnston Bragg
+		Ewell Cleburne Longstreet Bartlett Brearly Calkins Colleton Hampton Kimpball Kinkaid Knight Koenig
+		Layne Mitchell Burton Partridge Pinkard Potter Quinn Ramsay Stuart Pickett Forrest Buckner Sorrel
+		Butler Holiday Allen Anderson Archer Armistead Atchison Baldwin Barksdale Barringer Beauregard Davis
+		Duke DuBois Hanson Hardee Hopkins Hawes Hawthorn Hathcoat Helm Heth Higgins Hill Hogg Hodges Holmes
+		Hood Jenkins Jones Kemper Kemp Kincaid Law Liddel Mahone Paxton Payne Pemberton Pendleton Polk Preston
+		Ripley Randalf Rodes Semmes Trimble Vaughn Walker Houston Wallace Wayne Winder Withers Young Robertson
+		Crittenden Cobb Mumford Earle Pender O'Hara
+	}
+	callsigns = { "Tumbleweed" "Razorback" "Sabre" "Grey Ghost" "Boll Weavel" "Copperhead" "Diamondback" "Tex" "Cajun" "King Cotton" "Trigger" "Buster" "Boss Hog" "Duke" "Cowboy" "Hipshot" "Spuds"}
 }
 
 JAP = {
@@ -1381,26 +1409,6 @@ MON = {
 	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
 	callsigns = { }
 }
-MEN = {
-	male = {
-		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
-	}
-	female = {
-		names = { }
-	}
-	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
-	callsigns = { }
-}
-MAN = {
-	male = {
-		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
-	}
-	female = {
-		names = { }
-	}
-	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
-	callsigns = { }
-}
 TAN = {
 	male = {
 		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
@@ -1573,7 +1581,8 @@ CAN = {
 	male = {
 		names = { 
 			Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert 
-			Albert Victor Julian Francis James  
+			Albert Victor Julian Francis James Julian Rick Jim Louis David J.H. Archibald William
+			Raymond Henri Wilfrid Pierre Thomas Maurice Paul
 		}
 	}
 	female = {
@@ -1581,11 +1590,31 @@ CAN = {
 	}
 	surnames = { 
 			Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
-			Hastings Blackwood MacDougall 
+			Hastings Blackwood MacDougall Secord McGregor Borden Hughes Flavelle Parley Kemp Turner Currie
+			Mercer Alderson Byng Lahey Lipsett Whitsett Watson McBrien Loomis Griesbach Bishop Collishaw
+			Barker Mignault Bourassa Laurier White Richard Abbot
 	}
-	callsigns = { }
+	callsigns = { "Bish" "Collie" "Slapshot" "Moose" "Mounty" "Rocket" "Boomer" "Hammer" "Turtledove" "Buzzard" "Roughrider" "Screwball"}
 }
 
+QUE = {
+	male = {
+		names = {
+			Charles Pierre Gustav Frederic Napoleon Laurence Jacques Armand Georges Michel Gauvin Antoine
+			Henri Louis Xavier Alfonse Edouard Philippe Claude Cecil Renaud Jean Leon Gerard Francois Rene
+		}
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+		Tremblay Gagnon Roy Gauthier Belanger Bouchard Pelletier Gagne Lavoie Boucher Caron LeBlanc Poulin
+		Martel Bedard Leclerc LaPointe Grenier Roussin Dumais Guyon Bergeron Beaulieu Laflamme Leduc Guerard
+		Boulard Allaire
+	}
+	callsigns = {}
+
+}
 MEX = {
 	male = {
 		names = { 
@@ -1813,7 +1842,47 @@ HAI = {
 	callsigns = { }
 }
 
+CSR = {
+	male = {
+		names = { 
+			Tulius Pompei Lazarus Mago Hanno Titus Gaius Cato Constantine Alexius Horace 
+			Marcellus Flavius Ulysses Virgil Cornelius Atticus Antonius Brutus Caligula
+			Claudius Cepheus Pontus Marcus Xerxes Cyrus Darius Himilco Abdubaal Gnaeus
+			Spurius Tiberius Kaeso Albus Cassian Crispus Decimus Sulla Miltiades Leonidas
+			Pompei Tullus Nero Octavian Alexander Mencius Aenius Agrippa Ajax Persius
+			Sisyphus Calisto Hermes Homer Cicero Leto Memnon
 
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Barber Farmer Gardener Rider Freeman Freedman Tailor Pastor Hunter
+		Forester Barber Mason Cook Baker Butler Fisher Smith Tanner Miller
+		Brewer Woodsman Bailor Cobbler Hatter Milliner Potter Plumber Stone
+		Wood Hill Clay Priest Hunt Herder 
+	}
+	callsigns = { }
+}
+
+DES ={
+	male = {
+		names{
+			Mitt John Joseph Mark Luke John Abraham Japeth Isaac Ammon Bart Simon Brigham Matthias James
+			Peter "L. Ron"
+		}
+	}
+	female = {
+		names ={
+
+		}
+	}
+	
+	surnames = {
+		Young Smith Grant Roberts Smoot Romney Talmage Cowley Arrington Brown Cummins Hubbard
+	}
+}
 ###############################################################
 # South America
 ###############################################################

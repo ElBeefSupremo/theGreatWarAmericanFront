@@ -122,7 +122,7 @@ create_navy_leader={  name = "Li Dingxin" id=73058 portrait_path="gfx/admiral/QI
 	}
 }
 
-1914.1.1 = {
+1913.8.10.12 = {
 	oob = "QIN_1914"
 
 
