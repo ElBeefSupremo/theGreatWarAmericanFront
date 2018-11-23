@@ -1,4 +1,4 @@
-capital = 4865
+capital = 380
 
 #-------------------------------------------------------
 #					GENERIC VALUES
@@ -13,9 +13,9 @@ set_convoys = 25
 #					POLITICS & ARMY
 #-------------------------------------------------------
 
-create_country_leader={ name = "Joseph F. Smith" desc="" picture="" expire="1918.3.1" ideology=fascism traits={  } }
-create_country_leader={ name = "James E. Talmage" desc="" picture="" expire="1935.1.1" ideology=fascism traits={  } }
-create_country_leader={ name = "Reed Smoot" desc="" picture="" expire="1935.1.1"}
+create_country_leader={ name = "Joseph F. Smith" desc="" picture="" expire="1918.3.1" ideology=fascism_ideology traits={  } }
+create_country_leader={ name = "James E. Talmage" desc="" picture="" expire="1935.1.1" ideology=fascism_ideology traits={  } }
+create_country_leader={ name = "Reed Smoot" desc="" picture="" expire="1935.1.1" ideology=fascism_ideology traits = { } }
 
 create_corps_commander={  name = "Hugh B. Brown" id="" portrait_path="" traits={   } skill=2 }
 create_corps_commander={ name = "Thomas E. Niebaur" id = "" portrait_path="" traits={ } skill=2 }
