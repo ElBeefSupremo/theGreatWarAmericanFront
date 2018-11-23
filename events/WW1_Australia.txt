@@ -15,7 +15,7 @@ country_event = {
 		not={
 			has_country_flag=ward_retired
 			}
-		date>1911.7.31
+		date > 1911.7.31
 		}
 	option={
 		name=ww1_australia.1.a
@@ -51,7 +51,7 @@ country_event = {
 		not={
 			has_country_flag=denman_retired
 			}
-		date>1914.5.18
+		date > 1914.5.18
 		}
 	option={
 		name=ww1_australia.2.a

@@ -543,36 +543,8 @@ focus_tree = {
 			add_stability = 0.10
 			add_manpower = 15000
 
-			BAV = {
-				transfer_state = 52
-				transfer_state = 53
-				transfer_state = 54
-			}
-
-			puppet = BAV
-
-	        # SPECIAL_DLC Together for Victory
-	        if = { limit = { has_dlc = "Together for Victory" }
-
-	            #IF-----------------------------------------
-	            set_autonomy = {
-	                target = BAV
-	                autonomous_state = autonomy_integrated_puppet
-	            }
-	            #-------------------------------------------
-
-	            #ELSE---------------------------------------
-	            else = {
-	                # WORK IN PROGRESS # Temporary Solution for Open Beta 0.1.9
-	            }
-	            #-------------------------------------------
 	        }
 
-	        hidden_effect {
-
-	        	BAV = { load_oob = "BAV_1910" }
-	        }
-		}
 
 		ai_will_do = {
 			factor = 0
@@ -937,7 +909,7 @@ focus_tree = {
 			  country_exists=ENG
 			  country_exists=GER
 			  has_war=no
-			  date>1911.6.1
+			  date > 1911.6.1
 			  NOT = { has_global_flag = kis_treaty_of_versailles }
 			  }
 		bypass = { FRA = { has_completed_focus = FRA_ww1_agadir_crisis } }

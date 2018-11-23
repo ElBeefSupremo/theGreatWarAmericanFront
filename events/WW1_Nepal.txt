@@ -15,7 +15,7 @@ country_event = {
 		not={
 			has_country_flag=prithvi_dead
 			}
-		date>1913.10.9
+		date > 1913.10.9
 		}
 	option={
 		name=ww1_nepal.1.a

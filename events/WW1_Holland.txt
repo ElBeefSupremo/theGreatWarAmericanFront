@@ -7,7 +7,7 @@ news_event = {
 	desc="Finally all men can vote! No longer we have to follow the rich! This is one of the first steps to improving our country."
 
 	picture=EVENT_hoi4tgw_Censuskiesrecht
-  fire_only_once=yes
+  	fire_only_once=yes
 	major = no
 
 	trigger = {
@@ -86,6 +86,6 @@ news_event = {
 
 
 	option = {
-		name = "Terrible!"
+		name = "Potato Farmers Unite! Death to 'Big Potato'!"
 	}
 }

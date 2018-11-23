@@ -13,9 +13,9 @@ country_event = {
 		tag=BRA
 		502={is_border_conflict=no }
 		503={is_border_conflict=no }
-		date>1912.10.1
+		date > 1912.10.1
 		not={
-			date>1918.12.30
+			date > 1918.12.30
 			}
 		}
 	option={
@@ -53,7 +53,7 @@ country_event = {
 		GER={
 			has_country_flag=unrest_subs
 			}
-		date>1917.2.1
+		date > 1917.2.1
 		}
 	option={
 		name=ww1_brazil.2.a

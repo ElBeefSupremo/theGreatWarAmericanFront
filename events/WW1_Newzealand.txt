@@ -15,7 +15,7 @@ country_event = {
 		not={
 			has_country_flag=remove_plunket
 			}
-		date>1910.6.8
+		date > 1910.6.8
 		}
 	option={
 		name=ww1_newzealand.1.a
@@ -51,7 +51,7 @@ country_event = {
 		not={
 			has_country_flag=remove_islington
 			}
-		date>1912.12.3
+		date > 1912.12.3
 		}
 	option={
 		name=ww1_newzealand.2.a

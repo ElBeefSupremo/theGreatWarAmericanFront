@@ -378,7 +378,7 @@ focus_tree = {
 		id = ITA_ww1_recognize_albania
 		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus=ITA_ww1_back_france focus=ITA_ww1_back_ger}
-		bypass {
+		bypass = {
 			GER = {
 				has_war_with = FRA
 			}
@@ -1039,8 +1039,8 @@ focus_tree = {
 		available = { 
 			#has_global_flag = SUPER_GLOBAL_Agadir_Crisis_Historical
 			country_exists=TUR
-			date>1911.8.8 
-			date<1913.1.1 
+			date > 1911.8.8 
+			date < 1913.1.1 
 		}
 
 		bypass = {  OR={ is_in_faction_with=TUR has_war_with=TUR NOT={ country_exists=TUR } } }

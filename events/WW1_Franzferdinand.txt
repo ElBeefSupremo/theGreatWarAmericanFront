@@ -205,8 +205,8 @@ country_event = {
 # Mobilize against Austria Hungary
 #____________________________________________________________
 country_event = {
-	title=ww1_franzferdinand.4.t#Mobilize against Austria Hungary
-	desc=ww1_franzferdinand.4.d# On July 28 1914, Tsar Nicholas II of Russia ordered partial mobilization against Austria-Hungary only. While war with Austria-Hungary seemed inevitable, Nicholas engaged in a personal dialogue with the German Emperor in an attempt to avoid war with Germany.
+	title=ww1_franzferdinand.4.t #Mobilize against Austria Hungary
+	desc=ww1_franzferdinand.4.d # On July 28 1914, Tsar Nicholas II of Russia ordered partial mobilization against Austria-Hungary only. While war with Austria-Hungary seemed inevitable, Nicholas engaged in a personal dialogue with the German Emperor in an attempt to avoid war with Germany.
 	id=ww1_franzferdinand.4
 	picture=COUNTRY_hoi4tgw_report_austria_hungary
 	fire_only_once=yes

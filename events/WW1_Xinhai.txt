@@ -10,7 +10,7 @@ country_event = {
 		}
 	trigger={
 		tag=QIN
-		date>1911.8.24
+		date > 1911.8.24
 		not={
 			has_country_flag=revolutionaries_name_list
 			}
@@ -32,10 +32,10 @@ country_event = {
 	mean_time_to_happen={
 		days=0
 		}
-	trigger={
+	trigger = {
 		tag=QIN
 		#date>1911.10.10
-		date>1911.9.1
+		date > 1911.9.1
 		has_country_flag=revolutionaries_name_list
 		not={
 			has_country_flag=xinhai_revolution

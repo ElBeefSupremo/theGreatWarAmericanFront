@@ -23,9 +23,9 @@ country_event = {
 				}
 			}
 		tag=ENG
-		date>1916.1.1
+		date > 1916.1.1
 		not={
-			date>1925.12.30
+			date > 1925.12.30
 			}
 		}
 	option={
@@ -66,9 +66,9 @@ country_event = {
 				}
 			}
 		tag=ENG
-		date>1916.6.1
+		date > 1916.6.1
 		not={
-			date>1925.12.30
+			date > 1925.12.30
 			}
 		}
 	option={
@@ -109,9 +109,9 @@ country_event = {
 				}
 			}
 		tag=ENG
-		date>1917.1.1
+		date > 1917.1.1
 		not={
-			date>1925.12.30
+			date > 1925.12.30
 			}
 		}
 	option={
@@ -158,9 +158,9 @@ country_event = {
 				}
 			}
 		tag=ENG
-		date>1918.2.1
+		date > 1918.2.1
 		not={
-			date>1925.12.30
+			date > 1925.12.30
 			}
 		}
 	option={

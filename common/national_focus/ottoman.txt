@@ -670,7 +670,7 @@ focus_tree = {
 
 	 	available = {
 
-	 		date>1912.1.1
+	 		date > 1912.1.1
 
 			SER = { exists = yes is_in_faction_with=BUL }
 			BUL = { exists = yes is_in_faction_with=SER }
@@ -1089,7 +1089,7 @@ focus = {
 
 		available = {
 
-			date>1912.1.1
+			date > 1912.1.1
 
 	        HJZ = {
 				exists = yes
@@ -1179,7 +1179,7 @@ focus = {
 
 		available = {
 
-			date>1912.1.1
+			date > 1912.1.1
 
 	        HJZ = {
 				exists = yes

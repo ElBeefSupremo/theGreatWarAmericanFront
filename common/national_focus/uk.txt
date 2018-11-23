@@ -631,8 +631,8 @@ focus_tree = {
 			    	has_war_with=ENG
 			    }
 		   	}
-		  	date>1917.1.1
-	   		date<1925.12.30
+		  	date > 1917.1.1
+	   		date < 1925.12.30
 	  	}
 		completion_reward = {
 			HJZ={
@@ -663,8 +663,8 @@ focus_tree = {
 			    	has_war_with=ENG
 			    }
 		   	}
-		  	date>1917.1.1
-		  	date<1925.12.30
+		  	date > 1917.1.1
+		  	date < 1925.12.30
 	  	}
 		completion_reward = {
 			HJZ={
@@ -784,7 +784,7 @@ focus_tree = {
 		   		country_exists=IRE
 		   	}
 	  		has_war=no
-	  		date>1914.5.25
+	  		date > 1914.5.25
 	  	}
 		completion_reward = {
 			release = IRE
@@ -807,7 +807,7 @@ focus_tree = {
 			   	country_exists=IRE
 		   	}
 	  		has_war=no
-	  		date>1914.5.25
+	  		date > 1914.5.25
 	  	}
 		completion_reward = {
 			add_manpower = 50000

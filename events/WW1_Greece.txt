@@ -15,7 +15,7 @@ country_event = {
 		not={
 			has_country_flag=george_died
 			}
-		date>1913.3.13
+		date > 1913.3.13
 		}
 	option={
 		name=ww1_greece.1.a

@@ -483,7 +483,7 @@ focus_tree = {
 
 	 	available = {
 
-			date>1911.1.1
+			date > 1911.1.1
 
 			ITA = {exists = yes}
 			TUR = {exists = yes}

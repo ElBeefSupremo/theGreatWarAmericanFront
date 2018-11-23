@@ -9,13 +9,13 @@ country_event = {
 	mean_time_to_happen={
 		days=1
 		}
-	trigger={
-		tag=OMA
+	trigger = {
+		tag = OMA
 		has_government=neutrality
 		not={
 			has_country_flag=faisal_dead
 			}
-		date>1913.10.9
+		date > 1913.10.9
 		}
 	option={
 		name=ww1_oman.1.a

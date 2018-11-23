@@ -15,7 +15,7 @@ country_event = {
 		not={
 			has_country_flag=frederick_died
 			}
-		date>1912.5.14
+		date > 1912.5.14
 		}
 	option={
 		name=ww1_denmark.1.a

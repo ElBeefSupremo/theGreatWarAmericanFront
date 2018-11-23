@@ -15,7 +15,7 @@ country_event = {
 		not={
 			has_country_flag=roque_died
 			}
-		date>1910.10.12
+		date > 1910.10.12
 		}
 	option={
 		name=ww1_argentina.1.a
