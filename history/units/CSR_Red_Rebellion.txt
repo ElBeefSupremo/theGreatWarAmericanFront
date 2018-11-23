@@ -1,4 +1,4 @@
-# !!!CSR_Red_Rebellion!!!
+﻿# !!!CSR_Red_Rebellion!!!
 ####################################################################
 division_template = {
 	name = "Infantry Division"

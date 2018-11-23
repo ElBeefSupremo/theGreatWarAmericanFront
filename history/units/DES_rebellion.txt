@@ -1,4 +1,4 @@
-# !!!Deseret Utah Rebellion!!!
+﻿# !!!Deseret Utah Rebellion!!!
 ####################################################################
 division_template = {
 	name = "Infantry Division"

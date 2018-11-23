@@ -1,4 +1,4 @@
-###################################################################
+﻿###################################################################
 
 division_template = {
 	name = "Infantry Division"
@@ -2685,7 +2685,7 @@ units =
 		ship = { name = "USS Burns" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Shelton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
 	}
-}
+
 
 air_wings = {
 	6929 = {
@@ -2698,6 +2698,7 @@ air_wings = {
 		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
 	}
 
+}
 }
 
 
