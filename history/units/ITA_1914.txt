@@ -52,13 +52,7 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 	}
 	support = {
-<<<<<<< HEAD
-		engineer = { x = 0 y = 1 }		
-=======
-		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
->>>>>>> 0edaa9c152f8672ffa19c5af5fbc990dbbf32e14
 	}
 }
 
