@@ -212,4 +212,4 @@ create_navy_leader={  name = "Malpica" id=55261 portrait_path="gfx/admiral/MEX_m
 	add_ideas = {
 
 	}
-
+}
