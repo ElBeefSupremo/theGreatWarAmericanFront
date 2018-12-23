@@ -415,16 +415,7 @@ units = {
 				} 
 			} 
 		}
-		ship = { 
-			name = "HMS Niobe" 
-			definition = battle_cruiser 
-			equipment = { 
-				battle_cruiser_1890 = { 
-					amount = 1 
-					owner = CAN 
-				} 
-			} 
-		}
+
 		ship = { 
 			name = "Destroyer Flotilla 1" 
 			definition = destroyer 

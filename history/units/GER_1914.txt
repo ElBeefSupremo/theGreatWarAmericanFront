@@ -1607,10 +1607,61 @@ units = {
 
     division = {
         name = "71. Infantry Mixed Brigade"
-        location = 6389#Kiel
+        location = 9570#Breslau
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
     }
+
+    division = {
+        name = "72. Infantry Mixed Brigade"
+        location = 9570#Breslau
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "73. Infantry Mixed Brigade"
+        location = 9570#Breslau
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "74. Infantry Mixed Brigade"
+        location = 9570#Breslau
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "75. Infantry Mixed Brigade"
+        location = 9570#Breslau
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "76. Infantry Mixed Brigade"
+        location = 9570#Breslau
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "77. Infantry Mixed Brigade"
+        location = 9570#Breslau
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "78. Infantry Mixed Brigade"
+        location = 9570#Breslau
+        division_template = "Schutztruppe Division"
+        start_experience_factor = 0.1
+    }
+
+
 
     #Review
     division = {
