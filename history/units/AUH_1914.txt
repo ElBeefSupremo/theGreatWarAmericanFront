@@ -180,7 +180,43 @@ units = {
 			division_template="Ersatz Division"
 			start_experience_factor=0.00
 			}
+
+		division= { 
+			name = "1. Sturmtruppen"
+			location=11581 # Zagreb
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
+
+			
+		division= { 
+			name = "2. Sturmtruppen"
+			location=11581 # Zagreb
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
+
+
+		division= { 
+			name = "3. Sturmtruppen"
+			location=11581 # Zagreb
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
 	
+		division= { 
+			name = "4. Sturmtruppen"
+			location=11581 # Zagreb
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
+
+		division= { 
+			name = "5. Sturmtruppen"
+			location=11581 # Zagreb
+			division_template="Sturmtruppen Division"
+			start_experience_factor=0.00
+			}
 	
 	division= { 
 			name = "7. Kavalleriedivision"
@@ -534,7 +570,14 @@ units = {
 			start_experience_factor=0.1
 			}
 	
-	
+
+	division= { 
+			name = "33. Infanteriedivision"
+			location=9660 # Budapest
+			division_template="Landwehr Division"
+			start_experience_factor=0.1
+			}
+
 	division= { 
 			name = "20. Honvedinfanteriedivision"
 			location=9660 # Budapest
