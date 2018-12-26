@@ -152,7 +152,7 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/hoi4tgw
 }
 
 
-1914.1.1 = {
+1913.8.10 = {
 	oob = "AUH_1914"
 
 	#-------------------------------------------------------
