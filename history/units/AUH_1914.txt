@@ -682,35 +682,64 @@ units = {
 	
 	
 	division= { 
-			name = "8. Infanteriedivision"
+			name = "1. Gebirgsjäger"
 			location=673 # Innsbruck
 			division_template="Gebirgsjäger Division"
 			start_experience_factor=0.2
 			}
 	
 	division= { 
-			name = "14. Infanteriedivision"
+			name = "2. Gebirgsjäger"
 			location=673 # Innsbruck
 			division_template="Gebirgsjäger Division"
 			start_experience_factor=0.2
 			}
 
 	division= { 
-			name = "15. Infanteriedivision"
+			name = "3. Gebirgsjäger"
 			location=673 # Innsbruck
 			division_template="Gebirgsjäger Division"
 			start_experience_factor=0.2
 			}
 
 	division= { 
-			name = "16. Infanteriedivision"
+			name = "4. Gebirgsjäger"
 			location=673 # Innsbruck
 			division_template="Gebirgsjäger Division"
 			start_experience_factor=0.2
 			}
 
 	division= { 
-			name = "17. Infanteriedivision"
+			name = "5. Gebirgsjäger"
+			location=673 # Innsbruck
+			division_template="Gebirgsjäger Division"
+			start_experience_factor=0.2
+			}
+	
+	division= { 
+			name = "6. Gebirgsjäger"
+			location=673 # Innsbruck
+			division_template="Gebirgsjäger Division"
+			start_experience_factor=0.2
+			}
+
+
+	division= { 
+			name = "7. Gebirgsjäger"
+			location=673 # Innsbruck
+			division_template="Gebirgsjäger Division"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "8. Gebirgsjäger"
+			location=673 # Innsbruck
+			division_template="Gebirgsjäger Division"
+			start_experience_factor=0.2
+			}
+
+	division= { 
+			name = "7. Gebirgsjäger"
 			location=673 # Innsbruck
 			division_template="Gebirgsjäger Division"
 			start_experience_factor=0.2
@@ -727,7 +756,7 @@ units = {
 	division= { 
 			name = "97. LstrInfanteriebrigaden"
 			location = 11666 # Wien
-			division_template="Ersatz Division"
+			division_template="Landwehr Division"
 			start_experience_factor=0.05
 			}
 	
@@ -881,6 +910,28 @@ units = {
 			start_experience_factor=0.02
 	}
 
+
+	division= { 
+		name = "2. Honvedsturmtruppen"
+		location = 11644 #
+		division_template="Sturmtruppen"
+		start_experience_factor=0.02
+	}
+
+	division= { 
+		name = "3. Honvedsturmtruppen"
+		location = 11644 #
+		division_template="Sturmtruppen"
+		start_experience_factor=0.02
+	}
+
+	division= { 
+		name = "4. Honvedsturmtruppen"
+		location = 11644 #
+		division_template="Sturmtruppen"
+		start_experience_factor=0.02
+	}
+
 	division= { 
 			name = "1. Hussars"
 			location = 614 #
@@ -903,38 +954,60 @@ units = {
 	}
 
 	division= { 
-			name = "1. MP"
+			name = "1. Lineinfanterie Divisionen"
 			location = 614 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.02
 	}
 
 	division= { 
-			name = "2. MP"
+			name = "2. Lineinfanterie Divisionen"
 			location = 614 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.02
 	}
 
 	division= { 
-			name = "3. MP"
+			name = "3. Lineinfanterie Divisionen"
 			location = 3709 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.03
 	}
 
 	division= { 
-			name = "4. MP"
+			name = "4. Lineinfanterie Divisionen"
 			location = 3709 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.03
 	}
 
 	division= { 
-			name = "5. MP"
+			name = "5. Lineinfanterie Divisionen"
 			location = 3709 #
 			division_template="Infanterie Truppendivisionen"
 			start_experience_factor=0.03
+	}
+
+	division= { 
+		name = "6. Lineinfanterie Divisionen"
+		location = 3709 #
+		division_template="Infanterie Truppendivisionen"
+		start_experience_factor=0.03
+}
+
+
+	division= { 
+		name = "7. Lineinfanterie Divisionen"
+		location = 3709 #
+		division_template="Infanterie Truppendivisionen"
+		start_experience_factor=0.03
+	}
+
+	division= { 
+		name = "8. Lineinfanterie Divisionen"
+		location = 3709 #
+		division_template="Infanterie Truppendivisionen"
+		start_experience_factor=0.03
 	}
 			######################################
 	 navy = {
