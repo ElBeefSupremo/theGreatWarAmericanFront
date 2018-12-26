@@ -244,16 +244,53 @@ units = {
 
 			}
 	
+
+	division= { 
+			name = "Kosovska sekcija 2"
+			location = 9906 # Pirot
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+	
+			}
 	
 	division= { 
-			name = "Ibarska sekcija"
+			name = "Ibarska sekcija 1"
 			location = 9906 # Pirot
 			division_template="Infantry Division"
 			start_experience_factor=0.1
 
 			}
 	
-	}
+
+	division= { 
+		name = "Ibarska sekcija 2"
+		location = 9906 # Pirot
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+
+		}
+
+
+
+	division= { 
+		name = "Ibarska sekcija 3"
+		location = 9906 # Pirot
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+
+		}
+
+
+
+	division= { 
+		name = "Ibarska sekcija 4"
+		location = 9906 # Pirot
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+
+		}
+
+}
 air_wings = { 
 	}
 instant_effect = {
