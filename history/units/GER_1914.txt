@@ -1940,8 +1940,8 @@ units = {
         base = 241#Wilhelmshaven
         ship = {
             name = "SMS Berlin"
-            definition = light_cruiser equipment = {
-                light_cruiser_1906 = {
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
                     amount = 1 owner = GER
                 }
             }
@@ -3267,6 +3267,60 @@ units = {
                 }
             }
         }
+
+        ship = {
+            name = "SMS Wernesgruner"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+        ship = {
+            name = "SMS Ayinger"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+        ship = {
+            name = "SMS Becks"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+        ship = {
+            name = "SMS Wiehenstephaner"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+        ship = {
+            name = "SMS Spaten"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+        ship = {
+            name = "SMS Optimator"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
         ship = {
             name = "SMS Gefion"
             definition = light_cruiser equipment = {
@@ -3283,6 +3337,8 @@ units = {
                 }
             }
         }
+
+
         ship = {
             name = "SMS G137"
             definition = destroyer equipment = {
@@ -4273,6 +4329,43 @@ units = {
                 }
             }
         }
+        ship = {
+            name = "SMS Dummkopf"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+
+        ship = {
+            name = "SMS Harre"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+        ship = {
+            name = "SMS Anhalt"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
+        ship = {
+            name = "SMS Bitburg"
+            definition = heavy_cruiser equipment = {
+                heavy_cruiser_1900 = {
+                    amount = 1 owner = GER
+                }
+            }
+        }
+
         ship = {
             name = "SMS Gneisenau"
             definition = battle_cruiser equipment = {

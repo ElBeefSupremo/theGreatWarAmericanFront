@@ -957,7 +957,7 @@ units = {
 		base=788 # Norfolk
 
 		ship = { name = "CSS Joe Johnston" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS " definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Longstreet" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Texas" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
@@ -970,6 +970,12 @@ units = {
 		ship = { name = "CSS Roanoke" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Oklahoma City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Bowling Green" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Lubbock" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Juarez" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } }
+		ship = { name = "CSS Joplin" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+		ship = { name = "CSS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+		ship = { name = "CSS Galveston" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+		ship = { name = "CSS Asheville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
 		ship = { name = "CSS Downes" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Duncan" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Aylwin" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
@@ -995,9 +1001,16 @@ units = {
 		ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Tennessee" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Lexington" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+		ship = { name = "CSS Louisville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+		ship = { name = "CSS Tallahassee" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+		ship = { name = "CSS Newport News" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
 		ship = { name = "CSS Buchanan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Birmingham" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Semmes" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hot Springs" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Selma" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Wilmington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Beall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Breckenridge" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }

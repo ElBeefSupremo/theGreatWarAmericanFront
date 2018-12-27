@@ -695,12 +695,12 @@ ship = { name = "HMS Venerable" definition = battleship equipment = { battleship
 ship = { name = "HMS Queen" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }#KiS#version_name = "London Class" } } }
 ship = { name = "HMS Prince of Wales" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }#KiS#version_name = "London Class" } } }
 ship = { name = "HMS Albemarle" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Cornwallis" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Duncan" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Exmouth" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Russell" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Lord Nelson" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Agamemnon" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Cornwallis" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Duncan" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Exmouth" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Russell" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Lord Nelson" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Agamemnon" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Perseus" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Pelorus Class" } } }
 ship = { name = "HMS Pactolus" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Pelorus Class" } } }
 ship = { name = "HMS Pomone" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Pelorus Class" } } }
@@ -751,6 +751,10 @@ ship = { name = "HMS Caesar" definition = battleship equipment = { battleship_19
 ship = { name = "HMS Illustrious" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Majestic Class" } } }
 ship = { name = "HMS Jupiter" definition = battleship equipment = { battleship_1906= { amount = 1 owner = ENG } } }#KiS#version_name = "Majestic Class" } } }
 ship = { name = "HMS Prince George" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }#KiS#version_name = "Majestic Class" } } }
+ship = { name = "HMS Dunswallop" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Hexmouth" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Derrykane" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Elton John" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Dido" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Eclipse Class" } } }
 ship = { name = "HMS Hermes" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Hermes Class" } } }
 ship = { name = "HMS Amethyst" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }
@@ -833,6 +837,10 @@ ship = { name = "HMS Hogue" definition = battle_cruiser equipment = { battle_cru
 ship = { name = "HMS Adventure" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Attentive" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Forward" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Forward Class" } } }
+ship = { name = "HMS Fluncan" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Undermouth" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Tittle" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Buttland" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Welland" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Garry" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Foyle" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }

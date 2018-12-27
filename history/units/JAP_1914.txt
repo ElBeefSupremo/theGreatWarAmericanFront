@@ -213,15 +213,15 @@ navy = {
 	ship = { name = "IJN Kasuga" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Nisshin" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Tsushima" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = JAP } } }
-	ship = { name = "IJN Hatsuyuki" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Yudachi" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Nowaki" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Mikazuki" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Shigure" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Hatsuharu" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Shirotae" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Shiratsuyu" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
-	ship = { name = "IJN Shirayuki" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Hatsuyuki" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Yudachi" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Nowaki" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Mikazuki" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Shigure" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Hatsuharu" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Shirotae" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Shiratsuyu" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
+	ship = { name = "IJN Shirayuki" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
 	ship = { name = "IJN Matsukaze" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
 	ship = { name = "IJN Nagatsuki" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
 	ship = { name = "IJN Yunagi" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Asakaze Class" } } }
