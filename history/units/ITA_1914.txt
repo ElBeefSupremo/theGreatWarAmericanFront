@@ -658,13 +658,13 @@ ship = { name = "RN Pisa" definition = battle_cruiser equipment = { battle_cruis
 ship = { name = "RN Amalfi" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ITA } } }
 ship = { name = "RN San Giorgio" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ITA } } }#KiS#version_name = "San Giorgio Class" } } }
 ship = { name = "RN San Marco" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ITA } } }#KiS#version_name = "San Giorgio Class" } } }
-ship = { name = "RN Artigliere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
-ship = { name = "RN Bersagliere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
-ship = { name = "RN Corazziere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
-ship = { name = "RN Garibaldino" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
-ship = { name = "RN Granatiere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
-ship = { name = "RN Lanciere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
-ship = { name = "RN Alpino" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
+ship = { name = "RN Artigliere" definition = heavy_cruiser equipment = { heavy_cruiser_1900  = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
+ship = { name = "RN Bersagliere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
+ship = { name = "RN Corazziere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
+ship = { name = "RN Garibaldino" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
+ship = { name = "RN Granatiere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
+ship = { name = "RN Lanciere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
+ship = { name = "RN Alpino" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
 ship = { name = "RN Caribiniere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
 ship = { name = "RN Fuciliere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }
 ship = { name = "RN Pontiere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Soldati Class" } } }

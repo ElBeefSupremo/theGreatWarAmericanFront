@@ -1468,15 +1468,15 @@ units = {
 		ship = { name = "Indomptable" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Terrible Class" } } }
 		ship = { name = "Caïman" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Terrible Class" } } }
 		ship = { name = "Requin" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Terrible Class" } } }
-		ship = { name = "Marceau" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Marceau Class" } } }
-		ship = { name = "Brennus" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Brennus Class" } } }
-		ship = { name = "Styx" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Achéron Class" } } }
-		ship = { name = "Bouvines" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Bouvines Class" } } }
-		ship = { name = "Amiral Tréhouart" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Bouvines Class" } } }
-		ship = { name = "Dévastation" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = FRA } } }#KiS#version_name = "Courbet Class" } } }
-		ship = { name = "Ernest Renan" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = FRA } } }
-		ship = { name = "Edgar Quinet" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = FRA } } }#KiS#version_name = "Edgar Quinet Class" } } }
-		ship = { name = "Waldeck-Rousseau" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = FRA } } }#KiS#version_name = "Edgar Quinet Class" } } }
+		ship = { name = "Marceau" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Marceau Class" } } }
+		ship = { name = "Brennus" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Brennus Class" } } }
+		ship = { name = "Styx" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Achéron Class" } } }
+		ship = { name = "Bouvines" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Bouvines Class" } } }
+		ship = { name = "Amiral Tréhouart" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Bouvines Class" } } }
+		ship = { name = "Dévastation" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Courbet Class" } } }
+		ship = { name = "Ernest Renan" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }
+		ship = { name = "Edgar Quinet" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Edgar Quinet Class" } } }
+		ship = { name = "Waldeck-Rousseau" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = FRA } } }#KiS#version_name = "Edgar Quinet Class" } } }
 		ship = { name = "Léon Gambetta" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Léon Gambetta Class" } } }
 		ship = { name = "Jules Ferry" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Léon Gambetta Class" } } }
 		ship = { name = "Victor Hugo" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Léon Gambetta Class" } } }

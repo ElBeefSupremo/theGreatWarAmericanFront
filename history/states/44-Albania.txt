@@ -12,7 +12,7 @@ state={
 		victory_points={ 9914 5 }
 		owner=TUR
 		add_core_of=ALB
-		#add_claim_by=ITA
+		add_claim_by=ITA
 		1913.5.30={
 				owner=ALB
 
@@ -22,5 +22,6 @@ state={
 
 				}
 
-}
+		}
 	}
+}

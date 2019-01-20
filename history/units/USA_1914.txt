@@ -2408,22 +2408,32 @@ units =
 		ship = { name = "USS Missouri" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Idaho" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Brooklyn" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Colombia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Minneapolis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Colombia" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Minneapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Fulton" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Dearborn" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Salem" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Flagstaff" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Scottsdale" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Santa Monica" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Minoch" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Layfayette" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Kokomo" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Edinburg" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
 		}
 
 	 navy = {
 		name = "Atlantic Squadron"
 		location=3878 # New York
 		base=3878 # New York
-		ship = { name = "USS West Virginia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
+		ship = { name = "USS West Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS New Jersey" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Rhode Island" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Connecticut" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Kansas" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Michigan" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Chester" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Birmingham" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Lansing" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Salem" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Truxtun" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Whipple" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
@@ -2445,9 +2455,22 @@ units =
 		ship = { name = "USS Washington" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS West Virginia" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Colorado" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS St. Louis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Charleston" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+
+		ship = { name = "USS St. Paul" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Greenbay" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Rochester MI" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Anderson" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Sandusky" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Urbana" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = USA } } }
+
+		ship = { name = "USS Middleton" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Hartford City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Terryton" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }		ship = { name = "USS St. Louis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Warsaw" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Sioux City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Santa Fe" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Gettysburg" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Jamestown" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Hopkins" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Hull" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
 		ship = { name = "USS Lawrence" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = USA } } }
