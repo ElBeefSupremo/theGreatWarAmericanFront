@@ -971,7 +971,7 @@ units = {
 		ship = { name = "CSS Oklahoma City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Bowling Green" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Lubbock" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Juarez" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } }
+		ship = { name = "CSS Juarez" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 		ship = { name = "CSS Joplin" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
 		ship = { name = "CSS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
 		ship = { name = "CSS Galveston" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}

@@ -335,4 +335,5 @@ submarine_1 = {
 	manpower = 200
 	priority = 80
 	}
+}
 

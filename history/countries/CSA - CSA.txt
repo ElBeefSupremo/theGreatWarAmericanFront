@@ -283,17 +283,31 @@ create_navy_leader = { name = "Earl E. Scruggs" id=93396 portrait_path="gfx/hoi4
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
 		ww1_destroyer2 = 1
+		ww1_destroyer3 = 1
 		ww1_light_cruiser0 = 1
 		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
+		ww1_light_cruiser3 = 1
 		ww1_battlecruiser0 = 1
 		ww1_battlecruiser0b = 1
 		ww1_battlecruiser1 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
+		ww1_battleship2 = 1
+		ww1_battleship3 = 1
+		ww1_submarine0 = 1
 		ww1_submarine1 = 1
-		ww1_coastal_submarine1 = 1
+		ww1_submarine2 = 1
+		ww1_submarine3 = 1
 		transport = 1
-
+		ww1_coastal_submarine0 = 1
+		ww1_coastal_submarine1 = 1
+		ww1_coastal_submarine2 = 1
+		ww1_coastal_submarine3 = 1
+		ww1_heavy_cruiser0 = 1
+		ww1_heavy_cruiser1 = 1
+		ww1_heavy_cruiser2 = 1
+		
 		#Air
 		ww1_fighter1 = 1
 		ww1_fighter1b = 1
