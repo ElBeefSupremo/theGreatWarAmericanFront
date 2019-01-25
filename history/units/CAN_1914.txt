@@ -417,8 +417,8 @@ units = {
 		}
 
 		ship = { 
-			name = "Destroyer Flotilla 1" 
-			definition = destroyer 
+			name = "HMCS Flumper" 
+			definition = light_cruiser
 			equipment = { 
 				destroyer_1890 = { 
 					amount = 1 
@@ -428,9 +428,9 @@ units = {
 		}
 		ship = { 
 			name = "HMCS Shart" 
-			definition = destroyer 
+			definition = light_cruiser
 			equipment = { 
-				destroyer_1906 = { 
+				light_cruiser_1906 = { 
 					amount = 1 
 					owner = CAN 
 				} 
@@ -438,9 +438,9 @@ units = {
 		}
 		ship = { 
 			name = "HMCS Dingle" 
-			definition = destroyer 
+			definition = light_cruiser
 			equipment = { 
-				destroyer_1906 = { 
+				light_cruiser_1906 = { 
 					amount = 1 
 					owner = CAN 
 				} 
@@ -448,9 +448,9 @@ units = {
 		}
 		ship = { 
 			name = "HMCS Flouncer" 
-			definition = destroyer 
+			definition = light_cruiser 
 			equipment = { 
-				destroyer_1906 = { 
+				light_cruiser_1906 = { 
 					amount = 1 
 					owner = CAN 
 				} 
@@ -458,9 +458,9 @@ units = {
 		}
 		ship = { 
 			name = "HMCS Bodangle" 
-			definition = destroyer 
+			definition = light_cruiser
 			equipment = { 
-				destroyer_1906 = { 
+				light_cruiser_1906 = { 
 					amount = 1 
 					owner = CAN 
 				} 

@@ -976,18 +976,18 @@ units = {
 		ship = { name = "CSS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
 		ship = { name = "CSS Galveston" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
 		ship = { name = "CSS Asheville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Downes" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Duncan" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Aylwin" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Parker" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Benham" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hathcoat" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Downthett" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Denton" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Aykin" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Parks" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS McBrian" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hatcher" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Downes" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Duncan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Aylwin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Parker" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Benham" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hathcoat" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Downthett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Denton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Aykin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Parks" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS McBrian" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		ship = { name = "CSS Hatcher" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 	}
 
 	navy= {
