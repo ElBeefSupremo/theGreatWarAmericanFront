@@ -1088,59 +1088,59 @@ ship = { name = "SMS Viribus Unitis" definition = battleship equipment = { battl
 		base =  11735 # Pola
 		
 		ship = { name = "SMS Erzherzog Karl" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Erzherzog Friedrich" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Erzherzog Ferdinand Max" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Erzherzog Friedrich" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Erzherzog Ferdinand Max" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
 
-ship = { name = "SMS Habsburg" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Habsburg Class" } } }
-ship = { name = "SMS Árpád" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Habsburg Class" } } }
-ship = { name = "SMS Babenberg" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Habsburg Class" } } }
-ship = { name = "SMS Von Dittersdorf" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS J. S. Bach" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS W. A. Mozart" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Von Hauseger" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
-		 
-ship = { name = "SMS Meteor" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Blitz" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Komet" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Planet" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Trabant" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Habsburg" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Habsburg Class" } } }
+		ship = { name = "SMS Árpád" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Habsburg Class" } } }
+		ship = { name = "SMS Babenberg" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Habsburg Class" } } }
+		ship = { name = "SMS Von Dittersdorf" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS J. S. Bach" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS W. A. Mozart" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Von Hauseger" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = AUH } } }
+				
+		ship = { name = "SMS Meteor" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Blitz" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Komet" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Planet" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Trabant" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
 
 
-ship = { name = "SMS Satellit" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Blitz Class" } } }
-ship = { name = "SMS Magnet" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Blitz Class" } } }
-ship = { name = "SMS Ulan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Streiter" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Wildfang" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Scharfschütze" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Uskoke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Huszar II" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Satellit" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Blitz Class" } } }
+		ship = { name = "SMS Magnet" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Blitz Class" } } }
+		ship = { name = "SMS Ulan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Streiter" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Wildfang" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Scharfschütze" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Uskoke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Huszar II" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = AUH } } }
 		}
 	 navy = {
 		name = "3. Linienschiffschwadron"
 		location = 11735 # Pola
 		base =  11735 # Pola
 		ship = { name = "SMS Kronprinzessin Erzherzogin Stephanie" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Kronprinz Erzherzogin Rudolf" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Kronprinz Erzherzogin Rudolf Class" } } }
-ship = { name = "SMS Monarch" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Monarch Class" } } }
-ship = { name = "SMS Wien" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Monarch Class" } } }
-ship = { name = "SMS Budapest" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Monarch Class" } } }
-ship = { name = "SMS Kaiserin und Königin Maria Theresia" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Kronprinz Erzherzogin Rudolf" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Kronprinz Erzherzogin Rudolf Class" } } }
+		ship = { name = "SMS Monarch" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Monarch Class" } } }
+		ship = { name = "SMS Wien" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Monarch Class" } } }
+		ship = { name = "SMS Budapest" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = AUH } } }#KiS#version_name = "Monarch Class" } } }
+		ship = { name = "SMS Kaiserin und Königin Maria Theresia" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = AUH } } }
 
 		}
 	 navy = {
 		name = "1. Kreuzerdivision"
 		location = 11735 # Pola
 		base =  11735 # Pola
-ship = { name = "SMS Kaiser Karl VI" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Zenta" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Kaiser Franz Joseph I" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Kaiser Franz Joseph I Class" } } }
-ship = { name = "SMS Panther" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Panther Class" } } }
-ship = { name = "SMS Leopard" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Panther Class" } } }
-ship = { name = "SMS Tiger" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Tiger Class" } } }
-ship = { name = "SMS Zara" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Spalato" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Sebenico" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
-ship = { name = "SMS Lussin" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Kaiser Karl VI" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Zenta" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Kaiser Franz Joseph I" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Kaiser Franz Joseph I Class" } } }
+		ship = { name = "SMS Panther" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Panther Class" } } }
+		ship = { name = "SMS Leopard" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Panther Class" } } }
+		ship = { name = "SMS Tiger" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }#KiS#version_name = "Tiger Class" } } }
+		ship = { name = "SMS Zara" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Spalato" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Sebenico" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
+		ship = { name = "SMS Lussin" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = AUH } } }
 
 		}
 	 navy = {

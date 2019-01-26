@@ -48,27 +48,34 @@ create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmars
 	#-------------------------------------------------------
 
 	#Army
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = ww1_artillery_effort_1
-	complete_national_focus = doctrine_effort
-	complete_national_focus = ww1_trenchwarfare
+	complete_national_focus = CAN_ww1_army_effort
+	complete_national_focus = CAN_ww1_eqiupment_effort
+
+	#Airforce
+	complete_national_focus = CAN_ww1_aviation_effort
+
+	#Navy
+
 
 	#Industrial
-	complete_national_focus = industrial_effort
-	complete_national_focus = infrastructure_effort
+	complete_national_focus = CAN_ww1_industrial_effort
+	complete_national_focus = CAN_ww1_infrastructure_effort
+	complete_national_focus = CAN_ww1_airfield_expansion_1
+	
+
 
 	#Political
-	complete_national_focus = political_effort
+	complete_national_focus = CAN_ww1_political_effort
+	complete_national_focus = CAN_ww1_Reconciliation
+	complete_national_focus = CAN_ww1_student_movement_focus
+
 
 	#Diplomatic
-	complete_national_focus = ww1_diplomatic_effort
-	complete_national_focus = ww1_takeposition	
-	complete_national_focus = ww1_supportfrance
-	complete_national_focus = ww1_supportrussia	
-	complete_national_focus = interventionism_focus
-	complete_national_focus = volunteer_corps
-	complete_national_focus = foreign_expeditions
+	complete_national_focus = CAN_ww1_diplomatic_effort
+	complete_national_focus = CAN_ww1_Politics
+	complete_national_focus = CAN_ww1_assert_position
+	complete_national_focus = CAN_ww1_assert_position_east
+	complete_national_focus = CAN_ww1_anti_USA
 	
 
 	#-------------------------------------------------------

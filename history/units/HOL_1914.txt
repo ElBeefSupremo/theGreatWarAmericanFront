@@ -87,7 +87,7 @@ units = {
 	division = {
 			name = "4e Divisie"
 			location = 9363 # Arnhem
-			division_template = "Colonial Troops"
+			division_template = "Infantry Division"
 			start_experience_factor = 0.1
 			}
 	
@@ -131,6 +131,27 @@ units = {
 
 	division = {
 			name = "VIe Divisie 'Java'"
+			location = 4434 # Tjilatjap
+			division_template = "Colonial Troops"
+			start_experience_factor = 0
+			}
+
+	division = {
+			name = "VIIe Divisie 'Java'"
+			location = 4434 # Tjilatjap
+			division_template = "Colonial Troops"
+			start_experience_factor = 0
+			}
+
+	division = {
+			name = "VIIIe Divisie 'Java'"
+			location = 4434 # Tjilatjap
+			division_template = "Colonial Troops"
+			start_experience_factor = 0
+			}
+
+	division = {
+			name = "IXe Divisie 'Java'"
 			location = 4434 # Tjilatjap
 			division_template = "Colonial Troops"
 			start_experience_factor = 0

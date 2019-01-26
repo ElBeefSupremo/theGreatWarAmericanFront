@@ -94,7 +94,7 @@ random_owned_state={
 			
 			NOT={ 
 				owner={ 
-					any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } 
+					any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } 
 					
 					
 					add_political_power=50
@@ -104,7 +104,7 @@ random_owned_state={
 
 		complete_tooltip = {
 
-add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes }
+add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes }
 
 
 }
@@ -404,9 +404,9 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		y = 1
 	}
 
-	#Peace in Balkans Focus
+	# First Nations Recognition focus
 	focus = {
-		id = CAN_ww1_Apeasement
+		id = CAN_ww1_first_nations_appeasement
 		prerequisite = { focus= CAN_ww1_Politics }
 
 		icon = GFX_goal_generic_national_unity
@@ -414,26 +414,25 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		available = { NOT={ has_war=yes } }
 
 		completion_reward = {
-			add_political_power=-80
-			add_ideas = isolation
+			add_political_power=-50
 		}
 
 		ai_will_do = { factor = 0	}
 		cost = 10
 		x = 6
 		y = 2
-		mutually_exclusive = { focus=CAN_ww1_anti_USA }
 	}
 
 	focus = {
-		id = CAN_WW1_First_Nations
-		prerequisite = { focus= CAN_ww1_Apeasement }
+		id = CAN_WW1_first_nations_conscription
+		prerequisite = { focus= CAN_ww1_first_nations_appeasement }
 
 		icon = GFX_goal_generic_intelligence_exchange
 
 		completion_reward = {
-			add_political_power= 10
-			add_ideas = canada_first_nations_citizenship
+			add_political_power= -150
+			army_experience=30
+			add_manpower = 300000
 		}
 		
 		ai_will_do = { factor = 0	}
@@ -444,22 +443,6 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 
 
 	#-----------------------------------------
-
-	#-----------------------------------------
-
-
-
-
-	#-----------------------------------------
-
-
-
-
-
-
-
-
-
 
 
 	#Antagonize USA
@@ -1641,8 +1624,8 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		available = { date > 1911.1.1 }
 		icon = GFX_goal_generic_construct_civ_factory
 		bypass = { custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes }					 } } }
-		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } } }
-		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes }			 }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes }			 }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 29
@@ -1655,8 +1638,8 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		available = { date > 1911.1.1 }
 		icon = GFX_goal_generic_construct_mil_factory
 		bypass = { custom_trigger_tooltip={ tooltip=production_effort_tt all_owned_state={ free_building_slots={ building=arms_factory size < 1 include_locked=yes } } } }
-		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } }
-		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 31
@@ -1811,8 +1794,8 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_construct_civ_factory
 		bypass = { custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes } } } }
-		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } } }
-		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 29
@@ -1826,8 +1809,8 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_construct_mil_factory
 		bypass = { custom_trigger_tooltip={ tooltip=production_effort_tt all_owned_state={ free_building_slots={ building=arms_factory size < 1 include_locked=yes } } } }
-		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } }
-		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 31
@@ -1996,8 +1979,8 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_construct_mil_factory
 		bypass = { custom_trigger_tooltip={ tooltip=production_effort_tt all_owned_state={ free_building_slots={ building=arms_factory size < 1 include_locked=yes }					 } } }
-		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } }
-		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 31
