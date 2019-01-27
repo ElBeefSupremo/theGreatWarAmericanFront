@@ -72,18 +72,44 @@ heavy_cruiser_1900 = {
 	max_strength = 105
 	naval_speed = 21
 	naval_range = 2525
-	port_capacity_usage = 1.5
+	port_capacity_usage = 1
 	manpower = 1820
 	priority = 50
 	}
 
-heavy_cruiser_1 = {
-	year = 1922
+heavy_cruiser_1914 = {
+	year = 1914
 	archetype = heavy_cruiser
 	parent = heavy_cruiser_1900
 	reliability = 0.80
 	armor_value = 9
-	ap_attack = 11
+	ap_attack = 10
+	build_cost_ic = 4200
+	resources = { oil=1 steel=3 }
+	anti_air_attack = 6
+	torpedo_attack = 0
+	attack = 9
+	fire_range = 20
+	shore_bombardment = 3
+	evasion = 18
+	surface_detection = 12
+	sub_detection = 5
+	surface_visibility = 20
+	max_strength = 140
+	naval_speed = 23
+	naval_range = 2800
+	port_capacity_usage = 1
+	manpower = 1500
+	priority = 40
+	}
+
+heavy_cruiser_1922 = {
+	year = 1922
+	archetype = heavy_cruiser
+	parent = heavy_cruiser_1914
+	reliability = 0.80
+	armor_value = 9
+	ap_attack = 12
 	build_cost_ic = 4200
 	resources = { oil=1 steel=3 }
 	anti_air_attack = 6

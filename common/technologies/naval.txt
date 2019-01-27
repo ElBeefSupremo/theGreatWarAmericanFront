@@ -502,10 +502,40 @@ technologies = {
 	}
 
 	
+	ww1_heavy_cruiser2 = {
+
+		enable_equipments = { 
+			heavy_cruiser_1914
+		}
+		
+		path = {
+			leads_to_tech = early_heavy_cruiser 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1914
+		
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+
 	early_heavy_cruiser = {
 
 		enable_equipments = { 
-			heavy_cruiser_1
+			heavy_cruiser_1922
 		}
 		
 		path = {
@@ -531,7 +561,6 @@ technologies = {
 			ca_tech
 		}
 	}
-
 
 	ww1_battlecruiser0 = {
 

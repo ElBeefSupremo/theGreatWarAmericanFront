@@ -1122,7 +1122,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_ww1_canada_focus
-		prerequisite = { focus=ENG_ww1_new_zealand_focus }
+		prerequisite = { focus=ENG_ww1_commonwealth_focus }
 		icon = GFX_goal_generic_construct_civ_factory
 		available = { is_in_faction_with=CAN }
 		bypass = { CAN={ custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes } } } custom_trigger_tooltip={ tooltip=naval_effort_tt all_owned_state={ free_building_slots={ building=dockyard size < 1 include_locked=yes } } } } }
@@ -1164,7 +1164,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_ww1_india_focus
-		prerequisite = { focus=ENG_ww1_commonwealth_focus }
+		prerequisite = { focus=ENG_ww1_new_zealand_focus }
 		icon = GFX_goal_generic_construct_civ_factory
 		available = { is_in_faction_with=RAJ }
 		bypass = { RAJ={ custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes } } } } }

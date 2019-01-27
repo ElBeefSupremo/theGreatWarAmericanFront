@@ -668,7 +668,11 @@ units = {
 				ship = { name = "HMS New Zealand" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG } } }
 				ship = { name = "HMS Lion" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG version_name = "Lion Class" } } }
 				ship = { name = "HMS Princess Royal" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG version_name = "Lion Class" } } }
-				ship = { name = "HMS Queen Mary" definition = battle_cruiser equipment = { battle_cruiser_1914 = { amount = 1 owner = ENG } } }
+				ship = { name = "HMS Queen Mary" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG } } }
+				ship = { name = "HMS King Arthur" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG } } }
+				ship = { name = "HMS Magna Carta" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG } } }
+				ship = { name = "HMS Earl of Rochester" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG } } }
+				ship = { name = "HMS Queen Bee" definition = battle_cruiser equipment = { battle_cruiser_1910 = { amount = 1 owner = ENG } } }
 				ship = { name = "HMS Southampton" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = ENG version_name = "Chatham Class" } } }
 				
 				}
@@ -687,11 +691,11 @@ units = {
 				name = "Channel Fleet"
 				location = 9458 # Portsmouth
 				base =  9458 # Portsmouth
-				ship = { name = "HMS Majestic" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Majestic Class" } } }
-				ship = { name = "HMS Albion" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
-				ship = { name = "HMS Canopus" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
-				ship = { name = "HMS Glory" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
-				ship = { name = "HMS Goliath" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
+				ship = { name = "HMS Majestic" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ENG version_name = "Majestic Class" } } }
+				ship = { name = "HMS Albion" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
+				ship = { name = "HMS Canopus" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
+				ship = { name = "HMS Glory" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
+				ship = { name = "HMS Goliath" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
 				ship = { name = "HMS Ocean" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
 				ship = { name = "HMS Vengeance" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Canopus Class" } } }
 				ship = { name = "HMS Formidable" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG version_name = "Formidable Class" } } }
