@@ -194,16 +194,15 @@ create_navy_leader={
 		ww1_light_cruiser0 = 1
 		ww1_light_cruiser1 = 1
 		ww1_battlecruiser0 = 1
-		ww1_battlecruiser0b = 1
+		
 		ww1_battlecruiser1 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1
 		transport = 1
 		coastal_submarine_1900 = 1
-		ww1_heavy_cruiser_1890 = 1
-		wwi_heavy_cruiser_1900 = 1
-
+		ww1_heavy_cruiser0 = 1
+ww1_heavy_cruiser1= 1
 		# Air
 		ww1_fighter1 = 1
 		ww1_fighter1b = 1
@@ -367,7 +366,7 @@ create_navy_leader={
 		ww1_light_cruiser2 = 1
 		ww1_light_cruiser3 = 1
 		ww1_battlecruiser0 = 1
-		ww1_battlecruiser0b = 1
+		
 		ww1_battlecruiser1 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
