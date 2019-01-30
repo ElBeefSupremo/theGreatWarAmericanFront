@@ -617,13 +617,13 @@ units = {
 		name = "1a Squadra Sommergibili"
 		location=11837 # Taranto
 		base=11837 # Taranto
-		ship = { name = "RN Delfino" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Glauco" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
-		ship = { name = "RN Narvalo" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
-		ship = { name = "RN Otaria" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
-		ship = { name = "RN Squalo" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
-		ship = { name = "RN Tricheco" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
-		ship = { name = "RN Foca" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ITA } } }
+		ship = { name = "RN Delfino" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+		ship = { name = "RN Glauco" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
+		ship = { name = "RN Narvalo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
+		ship = { name = "RN Otaria" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
+		ship = { name = "RN Squalo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
+		ship = { name = "RN Tricheco" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }#KiS#version_name = "Glauco Class" } } }
+		ship = { name = "RN Foca" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
 	}
 	navy = {
 		name = "Squadra del Mar Rosso"
