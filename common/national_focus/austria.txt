@@ -124,51 +124,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUH_ww1_end_dual_monarchy_emperor
+		id = AUH_ww1_rights_for_minorities
 		prerequisite = { focus=AUH_ww1_paramilitarism }
 		icon = GFX_goal_support_fascism
-		available = {
-
-			# SPECIAL_DLC Together for Victory
-			if = { limit = { has_dlc = "Together for Victory" }
-
-				#IF-----------------------------------------
-				has_country_flag = emperor_franz_dead
-				has_government=neutrality
-				country_exists=HUN
-				HUN = {
-					is_puppet = yes 
-				}
-				#-------------------------------------------
-
-				#ELSE---------------------------------------
-				else = {
-					has_country_flag = emperor_franz_dead
-					has_government=neutrality
-				}
-				#-------------------------------------------
-			}
-
-		}
 
 		completion_reward = {
 
-			# SPECIAL_DLC Together for Victory
-			if = { limit = { has_dlc = "Together for Victory" }
-
-				#IF-----------------------------------------
-				annex_country = {
-					target = HUN
-					transfer_troops = yes
-				}
-				#-------------------------------------------
-
-				#ELSE---------------------------------------
-				else = {
-					add_political_power = 100
-				}
-				#-------------------------------------------
-			}
+			army_experience=20
+			add_political_power=30 
 
 		}
 
@@ -182,7 +145,7 @@ focus_tree = {
 
 	focus = {
 		id = AUH_ww1_unitedpeople
-		prerequisite = { focus=AUH_ww1_reorganization_act focus=AUH_ww1_end_dual_monarchy_emperor }
+		prerequisite = { focus=AUH_ww1_reorganization_act focus=AUH_ww1_rights_for_minorities }
 		icon = GFX_hoi4tgw_austriahungary
 
 		completion_reward = {

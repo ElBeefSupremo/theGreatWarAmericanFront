@@ -223,21 +223,42 @@ ww1_heavy_cruiser1= 1
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
-	#Army
-
-	#Air
-
-
-	#Industry
-
-
-	#Naval
-
-
 	#Political
-
+	complete_national_focus = CSA_ww1_political_effort
+	complete_national_focus = CSA_ww1_reaffirm_status_quo
+	complete_national_focus = CSA_ww1_democracy
+	complete_national_focus = CSA_ww1_freespeech
+	complete_national_focus = CSA_ww1_full_hispanic_suffrage
+	complete_national_focus = CSA_ww1_bureaucratic_aristocracy
 
 	#Diplomatic
+	complete_national_focus = CSA_ww1_diplomatic_effort
+	complete_national_focus = CSA_ww1_anti_usa_pact
+	complete_national_focus = CSA_ww1_support_canada
+	complete_national_focus = CSA_ww1_north_american_effort
+	complete_national_focus = CSA_ww1_celebrate_entente
+
+	#industrial
+	complete_national_focus = CSA_ww1_industrial_effort
+	complete_national_focus = CSA_ww1_infrastructure_effort
+	complete_national_focus = CSA_ww1_airfield_expansion_1
+	complete_national_focus = CSA_ww1_construction_effort
+	complete_national_focus = CSA_ww1_production_effort
+	complete_national_focus = CSA_ww1_dockyard_effort_1
+
+	#Army
+	complete_national_focus = CSA_ww1_army_effort
+	complete_national_focus = CSA_ww1_equipment_effort
+	complete_national_focus = CSA_ww1_artillery_effort_1
+	complete_national_focus = CSA_ww1_doctrine_effort
+	complete_national_focus = CSA_ww1_trenchwarfare
+
+	#Air
+	complete_national_focus = CSA_ww1_aviation_effort
+	complete_national_focus = CSA_ww1_aviation_effort_2
+
+	#Naval
+	complete_national_focus = CSA_ww1_naval_effort
 
 	#-------------------------------------------------------
 
