@@ -24,13 +24,37 @@ state={
 				industrial_complex=4
 				air_base=3
 				arms_factory=1
-				9340={ naval_base=3 }
+				9340={ 
+					naval_base=3
+					trench = 2
+					bunker = 3
+				}
+				10323={
+					trench = 1
 				}
 			}
+		}
 		buildings={
-			infrastructure=5
+			infrastructure=6
 			industrial_complex=1
-			9340={ naval_base=3 }
-			}
+				9340={ 
+					naval_base=3
+					trench = 2
+					bunker = 3
+				}
+				10323={
+					trench = 1
+				}
+				7482={
+					trench = 1
+				}
+				310={
+					trench = 1
+				}
+				6459={
+					trench = 1
+				}
+
 		}
 	}
+}

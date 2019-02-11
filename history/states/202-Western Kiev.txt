@@ -19,6 +19,25 @@ state={
 			industrial_complex=2
 			air_base=2
 			arms_factory=1
+			489={
+				trench = 1
+			}
+			9568={
+				trench = 1
+			}
+			3543={
+				trench = 1
+			}
+			525={
+				trench = 2
+				bunker = 4
+			}
+			11557={
+				trench = 2
+			}
+			9543={
+				trench = 2
 			}
 		}
 	}
+}

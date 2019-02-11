@@ -20,6 +20,15 @@ state={
 			}
 		buildings={
 			infrastructure=3
+			215={
+				trench = 1
+			}
+			3203={
+				trench = 1
+			}
+			3507={
+				trench = 1
+			}
 			}
 		}
 	}

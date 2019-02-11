@@ -22,6 +22,23 @@ state={
 			}
 		buildings={
 			infrastructure=5
+			6354={
+				trench = 1
 			}
+			11271={
+				trench = 1
+			}
+			6233={
+				trench = 1
+			}
+			6344={
+				trench = 1
+			}
+			9288={
+				trench = 1
+				bunker = 1
+			}
+			
 		}
 	}
+}
