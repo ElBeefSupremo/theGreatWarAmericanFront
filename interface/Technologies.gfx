@@ -1,6 +1,6 @@
+spriteTypes = {	
 
 
-spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_ww1_infantry_equip1_medium"
@@ -16,6 +16,7 @@ spriteTypes = {
 		name = "GFX_ww1_infantry_equip3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/equip3.dds"
 	}	
+
 
 	SpriteType = {
 		name = "GFX_ww1infantry_weapons1_medium"
@@ -37,6 +38,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/binoculars.dds"
 	}
 
+
+
 	SpriteType = {
 		name = "GFX_infantry_ww1_machinegun1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/light_machine_gun1.dds"
@@ -54,6 +57,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/light_machine_gun4.dds"
 	}
 
+
 	SpriteType = {
 		name = "GFX_infantry_ww1_mortar1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/mortar1.dds"
@@ -66,6 +70,8 @@ spriteTypes = {
 		name = "GFX_infantry_ww1_mortar3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/mortar3.dds"
 	}
+
+
 
 	### generic equipment tech ###
 
@@ -145,11 +151,16 @@ spriteTypes = {
 	}		
 
 
+
+
+	
 	SpriteType = {
 		name = "GFX_infantry_weapons1_medium"
 		#texturefile = "gfx/interface/technologies/infantry1.dds"
 		texturefile = "gfx/interface/technologies/hoi4tgw/weapons4.dds"
-	}
+	}	
+	
+
 
 	SpriteType = {
 		name = "GFX_GER_infantry_weapons1_medium"
@@ -159,39 +170,41 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
-	}
+	}	
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry2_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_2.dds"
-	}
+	}	
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
-	}
+	}	
 	
 	SpriteType = {
 		name = "GFX_interwar_antitank_medium"
 		texturefile = "gfx/interface/technologies/AT_1_allies.dds"
-	}
+	}	
 	
 	SpriteType = {
 		name = "GFX_rocket_artillery_medium"
 		texturefile = "gfx/interface/technologies/Rocket_Art_1_allies.dds"
-	}
+	}	
 	
 	SpriteType = {
 		name = "GFX_standard_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
-	}
+	}	
 	
 	SpriteType = {
 		name = "GFX_interwar_antiair_medium"
 		texturefile = "gfx/interface/technologies/AA_1_allies.dds"
-	}
+	}	
+
 
 	# HOI4 TGW - Artillery / Heavy Artillery
+
 
 	SpriteType = {
 		#KiS# name = "GFX_gw_artillery_medium"
@@ -223,6 +236,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/artillery/bertha3.dds"
 	}
 
+	
 
 	SpriteType = {
 		name = "GFX_bonus_artillery1_medium"
@@ -1176,7 +1190,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/fleet_in_being.dds"
 	}	
 
-	### air doctrines HOI4TGW	###
+	### air doctrines HOI4TGW	###	
 
 	SpriteType = {
 		name = "GFX_ww1_airdoctrine_medium"
@@ -1233,16 +1247,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines_hoi4tgw/air/ww1_triplan_doctrine.dds"
 	}
 
+
 	SpriteType = {
 		name = "GFX_ww1_airdoctrine_9_medium"
 		texturefile = "gfx/interface/doctrines_hoi4tgw/air/ww1_battlefield_support.dds"
+	}
+
+	# Open Beta 0.6
+	SpriteType = {
+		name = "GFX_ww1_airdoctrine_9b_medium"
+		texturefile = "gfx/interface/doctrines_hoi4tgw/air/ww1_lowpassbombing.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_ww1_airdoctrine_unlock_ww2_medium"
 		texturefile = "gfx/interface/doctrines_hoi4tgw/air/ww1_veteran.dds"
 	}
-
 
 
 
@@ -2428,6 +2448,13 @@ spriteTypes = {
 		name = "GFX_ww1_construction1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction1.dds"
 	}
+
+	# Open Beta 0.6
+	SpriteType = {
+		name = "GFX_ww1_construction2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction2.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_ww1_tools1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools1.dds"
@@ -2874,37 +2901,36 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_ww1_destroyer5_medium"
-		texturefile = "gfx/interface/technologies/ww1_destroyer5.dds"
+		texturefile = "gfx/interface/technologies/ww1_destroyer0.dds"
 	}
 	SpriteType = {
 		name = "GFX_ww1_destroyer4_medium"
-		texturefile = "gfx/interface/technologies/ww1_destroyer4.dds"
+		texturefile = "gfx/interface/technologies/ww1_destroyer0.dds"
 	}
 	SpriteType = {
 		name = "GFX_ww1_destroyer3_medium"
-		texturefile = "gfx/interface/technologies/ww1_destroyer3.dds"
+		texturefile = "gfx/interface/technologies/ww1_destroyer0.dds"
 	}
 	SpriteType = {
 		name = "GFX_ww1_destroyer2_medium"
-		texturefile = "gfx/interface/technologies/ww1_destroyer2.dds"
+		texturefile = "gfx/interface/technologies/ww1_destroyer0.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_ww1_destroyer1_medium"
-		texturefile = "gfx/interface/technologies/ww1_destroyer1.dds"
+		texturefile = "gfx/interface/technologies/ww1_destroyer0.dds"
 	}		
 	
 	SpriteType = {
 		name = "GFX_ww1_destroyer0_medium"
 		texturefile = "gfx/interface/technologies/ww1_destroyer0.dds"
 	}	
-
 	
 	SpriteType = {
 		name = "GFX_ww1_moduleMTG_mines_medium" # Open Beta 0.7 Ironclad/Man the Guns
 		texturefile = "gfx/interface/technologies/basic_naval_mines.dds"
-	}
-
+	}	
+	
 	SpriteType = {
 		name = "GFX_modern_battlecruiser_medium"
 		texturefile = "gfx/interface/technologies/modern_battlecruiser.dds"
@@ -2980,26 +3006,74 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_ww1_submarine4_medium"
-		texturefile = "gfx/interface/technologies/ww1_submarine4.dds"
+		texturefile = "gfx/interface/technologies/ww1_submarine0.dds"
 	}	
 	SpriteType = {
 		name = "GFX_ww1_submarine3_medium"
-		texturefile = "gfx/interface/technologies/ww1_submarine3.dds"
+		texturefile = "gfx/interface/technologies/ww1_submarine0.dds"
 	}	
 	SpriteType = {
 		name = "GFX_ww1_submarine2_medium"
-		texturefile = "gfx/interface/technologies/ww1_submarine2.dds"
+		texturefile = "gfx/interface/technologies/ww1_submarine0.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_ww1_submarine1_medium"
-		texturefile = "gfx/interface/technologies/ww1_submarine1.dds"
+		texturefile = "gfx/interface/technologies/ww1_submarine0.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_ww1_submarine0_medium"
 		texturefile = "gfx/interface/technologies/ww1_submarine0.dds"
+	}
+
+
+	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	# Open Beta 0.7 - [Ironclad Compatibility]
+
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_panzerschiff_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_submarine_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_cruiser_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_coastal_defense_ship_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_cruiser_coastal_defense_ship.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_carrier_conversion_ca_medium"
+		texturefile = "gfx/interface/technologies/ww1_carrier.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ww1_submarine0.dds"
 	}	
+	SpriteType = {
+		name = "GFX_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ww1_destroyer0.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_pre_dreadnought_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_pre_dreadnought.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ww1_carrier.dds"
+	}
+
+	# Open Beta 0.7 - [/Ironclad Compatibility]
+	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 	SpriteType = {
@@ -3155,6 +3229,12 @@ spriteTypes = {
 		textureFile = "gfx//interface//technologies//subtech_rocket.dds"
 	}
 	
+	# Open Beta 0.7 - Man the Guns
+	spriteType = {
+		name = "GFX_subtech_heavy_battleship"
+		textureFile = "gfx//interface//subtech_heavy_battleship.dds"
+	}
+
 	#KiS - Icon for Coastal Submarine
 	spriteType = {
 		name = "GFX_subtech_submarine"
@@ -3229,14 +3309,6 @@ spriteTypes = {
 		name = "GFX_SOV_antiair5_medium"
 		texturefile = "gfx/interface/technologies/AA_3_comintern.dds"
 	}		
-	
-	
-
-	# Open Beta 0.7 - Man the Guns
-	spriteType = {
-		name = "GFX_subtech_heavy_battleship"
-		textureFile = "gfx//interface//subtech_heavy_battleship.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_SOV_antiair2_medium"
@@ -5777,11 +5849,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_seized_equipment_item"
 		texturefile = "gfx/interface/seized_equipment_item.dds"
-	}	
-}
-
-
-
+	}
 
 
 	### MTG naval techs
@@ -6013,26 +6081,26 @@ spriteTypes = {
 		name = "GFX_fire_control_methods_3_medium"
 		texturefile = "gfx/interface/technologies/fire_control_methods_3.dds"
 	}
-
-
+	
+	
 	# MTG stuff ============================================
-
-
+	
+	
 	SpriteType = {
 		name = "GFX_amphibious_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_amphibious_tank_1.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_amphibious_tank_2_medium"
 		texturefile = "gfx/interface/technologies/generic_amphibious_tank_2.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_amphibious_mechanized_infantry_medium"
 		texturefile = "gfx/interface/technologies/generic_amphibious_mech_1.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_amphibious_mechanized_infantry_2_medium"
 		texturefile = "gfx/interface/technologies/generic_amphibious_mech_2.dds"
@@ -6191,12 +6259,12 @@ spriteTypes = {
 		name = "GFX_mtg_tank_landing_craft_medium"
 		texturefile = "gfx/interface/technologies/tank_landing_craft.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_mtg_landing_craft_medium"
 		texturefile = "gfx/interface/technologies/landing_craft.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_mtg_transport_medium"
 		texturefile = "gfx/interface/technologies/transport.dds"
@@ -6245,3 +6313,5 @@ spriteTypes = {
 		name = "GFX_airsweep_mines_medium"
 		texturefile = "gfx/interface/technologies/airsweep_mines.dds"
 	}
+
+}
