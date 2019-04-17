@@ -110,40 +110,377 @@ create_country_leader = {
 	traits={  } 
 }
 
-create_field_marshal={  name = "George A. Custer" id=42000 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_George_Custer.dds" traits={ offensive_doctrine } skill=2 }
-create_field_marshal={  name = "John J. Pershing" id=93552 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_John_Pershing.dds" traits={ offensive_doctrine thorough_planner } skill=4 }
-create_field_marshal={ name = "Francis C. Marshall" id=42004 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Francis_Marshall.dds" traits={ } skill=2 }
-create_field_marshal={  name = "Enoch H. Crowder" id=42002 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Enoch_Crowder.dds" traits={   } skill=3 }
-create_field_marshal={  name = "Clarence R. Edwards" id=42007 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Clarence_Edwards.dds" traits={   } skill=3 }
+
+#####################################
+######### Field Mashals #############
+#####################################
+
+create_field_marshal={  
+	name = "George A. Custer" 
+	id=42000 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_George_Custer.dds" 
+	traits={ 
+		offensive_doctrine
+		old_guard 
+		} 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	}
+
+create_field_marshal={  
+	name = "John J. Pershing" 
+	id=93552 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_John_Pershing.dds" 
+	traits={ 
+		offensive_doctrine 
+		thorough_planner 
+		} 
+	skill=4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4 
+	}
+
+create_field_marshal={ 
+	name = "Francis C. Marshall" 
+	id=42004 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Francis_Marshall.dds" 
+	traits={ } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1}
+
+create_field_marshal={  
+	name = "Enoch H. Crowder" 
+	id=42002 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Enoch_Crowder.dds" 
+	traits={   } 
+	skill=3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3 
+	}
+
+create_field_marshal={  
+	name = "Clarence R. Edwards" 
+	id=42007 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Clarence_Edwards.dds" 
+	traits={   } 
+	skill=3 
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	}
 
 
-create_corps_commander={  name = "Hunter Liggett" id=93006 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Hunter_Liggett.dds" traits={ fortress_buster  } skill=4 }
-create_corps_commander={  name = "Joseph T. Dickman" id=93009 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Joseph_Dickman.dds" traits={ winter_specialist } skill=4 }
-create_corps_commander={  name = "Frederick Funston" id=93010 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Frederick_Funston.dds" traits={ commando } skill=3 }
-create_corps_commander={  name = "Irving Morrell" id=42001 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Samuel_Rockenbach.dds" traits={ panzer_leader } skill=3 }
-create_corps_commander={  name = "William Crozier" id=93045 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_William_Crozier.dds" traits={   } skill=3 }
-create_corps_commander={  name = "Thomas B. Dugan" id=42003 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Thomas_Dugan.dds" traits={ panzer_leader } skill=4 }
-create_corps_commander={  name = "Frank Parker" id=93296 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Frank_Parker.dds" traits={ commando  } skill=3 }
-create_corps_commander={  name = "Douglas MacArthur" id=93020 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Douglas_MacArthur.dds" traits={ trait_engineer } skill=4 }
-create_corps_commander={  name = "Paul Malone" id=42005 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Paul_Malone.dds" traits={ trait_engineer } skill=4 }
-create_corps_commander={  name = "Ulysses Grant McAlexander" id=42006 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Ulysses_McAlexander.dds" traits={ trait_engineer } skill=4 }
-create_corps_commander={  name = "Lucius L. Durfee" id=42008 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Lucius_Durfee.dds" traits={ trait_engineer } skill=4 }
-create_corps_commander={  name = "Ulysses Grant McAlexander" id=42009 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Ulysses_McAlexander.dds" traits={ trait_engineer } skill=3 }
-create_corps_commander={  name = "Hanson E. Ely" id=42010 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Hanson_Ely.dds" traits={ trait_engineer } skill=2 }
-create_corps_commander={  name = "John W. Heavey" id=42011 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_John_Heavey.dds" traits={ trait_engineer } skill=2 }
-create_corps_commander={  name = "Henry J. Hatch" id=42012 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Henry_Hatch.dds" traits={ trait_engineer } skill=2 }
-create_corps_commander={  name = "Oliver Edwards" id=42013 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Oliver_Edwards.dds" traits={ trait_engineer } skill=3 }
-create_corps_commander={  name = "Charles A. Hedekin" id=42014 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Charles_Hedekin.dds" traits={ trait_engineer } skill=1 }
-create_corps_commander={  name = "Stuart Heintzelman" id=42015 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Stuart_Heintzelman.dds" traits={ trait_engineer } skill=2 }
-create_corps_commander={  name = "William M. Wright" id=42016 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_William_Wright.dds" traits={ trait_engineer } skill=2 }
+#####################################
+######## Corps Commanders ###########
+#####################################
+
+create_corps_commander={  
+	name = "Hunter Liggett" 
+	id=93006 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Hunter_Liggett.dds" 
+	traits={ 
+		fortress_buster  
+		} 
+	skill=4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3 
+	}
+
+create_corps_commander={  
+	name = "Joseph T. Dickman" 
+	id=93009 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Joseph_Dickman.dds" 
+	traits={ 
+		winter_specialist
+	 } 
+	 skill=4 
+	 attack_skill = 3
+	 defense_skill = 3
+	 planning_skill = 4
+	 logistics_skill = 5
+	 }
+create_corps_commander={  
+	name = "Frederick Funston" 
+	id=93010 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Frederick_Funston.dds" 
+	traits={ 
+		commando 
+		} 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+		}
+
+create_corps_commander={  
+	name = "Irving Morrell" 
+	id=42001 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Samuel_Rockenbach.dds" 
+	traits={ 
+		panzer_leader
+		logistics_wizard 
+		}
+	skill=4
+	attack_skill= 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+	 }
+
+create_corps_commander={  
+	name = "William Crozier" 
+	id=93045 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_William_Crozier.dds" 
+	traits={   } 
+	skill=3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	}
+
+create_corps_commander={  
+	name = "Thomas B. Dugan" 
+	id=42003 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Thomas_Dugan.dds" 
+	traits={ panzer_leader }
+	skill=3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	}
+
+create_corps_commander={  
+	name = "Frank Parker" 
+	id=93296 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Frank_Parker.dds" 
+	traits={ 
+		commando  
+		} 
+	skill=3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+	}
+
+create_corps_commander={  
+	name = "Daniel MacArthur" 
+	id=93020 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Douglas_MacArthur.dds" 
+	traits={ trait_engineer } 
+	skill=4 
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+	}
+
+create_corps_commander={  
+	name = "Paul Malone" 
+	id=42005 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Paul_Malone.dds" 
+	traits={ trait_engineer } 
+	skill=4 
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+	}
+
+create_corps_commander={  
+	name = "Ulysses Grant McAlexander" 
+	id=42006 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Ulysses_McAlexander.dds" 
+	traits={ trait_engineer } 
+	skill=3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	}
+
+create_corps_commander={  
+	name = "Lucius L. Durfee" 
+	id=42008 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Lucius_Durfee.dds" 
+	traits={ trait_engineer } 
+	skill=3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	 }
+
+create_corps_commander={  
+	name = "Hanson E. Ely" 
+	id=42010 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Hanson_Ely.dds" 
+	traits={ trait_engineer } 
+	skill=2 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	}
+
+create_corps_commander={  
+	name = "John W. Heavey" 
+	id=42011 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_John_Heavey.dds" 
+	traits={ trait_engineer } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	}
+
+create_corps_commander={  
+	name = "Henry J. Hatch" 
+	id=42012 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Henry_Hatch.dds" 
+	traits={ trait_engineer } 
+	skill=2 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	}
+
+create_corps_commander={  
+	name = "Oliver Edwards" 
+	id=42013 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Oliver_Edwards.dds" 
+	traits={ trait_engineer } 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 3
+	logistics_skill = 3
+	planning_skill = 3
+	}
+
+create_corps_commander={  
+	name = "Charles A. Hedekin" 
+	id=42014 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Charles_Hedekin.dds" 
+	traits={ trait_engineer } 
+	skill=1 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	}
+
+create_corps_commander={  
+	name = "Stuart Heintzelman" 
+	id=42015 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Stuart_Heintzelman.dds" 
+	traits={ trait_engineer } 
+	skill=2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1 
+	}
+
+create_corps_commander={  
+	name = "William M. Wright" 
+	id=42016 
+	portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_William_Wright.dds" 
+	traits={ trait_engineer } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	}
 
 
-create_navy_leader={  name = "William S. Sims" id=93117 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Sims.dds" traits={ blockade_runner superior_tactician } skill=3 }
-create_navy_leader={  name = "Victor H. Metcalf" id=93112 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Benson.dds" traits={ superior_tactician  } skill=2 }
-create_navy_leader={  name = "Henry T. Mayo" id=93116 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Henry_Mayo.dds" traits={ superior_tactician  } skill=4 }
-create_navy_leader={  name = "William B. Caperton" id=93407 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Caperton.dds" traits={ blockade_runner spotter } skill=3 }
-create_navy_leader={  name = "Frank F. Fletcher" id=93121 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Frank_Fletcher.dds" traits={ superior_tactician  } skill=4 }
-create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Richmond_Hobson.dds" traits={ spotter  } skill=3 }
+#####################################
+####### Navy Commanders #############
+#####################################
+
+create_navy_leader={  
+	name = "William S. Sims" 
+	id=93117 
+	portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Sims.dds" 
+	traits={ blockade_runner superior_tactician } 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 3
+	}
+
+
+create_navy_leader={  
+	name = "Victor H. Metcalf" 
+	id=93112
+	portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Benson.dds" 
+	traits={ superior_tactician  } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	}
+
+
+create_navy_leader={ 
+	 name = "Henry T. Mayo" 
+	 id=93116 
+	 portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Henry_Mayo.dds" 
+	 traits={ superior_tactician  } 
+	 skill=4 
+	 attack_skill = 4
+	 defense_skill = 4
+	 }
+
+
+create_navy_leader={  
+	name = "William B. Caperton" 
+	id=93407 
+	portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Caperton.dds" 
+	traits={ 
+		blockade_runner 
+		spotter 
+		} 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 3}
+
+
+create_navy_leader={  
+	name = "Frank F. Fletcher" 
+	id=93121 
+	portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Frank_Fletcher.dds" 
+	traits={ superior_tactician  } 
+	skill=4 
+	attack_skill = 4
+	defense_skill = 4
+	}
+
+
+create_navy_leader={  
+	name = "Richmond P. Hobson" 
+	id=93396 
+	portrait_path="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Richmond_Hobson.dds" 
+	traits={ spotter  } 
+	skill=3 
+	attack_skill = 3 
+	defense_skill = 3}
 
 
 1913.3.14 = {

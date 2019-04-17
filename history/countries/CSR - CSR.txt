@@ -19,15 +19,15 @@ create_country_leader={ name = "Julius Gardener" desc=HAI_joseph_davilmar_theodo
 create_country_leader={ name = "Hamilcar Freeman" desc=HAI_vilbrun_guillaume_sam_DESC picture="gfx/leaders/HAI_vilbrun_guillaume_sam.dds" expire="1935.1.1" ideology=marxism  traits={  } }
 create_country_leader={ name = "Romulus Butler" desc=HAI_philippe_sudre_dartiguenave_DESC picture="gfx/leaders/HAI_philippe_sudre_dartiguenave.dds" expire="1935.1.1" ideology=leninism  traits={  } }
 create_country_leader={ name = "Darius Pastor" desc=HAI_louis_borno_DESC picture="gfx/leaders/HAI_louis_borno.dds" expire="1935.1.1" ideology=leninism  traits={  } }
-create_country_leader={ name = "Publius Freedman" desc=HAI_francois_c_antoine_simon_DESC picture="gfx/leaders/HAI_francois_c_antoine_simon.dds" expire="1935.1.1" ideology=leninism traits={  } }
+create_country_leader={ name = "Publius Freeman" desc=HAI_francois_c_antoine_simon_DESC picture="gfx/leaders/HAI_francois_c_antoine_simon.dds" expire="1935.1.1" ideology=leninism traits={  } }
 create_corps_commander={  name = "Brutus Cook" id=37002 portrait_path="gfx/generals/HAI_c_zamor.tga" traits={  } skill=1 }
 create_corps_commander={  name = "Antonius Farmer" id=37003 portrait_path="gfx/generals/HAI_o_zamor.tga" traits={   } skill=1 }
 create_corps_commander={  name = "Remus Freeman" id=30002 portrait_path="gfx/generals/ETH_baria_gabr.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Cyrus Carpenter" id=30014 portrait_path="gfx/generals/ETH_yohannes.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Maharbal Smith" id=30015 portrait_path="gfx/generals/ETH_saffo.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Hasdrubal Baker" id=30016 portrait_path="gfx/generals/ETH_aboye.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Atticus Freeman" id=30017 portrait_path="gfx/generals/ETH_haimanot.tga" traits={   } skill=2 }
-create_field_marshal={  name = "Hannibal Rider" id=30004 portrait_path="gfx/fieldmarshal/ETH_nessibu.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Atticus Hunter" id=30017 portrait_path="gfx/generals/ETH_haimanot.tga" traits={   } skill=2 }
+create_field_marshal={  name = "Hannibal Butler" id=30004 portrait_path="gfx/fieldmarshal/ETH_nessibu.tga" traits={   } skill=2 }
 
 1913.8.10.12 = {
 	oob = "CSR_Red_Rebellion"
