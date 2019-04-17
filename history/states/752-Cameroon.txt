@@ -3,7 +3,7 @@ state = {
 	name = "STATE_752" #Gabon
 	manpower = 4043000
 	state_category = rural
-	provinces = { 5139 8207 12975 8193 6008 2192 10948 13210 }
+	provinces = { 3109 5139 8207 12975 8193 2192 10948 13210 }
 	resources = {
 		wood = 52
 		}
