@@ -169,11 +169,11 @@ units = {
 		name = "Basilikos Stolos Ellenas"
 		location = 4109 # Athina
 		base =  4109 # Athina
-ship = { name = "EBN Basilissa Olga" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Basilissa Olga Class" } } }
-ship = { name = "EBN Hydra" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
-ship = { name = "EBN Spetsai" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
-ship = { name = "EBN Psara" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
-ship = { name = "EBN Georgios Averof" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }
+ship = { name = "EBN Basilissa Olga" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Basilissa Olga Class" } } }
+ship = { name = "EBN Hydra" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
+ship = { name = "EBN Spetsai" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
+ship = { name = "EBN Psara" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
+ship = { name = "EBN Georgios Averof" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }
 ship = { name = "EBN Navarchos Miaoulis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = GRE } } }
 ship = { name = "EBN Niki" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
 ship = { name = "EBN Doxa" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
@@ -187,8 +187,8 @@ ship = { name = "EBN Aetos" definition = destroyer equipment = { destroyer_1906 
 ship = { name = "EBN Ierax" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
 ship = { name = "EBN Panthir" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
 ship = { name = "EBN Leon" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
-ship = { name = "EBN Delfin" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = GRE } } }
-ship = { name = "EBN Xifias" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = GRE } } }
+ship = { name = "EBN Delfin" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = GRE } } }
+ship = { name = "EBN Xifias" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = GRE } } }
  
 		}
 	}

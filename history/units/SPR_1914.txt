@@ -212,9 +212,9 @@ units = {
 		base =  1048 # Cádiz
 ship = { name = "Pelayo" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = SPR } } }
 ship = { name = "España" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = SPR } } }
-ship = { name = "Emparador Carlos V" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = SPR } } }
-ship = { name = "Princesa De Asturias" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = SPR } } }#KiS#version_name = "Cataluna Class" } } }
-ship = { name = "Cataluña" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = SPR } } }#KiS#version_name = "Cataluna Class" } } }
+ship = { name = "Emparador Carlos V" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = SPR } } }
+ship = { name = "Princesa De Asturias" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = SPR } } }#KiS#version_name = "Cataluna Class" } } }
+ship = { name = "Cataluña" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = SPR } } }#KiS#version_name = "Cataluna Class" } } }
 ship = { name = "Infanta Isabel" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = SPR } } }
 ship = { name = "Rio De La Plata" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = SPR } } }#KiS#version_name = "Rio De La Plata Class" } } }
 ship = { name = "Estramadura" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = SPR } } }

@@ -177,11 +177,11 @@ units = {
 		name = "Basilikos Stolos Ellenas"
 		location = 4109 # Athina
 		base =  4109 # Athina
-		ship = { name = "EBN Baseleos Georgios" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }
-		ship = { name = "EBN Basilissa Olga" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Basilissa Olga Class" } } }
-		ship = { name = "EBN Hydra" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
-		ship = { name = "EBN Spetsai" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
-		ship = { name = "EBN Psara" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
+		ship = { name = "EBN Baseleos Georgios" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }
+		ship = { name = "EBN Basilissa Olga" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Basilissa Olga Class" } } }
+		ship = { name = "EBN Hydra" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
+		ship = { name = "EBN Spetsai" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
+		ship = { name = "EBN Psara" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = GRE } } }#KiS#version_name = "Hydra Class" } } }
 		ship = { name = "EBN Navarchos Miaoulis" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = GRE } } }
 		ship = { name = "EBN Niki" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
 		ship = { name = "EBN Doxa" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }

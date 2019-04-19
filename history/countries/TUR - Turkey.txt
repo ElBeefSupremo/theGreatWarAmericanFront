@@ -237,13 +237,11 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 		ww1_submarine2 = 1
 		ww1_submarine3 = 1
 		transport = 1
-		ww1_coastal_submarine0 = 1
 		ww1_coastal_submarine1 = 1
 		ww1_coastal_submarine2 = 1
 		ww1_coastal_submarine3 = 1
 		ww1_heavy_cruiser0 = 1
 		ww1_heavy_cruiser1 = 1
-		ww1_heavy_cruiser2 = 1
 		ww1_moduleMTG_mines = 1 # Mines
 
 		# Air

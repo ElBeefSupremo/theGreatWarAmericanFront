@@ -348,25 +348,25 @@ units = {
 		name = "Submarine Flotilla"
 		location=7552 # New Orleans
 		base=7552 # New Orleans
-		ship = { name = "USS Holland" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Plunger" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
-		ship = { name = "USS Adder" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
-		ship = { name = "USS Grampus" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
-		ship = { name = "USS Moccasin" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
-		ship = { name = "USS Pike" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
-		ship = { name = "USS Porpoise" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
-		ship = { name = "USS Shark" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
-		ship = { name = "USS Viper" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "B Class" } } }
-		ship = { name = "USS Cuttlefish" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "B Class" } } }
-		ship = { name = "USS Tarantula" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "B Class" } } }
-		ship = { name = "USS Octopus" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Stingray" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Tarpon" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Bonita" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Snapper" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Narwhal" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Grayling" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Salmon" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Holland" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Plunger" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
+		ship = { name = "USS Adder" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
+		ship = { name = "USS Grampus" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
+		ship = { name = "USS Moccasin" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
+		ship = { name = "USS Pike" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
+		ship = { name = "USS Porpoise" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
+		ship = { name = "USS Shark" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "A Class" } } }
+		ship = { name = "USS Viper" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "B Class" } } }
+		ship = { name = "USS Cuttlefish" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "B Class" } } }
+		ship = { name = "USS Tarantula" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }#KiS#version_name = "B Class" } } }
+		ship = { name = "USS Octopus" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Stingray" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Tarpon" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Bonita" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Snapper" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Narwhal" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Grayling" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Salmon" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = USA } } }
 	}
 	navy = {
 		name = "Atlantic Reserve Fleet"

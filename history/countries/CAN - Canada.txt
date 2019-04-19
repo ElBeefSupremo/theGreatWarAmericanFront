@@ -49,7 +49,7 @@ create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmars
 
 	#Army
 	complete_national_focus = CAN_ww1_army_effort
-	complete_national_focus = CAN_ww1_eqiupment_effort
+	complete_national_focus = CAN_ww1_equipment_effort
 
 	#Airforce
 	complete_national_focus = CAN_ww1_aviation_effort

@@ -430,7 +430,7 @@ ship = { name = "HMS King Edward VII" definition = battleship equipment = { batt
 ship = { name = "HMS Zealandia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }#KiS#version_name = "King Edward VII Class" } } }
 ship = { name = "HMS Indomitable" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Invincible" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Warrior" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Warrior" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Antrim" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Devonshire Class" } } }
 ship = { name = "HMS Carnarvon" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Devonshire Class" } } }
 ship = { name = "HMS Roxburgh" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Devonshire Class" } } }
@@ -552,10 +552,10 @@ ship = { name = "HMS Goliath" definition = battleship equipment = { battleship_1
 name = "2nd Cruiser Squadron"
 location = 6395 # Aberdeen
 base =  6395 # Aberdeen
-ship = { name = "HMS Achilles" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Cochrane" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Natal" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Shannon" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }#KiS#version_name = "Minotaur Class" } } }
+ship = { name = "HMS Achilles" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Cochrane" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Natal" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Shannon" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }#KiS#version_name = "Minotaur Class" } } }
 }
  navy = {
 name = "Channel Fleet"
@@ -767,119 +767,119 @@ ship = { name = "HMS Perseus" definition = light_cruiser equipment = { light_cru
 name = "1st Submarine Flotilla"
 location = 9458 # Portsmouth
 base =  9458 # Portsmouth
-ship = { name = "HMS Holland 1" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Holland 2" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Holland 3" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Holland 4" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS Holland 5" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Holland 1" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Holland 2" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Holland 3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Holland 4" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS Holland 5" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
 }
  navy = {
 name = "2nd Submarine Flotilla"
 location = 9458 # Portsmouth
 base =  9458 # Portsmouth
-ship = { name = "HMS A1" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A2" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A3" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A4" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A5" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A6" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A1" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A2" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A4" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A5" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A6" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
 }
  navy = {
 name = "3rd Submarine Flotilla"
 location = 9458 # Portsmouth
 base =  9458 # Portsmouth
-ship = { name = "HMS A7" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A8" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A9" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A10" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A11" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A12" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
-ship = { name = "HMS A13" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A7" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A8" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A9" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A10" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A11" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A12" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
+ship = { name = "HMS A13" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "A Class" } } }
 }
  navy = {
 name = "4th Submarine Flotilla"
 location = 9458 # Portsmouth
 base =  9458 # Portsmouth
-ship = { name = "HMS B1" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B2" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B3" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B4" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B5" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B6" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B1" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B2" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B4" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B5" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B6" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
 }
  navy = {
 name = "5th Submarine Flotilla"
 location = 9458 # Portsmouth
 base =  9458 # Portsmouth
-ship = { name = "HMS B7" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B8" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B9" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B10" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
-ship = { name = "HMS B11" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B7" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B8" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B9" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B10" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
+ship = { name = "HMS B11" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "B Class" } } }
 }
  navy = {
 name = "6th Submarine Flotilla"
 location = 11297 # Hull
 base =  11297 # Hull
-ship = { name = "HMS C1" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C2" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C3" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C4" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C5" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C6" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C1" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C2" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C4" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C5" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C6" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
 }
  navy = {
 name = "7th Submarine Flotilla"
 location = 6300 # Rosyth
 base =  6300 # Rosyth
-ship = { name = "HMS C7" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C8" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C9" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C10" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C12" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C13" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C7" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C8" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C9" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C10" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C12" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C13" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
 }
  navy = {
 name = "8th Submarine Flotilla"
 location = 11297 # Hull
 base =  11297 # Hull
-ship = { name = "HMS C15" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C16" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C17" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C18" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C19" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C20" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C15" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C16" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C17" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C18" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C19" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C20" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
 }
  navy = {
 name = "9th Submarine Flotilla"
 location = 11297 # Hull
 base =  11297 # Hull
-ship = { name = "HMS C21" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C22" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C23" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C24" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C25" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C26" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C21" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C22" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C23" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C24" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C25" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C26" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
 }
  navy = {
 name = "10th Submarine Flotilla"
 location = 540 # Plymouth
 base =  540 # Plymouth
-ship = { name = "HMS C27" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C28" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C29" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C30" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C31" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C32" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C27" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C28" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C29" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C30" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C31" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C32" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
 }
  navy = {
 name = "Mediterranean Flotilla"
 location = 12003 # Malta
 base =  12003 # Malta
-ship = { name = "HMS C35" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C36" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C37" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
-ship = { name = "HMS C38" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C35" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C36" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C37" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
+ship = { name = "HMS C38" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS D1" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = ENG } } }
 }
 navy = {
@@ -894,7 +894,7 @@ ship = { name = "HMS Cornwallis" definition = battleship equipment = { battleshi
 ship = { name = "HMS Duncan" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Black Prince" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Duke of Edinburgh Class" } } }
 ship = { name = "HMS Duke of Edinburgh" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Duke of Edinburgh Class" } } }
-ship = { name = "HMS Defence" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }#KiS#version_name = "Minotaur Class" } } }
+ship = { name = "HMS Defence" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }#KiS#version_name = "Minotaur Class" } } }
 ship = { name = "HMS Welland" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Garry" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Foyle" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }
@@ -939,7 +939,7 @@ base = 10062 # Hong Kong
 ship = { name = "HMS Kent" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Monmouth Class" } } }
 ship = { name = "HMS Monmouth" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Monmouth Class" } } }
 ship = { name = "HMS Hampshire" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ENG } } }#KiS#version_name = "Devonshire Class" } } }
-ship = { name = "HMS Minotaur" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }#KiS#version_name = "Minotaur Class" } } }
+ship = { name = "HMS Minotaur" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }#KiS#version_name = "Minotaur Class" } } }
 ship = { name = "HMS Derwent" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Eden" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }
 ship = { name = "HMS Waveney" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ENG } } }

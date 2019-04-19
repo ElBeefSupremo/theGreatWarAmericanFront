@@ -70,8 +70,8 @@ units = {
 ship = { name = "Huascar" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CHL } } }
 ship = { name = "Almirante Cochrane" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CHL } } }#KiS#version_name = "Almirante Cochrane Class" } } }
 ship = { name = "Capitan Prat" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CHL } } }#KiS#version_name = "Capitan Prat Class" } } }
-ship = { name = "Esmeralda" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = CHL } } }
-ship = { name = "O'Higgins" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = CHL } } }#KiS#version_name = "O'Higgins Class" } } }
+ship = { name = "Esmeralda" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = CHL } } }
+ship = { name = "O'Higgins" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = CHL } } }#KiS#version_name = "O'Higgins Class" } } }
 ship = { name = "Presidente Errauriz" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CHL } } }
 ship = { name = "Blanco Encalada" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CHL } } }#KiS#version_name = "Blanco Encalada Class" } } }
 ship = { name = "Ministro Zenteno" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CHL } } }#KiS#version_name = "Ministro Zenteno Class" } } }

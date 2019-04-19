@@ -1170,7 +1170,7 @@ units = {
 				ship = { name = "HMS Hampshire" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG  } } }
 				ship = { name = "HMS Roxburgh" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ENG  } } }
 				
-				#ship = { name = "HMS Minotaur" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = ENG } } }#KiS# } } }
+				#ship = { name = "HMS Minotaur" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ENG } } }#KiS# } } }
 				
 				ship = { name = "HMS Newcastle" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ENG  } } }
 				ship = { name = "HMS Yarmouth" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = ENG } } }

@@ -70,10 +70,10 @@ ship = { name = "KNM Valkyrjen" definition = destroyer equipment = { destroyer_1
 ship = { name = "KNM Draug" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = NOR } } }
 ship = { name = "KNM Troll" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = NOR } } }
 ship = { name = "KNM Garm" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = NOR } } }
-ship = { name = "KNM Kobben" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
-ship = { name = "KNM A2" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
-ship = { name = "KNM A3" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
-ship = { name = "KNM A4" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
+ship = { name = "KNM Kobben" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
+ship = { name = "KNM A2" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
+ship = { name = "KNM A3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
+ship = { name = "KNM A4" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
 		}
 	}
 air_wings = { 

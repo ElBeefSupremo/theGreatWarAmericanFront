@@ -87,9 +87,6 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
 
 		transport = 1 # Naval Transport
 
-
-
-
 		# Air
 
 		# Engineering
@@ -194,7 +191,6 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
 		bonus_bertha1 = 1
 
 		# Navy
-		# Navy
 		ww1_battleship0 = 1 #  ww1_battleship_1890 (Pre-Dreadnought I)
 		ww1_battleship1 = 1 #  ww1_battleship_1900 (Pre-Dreadnought II)
 		ww1_battleship2 = 0 #  ww1_battleship_1906 (Dreadnought I)
@@ -228,7 +224,6 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
 		ww1_submarine3 = 0 # submarine_1914 (Submarine III)
 
 		transport = 1 # Naval Transport
-ss
 
 		# Air
 		ww1_fighter1 = 1

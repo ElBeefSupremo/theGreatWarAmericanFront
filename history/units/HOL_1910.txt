@@ -96,7 +96,7 @@ ship = { name = "HrMs Holland" definition = light_cruiser equipment = { light_cr
 ship = { name = "HrMs Zeeland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }#KiS#version_name = "Holland Class" } } }
 ship = { name = "HrMs Noord-Brabant" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }#KiS#version_name = "Holland Class" } } }
 ship = { name = "HrMs Utrecht" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }#KiS#version_name = "Holland Class" } } }
-ship = { name = "HrMs O1" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = HOL } } }
+ship = { name = "HrMs O1" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = HOL } } }
 		}
 	 navy = {
 		name = "Oost-Indië Vloot"

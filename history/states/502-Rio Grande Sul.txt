@@ -16,9 +16,10 @@ state={
 			infrastructure=7
 			10447={ 
 				naval_base=3
-				dockyard=4
-				arms_factory=3
-				}
+			}
+			dockyard=4
+			arms_factory=3
+				
 			}
 		}
 	}

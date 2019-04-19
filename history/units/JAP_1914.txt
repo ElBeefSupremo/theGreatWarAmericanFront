@@ -241,13 +241,13 @@ navy = {
 	name = "2 Sentai"
 	location=9859 # Tokyo
 	base=9859 # Tokyo
-	ship = { name = "IJN Kongo" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = JAP } } }
+	ship = { name = "IJN Kongo" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Settsu" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Satsuma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Iwami" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Suwo" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Peresviet Class" } } }
 	ship = { name = "IJN Aso" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Bayan Class" } } }
-	ship = { name = "IJN Tsukuba" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = JAP } } }
+	ship = { name = "IJN Tsukuba" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Niitaka" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Chitose" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Chitose Class" } } }
 	ship = { name = "IJN Kasagi" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Chitose Class" } } }
@@ -288,7 +288,7 @@ navy = {
 	ship = { name = "IJN Aki" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Tango" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Petroplavsk Class" } } }
 	ship = { name = "IJN Fuji" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Fuji Class" } } }
-	ship = { name = "IJN Ikoma" definition = battle_cruiser equipment = { battle_cruiser_1890b = { amount = 1 owner = JAP } } }
+	ship = { name = "IJN Ikoma" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Ikumi" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Tongu" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }
 	ship = { name = "IJN Aku" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }
@@ -343,18 +343,18 @@ ship = { name = "IJN Tone" definition = light_cruiser equipment = { light_cruise
 ship = { name = "IJN Otowa" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = JAP } } }
 ship = { name = "IJN Yodo" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = JAP } } }
 ship = { name = "IJN Mogami" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 1" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 2" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 3" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 4" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 5" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 6" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Kaigun-Holland Class" } } }
-ship = { name = "IJN No. 7" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Kaigun-Holland Class" } } }
-ship = { name = "IJN No. 8" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 9" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 10" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 11" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
-ship = { name = "IJN No. 12" definition = coastal_submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 1" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 2" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 4" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 5" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 6" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Kaigun-Holland Class" } } }
+ship = { name = "IJN No. 7" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }#KiS#version_name = "Kaigun-Holland Class" } } }
+ship = { name = "IJN No. 8" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 9" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 10" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 11" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
+ship = { name = "IJN No. 12" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = JAP } } }
 ship = { name = "IJN No. 13" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = JAP } } }
 		}
 	}
