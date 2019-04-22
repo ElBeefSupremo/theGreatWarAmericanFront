@@ -171,7 +171,7 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 		# Navy
 		ww1_battleship0 = 1 #  ww1_battleship_1890 (Pre-Dreadnought I)
 		ww1_battleship1 = 1 #  ww1_battleship_1900 (Pre-Dreadnought II)
-		ww1_battleship2 = 0 #  ww1_battleship_1906 (Dreadnought I)
+		ww1_battleship2 = 1 #  ww1_battleship_1906 (Dreadnought I)
 		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
 		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
 
@@ -184,7 +184,7 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 
 		ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
 		ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
-		ww1_light_cruiser2 = 0 # light_cruiser_1906 (Light Cruiser I)
+		ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
 		ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
 		ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
 

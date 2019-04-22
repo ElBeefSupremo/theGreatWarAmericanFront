@@ -737,23 +737,28 @@ focus_tree = {
 	focus = {
 		id = GER_ww1_turkey_friend
 		available = { date > 1914.5.1 has_war_with = FRA}
-		prerequisite = { focus=GER_ww1_send_advisor }
+		prerequisite = { focus = GER_ww1_send_advisor }
 		icon = GFX_goal_generic_improve_relations
 
 		available = {
-		NOT = { has_global_flag = kis_treaty_of_versailles }
-		is_puppet=no NOT={ has_war_with=TUR } TUR={ exists=yes is_puppet=no } TUR={ custom_trigger_tooltip={ tooltip=GER_alone_or_peace_faction_tt is_alone_or_in_faction_at_peace_with_GER=yes } }
+			NOT = {
+				has_global_flag = kis_treaty_of_versailles
+			}
+			is_puppet = no
+			NOT = {
+				has_war_with = TUR
+			}
+			TUR = {
+				exists = yes
+				is_puppet = no
+			}
 		}
-
-
-
 
 		completion_reward = {
 			TUR = {
 				country_event = ww1_ottoman.100
 			}
 		}
-
 
 		ai_will_do = {
 			factor = 800
@@ -762,7 +767,6 @@ focus_tree = {
 				date < 1914.5.5
 			}
 		}
-
 		cost = 10
 		x = 10
 		y = 4
@@ -1012,14 +1016,27 @@ focus_tree = {
 		prerequisite = { focus = GER_ww1_anti_serb }
 		icon = GFX_goal_generic_military_deal
 		available = {
-
-		NOT = { has_global_flag = kis_treaty_of_versailles }
-
-		date > 1915.6.1 is_puppet=no NOT={ has_war_with=BUL } BUL={ exists=yes is_puppet=no } BUL={ custom_trigger_tooltip={ tooltip=GER_alone_or_peace_faction_tt is_alone_or_in_faction_at_peace_with_GER=yes } } }
-		completion_reward = { 
-			BUL = { country_event = ww1_bulgaria.1 }
+			NOT = {
+				has_global_flag = kis_treaty_of_versailles
+			}
+			date > 1915.6.1
+			is_puppet=no
+			NOT={
+				has_war_with=BUL
+			}
+			BUL={
+				exists=yes
+				is_puppet=no
+			}
 		}
-		ai_will_do = { factor = 800 }
+		completion_reward = { 
+			BUL = {
+				country_event = ww1_bulgaria.1
+			}
+		}
+		ai_will_do = {
+			factor = 800
+		}
 		cost = 10
 		x = 17
 		y = 4

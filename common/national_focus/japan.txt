@@ -389,12 +389,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = JAP_ww1_support_csa
+		id = JAP_ww1_Support_CSA
 		prerequisite = { focus = JAP_ww1_assert_position_pacific }
 
 	 	available = {
  		
-	 		USA = {
+	 		CSA = {
 	 			exists = yes
 	 		}
 		}
@@ -453,23 +453,23 @@ focus_tree = {
 
 	focus = {
 		id = JAP_ww1_Diplomatic_Siam
-		prerequisite = { focus = JAP_ww1_claim_new_guinea focus = JAP_ww1_Support_USA }
+		prerequisite = {
+			focus = JAP_ww1_claim_new_guinea
+			focus = JAP_ww1_Support_CSA
+		}
 		icon = GFX_goal_molotov_ribbentrop_pact
-
-
 	 	available = {
 	 		SIA = {
 	 			exists = yes
 	 		}
 		}
 
-			completion_reward = {
-
-					add_opinion_modifier = { 
-						target = SIA 
-						modifier =  HOI4TGW_Opinion_JAP_ambassador_siam
-					}
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = SIA 
+				modifier =  HOI4TGW_Opinion_JAP_ambassador_siam
 			}
+		}
 
 		ai_will_do = { factor = 1000 }
 		cost = 10

@@ -178,8 +178,10 @@ create_navy_leader={  name = "Xu Zushan" id=15101 portrait_path="gfx/admiral/CHI
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
+		ww1_destroyer2 = 1
+		ww1_light_cruiser2 = 1
 		ww1_light_cruiser1 = 1
-		ww1_light_cruiser0 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1

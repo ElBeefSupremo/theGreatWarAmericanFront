@@ -838,7 +838,23 @@ focus_tree = {
 		id = ENG_ww1_defense_border
 		prerequisite = { focus=ENG_ww1_ready_country }
 		icon = GFX_goal_generic_fortify_city
-		completion_reward = { 
+		completion_reward = {
+			123 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 1
+					province = 540
+					instant_build = yes
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 1
+					province = 271
+					instant_build = yes
+				}
+			}
 			126 = { # London
 				add_building_construction = {
 					type = coastal_bunker
@@ -847,31 +863,17 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			125 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
-			130 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
 			127 = {
 				add_building_construction = {
 					type = coastal_bunker
 					level = 1
+					province = 3501
 					instant_build = yes
 				}
-			}
-			130 = {
 				add_building_construction = {
 					type = coastal_bunker
 					level = 1
+					province = 9458
 					instant_build = yes
 				}
 			}
@@ -1008,10 +1010,39 @@ focus_tree = {
 		id = ENG_ww1_mediterranean_focus
 		prerequisite = { focus=ENG_ww1_bureau_colonies }
 		icon = GFX_goal_generic_construct_military
-		available = { 447={ is_owned_by=ENG } }
+		available = {
+			116 = { is_owned_by=ENG }
+			183 = { is_owned_by=ENG }
+		}
 		completion_reward = { 
-			183={ add_building_construction={ type=coastal_bunker level=2 instant_build=yes } add_building_construction={ type=naval_base level=2 instant_build=yes } } 
-			116={ add_building_construction={ type=coastal_bunker level=2 instant_build=yes } add_building_construction={ type=naval_base level=2 instant_build=yes } } 
+			183 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 11984
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 11984
+					instant_build = yes
+				}
+			} 
+			116={
+				add_building_construction={
+					type=coastal_bunker
+					level=2
+					province = 12003
+					instant_build=yes
+				}
+				add_building_construction={
+					type=naval_base
+					level=2
+					province = 12003
+					instant_build=yes
+				}
+			} 
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
@@ -1023,8 +1054,19 @@ focus_tree = {
 		id = ENG_ww1_rock_focus
 		prerequisite = { focus=ENG_ww1_mediterranean_focus }
 		icon = GFX_goal_generic_defence
-		available = { 118={ is_owned_by=ENG } }
-		completion_reward = { 118={ add_building_construction={ type=bunker level=4 province=4135 instant_build=yes } } }
+		available = {
+			118={ is_owned_by=ENG }
+		}
+		completion_reward = {
+			118={
+				add_building_construction={
+					type=bunker
+					level=4
+					province=4135
+					instant_build=yes
+				}
+			}
+		}
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 17
@@ -1036,7 +1078,33 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_rock_focus }
 		icon = GFX_goal_generic_construct_military
 		available = { 447={ is_owned_by=ENG } }
-		completion_reward = { 447={ add_building_construction={ type=coastal_bunker level=1 province=4076 instant_build=yes } add_building_construction={ type=naval_base level=1 province=4076 instant_build=yes } add_building_construction={ type=air_base level=1 instant_build=yes } add_building_construction={ type=bunker level=1 province=1071 instant_build=yes } } }
+		completion_reward = {
+			447={
+				add_building_construction={
+					type=coastal_bunker
+					level=1
+					province=4076
+					instant_build=yes
+				}
+				add_building_construction={
+					type=naval_base
+					level=1
+					province=4076
+					instant_build=yes
+				}
+				add_building_construction={
+					type=air_base
+					level=1
+					instant_build=yes
+				}
+				add_building_construction={
+					type=bunker
+					level=1
+					province=1071
+					instant_build=yes
+				}
+			}
+		}
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 17
@@ -1048,7 +1116,21 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_protect_suez }
 		icon = GFX_goal_generic_construct_military
 		available = { 116={ is_owned_by=ENG } }
-		completion_reward = { 116={ add_building_construction={ type=coastal_bunker level=2 province=12003 instant_build=yes } add_building_construction={ type=air_base level=1 instant_build=yes } } }
+		completion_reward = {
+			116={
+				add_building_construction={
+					type=coastal_bunker
+					level=2
+					province=12003
+					instant_build=yes
+				}
+				add_building_construction={
+					type=air_base
+					level=1
+					instant_build=yes
+				}
+			}
+		}
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 17
@@ -1136,7 +1218,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_ww1_australia_focus
-		prerequisite = { focus=ENG_ww1_india_focus }
+		prerequisite = { focus=ENG_ww1_canada_focus }
 		icon = GFX_goal_generic_construct_civilian
 		available = { is_in_faction_with=AST }
 		bypass = { AST={ custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes } } } custom_trigger_tooltip={ tooltip=naval_effort_tt all_owned_state={ free_building_slots={ building=dockyard size < 1 include_locked=yes } } } } }

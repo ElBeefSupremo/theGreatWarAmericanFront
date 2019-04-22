@@ -2711,7 +2711,7 @@ units =
 }
 
 air_wings = {
-	6929 = {
+	361 = {
 		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
 		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }
 		ww1_fighter_equipment_1 = { owner = "USA" amount = 30 }

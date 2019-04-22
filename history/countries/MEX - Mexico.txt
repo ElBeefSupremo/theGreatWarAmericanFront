@@ -424,8 +424,9 @@ create_navy_leader={
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battlecruiser0 = 1
 		ww1_battleship0 = 1
 		ww1_submarine1 = 1
@@ -518,8 +519,9 @@ create_navy_leader={
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1

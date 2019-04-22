@@ -6,15 +6,14 @@ state={
 	provinces={ 2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 }
 	resources={
 		wood=0
-		}
+	}
 	history={
 		owner=CHL
 		add_core_of=CHL
-
 		buildings={
 			infrastructure=5
-			arms_factory=4
+			arms_factory=3
 			industrial_complex=2
-			}
 		}
 	}
+}

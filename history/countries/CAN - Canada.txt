@@ -125,7 +125,7 @@ create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmars
 
 	ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
 	ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
-	ww1_light_cruiser2 = 0 # light_cruiser_1906 (Light Cruiser I)
+	ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
 	ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
 	ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
 
