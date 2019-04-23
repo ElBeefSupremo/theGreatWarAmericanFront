@@ -244,7 +244,7 @@ create_navy_leader={
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1
 		transport = 1
-		coastal_submarine0 = 1
+		ww1_submarine0 = 1
 		ww1_heavy_cruiser0 = 1
 		ww1_heavy_cruiser1= 1
 		# Air
@@ -410,6 +410,7 @@ create_navy_leader={
 		ww1_submarine0 = 1
 		ww1_submarine1 = 1
 		ww1_submarine2 = 1
+		ww1_submarine3 = 1
 		ww1_coastal_submarine1 = 1
 		ww1_coastal_submarine2 = 1
 		ww1_battleship0 = 1
@@ -419,11 +420,10 @@ create_navy_leader={
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
 		ww1_destroyer2 = 1
-		ww1_moduleMTG_mines = 1 # Mines
-		ww1_submarine3 = 1
-		ww1_carrier = 1
 		ww1_destroyer3 = 1
 		ww1_destroyer4 = 1
+		ww1_moduleMTG_mines = 1 # Mines
+		ww1_carrier = 1
 
 		transport = 1
 

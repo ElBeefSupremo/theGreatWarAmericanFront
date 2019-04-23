@@ -67,7 +67,7 @@
  carrier_1914:0 "Porte-hydravions I"
 
  submarine_1906:0 "Sous-marin I"
- coastal_submarine_1906:0 "Sous-marin côtier I"
+ submarine_1906:0 "Sous-marin côtier I"
 
  submarine_1914:0 "Sous-marin II"
  coastal_submarine_1914:0 "Sous-marin côtier II"

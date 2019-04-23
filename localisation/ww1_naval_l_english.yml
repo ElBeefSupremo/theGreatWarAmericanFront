@@ -66,7 +66,7 @@
  carrier_1914:0 "Seaplane Carrier I"
 
  submarine_1906:0 "Submarine I"
- coastal_submarine_1906:0 "Coastal Submarine I"
+ submarine_1906:0 "Coastal Submarine I"
 
  submarine_1914:0 "Submarine II"
  coastal_submarine_1914:0 "Coastal Submarine II"

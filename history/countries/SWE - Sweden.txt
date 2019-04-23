@@ -68,8 +68,10 @@ create_field_marshal={  name = "Schmidt" id=87021 portrait_path="gfx/fieldmarsha
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 0
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 0
 		ww1_battlecruiser0 = 1
 		ww1_battleship0 = 1
 		ww1_submarine1 = 1
@@ -132,7 +134,6 @@ create_field_marshal={  name = "Schmidt" id=87021 portrait_path="gfx/fieldmarsha
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
 
-
 		# Support
 		tech_support = 1
 		tech_engineers = 1
@@ -154,12 +155,13 @@ create_field_marshal={  name = "Schmidt" id=87021 portrait_path="gfx/fieldmarsha
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 1
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1
-		ww1_coastal_submarine1 = 1
 		transport = 1
 
 		# Air
@@ -171,7 +173,25 @@ create_field_marshal={  name = "Schmidt" id=87021 portrait_path="gfx/fieldmarsha
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=75 }  neutrality={ popularity=14 }  communism={ popularity=8 }  fascism={ popularity=3 }  }  ruling_party=democratic last_election="1911.9.1" election_frequency=36 elections_allowed=yes }
+	set_politics={
+		parties={
+			democratic={
+				popularity=75
+			} 
+			neutrality={
+				popularity=14
+			} 
+			communism={
+				popularity=8
+			} 
+			fascism={
+				popularity=3
+			} 
+		} 
+		ruling_party=democratic
+		last_election="1911.9.1"
+		election_frequency=36
+		elections_allowed=yes }
 
 	add_ideas = {
 		en_svensk_tiger

@@ -505,6 +505,8 @@ create_navy_leader={  name = "Prince Fushimi H." id=47178 portrait_path="gfx/adm
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
 		ww1_destroyer2 = 1
+		ww1_destroyer3 = 1
+		ww1_destroyer4 = 1
 		ww1_light_cruiser0 = 1
 		ww1_light_cruiser1 = 1
 		ww1_light_cruiser2 = 1

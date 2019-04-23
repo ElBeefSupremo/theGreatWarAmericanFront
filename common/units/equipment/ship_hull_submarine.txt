@@ -339,7 +339,7 @@ equipments = {
 		manpower = 50
 	}
 
-	coastal_submarine_1906 = {
+	submarine_1906 = {
 		year = 1906
 		archetype = ship_hull_submarine
 		parent = coastal_submarine_1900
@@ -378,7 +378,7 @@ equipments = {
 	coastal_submarine_1910 = {
 		year = 1910
 		archetype = ship_hull_submarine
-		parent = coastal_submarine_1906
+		parent = submarine_1906
 		priority = 80
 		module_slots = inherit		
 		default_modules = {

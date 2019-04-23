@@ -187,8 +187,8 @@ ship = { name = "EBN Aetos" definition = destroyer equipment = { destroyer_1906 
 ship = { name = "EBN Ierax" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
 ship = { name = "EBN Panthir" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
 ship = { name = "EBN Leon" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = GRE } } }
-ship = { name = "EBN Delfin" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = GRE } } }
-ship = { name = "EBN Xifias" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = GRE } } }
+ship = { name = "EBN Delfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = GRE } } }
+ship = { name = "EBN Xifias" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = GRE } } }
  
 		}
 	}

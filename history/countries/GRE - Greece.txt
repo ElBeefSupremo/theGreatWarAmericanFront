@@ -71,8 +71,10 @@ create_navy_leader={  name = "Hatzikiriakos" id=35033 portrait_path="gfx/admiral
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 0
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 0
 		ww1_battlecruiser0 = 1
 		ww1_battleship0 = 1
 		ww1_submarine1 = 1
@@ -181,8 +183,10 @@ create_navy_leader={  name = "Hatzikiriakos" id=35033 portrait_path="gfx/admiral
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 1
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1

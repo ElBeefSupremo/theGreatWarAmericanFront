@@ -1414,28 +1414,28 @@ units = {
 		name = "1re Division de Sous-Marins"
 		location=6449 # Cherbourg
 		base=6449 # Cherbourg
-		ship = { name = "Plongeur" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }
-		ship = { name = "Espadon " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
-		ship = { name = "Silure  " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
-		ship = { name = "Sirene " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
-		ship = { name = "Triton  " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
-		ship = { name = "Algerien" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Morse Class" } } }
-		ship = { name = "Francais  " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Morse Class" } } }
+		ship = { name = "Plongeur" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }
+		ship = { name = "Espadon " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
+		ship = { name = "Silure  " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
+		ship = { name = "Sirene " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
+		ship = { name = "Triton  " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Sirene Class" } } }
+		ship = { name = "Algerien" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Morse Class" } } }
+		ship = { name = "Francais  " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Morse Class" } } }
 	}
 
 	navy = {
 		name = "2e Division de Sous-Marins"
 		location=575 # Calais
 		base=575 # Calais
-		ship = { name = "Alose" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Anguille " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Bonite " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Castor " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Dorade" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Esturgeon " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Grondin  " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Loutre " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Ludion " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Alose" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Anguille " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Bonite " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Castor " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Dorade" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Esturgeon " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Grondin  " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Loutre " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Ludion " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
 	}
 
 	navy = {
@@ -1527,18 +1527,18 @@ units = {
 		name = "3e Division de Sous-Marins"
 		location = 911 # Toulon
 		base =  911 # Toulon
-		ship = { name = "Lynx" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Meduse " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Naiade " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Otarie" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Oursin" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Perle " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Phoque" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Protee " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Souffleur" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Thon " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "Truite " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
-		ship = { name = "X " definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "X Class" } } }
+		ship = { name = "Lynx" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Meduse " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Naiade " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Otarie" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Oursin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Perle " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Phoque" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Protee " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Souffleur" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Thon " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "Truite " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Naiade Class" } } }
+		ship = { name = "X " definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "X Class" } } }
 		ship = { name = "Aigrette" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }
 		ship = { name = "Cigogne" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }
 		ship = { name = "Omega" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = FRA } } }#KiS#version_name = "Omega Class" } } }

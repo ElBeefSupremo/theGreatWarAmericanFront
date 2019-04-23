@@ -437,13 +437,15 @@ create_navy_leader={  name = "Tyrwhitt" id=28485 portrait_path="gfx/admiral/ENG_
 		ww1_light_cruiser1 = 1
 		ww1_light_cruiser2 = 1
 		ww1_light_cruiser3 = 1
+		ww1_light_cruiser4 = 1
 		ww1_battlecruiser0 = 1
-		
 		ww1_battlecruiser1 = 1
+		ww1_battlecruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_battleship2 = 1
 		ww1_battleship3 = 1
+		ww1_battleship4 = 1
 		ww1_submarine0 = 1
 		ww1_submarine1 = 1
 		ww1_submarine2 = 1

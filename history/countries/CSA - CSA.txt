@@ -604,7 +604,6 @@ create_navy_leader = {
 		ww1_light_cruiser2 = 1
 		ww1_light_cruiser3 = 1
 		ww1_battlecruiser0 = 1
-		
 		ww1_battlecruiser1 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
@@ -615,7 +614,6 @@ create_navy_leader = {
 		ww1_submarine2 = 1
 		ww1_submarine3 = 1
 		transport = 1
-		 = 1
 		ww1_coastal_submarine1 = 1
 		ww1_coastal_submarine2 = 1
 		ww1_coastal_submarine3 = 1

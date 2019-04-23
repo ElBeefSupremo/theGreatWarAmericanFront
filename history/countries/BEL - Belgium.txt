@@ -198,7 +198,7 @@ create_corps_commander={  name = "de Witte de Haelen" id=9012 portrait_path="gfx
 
 		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
 		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1910 (Battlecruiser III)
+		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
 
 		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
 		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)

@@ -441,9 +441,10 @@ create_navy_leader={ name = "Max von Fischel" id=34314 portrait_path="gfx/admira
 		ww1_light_cruiser1 = 1
 		ww1_light_cruiser2 = 1
 		ww1_light_cruiser3 = 1
+		ww1_light_cruiser4 = 1
 		ww1_battlecruiser0 = 1
-		
 		ww1_battlecruiser1 = 1
+		ww1_battlecruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_battleship2 = 1

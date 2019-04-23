@@ -75,9 +75,9 @@ create_navy_leader={  name = "Beresford" id=5024 portrait_path="gfx/admiral/AST_
 		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
 		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
 
-		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
-		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1910 (Battlecruiser III)
+		ww1_battlecruiser0 = 1 # ww1_battlecruiser_1906 (Battlecruiser I)
+		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
+		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
 
 		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
 		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
@@ -177,7 +177,6 @@ create_navy_leader={  name = "Beresford" id=5024 portrait_path="gfx/admiral/AST_
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
 
-
 		# Support
 		tech_support = 1
 		tech_engineers = 1
@@ -197,23 +196,22 @@ create_navy_leader={  name = "Beresford" id=5024 portrait_path="gfx/admiral/AST_
 		bonus_bertha1 = 1
 
 		# Navy
-		# Navy
 		ww1_battleship0 = 1 #  ww1_battleship_1890 (Pre-Dreadnought I)
 		ww1_battleship1 = 1 #  ww1_battleship_1900 (Pre-Dreadnought II)
 		ww1_battleship2 = 0 #  ww1_battleship_1906 (Dreadnought I)
 		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
 		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
 
-		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
+		ww1_battlecruiser1 = 1 # ww1_battlecruiser_1906 (Battlecruiser I)
 		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1910 (Battlecruiser III)
+		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
 
 		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
 		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
 
 		ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
 		ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
-		ww1_light_cruiser2 = 0 # light_cruiser_1906 (Light Cruiser I)
+		ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
 		ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
 		ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
 
@@ -231,7 +229,6 @@ create_navy_leader={  name = "Beresford" id=5024 portrait_path="gfx/admiral/AST_
 		ww1_submarine3 = 0 # submarine_1914 (Submarine III)
 
 		transport = 1 # Naval Transport
-
 
 		# Air
 		ww1_fighter1 = 1

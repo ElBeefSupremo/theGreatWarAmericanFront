@@ -123,9 +123,9 @@ ship = { name = "Alagoas" definition = destroyer equipment = { destroyer_1906 = 
 ship = { name = "Santa Catharina" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = BRA } } }
 ship = { name = "Parana" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = BRA } } }
 ship = { name = "Sergipe" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = BRA } } }
-ship = { name = "F1" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = BRA } } }
-ship = { name = "F3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = BRA } } }
-ship = { name = "F5" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = BRA } } }
+ship = { name = "F1" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = BRA } } }
+ship = { name = "F3" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = BRA } } }
+ship = { name = "F5" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = BRA } } }
 	
 		}
 	}

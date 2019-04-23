@@ -116,10 +116,10 @@ ship = { name = "HMS Sigurd" definition = destroyer equipment = { destroyer_1906
 ship = { name = "HMS Vidar" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = SWE } } }
 ship = { name = "HMS Hugin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = SWE } } }#KiS#version_name = "Hugin Class" } } }
 ship = { name = "HMS Munin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = SWE } } }#KiS#version_name = "Hugin Class" } } }
-ship = { name = "HMS Hajen" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = SWE } } }
-ship = { name = "HMS Hvalen" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = SWE } } }
-ship = { name = "HMS U2" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = SWE } } }#KiS#version_name = "U2 Class" } } }
-ship = { name = "HMS U3" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = SWE } } }#KiS#version_name = "U2 Class" } } }
+ship = { name = "HMS Hajen" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = SWE } } }
+ship = { name = "HMS Hvalen" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = SWE } } }
+ship = { name = "HMS U2" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = SWE } } }#KiS#version_name = "U2 Class" } } }
+ship = { name = "HMS U3" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = SWE } } }#KiS#version_name = "U2 Class" } } }
 		}
 	}
 air_wings = { 

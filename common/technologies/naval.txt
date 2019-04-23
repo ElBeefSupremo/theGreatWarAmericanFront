@@ -1740,7 +1740,7 @@ technologies = {
 	ww1_coastal_submarine1 = {
 
 		enable_equipments = {
-			coastal_submarine_1906
+			submarine_1906
 		}
 		
 		research_cost = 1

@@ -177,7 +177,7 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 
 		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
 		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1910 (Battlecruiser III)
+		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
 
 		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
 		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)

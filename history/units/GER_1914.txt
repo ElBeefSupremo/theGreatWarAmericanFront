@@ -2469,7 +2469,7 @@ units = {
         ship = {
             name = "SMS U1"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2477,7 +2477,7 @@ units = {
         ship = {
             name = "SMS U2"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2485,7 +2485,7 @@ units = {
         ship = {
             name = "SMS U3"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2493,7 +2493,7 @@ units = {
         ship = {
             name = "SMS U4"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2501,7 +2501,7 @@ units = {
         ship = {
             name = "SMS U5"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2509,7 +2509,7 @@ units = {
         ship = {
             name = "SMS U6"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2517,7 +2517,7 @@ units = {
         ship = {
             name = "SMS U7"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2525,7 +2525,7 @@ units = {
         ship = {
             name = "SMS U8"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2533,7 +2533,7 @@ units = {
         ship = {
             name = "SMS U9"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2541,7 +2541,7 @@ units = {
         ship = {
             name = "SMS U10"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2549,7 +2549,7 @@ units = {
         ship = {
             name = "SMS U11"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2557,7 +2557,7 @@ units = {
         ship = {
             name = "SMS U12"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2565,7 +2565,7 @@ units = {
         ship = {
             name = "SMS U13"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2573,7 +2573,7 @@ units = {
         ship = {
             name = "SMS U14"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2581,7 +2581,7 @@ units = {
         ship = {
             name = "SMS U15"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2589,7 +2589,7 @@ units = {
         ship = {
             name = "SMS U16"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2751,7 +2751,7 @@ units = {
         ship = {
             name = "SMS Blücher"
             definition = battle_cruiser equipment = {
-                battle_cruiser_1906b = {
+                battle_cruiser_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -3965,7 +3965,7 @@ units = {
                 }
             }
         }
-                ship = {
+        ship = {
             name = "SMS Prinz Rudolf"
             definition = battle_cruiser equipment = {
                 battle_cruiser_1906 = {
@@ -3973,7 +3973,7 @@ units = {
                 }
             }
         }
-                ship = {
+            ship = {
             name = "SMS Wulfstan"
             definition = battle_cruiser equipment = {
                 battle_cruiser_1906 = {
@@ -3981,7 +3981,7 @@ units = {
                 }
             }
         }
-                ship = {
+            ship = {
             name = "SMS Ulfilas"
             definition = battle_cruiser equipment = {
                 battle_cruiser_1906 = {
@@ -3989,7 +3989,7 @@ units = {
                 }
             }
         }
-                ship = {
+            ship = {
             name = "SMS Isenburg"
             definition = battle_cruiser equipment = {
                 battle_cruiser_1906 = {
@@ -3997,7 +3997,7 @@ units = {
                 }
             }
         }
-                ship = {
+            ship = {
             name = "SMS Eisenhorn"
             definition = battle_cruiser equipment = {
                 battle_cruiser_1906 = {
@@ -4018,7 +4018,7 @@ units = {
                 }
             }
         }
-                ship = {
+        ship = {
             name = "SMS Schadenfreude"
             definition = battle_cruiser equipment = {
                 battle_cruiser_1906 = {
@@ -4026,7 +4026,7 @@ units = {
                 }
             }
         }
-                ship = {
+        ship = {
             name = "SMS Ganondorf"
             definition = battle_cruiser equipment = {
                 battle_cruiser_1906 = {
@@ -4324,7 +4324,7 @@ units = {
         ship = {
             name = "SMS Scharnhorst"
             definition = battle_cruiser equipment = {
-                battle_cruiser_1906b = {
+                battle_cruiser_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -4369,7 +4369,7 @@ units = {
         ship = {
             name = "SMS Gneisenau"
             definition = battle_cruiser equipment = {
-                battle_cruiser_1906b = {
+                battle_cruiser_1906 = {
                     amount = 1 owner = GER
                 }
             }

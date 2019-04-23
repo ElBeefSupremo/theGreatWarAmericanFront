@@ -58,7 +58,7 @@ ship = { name = "KNM Frithjof" definition = light_cruiser equipment = { light_cr
 ship = { name = "KNM Viking" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = NOR } } }#KiS#version_name = "Viking Class" } } }
 ship = { name = "KNM Valkyrjen" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = NOR } } }
 ship = { name = "KNM Draug" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = NOR } } }
-ship = { name = "KNM Kobben" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = NOR } } }
+ship = { name = "KNM Kobben" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = NOR } } }
 		}
 	}
 air_wings = { 

@@ -2533,7 +2533,7 @@ units = {
         ship = {
             name = "SMS U1"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2541,7 +2541,7 @@ units = {
         ship = {
             name = "SMS U2"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2549,7 +2549,7 @@ units = {
         ship = {
             name = "SMS U3"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2557,7 +2557,7 @@ units = {
         ship = {
             name = "SMS U4"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2565,7 +2565,7 @@ units = {
         ship = {
             name = "SMS U5"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2573,7 +2573,7 @@ units = {
         ship = {
             name = "SMS U9"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }
@@ -2581,7 +2581,7 @@ units = {
         ship = {
             name = "SMS U11"
             definition = submarine equipment = {
-                coastal_submarine_1906 = {
+                submarine_1906 = {
                     amount = 1 owner = GER
                 }
             }

@@ -1636,20 +1636,20 @@ ship = { name = "Vynoslivi" definition = destroyer equipment = { destroyer_1906 
 		name = "Baltiyskiy Podvodnaya Lodka Flotiliya"
 		location = 3151 # St. Petersburg
 		base =  3151 # St. Petersburg
-ship = { name = "Delfin" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }
-ship = { name = "Feldmarshal Graf Sheremetev" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
-ship = { name = "Kasatka" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
-ship = { name = "Makrel" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
-ship = { name = "Nalim" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
-ship = { name = "Okun" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
-ship = { name = "Skat" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
-ship = { name = "Beluga" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
-ship = { name = "Losos" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
-ship = { name = "Peskar" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
-ship = { name = "Shchuka" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
-ship = { name = "Som" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
-ship = { name = "Sterlyad" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
-ship = { name = "Sudak" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
+ship = { name = "Delfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }
+ship = { name = "Feldmarshal Graf Sheremetev" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
+ship = { name = "Kasatka" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
+ship = { name = "Makrel" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
+ship = { name = "Nalim" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
+ship = { name = "Okun" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
+ship = { name = "Skat" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kasatka Class" } } }
+ship = { name = "Beluga" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
+ship = { name = "Losos" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
+ship = { name = "Peskar" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
+ship = { name = "Shchuka" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
+ship = { name = "Som" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
+ship = { name = "Sterlyad" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
+ship = { name = "Sudak" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Holland Class" } } }
 		}
 	 navy = {
 		name = "Chornaye More Flot"
@@ -1673,21 +1673,21 @@ ship = { name = "Stroini" definition = destroyer equipment = { destroyer_1906 = 
 		name = "Chornaye More Podvodnaya Lodka Flotiliya"
 		location=3686 # Sevastopol
 		base=3686 # Sevastopol
-ship = { name = "Bychek" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
-ship = { name = "Kefal" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
-ship = { name = "Osetr" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
-ship = { name = "Paltus" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
-ship = { name = "Plotva" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
-ship = { name = "Sig" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
-ship = { name = "Karp" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }
-ship = { name = "Karas" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }
-ship = { name = "Kaiman" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
-ship = { name = "Alligator" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
-ship = { name = "Drakon" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
-ship = { name = "Krokodil" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
-ship = { name = "Minoga" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Minoga Class" } } }
-ship = { name = "Akula" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }
-ship = { name = "Pochtovy" definition = submarine equipment = { coastal_submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Pochtovy Class" } } }
+ship = { name = "Bychek" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
+ship = { name = "Kefal" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
+ship = { name = "Osetr" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
+ship = { name = "Paltus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
+ship = { name = "Plotva" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
+ship = { name = "Sig" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Lake Class" } } }
+ship = { name = "Karp" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }
+ship = { name = "Karas" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }
+ship = { name = "Kaiman" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
+ship = { name = "Alligator" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
+ship = { name = "Drakon" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
+ship = { name = "Krokodil" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Kaiman Class" } } }
+ship = { name = "Minoga" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Minoga Class" } } }
+ship = { name = "Akula" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }
+ship = { name = "Pochtovy" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = RUS } } }#KiS#version_name = "Pochtovy Class" } } }
 		}
 	 navy = {
 		name = "Sibirskiy Flotiliya"

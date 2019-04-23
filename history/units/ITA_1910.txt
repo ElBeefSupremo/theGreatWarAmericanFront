@@ -541,8 +541,8 @@ units = {
 		ship = { name = "RN Regina Elena" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
 		ship = { name = "RN Roma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
 		ship = { name = "RN Vittorio Emanuele" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Pisa" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Amalfi" definition = battle_cruiser equipment = { battle_cruiser_1906b = { amount = 1 owner = ITA } } }
+		ship = { name = "RN Pisa" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+		ship = { name = "RN Amalfi" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
 		ship = { name = "RN Agortdat" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
 		ship = { name = "RN Tripoli" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
 		ship = { name = "RN Goito" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }#KiS#version_name = "Goito Class" } } }
@@ -671,6 +671,6 @@ instant_effect = {
 	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "ITA" } requested_factories = 1 progress = 0.1 efficiency = 50}
 	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "ITA" } requested_factories = 1 progress = 0.1 efficiency = 50}
 
-	add_equipment_production = { equipment = { type = battle_cruiser_1906b creator = "ITA" } requested_factories = 1 progress = 0.83 amount = 1 } # name = "RN San Giorgio" historical_model = 9 
-	add_equipment_production = { equipment = { type = battle_cruiser_1906b creator = "ITA" } requested_factories = 1 progress = 0.19 amount = 1 } # name = "RN San Marco" historical_model = 9 
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "ITA" } requested_factories = 1 progress = 0.83 amount = 1 } # name = "RN San Giorgio" historical_model = 9 
+	add_equipment_production = { equipment = { type = battle_cruiser_1906 creator = "ITA" } requested_factories = 1 progress = 0.19 amount = 1 } # name = "RN San Marco" historical_model = 9 
 }

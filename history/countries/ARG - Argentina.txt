@@ -59,9 +59,9 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
 		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
 		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
 
-		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
+		ww1_battlecruiser1 = 1 # ww1_battlecruiser_1906 (Battlecruiser I)
 		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1910 (Battlecruiser III)
+		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
 
 		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
 		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
@@ -131,8 +131,7 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
     set_country_flag = roque_died
 }
 1913.8.10.12 = {
-	oob = "ARG_1910"
-
+	oob = "ARG_1914"
 
 	#-------------------------------------------------------
 	#							NF
@@ -156,7 +155,6 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
 	complete_national_focus = ww1_diplomatic_effort
 	complete_national_focus = neutrality_focus
 	complete_national_focus = ww1_military_reserve
-	
 
 	#-------------------------------------------------------
 
@@ -197,24 +195,24 @@ create_corps_commander={  name = "Uriburu" id=3004 portrait_path="gfx/generals/A
 		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
 		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
 
-		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
-		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1910 (Battlecruiser III)
+		ww1_battlecruiser0 = 1 # ww1_battlecruiser_1906 (Battlecruiser I)
+		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
+		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
 
 		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
 		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
 
 		ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
 		ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
-		ww1_light_cruiser2 = 0 # light_cruiser_1906 (Light Cruiser I)
+		ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
 		ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
 		ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
 
 		ww1_destroyer0 = 1 # destroyer_1890 (Torpedo Boat I)
 		ww1_destroyer1 = 1 # destroyer_1900 (Destroyer I)
 		ww1_destroyer2 = 1 # destroyer_1906 (Destroyer II)
-		ww1_destroyer3 = 0 # destroyer_1910 (Destroyer III)
-		ww1_destroyer4 = 0 # destroyer_1914 (Destroyer IV)	
+		ww1_destroyer3 = 1 # destroyer_1910 (Destroyer III)
+		ww1_destroyer4 = 1 # destroyer_1914 (Destroyer IV)	
 
 		ww1_moduleMTG_mines = 1 # Mines
 
