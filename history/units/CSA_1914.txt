@@ -951,168 +951,243 @@ units = {
 		start_experience_factor = 0.2
 	}
 
-	navy= {
+	Fleet = {
 		name = "Atlantic Fleet"
-		location=788 # Norfolk
 		base=788 # Norfolk
+		task_force= {
+			name = "Atlantic Squadron"
+			location=788 # Norfolk
+			base=788 # Norfolk
 
-		ship = { name = "CSS Joe Johnston" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Longstreet" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Texas" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Arkansas" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Alabama" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Mississippi" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Missouri" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Florida" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Roanoke" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Oklahoma City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Bowling Green" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Lubbock" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Juarez" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Joplin" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Galveston" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Asheville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Downes" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Duncan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Aylwin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Parker" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Benham" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hathcoat" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Downthett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Denton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Aykin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Parks" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS McBrian" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hatcher" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Joe Johnston" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Longstreet" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Texas" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Arkansas" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Alabama" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Mississippi" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Missouri" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Florida" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Roanoke" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Oklahoma City" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Bowling Green" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Lubbock" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Juarez" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Joplin" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Galveston" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Asheville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Downes" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Duncan" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Aylwin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Parker" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Benham" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hathcoat" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Downthett" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Denton" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Aykin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Parks" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS McBrian" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hatcher" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		}
 	}
 
-	navy= {
-		name = "Caribbean Squadron"
-		location=7552 # New Orleans
-		base=7552 # New Orleans
+	Fleet= { 
+		name = "Caribbean Fleet"
+		naval_base = 7552 # New Orleans
+		task_force= {
+			name = "Caribbean Squadron"
+			location=7552 # New Orleans
 
-		ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Sonora" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Cuba" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Tennessee" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Lexington" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Louisville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Tallahassee" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Newport News" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
-		ship = { name = "CSS Buchanan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Birmingham" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Semmes" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hot Springs" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Selma" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Wilmington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Beall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Breckenridge" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Bulloch" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Duke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Glassel" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hogg" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Huger" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Henderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Buell" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Moneyhun" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Balantine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Drake" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Jensen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Haggart" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hubler" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Sonora" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Cuba" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Tennessee" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Lexington" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Louisville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Tallahassee" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Newport News" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
+			ship = { name = "CSS Buchanan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Birmingham" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Semmes" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hot Springs" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Selma" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Wilmington" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Beall" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Breckenridge" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Bulloch" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Duke" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Glassel" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hogg" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Huger" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Henderson" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Buell" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Moneyhun" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Balantine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Drake" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Jensen" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Haggart" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hubler" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
+		}
 	}
 
-	navy = {
-		name = "Submarine Flotilla"
-		location=7552 # New Orleans
-		base=7552 # New Orleans
-		ship = { name = "CSS Skipjack" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Sturgeon" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Carp" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Barracuda" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Pickerel" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Skate" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Seal" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Thresher" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Tuna" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Turbot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Seawolf" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Nautilus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Garfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Haddock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Cachalot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+
+	Fleet = { 
+		name = "Greater Submarine Fleet"
+		naval_base = 1843 # Miami
+
+		task_force = {
+			name = "Submarine Flotilla"
+			location=7552 # New Orleans
+			ship = { name = "CSS Skipjack" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Sturgeon" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Carp" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Barracuda" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Pickerel" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Skate" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Seal" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Thresher" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Tuna" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Turbot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Seawolf" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Nautilus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Garfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Haddock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Cachalot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		}
+
+
+		task_force = {
+			name = "2nd Submarine Flotilla"
+			location = 1843 # Miami
+			ship = { name = "CSS Bonefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Triton" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Catfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hammerhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Great White" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Tigershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Walrus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Coyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Kingcrab" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Sardine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Whitefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Jellyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Pollock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Barnacle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Squidbilly" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		}
+
+		task_force = {
+			name = "3rd Submarine Flotilla"
+			location = 6785 # Corpus Christi
+			base = 6785 # Corpus Christi
+			ship = { name = "CSS Blackfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Whitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Bluefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Gulper Shark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Dogfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Kitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Pygmyshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Brambleshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hook-tooth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Highfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Lanternshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Shortfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Sleepershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Spinefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Spurdog" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+		}
+
+		task_force = {
+			name = "4th Submarine Flotilla"
+			location = 7622 # Havana
+			base = 7622 # Havana
+			ship = { name = "CSS Sawshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Longnose" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Sixgill" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Saw-back" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Angelshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hornshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Bullhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Baskingshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { 
+				name = "CSS Mako" 
+				definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+
+			ship = { 
+				name = "CSS Porbeagle" 
+				definition = submarine 
+				equipment = { 
+					submarine_1906 = { 
+						amount = 1 
+						owner = CSA 
+					} 
+				} 
+			}
+
+			ship = { 
+				name = "CSS Megamouth" 
+				definition = submarine 
+				equipment = { 
+					submarine_1906 = { 
+						amount = 1 
+						owner = CSA 
+					} 
+				} 
+			}
+			
+			ship = { 
+				name = "CSS Goblinshark" 
+				definition = submarine 
+				equipment = { 
+					submarine_1906 = { 
+						amount = 1 
+						owner = CSA 
+					} 
+				} 
+			}
+
+			ship = { 
+				name = "CSS Sandtiger" 
+				definition = submarine 
+				equipment = { 
+					submarine_1906 = { 
+						amount = 1 
+						owner = CSA 
+					} 
+				} 
+			}
+
+			ship = { 
+				name = "CSS Crocodile" 
+				definition = submarine 
+				equipment = { 
+					submarine_1906 = { 
+						amount = 1 
+						owner = CSA 
+					} 
+				} 
+			}
+
+			ship = { 
+				name = "CSS Carpetshark" 
+				definition = submarine 
+				equipment = { 
+					submarine_1906 = { 
+						amount = 1 
+						owner = CSA 
+						} 
+					} 
+				}
+			}
+		}
 	}
 
-	navy = {
-		name = "2nd Submarine Flotilla"
-		location = 1843 # Miami
-		base = 1843 # Miami
-		ship = { name = "CSS Bonefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Triton" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Catfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hammerhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Great White" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Tigershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Walrus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Coyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Kingcrab" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Sardine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Whitefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Jellyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Pollock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Barnacle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Squidbilly" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-	}
-
-	navy = {
-		name = "3rd Submarine Flotilla"
-		location = 6785 # Corpus Christi
-		base = 6785 # Corpus Christi
-		ship = { name = "CSS Blackfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Whitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Bluefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Gulper Shark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Dogfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Kitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Pygmyshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Brambleshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hook-tooth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Highfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Lanternshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Shortfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Sleepershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Spinefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Spurdog" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-	}
-
-	navy = {
-		name = "4th Submarine Flotilla"
-		location = 7622 # Havana
-		base = 7622 # Havana
-		ship = { name = "CSS Sawshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Longnose" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Sixgill" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Saw-back" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Angelshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Hornshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Bullhead" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Baskingshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Mako" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Porbeagle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Megamouth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Goblinshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Sandtiger" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Crocodile" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-		ship = { name = "CSS Carpetshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-	}
-}
 
 air_wings = {
 
