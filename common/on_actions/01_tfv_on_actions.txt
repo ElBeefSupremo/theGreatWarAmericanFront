@@ -233,16 +233,6 @@ on_actions = {
 			if = {
 				limit = { 
 					AND = { 
-						TAG = USA
-						is_subject_of = SAF
-						SAF = { has_idea = SAF_king_edward }
-						}
-					 }
-				set_cosmetic_tag = USA_SAF_EDW
-			}
-			if = {
-				limit = { 
-					AND = { 
 						TAG = UKR
 						is_subject_of = GER
 						}

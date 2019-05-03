@@ -164,14 +164,14 @@ on_actions = {
 	#
 	#}
 
-	on_border_war_lost = {
-		effect = {
-			owner = {
-				country_event = { id = china.14 }
-				country_event = { id = china.16 }
-			}
-		}
-	}
+	#on_border_war_lost = {
+	#	effect = {
+	#		owner = {
+	#			country_event = { id = china.14 }
+	#			country_event = { id = china.16 }
+	#		}
+	#	}
+	#}
 	
 	on_leave_faction = {
 		effect = {
@@ -451,29 +451,6 @@ on_actions = {
 				}
 				FROM = {
 					country_event = { id = germany.84 days = 1 }
-				}
-			}
-
-			#Remove MEFO bills if Germany goes to war
-			if = {
-				limit = {
-					ROOT = { tag = GER }
-					ROOT = { GER_has_mefo_bills = yes }
-				}
-				ROOT = {
-					country_event = { id = wtt_germany.61 }
-				}
-			}
-
-			#Remove MEFO bills if Germany is declared war on
-			if = {
-				limit = {
-					FROM = { tag = GER }
-					FROM = { GER_has_mefo_bills = yes } #TODO_WTT_CD_MEFO_REWORK
-					NOT = { ROOT = { original_tag = GER } }
-				}
-				FROM = {
-					country_event = { id = wtt_germany.61 }
 				}
 			}
 

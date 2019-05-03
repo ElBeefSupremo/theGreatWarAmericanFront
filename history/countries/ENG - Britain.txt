@@ -15,11 +15,15 @@ if = {
 	}
 
 	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
 		target = RAJ
 		autonomous_state = autonomy_colony
 		freedom_level = 0.35
 	}
-
 	set_autonomy = {
 		target = AST
 		autonomous_state = autonomy_dominion
@@ -31,6 +35,7 @@ if = {
 		freedom_level = 0.2
 	}
 	else = {
+		puppet = CAN
 		puppet = RAJ
 		puppet = AST
 		puppet = NZL
