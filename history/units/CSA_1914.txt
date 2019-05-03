@@ -1054,11 +1054,6 @@ units = {
 			ship = { name = "CSS Thresher" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Tuna" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Turbot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Seawolf" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Nautilus" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Garfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Haddock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Cachalot" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 		}
 
 
@@ -1075,11 +1070,6 @@ units = {
 			ship = { name = "CSS Coyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Kingcrab" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Sardine" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Whitefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Jellyfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Pollock" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Barnacle" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Squidbilly" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 		}
 
 		task_force = {
@@ -1088,7 +1078,7 @@ units = {
 			base = 6785 # Corpus Christi
 			ship = { name = "CSS Blackfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Whitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Bluefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Squidbilly" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Gulper Shark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Dogfish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Kitefin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
@@ -1096,11 +1086,7 @@ units = {
 			ship = { name = "CSS Brambleshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Hook-tooth" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Highfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Lanternshark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Shortfin" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Sleepershark" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Spinefish" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Spurdog" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
+
 		}
 
 		task_force = {
