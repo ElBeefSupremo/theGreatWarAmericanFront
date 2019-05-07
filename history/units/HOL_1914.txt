@@ -175,7 +175,7 @@ units = {
 
 	Fleet = {
 		name = "Huis Vloot"
-		navy = {
+		task_force = {
 			name = "Koninklijke Marine"
 			location = 9498 # Amsterdam
 			base = 9498 # Amsterdam
@@ -210,7 +210,7 @@ units = {
 	Fleet = {
 		name = "Oost-indie Marine Kommand"
 		naval_base = 4608 # Soerabaja
-		navy = {
+		task_force = {
 			name = "Oost-Indië Vloot"
 			location = 4608 # Soerabaja
 			ship = { name = "HrMs Koningin Regentes" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
@@ -237,7 +237,7 @@ units = {
 	Fleet = {
 		name = "West-Indië Marine"
 		naval_base = 9498 # Curaçao
-		navy = {
+		task_force = {
 			name = "West-Indië Vloot"
 			location = 9498 # Curaçao
 			ship = { name = "HrMs Jacob Van Heemskerck" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = HOL } } }
