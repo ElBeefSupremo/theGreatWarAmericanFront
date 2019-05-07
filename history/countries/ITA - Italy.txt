@@ -96,7 +96,7 @@ create_navy_leader={
 	id=46001 
 	portrait_path="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_duca_degli_abruzzi.tga" 
 	traits={   } 
-	skill=2 
+	skill=2
 	attack_skill=2
 	defense_skill=2
 	}
@@ -106,11 +106,17 @@ create_navy_leader={
 	id=46075 
 	portrait_path="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_thaon_di_revel.tga" 
 	traits={   } 
-	skill=2 
-	attack_skill=2
-	defense_skill=2
+	skill=3
+	attack_skill=3
+	defense_skill=3
 	}
-
+create_navy_leader = {
+	name = "Luigi Rizzo"
+	traits={ }
+	skill = 3
+	attack_skill=3
+	defense_skill=3
+}
 1910.1.1 = {
 	oob = "ITA_1910"
 

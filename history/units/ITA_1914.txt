@@ -615,148 +615,179 @@ units = {
 		division_template="Cavalleria di Linea"
 		start_experience_factor=0.05
 	}
-			
-	navy = {
-		name = "1a Squadra Navale"
-		location=11837 # Taranto
-		base=11837 # Taranto
-		ship = { name = "RN Dante Alighieri" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Napoli" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Regina Elena" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Roma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Vittorio Emanuele" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Pisa" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Amalfi" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN San Giorgio" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN San Marco" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Artigliere" definition = heavy_cruiser equipment = { heavy_cruiser_1900  = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Bersagliere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Corazziere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Garibaldino" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Granatiere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Lanciere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Alpino" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Caribiniere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Fuciliere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Pontiere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Ascaro" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Indomito" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Impavido" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Impetuoso" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Insidioso" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Intrepido" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Irrequieto" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Ardito" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Ardente" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Audace" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Animoso" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = ITA } } }
-	}
 
-	navy = {
-		name = "2a Squadra Navale"
-		location=11837 # Taranto
-		base=11837 # Taranto
-		ship = { name = "RN Benedetto Brin" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Regina Margherita" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Vittor Pisani" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Francesco Ferruccio" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Giuseppe Garibaldi" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Varese" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Piemonte" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Quarto" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Agortdat" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Tripoli" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Goito" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Montebello" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Euridice" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Iride" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Minerva" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Partenope" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Libia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Puglia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-	}
-	
-	navy = {
-		name = "2a Squadra Submarine"
-		location=11837 # Taranto
-		base=11837 # Taranto
-		ship = { name = "RN Delfino" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Glauco" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Narvalo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Otaria" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Squalo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Tricheco" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Fisalia" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Jalea" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Jantina" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Medusa" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Salpa" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Valella" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Zoea" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Atropo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Nautilus" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Nereide" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Galileo Ferraris" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Giacinto Pullino" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Foca" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Argo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-	}
 
-	navy = {
-		name = "Dipartimento di Venezia"
-		location = 11584 # Venezia
-		base =  11584 # Venezia
-		ship = { name = "RN Re Umberto" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Sardegna" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Sicilia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Italia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Lepanto" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Ammiraglio di Saint Bon" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Emanuele Filiberto" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Marco Polo" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Carlo Alberto" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Elba" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Etruria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Lombardia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Foca" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Argo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
-	}
+	Fleet = {
+		name = "Regia Marina"
+		naval_base=11837 # Taranto
+		task_force = {
+			name = "1a Squadra Navale"
+			location=11837 # Taranto
+			ship = { name = "RN Dante Alighieri" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Napoli" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Regina Elena" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Roma" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Vittorio Emanuele" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Pisa" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Amalfi" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN San Giorgio" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN San Marco" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Artigliere" definition = heavy_cruiser equipment = { heavy_cruiser_1900  = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Bersagliere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Corazziere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Garibaldino" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Granatiere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Lanciere" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Alpino" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Caribiniere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Fuciliere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Pontiere" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ascaro" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Indomito" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Impavido" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Impetuoso" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Insidioso" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Intrepido" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Irrequieto" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ardito" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ardente" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Audace" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Animoso" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = ITA } } }
+		}
 
-	navy = {
-		name = "Dipartimento di Taranto"
-		location=11837 # Taranto
-		base=11837 # Taranto
-		ship = { name = "RN Coatit" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Fulmine" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Lampo" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Dardo" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Strale" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Euro" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Ostro" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
-	}
+		task_force = {
+			name = "2a Squadra Navale"
+			location=11837 # Taranto
+			base=11837 # Taranto
+			ship = { name = "RN Benedetto Brin" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Regina Margherita" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Vittor Pisani" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Francesco Ferruccio" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Giuseppe Garibaldi" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Varese" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Piemonte" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Quarto" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Agortdat" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Tripoli" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Goito" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Montebello" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Euridice" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Iride" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Minerva" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Partenope" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Libia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Puglia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+		}
+		
+		task_force = {
+			name = "2a Squadra Submarine"
+			location=11837 # Taranto
+			base=11837 # Taranto
+			ship = { name = "RN Delfino" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Glauco" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Narvalo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Otaria" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Squalo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Tricheco" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Fisalia" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Jalea" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Jantina" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Medusa" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Salpa" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Valella" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Zoea" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Atropo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Nautilus" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Nereide" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Galileo Ferraris" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Giacinto Pullino" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Foca" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Argo" definition = submarine equipment = { submarine_1910 = { amount = 1 owner = ITA } } }
+		}
 
-	navy = {
-		name = "Squadra di Tripoli"
-		location=1149 # Tripoli
-		base=1149 # Tripoli
-		ship = { name = "RN Liguria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Giovanni Bausan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Etna" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Nembo" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Turbine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Aquilone" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Borea" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Zeffiro" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Espero" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } } 
-	}
+		task_force = {
+			name = "Dipartimento di Venezia"
+			location = 11584 # Venezia
+			base =  11584 # Venezia
+			ship = { name = "RN Re Umberto" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Sardegna" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Sicilia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Italia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Lepanto" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ammiraglio di Saint Bon" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Emanuele Filiberto" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Marco Polo" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Carlo Alberto" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Elba" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Etruria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Lombardia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Foca" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Argo" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Fettucinne" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Gnocchi" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Linguine" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Spaghett" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Macroni" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Pepperoni" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Pepperoccini" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Caesarini" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ancillini" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Vesuvius" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Rittorio" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
 
-	navy = {
-		name = "Squadra Eritrea"
-		location = 12766 # Edd
-		base =  12766 # Edd
-		ship = { name = "RN Calabria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Livorno" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
-		ship = { name = "RN Vesuvius" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+		}
+
+		task_force = {
+			name = "Dipartimento di Taranto"
+			location=11837 # Taranto
+			base=11837 # Taranto
+			ship = { name = "RN Coatit" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Dulmine" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Fampo" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Lardo" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ibero" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Dinglini" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ravioli" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Bruschetta" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Capresse" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Marinara" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Mozzarella" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Panini" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Calzone" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Stromboli" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN D'argo" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Condotti" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Fulmine" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Lampo" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Dardo" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Strale" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Euro" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Ostro" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ITA } } }
+		}
+
+		task_force = {
+			name = "Squadra di Tripoli"
+			location=1149 # Tripoli
+			base=1149 # Tripoli
+			ship = { name = "RN Liguria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Giovanni Bausan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Etna" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Nembo" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Turbine" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Aquilone" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Borea" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Zeffiro" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Espero" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ITA } } } 
+		}
+
+		task_force = {
+			name = "Squadra Eritrea"
+			location = 12766 # Edd
+			base =  12766 # Edd
+			ship = { name = "RN Calabria" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Livorno" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+			ship = { name = "RN Vesuvius" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ITA } } }
+		}
 	}
 }
 
