@@ -1156,7 +1156,7 @@ units = {
 
 		Fleet = {
 			name = "U-bootflotte"
-			nava_base =  11735 # Pola
+			naval_base =  11735 # Pola
 			task_force = {
 				name = "U-bootdivision"
 				location = 11735 # Pola

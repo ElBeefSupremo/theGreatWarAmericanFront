@@ -205,10 +205,10 @@ units = {
 
 	Fleet = {
 		name = "Nippon Kaigun"
-		naval_base = 9859 # Tokyo
+		naval_base = 9998 # Tokyo
 		task_force = {
 			name = "1 Sentai"
-			location=9859 # Tokyo
+			location=9998 # Tokyo
 			ship = { name = "IJN Kawachi" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = JAP } } }
 			ship = { name = "IJN Katori" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Kashima Class" } } }
 			ship = { name = "IJN Sagami" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Peresviet Class" } } }
@@ -243,7 +243,7 @@ units = {
 		}
 		task_force = {
 			name = "2 Sentai"
-			location=9859 # Tokyo
+			location=9998 # Tokyo
 			ship = { name = "IJN Kongo" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = JAP } } }
 			ship = { name = "IJN Settsu" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = JAP } } }
 			ship = { name = "IJN Satsuma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }
@@ -313,7 +313,7 @@ units = {
 		}
 		task_force = {
 			name = "5 Sentai"
-			location=9859 # Tokyo
+			location=9998 # Tokyo
 			ship = { name = "IJN Shikishima" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Shikishima Class" } } }
 			ship = { name = "IJN Asahi" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Shikishima Class" } } }
 			ship = { name = "IJN Hizen" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = JAP } } }#KiS#version_name = "Retvisan Class" } } }
