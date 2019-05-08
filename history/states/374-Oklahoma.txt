@@ -7,7 +7,7 @@ state={
 	resources={
 		wood=0
 		coal=12
-		oil=100
+		oil=50
 		aluminium=54
 		}
 	history={
