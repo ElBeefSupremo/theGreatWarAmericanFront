@@ -117,6 +117,20 @@ create_navy_leader = {
 	attack_skill=3
 	defense_skill=3
 }
+create_navy_leader = { 
+	name = "Guardiamarina Aonzo"
+	traits = { }
+	skill = 3
+	attack_skill=3
+	defense_skill=3
+}
+create_navy_leader= {
+	name = "Nazario Sauro"
+	traits = { }
+	skill = 3
+	attack_skill=4
+	defense_skill=2
+}
 1910.1.1 = {
 	oob = "ITA_1910"
 
