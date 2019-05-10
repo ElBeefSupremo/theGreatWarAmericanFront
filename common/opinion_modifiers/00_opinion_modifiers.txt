@@ -715,44 +715,6 @@ opinion_modifiers = {
 
 	### GER focus tree
 
-	GER_anschluss_rejected = { value = -40 }
-
-	GER_demand_sudetenland_rejected = { value = -40 }
-
-	GER_demand_slovenia_YUG = { value = -50 }
-
-	GER_first_vienna_award_GER = { value = 10 }
-
-	GER_first_vienna_award_other = { value = -25 }
-
-	GER_second_vienna_award_HUN_north = { value = 10 }
-
-	GER_second_vienna_award_HUN_all = { value = 20 }
-
-	GER_second_vienna_award_ROM_north = { value = -10 }
-
-	GER_second_vienna_award_ROM_all = { value = -20 }
-
-	GER_second_vienna_award_other = { value = -25 }
-
-	GER_second_vienna_award_noland = { value = -25 }
-
-	GER_treaty_of_craiova_GER = { value = 30 }
-
-	GER_treaty_of_craiova_noland = { value = -25 }
-
-	GER_treaty_of_craiova_other = { value = -25 }
-
-	GER_first_ljubljana_award_GER = { value = 30 }
-
-	GER_first_ljubljana_award_other = { value = -25 }
-
-	GER_second_ljubljana_award_GER = { value = 30 }
-
-	GER_second_ljubljana_award_noland = { value = -25 }
-
-	GER_second_ljubljana_award_other = { value = -25 }
-
 	### BUL seeking an alliance
 
 	ROM_seek_alliance_GER = { value = 50 }
