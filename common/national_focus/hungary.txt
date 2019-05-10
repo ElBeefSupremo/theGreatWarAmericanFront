@@ -656,7 +656,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_aviation_effort_3 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_CAS
-		completion_reward = { add_tech_bonus={ name=pilotformation1_bonus bonus=0.50 uses=1 technology=dogfighting_experience technology=fighter_ace_initiative technology=dispersed_fighting } }
+		completion_reward = { add_tech_bonus={ name=pilotformation1_bonus bonus=0.50 uses=1 } }
 		cost = 10
 		x = 20
 		y = 4
@@ -680,7 +680,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_aviation_effort_3 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_poland_goal
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 technology=infrastructure_destruction technology=dive_bombing technology=operational_destruction } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 } }
 		cost = 10
 		x = 24
 		y = 4
@@ -705,7 +705,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_CAS
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 technology=multialtitude_flying technology=hunt_and_destroy technology=fighter_veteran_initiative } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 } }
 		cost = 10
 		x = 20
 		y = 6
@@ -729,7 +729,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_occupy_start_war
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.2 uses=1 technology=logistical_bombing technology=strategic_destruction technology=infiltration_bombing } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.2 uses=1 } }
 		cost = 10
 		x = 24
 		y = 6
@@ -754,7 +754,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_aviation_effort_5 }
 		available = { date > 1917.1.1 }
 		icon = GFX_goal_generic_air_fighter2
-		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.2 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 technology=early_fighter } }
+		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.2 uses=1 technology=ww1_fighter3 } }
 		ai_will_do = { factor=1 }
 		cost = 10
 		x = 21
@@ -1381,7 +1381,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_ww1_newnavalcanons_2 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_occupy_states_coastal
-		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=0.2 uses=1 technology=convoy_interdiction_ti technology=unrestricted_submarine_warfare technology=wolfpacks technology=advanced_submarine_warfare } }
+		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=0.2 uses=1 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 34

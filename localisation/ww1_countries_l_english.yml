@@ -1,6 +1,5 @@
 ﻿l_english:
 
-
  AUH_fascism:0 "Austria"
  AUH_fascism_DEF:0 "Austria"
  AUH_democratic:0 "Austria"
@@ -242,6 +241,8 @@
  MEX_neutrality_ADJ:0 "Mexican"
  MEX_communism_ADJ:0 "Mexican"
  
+ # The Great War American Front Countries
+
  GUA_communism:0 "People's Republic of Central America"
  GUA_communism_ADJ:0 "The People's Republic of Central America"
  GUA_communism_DEF:0 "Central American"
