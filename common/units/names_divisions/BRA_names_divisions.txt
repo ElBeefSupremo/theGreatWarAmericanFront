@@ -34,7 +34,7 @@ BRA_INF_01 =
 {
 	name = "Infantry Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
@@ -76,7 +76,7 @@ BRA_CAV_01 =
 {
 	name = "Cavalry Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
@@ -108,7 +108,7 @@ BRA_MOT_01 =
 {
 	name = "Motorized Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
@@ -140,7 +140,7 @@ BRA_MEC_01 =
 {
 	name = "Mechanized Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
@@ -172,7 +172,7 @@ BRA_ARM_01 =
 {
 	name = "Armored Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
@@ -200,43 +200,11 @@ BRA_ARM_01 =
 	}
 }
 
-BRA_PAR_01 = 
-{
-	name = "Parachute Division"
-
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
-
-	can_use = { always = yes }
-
-	division_types = { "paratrooper" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { BRA_INF_01 }
-
-	fallback_name = "%da Divisão de Pára-Quedistas"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%da Divisão de Pára-Quedistas" }
-		2 = { "%da Divisão de Pára-Quedistas" }
-		3 = { "%da Divisão de Pára-Quedistas" }
-		4 = { "%da Divisão de Pára-Quedistas" }
-		5 = { "%da Divisão de Pára-Quedistas" }
-		6 = { "%da Divisão de Pára-Quedistas" }
-		7 = { "%da Divisão de Pára-Quedistas" }
-		8 = { "%da Divisão de Pára-Quedistas" }
-		9 = { "%da Divisão de Pára-Quedistas" }
-		10 = { "%da Divisão de Pára-Quedistas" }
-	}
-}
-
 BRA_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
@@ -268,7 +236,7 @@ BRA_MNT_01 =
 {
 	name = "Mountain Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
@@ -300,7 +268,7 @@ BRA_GAR_01 =
 {
 	name = "Garrison Division"
 
-	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+	for_countries = { BRA }				# Also includes releasable Portuguese colonlies
 
 	can_use = { always = yes }
 
