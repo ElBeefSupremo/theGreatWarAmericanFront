@@ -31,7 +31,7 @@ state={
 				arms_factory=3
 				dockyard=1
 				air_base=3
-				4464={ naval_base=4 }
+				4464={ naval_base=8 }
 				}
 		}
 	}
