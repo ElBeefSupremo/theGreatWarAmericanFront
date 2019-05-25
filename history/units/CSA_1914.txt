@@ -1001,11 +1001,11 @@ units = {
 			name = "Caribbean Squadron"
 			location=7552 # New Orleans
 
-			ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS JEB Stewart" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Sonora" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Cuba" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Kentucky" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Oklahoma" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Longstreet" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Sequoya" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Tennessee" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Lexington" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}
 			ship = { name = "CSS Louisville" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA }}}

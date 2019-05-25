@@ -2602,7 +2602,7 @@ units =
 			ship = { name = "USS Middleton" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 			ship = { name = "USS Hartford City" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 			ship = { name = "USS Terryton" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
-			ship = { name = "USS Samoa" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
+			ship = { name = "USS Moonsville" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 			ship = { name = "USS Warsaw" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 			ship = { name = "USS Sioux City" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }		
 			ship = { name = "USS Santa Fe" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
@@ -2728,12 +2728,12 @@ units =
 			ship = { name = "USS Layfayette" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 			ship = { name = "USS Kokomo" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 			ship = { name = "USS Effingham" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
-			ship = { name = "USS Kokomo" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
+			ship = { name = "USS St Claire" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 			ship = { name = "USS Edinburg" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
-			ship = { name = "USS Kokomo" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
-			ship = { name = "USS Edinburg" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
-			ship = { name = "USS Kokomo" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
-			ship = { name = "USS Edinburg" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
+			ship = { name = "USS Minoch" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
+			ship = { name = "USS Ol' Fritz" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
+			ship = { name = "USS Syracuse" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
+			ship = { name = "USS Warwick" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = USA } } }
 		}
 
 		task_force = {

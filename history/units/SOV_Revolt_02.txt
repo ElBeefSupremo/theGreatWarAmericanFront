@@ -49,79 +49,79 @@ units = {
 	# Spawn around the Moscow State
 	division = {
 		name = "2. Bolsheviks Moscow Cavalry Division"
-		location = 6414
+		location = 3151
 		division_template="Cavalry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "2. Bolsheviks Moscow Cavalry Division"
-		location = 6414
+		location = 3151
 		division_template="Cavalry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "2. Bolsheviks Moscow Cavalry Division"
-		location = 6414
+		location = 3151
 		division_template="Cavalry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "31. Bolsheviks Moscow Infantry Division"
-		location = 6414
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "32. Bolsheviks Moscow Infantry Division"
-		location = 11282
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "33. Bolsheviks Moscow Infantry Division"
-		location = 301
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "34. Bolsheviks Moscow Infantry Division"
-		location = 9378
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "35. Bolsheviks Moscow Infantry Division"
-		location = 3259
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "36. Bolsheviks Moscow Infantry Division"
-		location = 3259
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "37. Bolsheviks Moscow Infantry Division"
-		location = 3259
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "38. Bolsheviks Moscow Infantry Division"
-		location = 3259
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "1. Armored Division"
-		location = 3259
+		location = 149
 		division_template="Armored Car Division"
 		start_experience_factor=0.7
 	}
 	division = {
 		name = "2. Armored Division"
-		location = 3259
+		location = 149
 		division_template="Armored Car Division"
 		start_experience_factor=0.7
 	}
@@ -129,25 +129,25 @@ units = {
 	# Spawn around the Saint Petersburg State
 	division = {
 		name = "2. Bolsheviks Petrograd Cavalry Division"
-		location = 6174
+		location = 149
 		division_template="Cavalry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "39. Bolsheviks Petrograd Infantry Division"
-		location = 6174
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "40. Bolsheviks Petrograd Infantry Division"
-		location = 79
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "41. Bolsheviks Petrograd Infantry Division"
-		location = 11068
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -159,7 +159,7 @@ units = {
 	}
 	division = {
 		name = "43. Bolsheviks Petrograd Infantry Division"
-		location = 3060
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -171,19 +171,19 @@ units = {
 	}
 	division = {
 		name = "45. Bolsheviks Petrograd Infantry Division"
-		location = 9150
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "46. Bolsheviks Petrograd Infantry Division"
-		location = 9150
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "47. Bolsheviks Petrograd Infantry Division"
-		location = 9150
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -191,43 +191,43 @@ units = {
 
 	division = {
 		name = "3. Bolsheviks Tangarov Division"
-		location = 9368
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "4. Bolsheviks Rostov Division"
-		location = 3285
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "5. Bolsheviks Partisan"
-		location = 9360
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "6. Bolsheviks Partisan"
-		location = 6450
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "7. Bolsheviks Partisan"
-		location = 3477
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "8. Bolsheviks Partisan"
-		location = 6527
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "9. Bolsheviks Partisan"
-		location = 3282
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
