@@ -11,7 +11,7 @@ state = {
 		wood = 0
 		}
 	history = {
-		#owner = RUS
+		owner = RUS
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 1

@@ -10,7 +10,7 @@ ideas={
 			socialist_science_focus={ removal_cost=-1 allowed={ always=no } allowed_civil_war={ has_government=communism } picture=generic_manpower_bonus modifier={ conscription=0.03 } }
 			peoples_commissariat_focus={ allowed={ always=no } removal_cost=-1 picture=generic_production_bonus allowed_civil_war={ has_government=communism } modifier={ conversion_cost_civ_to_mil_factor=-0.2 } }
 			rehabilitated_military_focus={ removal_cost=-1 allowed={ always=no } allowed_civil_war={ always=yes } picture=generic_morale_bonus modifier={ land_reinforce_rate=0.02 army_morale_factor=0.10 } }
-			home_of_revolution={ removal_cost=-1 allowed={ always=no } allowed_civil_war={ has_government=communism } modifier={ drift_defence_factor=0.5 production_speed_buildings_factor=-0.1 } rule={ can_create_factions=yes } }
+			home_of_revolution={ removal_cost=-1 allowed={ always=no } allowed_civil_war={ has_government=communism } modifier={ drift_defence_factor=0.5 production_speed_buildings_factor=0.1 } rule={ can_create_factions=yes } }
 			trotskyite_plot={ removal_cost=-1 allowed={ always=no } allowed_civil_war={ has_government=communism } modifier={ stability_factor=-0.2 } }
 			trotskyite_plot_purged={ removal_cost=-1 allowed={ always=no } allowed_civil_war={ has_government=communism } modifier={ stability_factor=-0.05 } }
 			officers_purged={ removal_cost=-1 allowed={ always=no } allowed_civil_war={ has_government=communism } research_bonus={ land_doctrine=-0.10 naval_doctrine=-0.10 air_doctrine=-0.10 } modifier={ army_org_factor=-0.5 } }

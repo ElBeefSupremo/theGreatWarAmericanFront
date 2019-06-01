@@ -63,7 +63,7 @@ country_event = {
 #			load_oob = "SIM"
 #		}
 #	}
-#	option={
+#	option = {
 #		name = ww1_russia.2.b
 #		ai_chance = {
 #			factor = 0
@@ -101,28 +101,26 @@ country_event = {
 		add_stability = -0.02
 	}
 }
-#____________________________________________________________
 
+#########################################################
 # Tsar Nicholas Abdicates! + Soviet Revolution
-#____________________________________________________________
+#########################################################
 news_event = {
 	id = ww1_russia.4
 	title = ww1_russia.4.t
 	desc = ww1_russia.4.d
 	picture = EVENT_hoi4tgw_october_revolution
-
 	major = yes
+	fire_only_once = yes
 
-	mean_time_to_happen = {
-		days = 0
-	}
+	#mean_time_to_happen = {
+	#	days = 0
+	#}
 
 	trigger = {
-
 		NOT = {
-			has_global_flag = kis_ask_ger_surrend # Can't happened if Germany loosed the WW1
+			has_global_flag = kis_ask_ger_surrend #Prevents triggering if Germany loses the war
 		}
-		
 		RUS = {
 			OR = {
 				has_war_with = GER
@@ -132,46 +130,26 @@ news_event = {
 				has_country_flag = dual_power
 				has_government = communism
 			}
-			NOT = {	controls_state = 98 }
-			NOT = {	controls_state = 10 }
-			NOT = {	controls_state = 90 }
-			NOT = { controls_state = 97 }
-			NOT = { controls_state = 92 }
-			NOT = { controls_state = 93 }
-			NOT = { controls_state = 199 }
+			NOT = {
+				controls_state = 98
+				controls_state = 10
+				controls_state = 90
+				controls_state = 97
+				controls_state = 92
+				controls_state = 93
+				controls_state = 199
+			}
 		}
 	}
 
 	immediate = {
-		hidden_effect = {	
-			ENG = {
-				remove_from_faction = RUS
-				add_opinion_modifier = { 
-					target = RUS 
-					modifier = HOI4TGW_Opinion_Russia_Leave_Entente
-				} 
-			}
+		hidden_effect = {
 			SOV = {
-				create_faction = "Comintern"		
-				
-				declare_war_on = {
-		            type = annex_everything
-		            target = RUS
-		        }
-		        #every_state={
-				#	limit={
-				#		# SOV will get the same core as RUS
-				#		#is_claimed_by = RUS
-				#		is_core_of = RUS
-				#	}
-				#	SOV={
-				#		add_state_claim = PREV
-				#	}
-				#}
-				set_stability = 0.9
-				add_political_power = 800
-				add_manpower = 500000
-				load_oob="SOV_Revolt_01"
+				RUS = {
+					every_owned_state = {
+						add_core_of = PREV.PREV
+					}
+				}
 
 				transfer_state = 195
 				transfer_state = 219
@@ -185,18 +163,20 @@ news_event = {
 				transfer_state = 253
 				transfer_state = 254
 
-				add_state_claim = 195
-				add_state_claim = 219
-				add_state_claim = 244
-				add_state_claim = 263
-				add_state_claim = 208
-				add_state_claim = 246
-				add_state_claim = 247
-				add_state_claim = 248
-				add_state_claim = 264
-				add_state_claim = 253
-				add_state_claim = 254
+				#add_state_claim = 195
+				#add_state_claim = 219
+				#add_state_claim = 244
+				#add_state_claim = 263
+				#add_state_claim = 208
+				#add_state_claim = 246
+				#add_state_claim = 247
+				#add_state_claim = 248
+				#add_state_claim = 264
+				#add_state_claim = 253
+				#add_state_claim = 254
 			}
+		}
+		hidden_effect = {
 			RUS = {
 				set_country_flag = dual_power
 				set_country_flag = kis_tsarnicholasabdicated
@@ -209,40 +189,109 @@ news_event = {
 				}
 				create_faction = "White Movement"
 				kill_country_leader = yes
-				create_country_leader = { 
-					name = "Georgy Lvov" 
-					desc = RUS_georgy_lvov_DESC 
+				create_country_leader = {
+					name = "Georgy Lvov"
+					desc = RUS_georgy_lvov_DESC
 					picture = "gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_georgy_lvov.dds" 
-					expire = "1935.1.1" 
-					ideology = conservatism 
-					traits = { } 
+					expire = "1935.1.1"
+					ideology = conservatism
+					traits = {
+
+					}
 				}
 				set_politics = {
-				    parties = {
-				        neutrality = {
-				            popularity = 0
-				        }
-				        democratic = {
-				            popularity = 70
-				        }
-				        fascism = {
-				            popularity = 0
-				            banned = yes
-				        }
-				        communism = {
-				            popularity = 30
-				        }
-				    }
-				    ruling_party = democratic last_election = "1912.9.1"
-				    election_frequency = 60 elections_allowed = no
-				}			
+					parties = {
+						neutrality = {
+							popularity = 0
+						}
+						democratic = {
+							popularity = 70
+						}
+						fascism = {
+							popularity = 0
+							banned = yes
+						}
+						communism = {
+							popularity = 30
+						}
+					}
+					ruling_party = democratic
+					last_election = "1912.9.1"
+					election_frequency = 60
+					elections_allowed = no
+				}
 			}
+
+			ENG = {
+				add_opinion_modifier = {
+					target = RUS
+					modifier = HOI4TGW_Opinion_Russia_Leave_Entente
+				}
+			}
+
+			SOV = {
+				set_stability = 0.9
+				set_war_support = 1.0
+				add_political_power = 800
+				add_manpower = 500000
+				load_oob = "SOV_Revolt_01"
+				create_faction = "Comintern"
+				diplomatic_relation = {
+					country = GER
+					relation = non_aggression_pact
+					active = yes
+				}
+				diplomatic_relation = {
+					country = AUH
+					relation = non_aggression_pact
+					active = yes
+				}
+				diplomatic_relation = {
+					country = TUR
+					relation = non_aggression_pact
+					active = yes
+				}
+				diplomatic_relation = {
+					country = USA
+					relation = non_aggression_pact
+					active = yes
+				}
+				declare_war_on = {
+					target = RUS
+					type = annex_everything
+				}
+
+				#Army
+				complete_national_focus = army_effort
+				complete_national_focus = equipment_effort
+				complete_national_focus = ww1_artillery_effort_1
+				complete_national_focus = doctrine_effort
+				complete_national_focus = ww1_trenchwarfare
+
+				#Industrial
+				complete_national_focus = industrial_effort
+				complete_national_focus = infrastructure_effort
+
+				#Political
+				complete_national_focus = political_effort
+				complete_national_focus = collectivist_ethos
+				complete_national_focus = internationalism_focus
+				complete_national_focus = political_correctness
+
+				#Diplomatic
+				complete_national_focus = ww1_diplomatic_effort
+				complete_national_focus = neutrality_focus
+				complete_national_focus = ww1_military_reserve
+				complete_national_focus = deterrence
+
+			}
+
 		}
 	}
 
 	option = {
 		name = ww1_russia.4.a
-		ai_chance = { factor = 100 }
+		#ai_chance = { factor = 100 }
 	}
 }
 #____________________________________________________________
@@ -288,27 +337,29 @@ news_event = {
 			RUS = {
 				set_country_flag = kis_octoberrevolutioncrushed
 				kill_country_leader = yes
-				create_country_leader={ name = "Nikolai II" desc=RUS_nikolai_ii_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_ii.dds" expire="1935.1.1" ideology=autocracy traits={  } }
+				create_country_leader = { name = "Nikolai II" desc = RUS_nikolai_ii_DESC picture = "gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_ii.dds" expire = "1935.1.1" ideology = autocracy traits = {  } }
 				set_politics = {
-				    parties = {
-				        neutrality = {
-				            popularity = 100
-				        }
-				        democratic = {
-				            popularity = 0
-				            banned = yes
-				        }
-				        fascism = {
-				            popularity = 0
-				            banned = yes
-				        }
-				        communism = {
-				            popularity = 0
-				            banned = yes
-				        }
-				    }
-				    ruling_party = neutrality last_election = "1912.9.1"
-				    election_frequency = 60 elections_allowed = no
+					parties = {
+						neutrality = {
+							popularity = 100
+						}
+						democratic = {
+							popularity = 0
+							banned = yes
+						}
+						fascism = {
+							popularity = 0
+							banned = yes
+						}
+						communism = {
+							popularity = 0
+							banned = yes
+						}
+					}
+					ruling_party = neutrality
+					last_election = "1912.9.1"
+					election_frequency = 60
+					elections_allowed = no
 				}
 				annex_country = {
 					target = SOV
@@ -332,24 +383,21 @@ news_event = {
 	title = ww1_russia.6.t
 	desc = ww1_russia.6.d
 	picture = ww1_russia_5
-
 	major = yes
-
+	fire_only_once = yes
 	mean_time_to_happen = {
 		days = 0
 	}
 
 	trigger = {
-
 		NOT = {
-			has_global_flag = kis_ask_ger_surrend # Can't happened if Germany loosed the WW1
+			has_global_flag = kis_ask_ger_surrend #Prevents triggering if Germany loses the war
 		}
-
 		country_exists = SOV
 		RUS = {
 			has_war_with = SOV
 			surrender_progress > 0.50
-			NOT = { 
+			NOT = {
 				has_global_flag = kis_brestlitovsk 
 				has_country_flag = kis_octoberrevolutioncrushed
 			}
@@ -363,14 +411,8 @@ news_event = {
 				country_event = { days = 20 id = ww1_russia.7 }
 				country_event = { days = 2 id = ww1_russia.8 }
 				RUS = {
-					every_state = {
-						limit = {
-							# SOV will get the same core as RUS
-							#is_claimed_by = RUS
-							is_core_of = RUS
-						}
-						SOV = {
-							add_state_core = PREV
+					every_owned_state = {
+							add_core_of = PREV.PREV
 						}
 					}
 				}
@@ -605,18 +647,18 @@ country_event = {
 # Troops Head Home
 #____________________________________________________________
 country_event = {
-	title=ww1_russia.7.t#Troops Head Home
-	desc=ww1_russia.7.d#After the treaty of Brest-Litovsk, most soldiers simply abandoned their posts and went home
-	id=ww1_russia.7
-	picture=GFX_news_event_generic_sign_treaty2
-	fire_only_once=yes
-	is_triggered_only=yes
-	option={
-		name=ww1_russia.7.a
-		ai_chance={
-			factor=100
+	title = ww1_russia.7.t#Troops Head Home
+	desc = ww1_russia.7.d#After the treaty of Brest-Litovsk, most soldiers simply abandoned their posts and went home
+	id = ww1_russia.7
+	picture = GFX_news_event_generic_sign_treaty2
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ww1_russia.7.a
+		ai_chance = {
+			factor = 100
 		}
-		set_global_flag=imperial_dissolution
+		set_global_flag = imperial_dissolution
 	}
 }
 #____________________________________________________________
@@ -629,7 +671,7 @@ country_event = {
 	desc = "The Germans have thrown everything against the Belgians and French. The Austrians are focused on the Serbians. Such poor coordination ensures our enemies will be unable to effectively launch an offensive against us, for now."
 	picture = ww1_france_15
 
-	is_triggered_only=yes
+	is_triggered_only = yes
 
 
 	option = {
@@ -675,7 +717,7 @@ news_event = {
 				create_faction = "White Movement"
 				set_global_flag = kis_whitesvsreds
 				kill_country_leader = yes
-				create_country_leader={ name = "Alexander Kolchak" desc=RUS_kolchak_ii_DESC picture="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds" expire="1935.1.1" ideology=fascism_ideology traits={ } }
+				create_country_leader = { name = "Alexander Kolchak" desc = RUS_kolchak_ii_DESC picture = "gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds" expire = "1935.1.1" ideology = fascism_ideology traits = { } }
 				set_politics = {
 				    parties = {
 				        neutrality = {

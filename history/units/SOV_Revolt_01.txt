@@ -91,7 +91,7 @@ units = {
 	}
 	division = {
 		name = "5. Bolsheviks Infantry Division"
-		location = 3060
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -103,7 +103,7 @@ units = {
 	}
 	division = {
 		name = "7. Bolsheviks Infantry Division"
-		location = 9150
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -159,7 +159,7 @@ units = {
 	}
 	division = {
 		name = "16. Bolsheviks Division"
-		location = 652
+		location = 6380
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -219,7 +219,7 @@ units = {
 	}
 	division = {
 		name = "26. Bolsheviks Petrograd Infantry Division"
-		location = 6400
+		location = 6380
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -247,18 +247,15 @@ units = {
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
-
-
-	
 	division = {
 		name = "1. Bolsheviks Tangarov Division"
-		location = 3479
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
-		name = "2. Bolsheviks Rostov Division"
-		location = 585
+		name = "2. Bolsheviks Rzhev Division"
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
@@ -306,9 +303,20 @@ units = {
 	}
 
 }
-
-
-air_wings = { 
+air_wings = {
 
 }
 
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 1
+		progress = 0.99
+		efficiency = 90
+	}
+
+}

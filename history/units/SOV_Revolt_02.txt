@@ -159,7 +159,7 @@ units = {
 	}
 	division = {
 		name = "43. Bolsheviks Petrograd Infantry Division"
-		location = 149
+		location = 11349
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -171,19 +171,19 @@ units = {
 	}
 	division = {
 		name = "45. Bolsheviks Petrograd Infantry Division"
-		location = 3151
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "46. Bolsheviks Petrograd Infantry Division"
-		location = 3151
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "47. Bolsheviks Petrograd Infantry Division"
-		location = 3151
+		location = 149
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -191,48 +191,48 @@ units = {
 
 	division = {
 		name = "3. Bolsheviks Tangarov Division"
-		location = 3151
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "4. Bolsheviks Rostov Division"
-		location = 3151
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "5. Bolsheviks Partisan"
-		location = 3151
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "6. Bolsheviks Partisan"
-		location = 3151
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "7. Bolsheviks Partisan"
-		location = 3151
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "8. Bolsheviks Partisan"
-		location = 3151
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
 		name = "9. Bolsheviks Partisan"
-		location = 3151
+		location = 11349
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 }
-air_wings = { 
+air_wings = {
 
 }
 

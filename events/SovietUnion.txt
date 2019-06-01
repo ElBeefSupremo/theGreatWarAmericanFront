@@ -4,9 +4,10 @@
 
 add_namespace = soviet
 
-
+##################################################
 # When Petrograd or Moscow belong to Bolcheviks
-#____________________________________________________________
+##################################################
+
 country_event = {
 	id = soviet.1
 	title = "Bolcheviks Volunteers"
@@ -18,8 +19,16 @@ country_event = {
 	trigger = {
 		tag = SOV
 		OR = {
-			195 = { controller = { TAG = SOV } }
-			219 = { controller = { TAG = SOV } }
+			195 = {
+				controller = {
+					TAG = SOV
+				}
+			}
+			219 = {
+				controller = {
+					TAG = SOV
+				}
+			}
 		}
 		NOT = {
 			has_country_flag = kis_secondrevoltsov
@@ -27,18 +36,22 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = {			
+		hidden_effect = {
 			set_country_flag = kis_sov_petrograd_captured
 			add_manpower = 10000
 			load_oob="SOV_Revolt_02"
-			set_country_flag = kis_secondrevoltsov	
+			set_country_flag = kis_secondrevoltsov
 			SOV = {
-				transfer_state = 637
-				transfer_state = 562
-				transfer_state = 644
-				transfer_state = 516
-				transfer_state = 579
-				transfer_state = 580
+				transfer_state = 516 #Northwest Siberia
+				transfer_state = 562 #Okhotsk
+				transfer_state = 574 #Yakutsk
+				transfer_state = 575 #Kirensk
+				transfer_state = 576 #Yeniseisk
+				transfer_state = 577 #Surgut
+				transfer_state = 579 #Salekhard
+				transfer_state = 580 #Tobolsk
+				transfer_state = 637 #Kamchatka
+				transfer_state = 644 #Northeast Siberia
 			}
 		}
 	}
