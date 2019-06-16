@@ -106,23 +106,16 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 20
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 0
-	        }
-	        neutrality = {
-	            popularity = 75
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1908.12.1"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 20
+        fascism = 5
+        communism = 0
+        neutrality = 75
+    }
 
 	add_ideas = {
 		ww1_Faith_Allah
@@ -278,23 +271,16 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 20
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 0
-	        }
-	        neutrality = {
-	            popularity = 75
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1912.4.1"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 20
+        fascism = 5
+        communism = 0
+        neutrality = 75
+    }
 
 	add_ideas = {
 		ww1_Faith_Allah

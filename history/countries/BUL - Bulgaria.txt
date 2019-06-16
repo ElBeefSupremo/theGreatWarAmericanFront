@@ -116,23 +116,16 @@ create_navy_leader={  name = "Serafimov" id=12081 portrait_path="gfx/admiral/BUL
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 5
-	        }
-	        fascism = {
-	            popularity = 15
-	        }
-	        communism = {
-	            popularity = 0
-	        }
-	        neutrality = {
-	            popularity = 80
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1907.12.22"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 5
+        fascism = 15
+        communism = 0
+        neutrality = 80
+    }
 
 	add_ideas = {
 		limited_conscription
@@ -276,23 +269,16 @@ create_navy_leader={  name = "Serafimov" id=12081 portrait_path="gfx/admiral/BUL
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 5
-	        }
-	        fascism = {
-	            popularity = 15
-	        }
-	        communism = {
-	            popularity = 0
-	        }
-	        neutrality = {
-	            popularity = 80
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1913.12.31"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 5
+        fascism = 15
+        communism = 0
+        neutrality = 80
+    }
 
 	add_ideas = {
 		limited_conscription

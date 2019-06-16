@@ -483,21 +483,14 @@ create_navy_leader = {
 	}
 
 	set_politics = {
-		parties = {
-			democratic = {
-				popularity=94 }
-			fascism = {
-				popularity=0 }
-			communism = {
-				popularity=2 }
-			neutrality = {
-				popularity=4 }
-		}
 		ruling_party=democratic
 		last_election="1909.01.09"
 		election_frequency=72
 		elections_allowed=yes
-	}
+}
+
+    set_popularities = {
+    }
 
 	add_ideas = {
 		limited_conscription
@@ -651,25 +644,14 @@ create_navy_leader = {
 
 
 	set_politics = {
-		parties = {
-			democratic = {
-				popularity=94 
-			}
-			fascism = {
-				popularity=0 
-			}
-			communism = {
-				popularity=2 
-			}
-			neutrality = {
-				popularity=4 
-			}
-		}
 		ruling_party=democratic
 		last_election="1909.01.09"
 		election_frequency=72
 		elections_allowed=yes
-	}
+}
+
+    set_popularities = {
+    }
 
 
 	add_ideas = {

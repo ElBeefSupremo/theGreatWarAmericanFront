@@ -112,20 +112,15 @@ create_navy_leader={  name = "Beresford" id=5024 portrait_path="gfx/admiral/AST_
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 98
-	        }
-	        fascism = {
-	            popularity = 0
-	        }
-	        communism = {
-	            popularity = 2
-	        }
-	    }
 	    ruling_party = democratic last_election = "1910.4.13"
 	    election_frequency = 36 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 98
+        fascism = 0
+        communism = 2
+    }
 
 	add_ideas = {
 		limited_conscription
@@ -240,20 +235,15 @@ create_navy_leader={  name = "Beresford" id=5024 portrait_path="gfx/admiral/AST_
 	}
 
 	set_politics = {
-		parties = {
-	        democratic = {
-	            popularity = 98
-	        }
-	        fascism = {
-	            popularity = 0
-	        }
-	        communism = {
-	            popularity = 2
-	        }
-	    }
 	    ruling_party = democratic last_election = "1913.5.31"
 	    election_frequency = 36 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 98
+        fascism = 0
+        communism = 2
+    }
 
 	add_ideas = {
 		neutrality_idea

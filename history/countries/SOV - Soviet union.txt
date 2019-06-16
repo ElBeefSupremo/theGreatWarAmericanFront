@@ -230,28 +230,18 @@ create_navy_leader = {  name = "Kireev" id = 85075 portrait_path = "gfx/admiral/
 	}
 
 	set_politics = {
-		parties = {
-			democratic = {
-				popularity = 0
-				banned = yes
-			}
-			fascism = {
-				popularity = 0
-				banned = yes
-			}
-			neutrality = {
-				popularity = 0
-				banned = yes
-			}
-			communism = {
-				popularity = 100
-			}
-		}
 		ruling_party = communism
 		last_election = "1910.1.1"
 		election_frequency = 48
 		elections_allowed = no
-	}
+}
+
+    set_popularities = {
+        democratic = 0
+        fascism = 0
+        neutrality = 0
+        communism = 100
+    }
 
 	add_ideas = {
 		home_of_revolution

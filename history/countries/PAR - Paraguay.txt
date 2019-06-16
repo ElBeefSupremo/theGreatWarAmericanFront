@@ -44,17 +44,14 @@ set_country_flag = monroe_doctrine
 	oob = "PAR_1914"
 
 	set_politics = {
-		parties = {
-			democratic = { popularity=25 }
-			fascism = { popularity=0 }
-			communism = { popularity=5  }
-			neutrality = { popularity=70  }
-		}
 			ruling_party=neutrality
 			last_election="1910.1.1"
 			election_frequency=48
 			elections_allowed=no
-	}
+}
+
+    set_popularities = {
+    }
 
 	set_technology={
 		#KiS #Scout1=1

@@ -205,22 +205,17 @@ create_navy_leader= {
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 85
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 10
-	        }
-	    }
 		ruling_party = democratic
 		last_election = "1909.3.14"
 		election_frequency = 48
 		elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 85
+        fascism = 5
+        communism = 10
+    }
 
 	add_ideas = {
 		ITA_ww1_Risorgimento
@@ -384,22 +379,17 @@ create_navy_leader= {
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 85
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 10
-	        }
-		}
 		ruling_party = democratic
 		last_election = "1913.11.1"
 		election_frequency = 48
 		elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 85
+        fascism = 5
+        communism = 10
+    }
 
 	add_ideas = {
 		ITA_ww1_Risorgimento

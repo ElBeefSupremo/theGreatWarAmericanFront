@@ -16,25 +16,13 @@ set_technology = {
 	transport = 1
 }
 
-set_politics = {
+set_politics = {}
 
-	parties = {
-		democratic = { 
-			popularity = 15
-		}
-
-		neutrality = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 60
-		}
-
-		fascism = { 
-			popularity = 5
-		}
-	}
+set_popularities = {
+    democratic = 15
+    neutrality = 20
+    communism = 60
+    fascism = 5
 }
 
 create_country_leader = {
