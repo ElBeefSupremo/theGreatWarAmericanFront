@@ -1,5 +1,5 @@
 #	Example:
-#
+# 
 #	example_trigger = {
 #		tag = FRA
 #		is_ai = no
@@ -11,7 +11,7 @@
 #	trigger = {
 #		exampel_trigger = yes
 #	}
-#
+# 
 #	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE FRA TAG
 
 is_friend_or_potential_friend_of_FRA = {

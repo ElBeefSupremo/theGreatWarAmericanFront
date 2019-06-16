@@ -212,9 +212,9 @@ units = {
 		location = 1048 # Cádiz
 		base =  1048 # Cádiz
 		ship = { name = "Pelayo" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = SPR } } }
-		ship = { name = "Emparador Carlos V" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = SPR } } }
-		ship = { name = "Princesa De Asturias" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = SPR } } }
-		ship = { name = "Cataluña" definition = battle_cruiser equipment = { battle_cruiser_1890 = { amount = 1 owner = SPR } } }
+		ship = { name = "Emparador Carlos V" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = SPR } } }
+		ship = { name = "Princesa De Asturias" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = SPR } } }
+		ship = { name = "Cataluña" definition = battle_cruiser equipment = { battle_cruiser_1906 = { amount = 1 owner = SPR } } }
 		ship = { name = "Infanta Isabel" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = SPR } } }
 		ship = { name = "Lepanto" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = SPR } } }
 		ship = { name = "Rio De La Plata" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = SPR } } }

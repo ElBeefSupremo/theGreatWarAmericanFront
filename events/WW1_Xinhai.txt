@@ -1,7 +1,7 @@
 ﻿add_namespace = ww1_xinhai
 country_event = {
-	title=ww1_xinhai.1.t #Revolutionaries Name List
-	desc=ww1_xinhai.1.d #On 9th October 1911 a leader of Gongjinhui - Sun Wu - had an accidental explosion in Wuchang when he was making explosives. Governor-General of Hubei-Hunan Rui Cheng sent some soldiers to search the city and tried to find the cause of the explosion. ,At 21:00 they arrested five revolutionaries and killed three of them the next morning. The Government also got a name list of all the revolutionaries and Rui Cheng ordered the arrest of all of them and declared martial law in Wuchang.
+	title=ww1_xinhai.1.t#Revolutionaries Name List
+	desc=ww1_xinhai.1.d#On 9th October 1911 a leader of Gongjinhui - Sun Wu - had an accidental explosion in Wuchang when he was making explosives. Governor-General of Hubei-Hunan Rui Cheng sent some soldiers to search the city and tried to find the cause of the explosion. ,At 21:00 they arrested five revolutionaries and killed three of them the next morning. The Government also got a name list of all the revolutionaries and Rui Cheng ordered the arrest of all of them and declared martial law in Wuchang.
 	id=ww1_xinhai.1
 	picture=ww1_xinhai_1
 	is_triggered_only=no
@@ -10,7 +10,7 @@ country_event = {
 		}
 	trigger={
 		tag=QIN
-		date > 1911.8.24
+		date>1911.8.24
 		not={
 			has_country_flag=revolutionaries_name_list
 			}
@@ -24,18 +24,18 @@ country_event = {
 		}
 	}
 country_event = {
-	title=ww1_xinhai.2.t #Xinhai Revolution
-	desc=ww1_xinhai.2.d #The Xinhai Revolution or Hsinhai Revolution was a revolution that overthrew Chinas last imperial dynasty, the Qing, and established the Republic of China. The revolution was named Xinhai because it occurred in 1911, the year of the Xinhai stem-branch in the sexagenary cycle of the Chinese calendar. The revolution consisted of many revolts and uprisings. The turning point is the Wuchang Uprising on October 10 1911, that was a result of the mishandling of the Railway Protection Movement. The revolution ended with the abdication of the Last Emperor Puyi on February 12 1912, that marked the end of over 2000 years of Imperial China and the beginning of China's Republican era.
+	title=ww1_xinhai.2.t#Xinhai Revolution
+	desc=ww1_xinhai.2.d#The Xinhai Revolution or Hsinhai Revolution was a revolution that overthrew Chinas last imperial dynasty, the Qing, and established the Republic of China. The revolution was named Xinhai because it occurred in 1911, the year of the Xinhai stem-branch in the sexagenary cycle of the Chinese calendar. The revolution consisted of many revolts and uprisings. The turning point is the Wuchang Uprising on October 10 1911, that was a result of the mishandling of the Railway Protection Movement. The revolution ended with the abdication of the Last Emperor Puyi on February 12 1912, that marked the end of over 2000 years of Imperial China and the beginning of China's Republican era.
 	id=ww1_xinhai.2
 	picture=ww1_xinhai_2
 	is_triggered_only=no
 	mean_time_to_happen={
 		days=0
 		}
-	trigger = {
+	trigger={
 		tag=QIN
 		#date>1911.10.10
-		date > 1911.9.1
+		date>1911.9.1
 		has_country_flag=revolutionaries_name_list
 		not={
 			has_country_flag=xinhai_revolution
@@ -48,6 +48,10 @@ country_event = {
 
 			release = MON # Release Mongolia
 			release = TIB # Release Tibet
+			release = TAN # Release Tanu
+			RUS = {
+				puppet = TAN
+			}
 
 			start_civil_war = {
 				ruling_party = neutrality
@@ -167,6 +171,10 @@ country_event = {
 
 			release = MON # Release Mongolia
 			release = TIB # Release Tibet
+			release = TAN # Release Tanu
+			RUS = {
+				puppet = TAN
+			}
 
 			set_capital = 620
 			start_civil_war = {
@@ -174,7 +182,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.99
 				capital = 613
-				states = { 283 287 322 325 328 329 330 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 621 622 714 715 716 717 }
+				states = { 283 287 322 325 328 330 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 621 622 714 715 716 717 }
 
 
 				#states = { 283 287 322 325 328 330 592 593 595 596 597 598 600 603 604 605 607 608 609 610 611 612 613 614 615 616 617 621 622 714 715 716 717 }
@@ -185,7 +193,7 @@ country_event = {
 					has_government = neutrality
 				}
 
-				set_stability = 0.2
+				set_stability = 0.1
 				add_manpower = -2200000
 				load_oob = "QIN_Civil_War"
 				 create_field_marshal={  name = "Yuan Shikai"  portrait_path="gfx/fieldmarshal/CHI_Yuan_Shikai.tga" traits={ defensive_doctrine  offensive_doctrine old_guard } skill=4 }
@@ -229,7 +237,7 @@ country_event = {
 				 create_navy_leader={  name = "Rongxu" id=73056 portrait_path="gfx/admiral/QIN_rongxu.tga" traits={   } skill=1 }
 				 create_navy_leader={  name = "Liu Guanxiong" id=73057 portrait_path="gfx/admiral/QIN_liu_guanxiong.tga" traits={ blockade_runner  } skill=2 }
 				 create_navy_leader={  name = "Li Dingxin" id=73058 portrait_path="gfx/admiral/QIN_li_dingxin.tga" traits={   } skill=1 }
-				 set_equipment_fraction = 0.2
+				 set_equipment_fraction = 0.1
 			}
 
 			set_politics = {
@@ -761,4 +769,4 @@ country_event = {
 			}
 		#remove_brigade="Guizhou Lujun"
 		}
-	}
+}

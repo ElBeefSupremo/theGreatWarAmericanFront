@@ -1,32 +1,32 @@
-add_namespeace = ww1_af_csr
-country_event = {
+﻿add_namespace = ww1_af_csr
+news_event = {
 	id = ww1_af_csr.1
 	title = ww1_af_csr.1.t # The Congaree Uprising!
 	desc = ww1_af_csr.1.d # Rebels from the newly declared "Congaree Socialist Republic" have raided army depots all over South Carolina and managed to fully equip a small army rapidly, though they lack training.
-	picture=GFX_Red_Rebel_Soldiers
+	picture = GFX_red_rebellion_event_01
 
-    
-    fire_only_once = yes
+	fire_only_once = yes
 
-    trigger = {
-
+	trigger = {
 		TAG = USA
 		date > 1915.6.1
 		NOT = {
-		has_global_flag = csa_red_rebellion
+			has_global_flag = csr_red_rebellion
 		}
 	}
 
 	immediate = { #Organize the Red Guard!
-		set_global_flag = csa_red_rebellion
-		CSR = {
-			declare_war_on = {
-				type = annex_everything
-				target = CSA
+		set_global_flag = csr_red_rebellion
+		hidden_effect = {
+			CSR = {
+				declare_war_on = {
+					type = annex_everything
+					target = CSA
+				}
+				transfer_state = 364
+				load_oob = "CSR_Red_Rebellion"
+				add_state_claim = 364
 			}
-			transfer_state = 364
-			load_oob="CSR_Red_Rebellion"
-			add_state_claim = 364
 		}
 	}
 }

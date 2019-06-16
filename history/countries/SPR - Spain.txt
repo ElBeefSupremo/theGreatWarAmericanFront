@@ -78,10 +78,14 @@ create_navy_leader={  name = "Rodriguez" id=86051 portrait_path="gfx/admiral/SPR
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 0
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 0
 		ww1_battlecruiser0 = 1
 		ww1_battleship0 = 1
+		ww1_battleship1 = 0
+		ww1_battleship2 = 0
 		ww1_submarine1 = 1
 		ww1_coastal_submarine1 = 1
 		transport = 1
@@ -95,23 +99,16 @@ create_navy_leader={  name = "Rodriguez" id=86051 portrait_path="gfx/admiral/SPR
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 75
-	        }
-	        fascism = {
-	            popularity = 6
-	        }
-	        communism = {
-	            popularity = 7
-	        }
-	        neutrality = {
-	            popularity = 12
-	        }
-	    }
 	    ruling_party = democratic last_election = "1910.4.31"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 75
+        fascism = 6
+        communism = 7
+        neutrality = 12
+    }
 
 	add_ideas = {
 		neutrality_idea
@@ -183,10 +180,14 @@ create_navy_leader={  name = "Rodriguez" id=86051 portrait_path="gfx/admiral/SPR
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 1
+		ww1_destroyer3 = 0
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
+		ww1_battleship2 = 1
 		ww1_submarine1 = 1
 		ww1_coastal_submarine1 = 1
 		transport = 1
@@ -201,24 +202,17 @@ create_navy_leader={  name = "Rodriguez" id=86051 portrait_path="gfx/admiral/SPR
 	}
 
 	set_politics = {
-	    parties = {
-	        neutrality = {
-	            popularity = 10
-	        }
-	        democratic = {
-	            popularity = 83
-	        }
-	        fascism = {
-	            popularity = 4
-	        }
-	        communism = {
-	            popularity = 3
-	        }
-	    }
 	    ruling_party = democratic last_election = "1913.6.17"
 
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        neutrality = 10
+        democratic = 83
+        fascism = 4
+        communism = 3
+    }
 
 	add_ideas = {
 		neutrality_idea

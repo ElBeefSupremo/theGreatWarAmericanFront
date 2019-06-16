@@ -90,13 +90,11 @@ country_event = {
 		name = "Ein volk, Ein reich, Ein Führer"
 		set_politics = {
 			ruling_party = fascism
-			elections_allowed = no
-			parties = {
-				fascism = {
-					popularity = 100
-				}
-			}
-		}
+			elections_allowed = no    }
+
+        set_popularities = {
+            fascism = 100
+        }
 		add_timed_idea = { idea = reign_of_terror days = 730 }
 	}
 }

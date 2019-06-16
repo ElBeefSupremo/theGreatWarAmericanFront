@@ -93,6 +93,8 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
+		ww1_destroyer3 = 1
+		ww1_destroyer4 = 1
 		ww1_light_cruiser0 = 1
 		ww1_light_cruiser1 = 1
 		ww1_battlecruiser0 = 1
@@ -102,9 +104,9 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1
 		transport = 1
-		coastal_submarine_1900 = 1
+		ww1_submarine0 = 1
 		ww1_heavy_cruiser0 = 1
-ww1_heavy_cruiser1= 1
+		ww1_heavy_cruiser1= 1
 		# Air
 		ww1_fighter1 = 1
 		ww1_zeppelin1 = 1
@@ -118,23 +120,16 @@ ww1_heavy_cruiser1= 1
 	}
 
 	set_politics = {
-	    parties = {
-	        neutrality = {
-	            popularity = 75
-	        }
-	        democratic = {
-	            popularity = 10
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 10
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1912.9.1"
 	    election_frequency = 60 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        neutrality = 75
+        democratic = 10
+        fascism = 5
+        communism = 10
+    }
 
 	add_ideas = {
 		limited_conscription
@@ -253,13 +248,11 @@ ww1_heavy_cruiser1= 1
 		ww1_submarine2 = 1
 		ww1_submarine3 = 1
 		transport = 1
-		ww1_coastal_submarine0 = 1
 		ww1_coastal_submarine1 = 1
 		ww1_coastal_submarine2 = 1
 		ww1_coastal_submarine3 = 1
 		ww1_heavy_cruiser0 = 1
-		ww1_heavy_cruiser1 = 1
-		ww1_heavy_cruiser2 = 1
+		ww1_heavy_cruiser1 = 1	
 
 
 		# Air
@@ -296,23 +289,16 @@ ww1_heavy_cruiser1= 1
 	}
 
 	set_politics = {
-	    parties = {
-	        neutrality = {
-	            popularity = 75
-	        }
-	        democratic = {
-	            popularity = 10
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 10
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1912.9.1"
 	    election_frequency = 60 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        neutrality = 75
+        democratic = 10
+        fascism = 5
+        communism = 10
+    }
 
 	add_ideas = {
 		limited_conscription

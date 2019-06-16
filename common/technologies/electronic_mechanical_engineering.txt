@@ -5,7 +5,7 @@ technologies = {
 
 	tank_unlocker1 = {
 
-		research_time_factor = -0.01
+		research_speed_factor = -0.01
 		
 		path = {
 			leads_to_tech = tank_unlocker2
@@ -63,7 +63,7 @@ technologies = {
 
 	chemical_research = {
 
-		research_time_factor = -0.01
+		research_speed_factor = -0.01
 		
 		path = {
 			leads_to_tech = chemical_research2
@@ -144,7 +144,7 @@ technologies = {
 	electronic_mechanical_engineering = {
 
 		# small boost to research speed
-		research_time_factor = -0.05
+		research_speed_factor = 0.05
 		
 		path = {
 			leads_to_tech = radio 
@@ -334,7 +334,7 @@ technologies = {
 	mechanical_computing = {
 
 		# small boost to research speed
-		research_time_factor = -0.05
+		research_speed_factor = 0.05
 		
 		path = {
 			leads_to_tech = tankaircraft1
@@ -500,7 +500,7 @@ technologies = {
 	mechanical_computing2 = {
 
 		# small boost to research speed
-		research_time_factor = -0.05
+		research_speed_factor = 0.05
 		
 		research_cost = 1.0
 		start_year = 1916

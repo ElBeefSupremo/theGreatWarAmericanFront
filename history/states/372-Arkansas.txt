@@ -13,19 +13,10 @@ state={
 		victory_points={ 12489 1 }
 		owner=CSA
 		add_core_of=CSA
-		1936.1.1={
-			owner=CSA
-			add_core_of=CSA
-			victory_points={ 12489 1 }
-			buildings={
-				infrastructure=4
-				industrial_complex=2
-				}
-			}
 		buildings={
 			infrastructure=6
-			industrial_complex=2
-			arms_factory=2
+			industrial_complex=1
+			arms_factory=1
 			}
 		}
 	}

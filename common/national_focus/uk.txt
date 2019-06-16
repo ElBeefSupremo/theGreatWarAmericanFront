@@ -838,7 +838,23 @@ focus_tree = {
 		id = ENG_ww1_defense_border
 		prerequisite = { focus=ENG_ww1_ready_country }
 		icon = GFX_goal_generic_fortify_city
-		completion_reward = { 
+		completion_reward = {
+			123 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 1
+					province = 540
+					instant_build = yes
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 1
+					province = 271
+					instant_build = yes
+				}
+			}
 			126 = { # London
 				add_building_construction = {
 					type = coastal_bunker
@@ -847,31 +863,17 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			125 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
-			130 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
 			127 = {
 				add_building_construction = {
 					type = coastal_bunker
 					level = 1
+					province = 3501
 					instant_build = yes
 				}
-			}
-			130 = {
 				add_building_construction = {
 					type = coastal_bunker
 					level = 1
+					province = 9458
 					instant_build = yes
 				}
 			}
@@ -1008,10 +1010,39 @@ focus_tree = {
 		id = ENG_ww1_mediterranean_focus
 		prerequisite = { focus=ENG_ww1_bureau_colonies }
 		icon = GFX_goal_generic_construct_military
-		available = { 447={ is_owned_by=ENG } }
+		available = {
+			116 = { is_owned_by=ENG }
+			183 = { is_owned_by=ENG }
+		}
 		completion_reward = { 
-			183={ add_building_construction={ type=coastal_bunker level=2 instant_build=yes } add_building_construction={ type=naval_base level=2 instant_build=yes } } 
-			116={ add_building_construction={ type=coastal_bunker level=2 instant_build=yes } add_building_construction={ type=naval_base level=2 instant_build=yes } } 
+			183 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 11984
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 11984
+					instant_build = yes
+				}
+			} 
+			116={
+				add_building_construction={
+					type=coastal_bunker
+					level=2
+					province = 12003
+					instant_build=yes
+				}
+				add_building_construction={
+					type=naval_base
+					level=2
+					province = 12003
+					instant_build=yes
+				}
+			} 
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
@@ -1023,8 +1054,19 @@ focus_tree = {
 		id = ENG_ww1_rock_focus
 		prerequisite = { focus=ENG_ww1_mediterranean_focus }
 		icon = GFX_goal_generic_defence
-		available = { 118={ is_owned_by=ENG } }
-		completion_reward = { 118={ add_building_construction={ type=bunker level=4 province=4135 instant_build=yes } } }
+		available = {
+			118={ is_owned_by=ENG }
+		}
+		completion_reward = {
+			118={
+				add_building_construction={
+					type=bunker
+					level=4
+					province=4135
+					instant_build=yes
+				}
+			}
+		}
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 17
@@ -1036,7 +1078,33 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_rock_focus }
 		icon = GFX_goal_generic_construct_military
 		available = { 447={ is_owned_by=ENG } }
-		completion_reward = { 447={ add_building_construction={ type=coastal_bunker level=1 province=4076 instant_build=yes } add_building_construction={ type=naval_base level=1 province=4076 instant_build=yes } add_building_construction={ type=air_base level=1 instant_build=yes } add_building_construction={ type=bunker level=1 province=1071 instant_build=yes } } }
+		completion_reward = {
+			447={
+				add_building_construction={
+					type=coastal_bunker
+					level=1
+					province=4076
+					instant_build=yes
+				}
+				add_building_construction={
+					type=naval_base
+					level=1
+					province=4076
+					instant_build=yes
+				}
+				add_building_construction={
+					type=air_base
+					level=1
+					instant_build=yes
+				}
+				add_building_construction={
+					type=bunker
+					level=1
+					province=1071
+					instant_build=yes
+				}
+			}
+		}
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 17
@@ -1048,7 +1116,21 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_protect_suez }
 		icon = GFX_goal_generic_construct_military
 		available = { 116={ is_owned_by=ENG } }
-		completion_reward = { 116={ add_building_construction={ type=coastal_bunker level=2 province=12003 instant_build=yes } add_building_construction={ type=air_base level=1 instant_build=yes } } }
+		completion_reward = {
+			116={
+				add_building_construction={
+					type=coastal_bunker
+					level=2
+					province=12003
+					instant_build=yes
+				}
+				add_building_construction={
+					type=air_base
+					level=1
+					instant_build=yes
+				}
+			}
+		}
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 17
@@ -1136,7 +1218,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_ww1_australia_focus
-		prerequisite = { focus=ENG_ww1_india_focus }
+		prerequisite = { focus=ENG_ww1_canada_focus }
 		icon = GFX_goal_generic_construct_civilian
 		available = { is_in_faction_with=AST }
 		bypass = { AST={ custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes } } } custom_trigger_tooltip={ tooltip=naval_effort_tt all_owned_state={ free_building_slots={ building=dockyard size < 1 include_locked=yes } } } } }
@@ -1182,7 +1264,7 @@ focus_tree = {
 	focus = {
 		id = ENG_ww1_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 25
@@ -1238,7 +1320,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_army_effort }
 		available = { date > 1911.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 25
@@ -1322,7 +1404,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_doctrine_effort }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 25
@@ -1346,7 +1428,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_doctrine_effort_2 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 25
@@ -1359,7 +1441,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_equipment_effort_3 }
 		available = { date > 1916.1.1 }
 		icon = GFX_goal_generic_small_arms
-		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.2 uses=1 category=infantry_weapons } }
+		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.5 uses=1 category=infantry_weapons } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 24
@@ -1371,7 +1453,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_artillery_effort_3 }
 		available = { date > 1916.1.1 }
 		icon = GFX_goal_generic_army_artillery2
-		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.2 uses=1 category=artillery } }
+		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.5 uses=1 category=artillery } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 26
@@ -1487,7 +1569,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_aviation_effort_3 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_CAS
-		completion_reward = { add_tech_bonus={ name=pilotformation1_bonus bonus=0.50 uses=1 technology=dogfighting_experience technology=fighter_ace_initiative technology=dispersed_fighting } }
+		completion_reward = { add_tech_bonus={ name=pilotformation1_bonus bonus=0.50 uses=1 } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 28
@@ -1511,7 +1593,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_aviation_effort_3 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_poland_goal
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 technology=infrastructure_destruction technology=dive_bombing technology=operational_destruction } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 32
@@ -1536,7 +1618,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_CAS
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 technology=multialtitude_flying technology=hunt_and_destroy technology=fighter_veteran_initiative } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 28
@@ -1548,7 +1630,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_air_production
-		completion_reward = { add_tech_bonus={ name=aircraftprod_2_bonus bonus=0.2 uses=1 category=air_equipment } }
+		completion_reward = { add_tech_bonus={ name=aircraftprod_2_bonus bonus=0.5 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 30
@@ -1560,7 +1642,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_occupy_start_war
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.2 uses=1 technology=logistical_bombing technology=strategic_destruction technology=infiltration_bombing } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.5 uses=1 } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 32
@@ -1585,7 +1667,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_aviation_effort_5 }
 		available = { date > 1917.1.1 }
 		icon = GFX_goal_generic_air_fighter2
-		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.2 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 technology=early_fighter } }
+		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.5 uses=1 technology=ww1_fighter3 } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 29
@@ -2229,7 +2311,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_newnavalcanons_2 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_occupy_states_coastal
-		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=0.2 uses=1 technology=convoy_interdiction_ti technology=unrestricted_submarine_warfare technology=wolfpacks technology=advanced_submarine_warfare } }
+		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=0.5 uses=1 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 42
@@ -2243,7 +2325,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_newnavalcanons_2 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		completion_reward = { add_tech_bonus={ name=fleet_in_being_bonus bonus=0.2 uses=1 category=fleet_in_being_tree } }
+		completion_reward = { add_tech_bonus={ name=fleet_in_being_bonus bonus=0.5 uses=1 category=fleet_in_being_tree } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 44
@@ -2256,7 +2338,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_flexible_navy focus=ENG_ww1_large_navy }
 		available = { date > 1914.1.1 }
 		icon = GFX_goal_generic_navy_submarine
-		completion_reward = { add_tech_bonus={ name=ss_bonus bonus=0.2 uses=1 technology=ww1_submarine1 technology=ww1_submarine2 } }
+		completion_reward = { add_tech_bonus={ name=ss_bonus bonus=0.5 uses=1 technology=ww1_submarine1 technology=ww1_submarine2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 42
@@ -2268,7 +2350,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_flexible_navy focus=ENG_ww1_large_navy }
 		available = { date > 1914.1.1 }
 		icon = GFX_goal_generic_navy_cruiser
-		completion_reward = { add_tech_bonus={ name=cr_bonus bonus=0.2 uses=1 technology=ww1_light_cruiser0 technology=ww1_light_cruiser1 technology=ww1_light_cruiser2 } }
+		completion_reward = { add_tech_bonus={ name=cr_bonus bonus=0.5 uses=1 technology=ww1_light_cruiser0 technology=ww1_light_cruiser1 technology=ww1_light_cruiser2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 44
@@ -2280,7 +2362,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_submarine_effort }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_wolf_pack
-		completion_reward = { add_tech_bonus={ name=dd_bonus bonus=0.2 uses=1 technology=ww1_destroyer0 technology=ww1_destroyer1 technology=ww1_destroyer2 } }
+		completion_reward = { add_tech_bonus={ name=dd_bonus bonus=0.5 uses=1 technology=ww1_destroyer0 technology=ww1_destroyer1 technology=ww1_destroyer2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 42
@@ -2292,7 +2374,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_cruiser_effort }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_navy_battleship
-		completion_reward = { navy_experience=25 add_tech_bonus={ name=capital_ships_bonus bonus=0.2 uses=1 technology=ww1_battlecruiser0 technology=ww1_battlecruiser1 technology=ww1_battlecruiser2 technology=early_battleship technology=seaplane_carrier }  }
+		completion_reward = { navy_experience=25 add_tech_bonus={ name=capital_ships_bonus bonus=0.5 uses=1 technology=ww1_battlecruiser0 technology=ww1_battlecruiser1 technology=ww1_battlecruiser2 technology=early_battleship technology=seaplane_carrier }  }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 44
@@ -2306,7 +2388,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_destroyer_effort }
 		available = { date > 1916.1.1 }
 		icon = GFX_goal_generic_army_artillery
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=0.2 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=0.5 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 43

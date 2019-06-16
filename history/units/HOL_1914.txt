@@ -172,66 +172,77 @@ units = {
 			start_experience_factor = 0.1
 			}
 
-	navy = {
-		name = "Koninklijke Marine"
-		location = 9498 # Amsterdam
-		base = 9498 # Amsterdam
-		ship = { name = "HrMs Kortenaer" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs De Zeven Provincien" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Martin Harpertszoon Tromp" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Aemilia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Einhoorn" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Mittelburg" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Holland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Zeeland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Noord-Brabant" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Bommel" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Zutphen" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Maan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Vrijheid" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Huis van Nassau" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Vrede" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Jaarsveld" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Haarlem" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Leeuwarden " definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs O1" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs O2" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs O3" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs O4" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs O5" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs K1" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
+
+	Fleet = {
+		name = "Huis Vloot"
+		task_force = {
+			name = "Koninklijke Marine"
+			location = 9498 # Amsterdam
+			base = 9498 # Amsterdam
+			ship = { name = "HrMs Kortenaer" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs De Zeven Provincien" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Martin Harpertszoon Tromp" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Aemilia" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Einhoorn" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Mittelburg" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Holland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Zeeland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Noord-Brabant" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Bommel" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Zutphen" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Maan" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Vrijheid" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Huis van Nassau" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Vrede" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Jaarsveld" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Haarlem" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Leeuwarden " definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs O1" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs O2" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs O3" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs O4" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs O5" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs K1" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = HOL } } }
+		}
 	}
 
-	navy = {
-		name = "Oost-Indië Vloot"
-		location = 4608 # Soerabaja
-		base = 4608 # Soerabaja
-		ship = { name = "HrMs Koningin Regentes" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs De Ruyter" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Hertog Hendrik" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Krokodil" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Draak" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Reinier Claeszen" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Panter" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Adder" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Haai" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Wesp" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Bulhound" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Fret" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Jakhals" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Wolf" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Hermelijn" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Lynx" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Panther" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Vos" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+
+	Fleet = {
+		name = "Oost-indie Marine Kommand"
+		naval_base = 4608 # Soerabaja
+		task_force = {
+			name = "Oost-Indië Vloot"
+			location = 4608 # Soerabaja
+			ship = { name = "HrMs Koningin Regentes" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs De Ruyter" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Hertog Hendrik" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Krokodil" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Draak" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Reinier Claeszen" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Panter" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Adder" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Haai" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Wesp" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Bulhound" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Fret" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Jakhals" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Wolf" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Hermelijn" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Lynx" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Panther" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Vos" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = HOL } } }
+		}
 	}
 
-	navy = {
-		name = "West-Indië Vloot"
-		location = 9498 # Curaçao
-		base = 9498 # Curaçao
-		ship = { name = "HrMs Jacob Van Heemskerck" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = HOL } } }
-		ship = { name = "HrMs Gelderland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+	Fleet = {
+		name = "West-Indië Marine"
+		naval_base = 9498 # Curaçao
+		task_force = {
+			name = "West-Indië Vloot"
+			location = 9498 # Curaçao
+			ship = { name = "HrMs Jacob Van Heemskerck" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Gelderland" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = HOL } } }
+		}
 	}
 }
 

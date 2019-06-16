@@ -18,7 +18,7 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-}
+	}
 }
 
 division_template = {
@@ -401,83 +401,85 @@ units = {
 			start_experience_factor=0.25
 			}
 
-	 navy = {
-		name = "Royal Canadian Navy"
-		location=7361 # Halifax
-		base=7361 # Halifax
-		ship = { 
-			name = "HMS Rainbow" 
-			definition = light_cruiser 
-			equipment = { 
-				light_cruiser_1906 = { 
-					amount = 1 
-					owner = CAN 
+	Fleet = {
+		name = "Royan Canadian Navy"
+		naval_base = 7361 # Halifax
+		task_force = {
+			name = "Royal Canadian Navy"
+			location=7361 # Halifax
+			ship = { 
+				name = "HMS Rainbow" 
+				definition = light_cruiser 
+				equipment = { 
+					light_cruiser_1906 = { 
+						amount = 1 
+						owner = CAN 
+					} 
 				} 
-			} 
-		}
-
-		ship = { 
-			name = "HMCS Flumper" 
-			definition = light_cruiser
-			equipment = { 
-				destroyer_1890 = { 
-					amount = 1 
-					owner = CAN 
-				} 
-			} 
-		}
-		ship = { 
-			name = "HMCS Shart" 
-			definition = light_cruiser
-			equipment = { 
-				light_cruiser_1906 = { 
-					amount = 1 
-					owner = CAN 
-				} 
-			} 
-		}
-		ship = { 
-			name = "HMCS Dingle" 
-			definition = light_cruiser
-			equipment = { 
-				light_cruiser_1906 = { 
-					amount = 1 
-					owner = CAN 
-				} 
-			} 
-		}
-		ship = { 
-			name = "HMCS Flouncer" 
-			definition = light_cruiser 
-			equipment = { 
-				light_cruiser_1906 = { 
-					amount = 1 
-					owner = CAN 
-				} 
-			} 
-		}
-		ship = { 
-			name = "HMCS Bodangle" 
-			definition = light_cruiser
-			equipment = { 
-				light_cruiser_1906 = { 
-					amount = 1 
-					owner = CAN 
-				} 
-			} 
-		}
-	}
-		
-
-	air_wings = {
-		362 = {
-			ww1_fighter_equipment_1 = { 
-				owner = "CAN" 
-				amount = 30 
 			}
+
+			ship = { 
+				name = "HMCS Flumper" 
+				definition = light_cruiser
+				equipment = { 
+					destroyer_1890 = { 
+						amount = 1 
+						owner = CAN 
+					} 
+				} 
+			}
+			ship = { 
+				name = "HMCS Shart" 
+				definition = light_cruiser
+				equipment = { 
+					light_cruiser_1906 = { 
+						amount = 1 
+						owner = CAN 
+					} 
+				} 
+			}
+			ship = { 
+				name = "HMCS Dingle" 
+				definition = light_cruiser
+				equipment = { 
+					light_cruiser_1906 = { 
+						amount = 1 
+						owner = CAN 
+					} 
+				} 
+			}
+			ship = { 
+				name = "HMCS Flouncer" 
+				definition = light_cruiser 
+				equipment = { 
+					light_cruiser_1906 = { 
+						amount = 1 
+						owner = CAN 
+					} 
+				} 
+			}
+			ship = { 
+				name = "HMCS Bodangle"
+				definition = light_cruiser
+				equipment = { 
+					light_cruiser_1906 = {
+						amount = 1 
+						owner = CAN
+					}
+				}
+			}
+		}
+}	
+
+air_wings = {
+	362 = {
+		ww1_fighter_equipment_1 = {
+			owner = "CAN" 
+			amount = 30 
 		}
 	}
 }
+
 instant_effect = {
 	add_equipment_production = { 
 		equipment = { 

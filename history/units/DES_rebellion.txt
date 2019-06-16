@@ -1,4 +1,35 @@
-﻿# !!!Deseret Utah Rebellion!!!
+﻿instant_effect = {
+
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "DES"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1 creator = "DES"
+		} requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_field_gun_equipment_1
+			creator = "DES"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+# !!!Deseret Utah Rebellion!!!
 ####################################################################
 division_template = {
 	name = "Infantry Division"
@@ -32,7 +63,7 @@ division_template = {
 ###################################################################
 
 units = {
-    division = {
+		division = {
 		name = "1st Deseret Home Guard"
 		location = 4865 #Salt Lake City
 		division_template = "Infantry Division"
@@ -88,9 +119,3 @@ units = {
 		start_experience_factor = 0.0
 	}
 }
-
-instant_effect = {
-	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "DES" } requested_factories = 2 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "DES" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "DES" } requested_factories = 2 progress = 0.1 efficiency = 50}
-	}

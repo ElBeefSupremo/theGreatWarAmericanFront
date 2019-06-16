@@ -15,21 +15,7 @@ ideas={
 			GER_clemens_von_delbruck={ allowed={ tag=GER } traits={ popular_figurehead } ai_will_do={ factor=1 } }
 			GER_karl_trimborn={ allowed={ tag=GER } traits={ silent_workhorse } ai_will_do={ factor=1 } }
 			#GER_gustav_bauer={ allowed={ tag=GER } traits={ democratic_reformer } ai_will_do={ factor=1 } }
-
-			GER_wolfgang_kapp={
-					allowed={ tag=GER }
-
-					available = {
-						OR = {
-							has_completed_focus = GER_ww1_fascist_coup
-							has_completed_focus = GER_interwar_beer_hall_putsch
-						}
-					}
-
-					traits={ fascist_demagogue }
-					ai_will_do={ factor=1 }
-				}
-			}
+	}
 
 	theorist={
 			GER_josias_von_heeringen={ allowed={ tag=GER } traits={ military_theorist } ai_will_do={ factor=1 } }
@@ -51,7 +37,7 @@ ideas={
 			#GER_hans_von_seeckt={ allowed={ tag=GER } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }
 			GER_august_von_mackensen={ allowed={ tag=GER } traits={ army_chief_drill_1 } ai_will_do={ factor=1 } }
 			GER_wilhelm_groener={ allowed={ tag=GER } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
-			GER_otto_von_lossow={ allowed={ tag=GER } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
+			#GER_otto_von_lossow={ allowed={ tag=GER } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
 			GER_oskar_von_hutier={ allowed={ tag=GER } traits={ army_chief_morale_1 } ai_will_do={ factor=1 } }
 			#GER_ludwig_von_estorff={ allowed={ tag=GER } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }
 			}
@@ -73,11 +59,9 @@ ideas={
 	high_command={
 			GER_erich_von_falkenhayn={ allowed={ tag=GER } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			GER_alfred_von_tirpitz={ allowed={ tag=GER } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
-
 			#GER_ernst_karl_august_klemens_von_mann={ allowed={ tag=GER } traits={ navy_naval_air_defense_1 } ai_will_do={ factor=1 } }
-
 			GER_helmuth_von_moltke={ allowed={ tag=GER } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
-			GER_colmar_von_der_goltz={ allowed={ tag=GER } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			#GER_colmar_von_der_goltz={ allowed={ tag=GER } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			#GER_hermann_von_eichhorn={ allowed={ tag=GER } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
 			GER_karl_von_bulow={ allowed={ tag=GER } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
 			GER_august_von_heeringen={ allowed={ tag=GER } traits={ navy_amphibious_assault_1 } ai_will_do={ factor=1 } }

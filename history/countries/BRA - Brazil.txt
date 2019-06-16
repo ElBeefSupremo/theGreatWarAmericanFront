@@ -85,23 +85,16 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 5
-	        }
-	        fascism = {
-	            popularity = 2
-	        }
-	        communism = {
-	            popularity = 3
-	        }
-	        neutrality = {
-	            popularity = 90
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1910.3.1"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 5
+        fascism = 2
+        communism = 3
+        neutrality = 90
+    }
 
 	add_ideas = {
 		neutrality_idea
@@ -150,7 +143,6 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
 
-
 		# Support
 		tech_support = 1
 		tech_engineers = 1
@@ -170,15 +162,40 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 		bonus_bertha1 = 1
 
 		# Navy
-		ww1_destroyer0 = 1
-		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
-		ww1_light_cruiser0 = 1
-		ww1_battleship0 = 1
-		ww1_battleship1 = 1
-		ww1_submarine1 = 1
-		ww1_coastal_submarine1 = 1
-		transport = 1
+		ww1_battleship0 = 1 #  ww1_battleship_1890 (Pre-Dreadnought I)
+		ww1_battleship1 = 1 #  ww1_battleship_1900 (Pre-Dreadnought II)
+		ww1_battleship2 = 1 #  ww1_battleship_1906 (Dreadnought I)
+		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
+		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
+
+		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
+		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
+		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
+
+		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
+		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
+
+		ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
+		ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
+		ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
+		ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
+		ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
+
+		ww1_destroyer0 = 1 # destroyer_1890 (Torpedo Boat I)
+		ww1_destroyer1 = 1 # destroyer_1900 (Destroyer I)
+		ww1_destroyer2 = 1 # destroyer_1906 (Destroyer II)
+		ww1_destroyer3 = 0 # destroyer_1910 (Destroyer III)
+		ww1_destroyer4 = 0 # destroyer_1914 (Destroyer IV)	
+
+		ww1_moduleMTG_mines = 1 # Mines
+
+		ww1_submarine0 = 1 # coastal_submarine_1900 (Coastal Submarine 1900, first available Submarine)
+		ww1_submarine1 = 0 # submarine_1906 (Submarine I)
+		ww1_submarine2 = 0 # submarine_1910 (Submarine II)
+		ww1_submarine3 = 0 # submarine_1914 (Submarine III)
+
+		transport = 1 # Naval Transport
+
 
 		# Air
 		ww1_fighter1 = 1
@@ -190,20 +207,15 @@ create_navy_leader={  name = "Alencar" id=11016 portrait_path="gfx/admiral/BRA_a
 	}
 
 	set_politics = {
-		parties = {
-	        democratic = {
-	            popularity = 98
-	        }
-	        fascism = {
-	            popularity = 0
-	        }
-	        communism = {
-	            popularity = 2
-	        }
-	    }
 	    ruling_party = democratic last_election = "1913.5.31"
 	    election_frequency = 36 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 98
+        fascism = 0
+        communism = 2
+    }
 
 	add_ideas = {
 		neutrality_idea

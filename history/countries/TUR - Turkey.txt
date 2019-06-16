@@ -106,23 +106,16 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 20
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 0
-	        }
-	        neutrality = {
-	            popularity = 75
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1908.12.1"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 20
+        fascism = 5
+        communism = 0
+        neutrality = 75
+    }
 
 	add_ideas = {
 		ww1_Faith_Allah
@@ -220,20 +213,29 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
+		ww1_destroyer2 = 1
+		ww1_destroyer3 = 1
 		ww1_light_cruiser0 = 1
 		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
+		ww1_light_cruiser3 = 1
 		ww1_battlecruiser0 = 1
 		
 		ww1_battlecruiser1 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
+		ww1_battleship2 = 1
 		ww1_submarine0 = 1
 		ww1_submarine1 = 1
+		ww1_submarine2 = 1
+		ww1_submarine3 = 1
 		transport = 1
-		ww1_coastal_submarine0 = 1
 		ww1_coastal_submarine1 = 1
+		ww1_coastal_submarine2 = 1
+		ww1_coastal_submarine3 = 1
 		ww1_heavy_cruiser0 = 1
-		wwi_heavy_cruiser1 = 1
+		ww1_heavy_cruiser1 = 1
+		ww1_moduleMTG_mines = 1 # Mines
 
 		# Air
 		ww1_fighter1 = 1
@@ -269,23 +271,16 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 20
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 0
-	        }
-	        neutrality = {
-	            popularity = 75
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1912.4.1"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 20
+        fascism = 5
+        communism = 0
+        neutrality = 75
+    }
 
 	add_ideas = {
 		ww1_Faith_Allah

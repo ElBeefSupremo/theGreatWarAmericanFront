@@ -73,7 +73,6 @@ bookmarks = {
 				AUH_ww1_Multinational_State
 			}
 			focuses = {
-				AUH_ww1_end_dual_monarchy_emperor
 				AUH_ww1_unitedpeople
 				AUH_ww1_polnische_wehrmacht
 			}
@@ -167,7 +166,6 @@ bookmarks = {
 			focuses = {
 				ITA_ww1_diaz
 				ITA_ww1_italian_askari
-				ITA_interwar_march_on_rome
 			}
 		}
 		"ROM"={

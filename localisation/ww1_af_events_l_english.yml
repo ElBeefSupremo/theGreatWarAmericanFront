@@ -1,0 +1,11 @@
+﻿l_english:
+
+#CSR Uprising
+ ww1_af_csr.1.t:0 "The Congaree Uprising!"
+ ww1_af_csr.1.d:0 "Rebels from the newly declared 'Congaree Socialist Republic' have raided army depots all over South Carolina and managed to fully equip a small army rapidly, though they lack training."
+ ww1_af_csr.1.a:0 "Excellent."
+
+#DES Uprising
+ ww1_af_des.1.t:0 "The Utah Uprising!"
+ ww1_af_des.1.d:0 "Mormon rebels have smuggled in weapons purchased from our enemies and risen against us!"
+ ww1_af_des.1.a:0 "Wonderful"

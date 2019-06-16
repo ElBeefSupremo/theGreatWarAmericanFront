@@ -3675,32 +3675,32 @@ news_event = {
 }
 
 #Japan Seeks War in China
-news_event = {
-	id = news.231
-	title = news.231.t
-	desc = news.231.d
-	picture = GFX_news_event_generic_sign_treaty1
-
-	major = yes
-
-	is_triggered_only = yes
-
-	fire_for_sender = no
-
-	option = {
-		name = news.231.a
-		trigger = {
-			is_independent_china_or_warlord = yes
-		}
-	}
-
-	option = {
-		name = news.231.b
-		trigger = {
-			is_independent_china_or_warlord = no
-		}
-	}
-}
+#news_event = {
+#	id = news.231
+#	title = news.231.t
+#	desc = news.231.d
+#	picture = GFX_news_event_generic_sign_treaty1
+#
+#	major = yes
+#
+#	is_triggered_only = yes
+#
+#	fire_for_sender = no
+#
+#	option = {
+#		name = news.231.a
+#		trigger = {
+#			is_independent_china_or_warlord = yes
+#		}
+#	}
+#
+#	option = {
+#		name = news.231.b
+#		trigger = {
+#			is_independent_china_or_warlord = no
+#		}
+#	}
+#}
 
 
 #Germany Seeks Scandinavian Support

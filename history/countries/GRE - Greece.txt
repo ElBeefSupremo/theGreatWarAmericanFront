@@ -71,8 +71,10 @@ create_navy_leader={  name = "Hatzikiriakos" id=35033 portrait_path="gfx/admiral
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 0
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 0
 		ww1_battlecruiser0 = 1
 		ww1_battleship0 = 1
 		ww1_submarine1 = 1
@@ -89,23 +91,16 @@ create_navy_leader={  name = "Hatzikiriakos" id=35033 portrait_path="gfx/admiral
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 10
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 2
-	        }
-	        neutrality = {
-	            popularity = 83
-	        }
-	    }
 	    ruling_party = neutrality last_election = "1906.5.31"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 10
+        fascism = 5
+        communism = 2
+        neutrality = 83
+    }
 
 	add_ideas = {
 		limited_conscription
@@ -181,8 +176,10 @@ create_navy_leader={  name = "Hatzikiriakos" id=35033 portrait_path="gfx/admiral
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
+		ww1_destroyer2 = 1
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1
@@ -215,23 +212,16 @@ create_navy_leader={  name = "Hatzikiriakos" id=35033 portrait_path="gfx/admiral
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 90
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 5
-	        }
-	        neutrality = {
-	            popularity = 0
-	        }
-	    }
 	    ruling_party = democratic last_election = "1911.5.28"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 90
+        fascism = 5
+        communism = 5
+        neutrality = 0
+    }
 
 	add_ideas = {
 		limited_conscription

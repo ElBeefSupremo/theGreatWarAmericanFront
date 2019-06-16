@@ -371,7 +371,9 @@ country_event = {
 	# Schlieffen Plan - War with FRA, BEL and RUS, Invasion of LUX
 	option = {
 		name = ww1_franzferdinand.8.a
-		ai_chance =  { factor = 100 }
+		ai_chance = {
+			factor = 100
+		}
 
 		GER = {
 			declare_war_on = {
@@ -383,7 +385,6 @@ country_event = {
 				days = 30
 			}
 		}
-
 
 		hidden_effect = {
 			add_named_threat = {

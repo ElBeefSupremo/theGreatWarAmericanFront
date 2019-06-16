@@ -33,29 +33,33 @@ division_template = {
 ###################################################################
 
 units = {
-	division= { 
-			name = "La División"
-			location = 10747 # Bogotá
-			division_template="Infantry Division"
-			start_experience_factor=0
-			}
-	
-	
-	division= { 
-			name = "1a Brigada de Caballería 'Montería'"
-			location = 10747 # Bogotá
-			division_template="Cavalry Division"
-			start_experience_factor=0
-			}
-	 navy = {
-		name = "Armada de Colombia"
-		location = 12790 # Barranquilla
-		base =  12790 # Barranquilla
-ship = { name = "Cartagena" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = COL } } }
+	division= {
+		name = "La División"
+		location = 10747 # Bogotá
+		division_template="Infantry Division"
+		start_experience_factor=0
+	}
+
+
+	division= {
+		name = "1a Brigada de Caballería 'Montería'"
+		location = 10747 # Bogotá
+		division_template="Cavalry Division"
+		start_experience_factor=0
+	}
+
+	Fleet = {
+		name = "Columbian Fleet"
+		naval_base = 12790 # Baranquilla
+		task_force = {
+			name = "Armada de Colombia"
+			location = 12790 # Barranquilla
+			base =  12790 # Barranquilla
+			ship = { name = "Cartagena" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = COL } } }
 		}
-	}
-air_wings = { 
-	}
+}
+air_wings = {
+}
 instant_effect = {
-add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "COL" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	}
+	add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "COL" } requested_factories = 1 progress = 0.1 efficiency = 50}
+}

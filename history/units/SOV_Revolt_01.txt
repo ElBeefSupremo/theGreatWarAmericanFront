@@ -1,68 +1,31 @@
 ﻿instant_effect = {
 
 
-	#-------------------------------------------------------
-	#NF
 
-	#Army
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = ww1_artillery_effort_1
-	complete_national_focus = doctrine_effort
-	complete_national_focus = ww1_trenchwarfare
 
-	#Industrial
-	complete_national_focus = industrial_effort
-	complete_national_focus = infrastructure_effort
-
-	#Political
-	complete_national_focus = political_effort
-	complete_national_focus = collectivist_ethos
-	complete_national_focus = internationalism_focus
-
-	#Diplomatic
-	complete_national_focus = ww1_diplomatic_effort
-	complete_national_focus = neutrality_focus
-	complete_national_focus = ww1_military_reserve
-	#-------------------------------------------------------
-
-	set_technology = {
-
-		#Infantry
-		#--------------------------------------------------------------
-		infantry_weapons=1				#1900 Basic Eq.
-		ww1infantry_weapons1=1			#1910 Weapons I
-		ww1_infantry_equip1=1			#1914 Improved Infantry Equipment I
-		infantry_binoculars=1			#1900 Military Binoculars
-		infantry_grenade=1				#1910 Hand Grenade
-		motorised_infantry=1			#1900 Horse-drawn Vehicles
-		support_weapons=1				#1900 Early Support Weapons I
-		support_weapons2=1				#1914 Early Support Weapons II
-		ww1_ambulance1=1				#1900 Horse-drawn Ambulance
-
-		#Armor
-		#--------------------------------------------------------------
-		gwtank=1						#1910 Armored Car I
-
-		#Land Doctrines
-		#--------------------------------------------------------------
-		ww1_landdoctrine=1				#Mass Charge
-		ww1_directfire=1				#Entrenching Battalions
-
-	}
-
-	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "SOV" } requested_factories = 1 progress = 0.99 efficiency = 90}
+	add_equipment_production = {
+		equipment = { type = infantry_equipment_1 creator = "SOV" }
+		requested_factories = 1 progress = 0.99 efficiency = 90}
 
 }
 
+
+## SOVIET REVOLUTION OOB ##
 
 division_template = {
 	name = "Infantry Division"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+
 	}
 	support = {
 	}
@@ -72,6 +35,10 @@ division_template = {
 	name = "Bolsheviks Partisan"
 	regiments = {
 		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 		}
 	support = {
 	}
@@ -82,6 +49,7 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 		}
@@ -123,7 +91,7 @@ units = {
 	}
 	division = {
 		name = "5. Bolsheviks Infantry Division"
-		location = 3060
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -135,7 +103,7 @@ units = {
 	}
 	division = {
 		name = "7. Bolsheviks Infantry Division"
-		location = 9150
+		location = 3151
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -191,7 +159,7 @@ units = {
 	}
 	division = {
 		name = "16. Bolsheviks Division"
-		location = 652
+		location = 6380
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -251,7 +219,7 @@ units = {
 	}
 	division = {
 		name = "26. Bolsheviks Petrograd Infantry Division"
-		location = 6400
+		location = 6380
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
@@ -279,24 +247,76 @@ units = {
 		division_template="Infantry Division"
 		start_experience_factor=0.8
 	}
-
-
-	
 	division = {
 		name = "1. Bolsheviks Tangarov Division"
-		location = 3479
+		location = 3151
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 	division = {
-		name = "2. Bolsheviks Rostov Division"
+		name = "2. Bolsheviks Rzhev Division"
+		location = 11349
+		division_template="Bolsheviks Partisan"
+		start_experience_factor=0.8
+	}
+	division = {
+		name = "3. Bolsheviks Rostov Division"
+		location = 585
+		division_template="Bolsheviks Partisan"
+		start_experience_factor=0.8
+	}
+	division = {
+		name = "4. Bolsheviks Rostov Division"
+		location = 585
+		division_template="Bolsheviks Partisan"
+		start_experience_factor=0.8
+	}
+	division = {
+		name = "5. Bolsheviks Rostov Division"
+		location = 585
+		division_template="Bolsheviks Partisan"
+		start_experience_factor=0.8
+	}
+	division = {
+		name = "6. Bolsheviks Rostov Division"
+		location = 585
+		division_template="Bolsheviks Partisan"
+		start_experience_factor=0.8
+	}
+	division = {
+		name = "7. Bolsheviks Rostov Division"
+		location = 585
+		division_template="Bolsheviks Partisan"
+		start_experience_factor=0.8
+	}
+	division = {
+		name = "8. Bolsheviks Rostov Division"
+		location = 585
+		division_template="Bolsheviks Partisan"
+		start_experience_factor=0.8
+	}
+	division = {
+		name = "9. Bolsheviks Rostov Division"
 		location = 585
 		division_template="Bolsheviks Partisan"
 		start_experience_factor=0.8
 	}
 
 }
-air_wings = { 
+air_wings = {
 
 }
 
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 1
+		progress = 0.99
+		efficiency = 90
+	}
+
+}

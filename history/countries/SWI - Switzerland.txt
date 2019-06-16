@@ -94,23 +94,16 @@ create_corps_commander={  name = "Wildbolz" id=81029 portrait_path="gfx/generals
 	}
 
 	set_politics = {
-	    parties = {
-	        neutrality = {
-	            popularity = 15
-	        }
-	        democratic = {
-	            popularity = 70
-	        }
-	        fascism = {
-	            popularity = 3
-	        }
-	        communism = {
-	            popularity = 2
-	        }
-	    }
 	    ruling_party = democratic last_election = "1908.10.29"
 	    election_frequency = 36 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        neutrality = 15
+        democratic = 70
+        fascism = 3
+        communism = 2
+    }
 
 	add_ideas = {
 		neutrality_idea
@@ -201,22 +194,15 @@ create_corps_commander={  name = "Wildbolz" id=81029 portrait_path="gfx/generals
 	}
 
     set_politics = {
-        parties = {
-            neutrality = {
-                popularity = 15
-            }
-            democratic = {
-                popularity = 70
-            }
-            fascism = {
-                popularity = 3
-            }
-            communism = {
-                popularity = 2
-            }
-        }
         ruling_party = democratic last_election = "1911.10.29"
         election_frequency = 36 elections_allowed = yes
+}
+
+    set_popularities = {
+        neutrality = 15
+        democratic = 70
+        fascism = 3
+        communism = 2
     }
 
 	add_ideas = {

@@ -74,8 +74,9 @@ create_navy_leader={  name = "Niculescu-Rizea" id=75039 portrait_path="gfx/admir
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 0
 		ww1_battlecruiser0 = 1
 		ww1_battleship0 = 1
 		ww1_submarine1 = 1
@@ -92,23 +93,16 @@ create_navy_leader={  name = "Niculescu-Rizea" id=75039 portrait_path="gfx/admir
 	}
 
 	set_politics = {
-		parties = {
-		    democratic = {
-		        popularity = 85
-		    }
-		    fascism = {
-		        popularity = 3
-		    }
-		    communism = {
-		        popularity = 2
-		    }
-		    neutrality = {
-		        popularity = 10
-		    }
-		}
 		ruling_party = democratic last_election = "1907.1.1"
 		election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 85
+        fascism = 3
+        communism = 2
+        neutrality = 10
+    }
 
 	add_ideas = {
 		limited_conscription
@@ -182,8 +176,9 @@ create_navy_leader={  name = "Niculescu-Rizea" id=75039 portrait_path="gfx/admir
 		# Navy
 		ww1_destroyer0 = 1
 		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
 		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
 		ww1_battleship0 = 1
 		ww1_battleship1 = 1
 		ww1_submarine1 = 1
@@ -216,23 +211,16 @@ create_navy_leader={  name = "Niculescu-Rizea" id=75039 portrait_path="gfx/admir
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-		        popularity = 85
-		    }
-		    fascism = {
-		        popularity = 3
-		    }
-		    communism = {
-		        popularity = 2
-		    }
-		    neutrality = {
-		        popularity = 10
-		    }
-	    }
 	    ruling_party = democratic last_election = "1912.1.1"
 	    election_frequency = 48 elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 85
+        fascism = 3
+        communism = 2
+        neutrality = 10
+    }
 
 	add_ideas = {
 		limited_conscription

@@ -16,7 +16,7 @@ set_technology={
 	#KiS early_protected_cruiser=1
 	ww1_light_cruiser1=1
 	ww1_light_cruiser0=1
-	 
+	ww1_light_cruiser2 = 1
 	 
 	 
 	#KiS=1

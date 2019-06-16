@@ -2046,18 +2046,18 @@ entity = {
 }
 
 
-#################################
-#### HOI4TGW - Luxembourg (LuxKorps) - CLONED BEL ####
-#################################
-entity = { 
-	clone = "BEL_infantry_entity"
-	name = "LUX_infantry_entity"
-}
-entity = { 
-clone = "BEL_infantry_mg_entity"
-	name = "LUX_infantry_mg_entity"
-}
-#################################
+	#################################
+	#### HOI4TGW - Luxembourg (LuxKorps) - CLONED BEL ####
+	#################################
+	entity = { 
+		clone = "BEL_infantry_entity"
+		name = "LUX_infantry_entity"
+	}
+	entity = { 
+		clone = "BEL_infantry_mg_entity"
+		name = "LUX_infantry_mg_entity"
+	}
+	#################################
 
 
 
@@ -2177,3 +2177,4 @@ entity = {
 	clone = "infantry_entity"
 	name = "infantry2_entity"
 }
+

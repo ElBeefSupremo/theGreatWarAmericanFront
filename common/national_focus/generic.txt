@@ -802,7 +802,7 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience=25
-			army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine }
+			army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine }
 		}
 		cost = 10
 		x = 11
@@ -826,7 +826,7 @@ focus_tree = {
 	focus = {
 		id = army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		cost = 10
 		x = 17
 		y = 0
@@ -884,7 +884,7 @@ focus_tree = {
 		prerequisite = { focus=army_effort }
 		available = { date > 1911.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		cost = 10
 		x = 17
 		y = 2
@@ -968,7 +968,7 @@ focus_tree = {
 		prerequisite = { focus=doctrine_effort }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		cost = 10
 		x = 17
 		y = 4
@@ -992,7 +992,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_doctrine_effort_2 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.2 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
 		cost = 10
 		x = 17
 		y = 6
@@ -1005,7 +1005,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_equipment_effort_3 }
 		available = { date > 1916.1.1 }
 		icon = GFX_goal_generic_small_arms
-		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.2 uses=1 category=infantry_weapons } }
+		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.5 uses=1 category=infantry_weapons } }
 		cost = 10
 		x = 16
 		y = 7
@@ -1017,7 +1017,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_artillery_effort_3 }
 		available = { date > 1916.1.1 }
 		icon = GFX_goal_generic_army_artillery2
-		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.2 uses=1 category=artillery } }
+		completion_reward = { army_experience=20 add_tech_bonus={ name=infantry_artillery_bonus bonus=0.5 uses=1 category=artillery } }
 		cost = 10
 		x = 18
 		y = 7
@@ -1133,7 +1133,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_aviation_effort_3 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_CAS
-		completion_reward = { add_tech_bonus={ name=pilotformation1_bonus bonus=0.50 uses=1 technology=dogfighting_experience technology=fighter_ace_initiative technology=dispersed_fighting } }
+		completion_reward = { add_tech_bonus={ name=pilotformation1_bonus bonus=0.50 uses=1 } }
 		cost = 10
 		x = 20
 		y = 4
@@ -1157,7 +1157,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_aviation_effort_3 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_poland_goal
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 technology=infrastructure_destruction technology=dive_bombing technology=operational_destruction } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 } }
 		cost = 10
 		x = 24
 		y = 4
@@ -1182,7 +1182,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_CAS
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 technology=multialtitude_flying technology=hunt_and_destroy technology=fighter_veteran_initiative } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.50 uses=1 } }
 		cost = 10
 		x = 20
 		y = 6
@@ -1194,7 +1194,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_air_production
-		completion_reward = { add_tech_bonus={ name=aircraftprod_2_bonus bonus=0.2 uses=1 category=air_equipment } }
+		completion_reward = { add_tech_bonus={ name=aircraftprod_2_bonus bonus=0.5 uses=1 category=air_equipment } }
 		cost = 10
 		x = 22
 		y = 6
@@ -1206,7 +1206,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_aviation_effort_4 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_occupy_start_war
-		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.2 uses=1 technology=logistical_bombing technology=strategic_destruction technology=infiltration_bombing } }
+		completion_reward = { add_tech_bonus={ name=pilotformation2_bonus bonus=0.5 uses=1 } }
 		cost = 10
 		x = 24
 		y = 6
@@ -1231,7 +1231,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_aviation_effort_5 }
 		available = { date > 1917.1.1 }
 		icon = GFX_goal_generic_air_fighter2
-		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.2 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 technology=early_fighter } }
+		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.5 uses=1 technology=ww1_fighter3 } }
 		ai_will_do = { factor=1 }
 		cost = 10
 		x = 21
@@ -1872,7 +1872,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_newnavalcanons_2 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_occupy_states_coastal
-		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=0.2 uses=1 technology=convoy_interdiction_ti technology=unrestricted_submarine_warfare technology=wolfpacks technology=advanced_submarine_warfare } }
+		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=0.5 uses=1 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 34
@@ -1886,7 +1886,7 @@ focus_tree = {
 		prerequisite = { focus=ww1_newnavalcanons_2 }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		completion_reward = { add_tech_bonus={ name=fleet_in_being_bonus bonus=0.2 uses=1 category=fleet_in_being_tree } }
+		completion_reward = { add_tech_bonus={ name=fleet_in_being_bonus bonus=0.5 uses=1 category=fleet_in_being_tree } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 36
@@ -1899,7 +1899,7 @@ focus_tree = {
 		prerequisite = { focus=flexible_navy focus=ww1_large_navy }
 		available = { date > 1914.1.1 }
 		icon = GFX_goal_generic_navy_submarine
-		completion_reward = { add_tech_bonus={ name=ss_bonus bonus=0.2 uses=1 technology=ww1_submarine1 technology=ww1_submarine2 } }
+		completion_reward = { add_tech_bonus={ name=ss_bonus bonus=0.5 uses=1 technology=ww1_submarine1 technology=ww1_submarine2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 34
@@ -1911,7 +1911,7 @@ focus_tree = {
 		prerequisite = { focus=flexible_navy focus=ww1_large_navy }
 		available = { date > 1914.1.1 }
 		icon = GFX_goal_generic_navy_cruiser
-		completion_reward = { add_tech_bonus={ name=cr_bonus bonus=0.2 uses=1 technology=ww1_light_cruiser0 technology=ww1_light_cruiser1 technology=ww1_light_cruiser2 } }
+		completion_reward = { add_tech_bonus={ name=cr_bonus bonus=0.5 uses=1 technology=ww1_light_cruiser0 technology=ww1_light_cruiser1 technology=ww1_light_cruiser2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 36
@@ -1923,7 +1923,7 @@ focus_tree = {
 		prerequisite = { focus=submarine_effort }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_wolf_pack
-		completion_reward = { add_tech_bonus={ name=dd_bonus bonus=0.2 uses=1 technology=ww1_destroyer0 technology=ww1_destroyer1 technology=ww1_destroyer2 } }
+		completion_reward = { add_tech_bonus={ name=dd_bonus bonus=0.5 uses=1 technology=ww1_destroyer0 technology=ww1_destroyer1 technology=ww1_destroyer2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 34
@@ -1935,7 +1935,7 @@ focus_tree = {
 		prerequisite = { focus=cruiser_effort }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_navy_battleship
-		completion_reward = { navy_experience=25 add_tech_bonus={ name=capital_ships_bonus bonus=0.2 uses=1 technology=ww1_battlecruiser0 technology=ww1_battlecruiser1 technology=ww1_battlecruiser2 technology=early_battleship technology=seaplane_carrier }  }
+		completion_reward = { navy_experience=25 add_tech_bonus={ name=capital_ships_bonus bonus=0.5 uses=1 technology=ww1_battlecruiser0 technology=ww1_battlecruiser1 technology=ww1_battlecruiser2 technology=early_battleship technology=seaplane_carrier }  }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 36
@@ -1949,7 +1949,7 @@ focus_tree = {
 		prerequisite = { focus=destroyer_effort }
 		available = { date > 1916.1.1 }
 		icon = GFX_goal_generic_army_artillery
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=0.2 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=0.5 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		cost = 10
 		x = 35

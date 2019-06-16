@@ -11,27 +11,14 @@ state={
 		victory_points={ 4464 1 }
 		owner=CSA
 		add_core_of=CSA
-		1936.1.1={
-			owner=CSA
-			add_core_of=CSA
-			victory_points={ 4464 1 }
-			buildings={
+
+		buildings={
 				infrastructure=6
 				industrial_complex=1
 				arms_factory=2
 				dockyard=1
 				air_base=3
-				4464={ naval_base=4 }
-				}
-
-			}
-		buildings={
-				infrastructure=6
-				industrial_complex=1
-				arms_factory=3
-				dockyard=1
-				air_base=3
-				4464={ naval_base=4 }
+				4464={ naval_base=8 }
 				}
 		}
 	}
