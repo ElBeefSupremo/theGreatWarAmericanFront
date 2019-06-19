@@ -717,16 +717,6 @@ create_navy_leader = {
 		last_election = "1912.1.12"
 		election_frequency = 60
 		elections_allowed = yes
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-}
-
-    set_popularities = {
-        democratic = 10
-        fascism = 9
-        communism = 1
-        neutrality = 80
-    }
-=======
 	}
 	set_popularities = {
 		democratic = 10
@@ -734,7 +724,6 @@ create_navy_leader = {
 		communism = 1
 		neutrality = 80
 	}
->>>>>>> Political popularity fix et al
 
 	add_ideas = {
 		#general_staff

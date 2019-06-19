@@ -439,9 +439,6 @@ create_navy_leader={
 		electronic_mechanical_engineering = 1
 
 		# Industry
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	}
-=======
 	}
 
 	set_politics = {
@@ -567,4 +564,3 @@ create_navy_leader={
 
 	}
 }
->>>>>>> Political popularity fix et al

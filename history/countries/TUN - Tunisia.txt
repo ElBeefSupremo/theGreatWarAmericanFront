@@ -15,20 +15,6 @@ set_convoys = 12
 #					POLITICS & ARMY
 #-------------------------------------------------------
 
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-set_politics = {
-	ruling_party = neutrality last_election = "1910.1.1"
-	election_frequency = 48 elections_allowed = no
-}
-
-set_popularities = {
-    democratic = 20
-    fascism = 10
-    neutrality = 70
-    communism = 0
-}
-
-=======
 ##########################
 ### COUNTRY LEADERS ######
 ##########################
@@ -76,7 +62,6 @@ set_popularities = {
 	communism = 0
 	neutrality = 70
 }
->>>>>>> Political popularity fix et al
 add_ideas = {
 	ww1_Faith_Allah
 	limited_conscription

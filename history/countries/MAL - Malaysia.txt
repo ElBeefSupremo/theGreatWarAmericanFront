@@ -1,20 +1,10 @@
 ﻿capital = 336 #Kuala Lumpur
 set_research_slots = 2
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-
-set_politics = {}
-
-set_popularities = {
-    democratic = 33
-    communism = 33
-    neutrality = 34
-=======
 set_politics = {
 	ruling_party = democratic
 	last_election = "1908.1.1"
 	election_frequency = 36
 	elections_allowed = yes
->>>>>>> Political popularity fix et al
 }
 set_popularities = {
 	democratic = 33

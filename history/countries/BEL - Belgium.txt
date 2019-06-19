@@ -154,17 +154,6 @@ create_corps_commander = {
 	}
 
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	    ruling_party = democratic last_election = "1908.5.24"
-	    election_frequency = 24 elections_allowed = yes
-}
-
-    set_popularities = {
-        democratic = 95
-        fascism = 0
-        communism = 5
-    }
-=======
 		ruling_party = democratic
 		last_election = "1908.5.24"
 		election_frequency = 24
@@ -176,7 +165,6 @@ create_corps_commander = {
 		communism = 5
 		neutrality = 0
 	}
->>>>>>> Political popularity fix et al
 
 	add_ideas = {
 		ww1_Scramble_for_Africa
@@ -312,17 +300,6 @@ create_corps_commander = {
 	}
 
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	    ruling_party = democratic last_election = "1912.6.2"
-	    election_frequency = 24 elections_allowed = yes
-}
-
-    set_popularities = {
-        democratic = 95
-        fascism = 0
-        communism = 5
-    }
-=======
 		ruling_party = democratic
 		last_election = "1912.6.2"
 		election_frequency = 24
@@ -334,7 +311,6 @@ create_corps_commander = {
 		communism = 5
 		neutrality = 0
 	}
->>>>>>> Political popularity fix et al
 
 	add_ideas = {
 		ww1_Scramble_for_Africa

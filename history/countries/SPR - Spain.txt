@@ -459,19 +459,6 @@ create_navy_leader = {
 		# Industry
 	}
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	    ruling_party = democratic last_election = "1910.4.31"
-	    election_frequency = 48 elections_allowed = yes
-}
-
-    set_popularities = {
-        democratic = 75
-        fascism = 6
-        communism = 7
-        neutrality = 12
-    }
-
-=======
 		ruling_party = democratic
 		last_election = "1910.4.31"
 		election_frequency = 48
@@ -483,7 +470,6 @@ create_navy_leader = {
 		communism = 7
 		neutrality = 12
 	}
->>>>>>> Political popularity fix et al
 	add_ideas = {
 		neutrality_idea
 		ww1_Scramble_for_Africa
@@ -574,20 +560,6 @@ create_navy_leader = {
 		# Industry
 	}
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	    ruling_party = democratic last_election = "1913.6.17"
-
-	    election_frequency = 48 elections_allowed = yes
-}
-
-    set_popularities = {
-        neutrality = 10
-        democratic = 83
-        fascism = 4
-        communism = 3
-    }
-
-=======
 		ruling_party = democratic
 		last_election = "1913.6.17"
 		election_frequency = 48
@@ -599,7 +571,6 @@ create_navy_leader = {
 		communism = 3
 		neutrality = 10
 	}
->>>>>>> Political popularity fix et al
 	add_ideas = {
 		neutrality_idea
 		ww1_Scramble_for_Africa

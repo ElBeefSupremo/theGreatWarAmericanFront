@@ -271,16 +271,6 @@ create_navy_leader =  {
 		last_election = "1909.3.14"
 		election_frequency = 48
 		elections_allowed = yes
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-}
-
-    set_popularities = {
-        democratic = 85
-        fascism = 5
-        communism = 10
-    }
-
-=======
 	}
 	set_popularities = {
 		democratic = 85
@@ -288,7 +278,6 @@ create_navy_leader =  {
 		communism = 10
 		neutrality = 0
 	}
->>>>>>> Political popularity fix et al
 	add_ideas = {
 		ITA_ww1_Risorgimento
 		ww1_Scramble_for_Africa
@@ -452,16 +441,6 @@ create_navy_leader =  {
 		last_election = "1913.11.1"
 		election_frequency = 48
 		elections_allowed = yes
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-}
-
-    set_popularities = {
-        democratic = 85
-        fascism = 5
-        communism = 10
-    }
-
-=======
 	}
 	set_popularities = {
 		democratic = 85
@@ -469,7 +448,6 @@ create_navy_leader =  {
 		communism = 10
 		neutrality = 0
 	}
->>>>>>> Political popularity fix et al
 	add_ideas = {
 		ITA_ww1_Risorgimento
 		ww1_Scramble_for_Africa

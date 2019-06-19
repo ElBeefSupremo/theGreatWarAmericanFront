@@ -1,15 +1,6 @@
 ﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos
 
 set_research_slots = 2
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-
-set_politics = {}
-
-set_popularities = {
-    democratic = 25
-    communism = 35
-    neutrality = 40
-=======
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1910.1.1"
@@ -21,7 +12,6 @@ set_popularities = {
 	fascism = 0
 	communism = 35
 	neutrality = 40
->>>>>>> Political popularity fix et al
 }
 
 create_country_leader = {

@@ -384,17 +384,6 @@ create_navy_leader = {
 	}
 
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	    ruling_party = democratic last_election = "1910.4.13"
-	    election_frequency = 36 elections_allowed = yes
-}
-
-    set_popularities = {
-        democratic = 98
-        fascism = 0
-        communism = 2
-    }
-=======
 		ruling_party = democratic
 		last_election = "1910.4.13"
 		election_frequency = 36
@@ -406,7 +395,6 @@ create_navy_leader = {
 		communism = 2
 		neutrality = 0
 	}
->>>>>>> Political popularity fix et al
 
 	add_ideas = {
 		limited_conscription
@@ -521,17 +509,6 @@ create_navy_leader = {
 	}
 
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	    ruling_party = democratic last_election = "1913.5.31"
-	    election_frequency = 36 elections_allowed = yes
-}
-
-    set_popularities = {
-        democratic = 98
-        fascism = 0
-        communism = 2
-    }
-=======
 		ruling_party = democratic
 		last_election = "1913.5.31"
 		election_frequency = 36
@@ -543,7 +520,6 @@ create_navy_leader = {
 		communism = 2
 		neutrality = 0
 	}
->>>>>>> Political popularity fix et al
 
 	add_ideas = {
 		neutrality_idea

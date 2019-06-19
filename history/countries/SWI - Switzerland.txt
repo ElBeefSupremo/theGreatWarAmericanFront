@@ -451,19 +451,6 @@ create_corps_commander = {
 		# Industry
 	}
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-	    ruling_party = democratic last_election = "1908.10.29"
-	    election_frequency = 36 elections_allowed = yes
-}
-
-    set_popularities = {
-        neutrality = 15
-        democratic = 70
-        fascism = 3
-        communism = 2
-    }
-
-=======
 		ruling_party = democratic
 		last_election = "1908.10.29"
 		election_frequency = 36
@@ -475,7 +462,6 @@ create_corps_commander = {
 		communism = 2
 		neutrality = 15
 	}
->>>>>>> Political popularity fix et al
 	add_ideas = {
 		neutrality_idea
 		limited_conscription
@@ -563,21 +549,6 @@ create_corps_commander = {
 
 		# Industry
 	}
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-
-    set_politics = {
-        ruling_party = democratic last_election = "1911.10.29"
-        election_frequency = 36 elections_allowed = yes
-}
-
-    set_popularities = {
-        neutrality = 15
-        democratic = 70
-        fascism = 3
-        communism = 2
-    }
-
-=======
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1911.10.29"
@@ -590,7 +561,6 @@ create_corps_commander = {
 		communism = 2
 		neutrality = 15
 	}
->>>>>>> Political popularity fix et al
 	add_ideas = {
 		neutrality_idea
 		limited_conscription

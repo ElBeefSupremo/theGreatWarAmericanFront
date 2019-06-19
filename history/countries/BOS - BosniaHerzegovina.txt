@@ -18,11 +18,6 @@ set_stability = 0.56
 ### COUNTRY LEADERS ######
 ##########################
 
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-set_politics = {
-	ruling_party = neutrality last_election = "1910.1.1"
-	election_frequency = 48 elections_allowed = no
-=======
 create_country_leader={
 	name = "Marijan Varešanin"
 	desc=AUH_marijan_varesanin_DESC
@@ -45,7 +40,6 @@ set_popularities = {
 	fascism = 1
 	communism = 1
 	neutrality = 97
->>>>>>> Political popularity fix et al
 }
 
 set_popularities = {
@@ -58,18 +52,6 @@ set_popularities = {
 1910.1.1 = {
 	oob = "BOS_1910"
 	set_politics = {
-<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
-		ruling_party = neutrality last_election = "1910.1.1"
-		election_frequency = 48 elections_allowed = no
-}
-
-    set_popularities = {
-        democratic = 1
-        fascism = 1
-        neutrality = 97
-        communism = 1
-    }
-=======
 		ruling_party = neutrality
 		last_election = "1910.1.1"
 		election_frequency = 48
@@ -81,7 +63,6 @@ set_popularities = {
 		communism = 1
 		neutrality = 97
 	}
->>>>>>> Political popularity fix et al
 
 	add_ideas = {
 		limited_conscription
