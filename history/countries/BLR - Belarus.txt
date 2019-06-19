@@ -15,6 +15,7 @@ set_technology = {
 	tech_mountaineers = 1
 	transport = 1
 }
+<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
 
 set_politics = {}
 
@@ -23,50 +24,67 @@ set_popularities = {
     neutrality = 20
     communism = 60
     fascism = 5
+=======
+set_politics = {
+	ruling_party = communism
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	fascism = 5
+	communism = 60
+	neutrality = 20
+>>>>>>> Political popularity fix et al
+}
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Vasil Zacharka"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-    name = "Vasil Zacharka"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "1965.1.1"
-    ideology = centrism
-    traits = {
-        #
-    }
+	name = "Radasłaŭ Astroŭski"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-    name = "Radasłaŭ Astroŭski"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-    expire = "1965.1.1"
-    ideology = fascism_ideology
-    traits = {
-        #
-    }
+	name = "Panteleimon Ponomarenko"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-    name = "Panteleimon Ponomarenko"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-    expire = "1965.1.1"
-    ideology = stalinism
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Adam Stankievič"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-    expire = "1965.1.1"
-    ideology = socialism
-    traits = {
-        #
-    }
+	name = "Adam Stankievič"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
 }
 
 

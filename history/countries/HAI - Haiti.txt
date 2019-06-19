@@ -6,19 +6,125 @@
 set_research_slots = 3
 set_stability = 0.40
 set_convoys = 100
-set_country_flag=monroe_doctrine
+set_country_flag = monroe_doctrine
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Oreste Zamor" desc=HAI_oreste_zamor_DESC picture="gfx/leaders/HAI_oreste_zamor.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Joseph Davilmar Théodore" desc=HAI_joseph_davilmar_theodore_DESC picture="gfx/leaders/HAI_joseph_davilmar_theodore.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Vilbrun Guillaume Sam" desc=HAI_vilbrun_guillaume_sam_DESC picture="gfx/leaders/HAI_vilbrun_guillaume_sam.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Philippe Sudré Dartiguenave" desc=HAI_philippe_sudre_dartiguenave_DESC picture="gfx/leaders/HAI_philippe_sudre_dartiguenave.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Louis Borno" desc=HAI_louis_borno_DESC picture="gfx/leaders/HAI_louis_borno.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "François C. Antoine Simon" desc=HAI_francois_c_antoine_simon_DESC picture="gfx/leaders/HAI_francois_c_antoine_simon.dds" expire="1935.1.1" ideology=conservatism traits={  } }
-create_corps_commander={  name = "C. Zamor" id=37002 portrait_path="gfx/generals/HAI_c_zamor.tga" traits={ panzer_leader  } skill=1 }
-create_corps_commander={  name = "O. Zamor" id=37003 portrait_path="gfx/generals/HAI_o_zamor.tga" traits={   } skill=1 }
-create_navy_leader={  name = "O. Zamor" id=37004 portrait_path="gfx/admiral/HAI_o_zamor.tga" traits={   } skill=1 }
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Oreste Zamor"
+	desc = HAI_oreste_zamor_DESC
+	picture = "gfx/leaders/HAI_oreste_zamor.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Joseph Davilmar Théodore"
+	desc = HAI_joseph_davilmar_theodore_DESC
+	picture = "gfx/leaders/HAI_joseph_davilmar_theodore.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Vilbrun Guillaume Sam"
+	desc = HAI_vilbrun_guillaume_sam_DESC
+	picture = "gfx/leaders/HAI_vilbrun_guillaume_sam.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Philippe Sudré Dartiguenave"
+	desc = HAI_philippe_sudre_dartiguenave_DESC
+	picture = "gfx/leaders/HAI_philippe_sudre_dartiguenave.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Louis Borno"
+	desc = HAI_louis_borno_DESC
+	picture = "gfx/leaders/HAI_louis_borno.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "François C. Antoine Simon"
+	desc = HAI_francois_c_antoine_simon_DESC
+	picture = "gfx/leaders/HAI_francois_c_antoine_simon.dds"
+	expire = "1935.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+}
+##########################
+### FIELD MARSHALS #######
+##########################
+
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+create_corps_commander = {
+	name = "C. Zamor"
+	id = 37002
+	portrait_path = "gfx/generals/HAI_c_zamor.tga"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "O. Zamor"
+	id = 37003
+	portrait_path = "gfx/generals/HAI_o_zamor.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+##########################
+### NAVY COMMANDERS ######
+##########################
+create_navy_leader = {
+	name = "O. Zamor"
+	id = 37004
+	portrait_path = "gfx/admiral/HAI_o_zamor.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1 #temp values
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
 
 1910.1.1 = {
 	oob = "HAI_1910"
@@ -37,7 +143,6 @@ create_navy_leader={  name = "O. Zamor" id=37004 portrait_path="gfx/admiral/HAI_
 		infantry_binoculars = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -73,11 +178,22 @@ create_navy_leader={  name = "O. Zamor" id=37004 portrait_path="gfx/admiral/HAI_
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=100 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=democratic last_election="1908.1.1" election_frequency=36 elections_allowed=yes }
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1908.1.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+		fascism = 0
+		communism = 0
+		neutrality = 0
+	}
 
 	add_ideas = {
 
-	}	
+	}
 }
 
 1913.8.10.12 = {
@@ -160,8 +276,18 @@ create_navy_leader={  name = "O. Zamor" id=37004 portrait_path="gfx/admiral/HAI_
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=100 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=democratic last_election="1911.7.1" election_frequency=36 elections_allowed=yes }
-
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1911.7.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+		fascism = 0
+		communism = 0
+		neutrality = 0
+	}
 	add_ideas = {
 
 	}

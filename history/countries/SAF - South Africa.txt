@@ -10,18 +10,160 @@ set_convoys = 25
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Christiaan De Wet" desc=SAF_christiaan_de_wet_DESC picture="gfx/leaders/SAF_christiaan_de_wet.dds" expire="1935.1.1" ideology=fascism_ideology traits={  } }
-create_country_leader={ name = "Sydney Buxton" desc=SAF_sydney_buxton_DESC picture="gfx/leaders/SAF_sydney_buxton.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Herbert Gladstone" desc=SAF_herbert_gladstone_DESC picture="gfx/leaders/SAF_herbert_gladstone.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Louis Botha" desc=SAF_louis_botha_DESC picture="gfx/leaders/SAF_louis_botha.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_corps_commander={  name = "Lukin" id=78002 portrait_path="gfx/generals/SAF_lukin.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Smuts J.C." id=78003 portrait_path="gfx/generals/SAF_smuts_jc.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Van Deventer" id=78004 portrait_path="gfx/generals/SAF_van_deventer.tga" traits={ trickster  } skill=2 }
-create_corps_commander={  name = "Brink A.J.E." id=78006 portrait_path="gfx/generals/SAF_brink_aje.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Delarey" id=78010 portrait_path="gfx/generals/SAF_delarey.tga" traits={ trickster  } skill=3 }
-create_corps_commander={  name = "Maritz" id=78011 portrait_path="gfx/generals/SAF_maritz.tga" traits={ trickster  } skill=3 }
-create_corps_commander={  name = "Fourie" id=78012 portrait_path="gfx/generals/SAF_fourie.tga" traits={   } skill=2 }
-create_corps_commander={  name = "de Wet" id=78013 portrait_path="gfx/generals/SAF_de_wet.tga" traits={ trickster  } skill=4 }
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Christiaan De Wet"
+	desc = SAF_christiaan_de_wet_DESC
+	picture = "gfx/leaders/SAF_christiaan_de_wet.dds"
+	expire = "1935.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Sydney Buxton"
+	desc = SAF_sydney_buxton_DESC
+	picture = "gfx/leaders/SAF_sydney_buxton.dds"
+	expire = "1935.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Herbert Gladstone"
+	desc = SAF_herbert_gladstone_DESC
+	picture = "gfx/leaders/SAF_herbert_gladstone.dds"
+	expire = "1935.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Louis Botha"
+	desc = SAF_louis_botha_DESC
+	picture = "gfx/leaders/SAF_louis_botha.dds"
+	expire = "1935.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Lukin"
+	id = 78002
+	portrait_path = "gfx/generals/SAF_lukin.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Smuts J.C."
+	id = 78003
+	portrait_path = "gfx/generals/SAF_smuts_jc.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Van Deventer"
+	id = 78004
+	portrait_path = "gfx/generals/SAF_van_deventer.tga"
+	traits = {
+		trickster
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Brink A.J.E."
+	id = 78006
+	portrait_path = "gfx/generals/SAF_brink_aje.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Delarey"
+	id = 78010
+	portrait_path = "gfx/generals/SAF_delarey.tga"
+	traits = {
+		trickster
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Maritz"
+	id = 78011
+	portrait_path = "gfx/generals/SAF_maritz.tga"
+	traits = {
+		trickster
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Fourie"
+	id = 78012
+	portrait_path = "gfx/generals/SAF_fourie.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "de Wet"
+	id = 78013
+	portrait_path = "gfx/generals/SAF_de_wet.tga"
+	traits = {
+		trickster
+	}
+	skill = 4
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 1910.1.1 = {
 	oob = "SAF_1910"
@@ -40,7 +182,6 @@ create_corps_commander={  name = "de Wet" id=78013 portrait_path="gfx/generals/S
 		infantry_binoculars = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -75,9 +216,18 @@ create_corps_commander={  name = "de Wet" id=78013 portrait_path="gfx/generals/S
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=100 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=democratic last_election="1910.9.15" election_frequency=60 elections_allowed=yes }
-
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1910.9.15"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+		fascism = 0
+		communism = 0
+		neutrality = 0
+	}
 	add_ideas = {
 
 	}	
@@ -164,9 +314,18 @@ create_corps_commander={  name = "de Wet" id=78013 portrait_path="gfx/generals/S
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=100 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=democratic last_election="1910.9.15" election_frequency=60 elections_allowed=yes }
-
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1910.9.15"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+		fascism = 0
+		communism = 0
+		neutrality = 0
+	}
 	add_ideas = {
 
 	}

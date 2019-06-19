@@ -10,327 +10,404 @@ set_convoys = 500
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Wilhelmina" desc=HOL_wilhelmina_DESC picture="gfx/leaders/HOL_wilhelmina.dds" expire="1935.1.1" ideology=socialism traits={  } }
-create_country_leader={ name = "Abraham Kuyper" desc=HOL_Abraham_DESC picture="gfx/leaders/HOL_Abraham.dds" expire="1935.1.1" ideology=centrism traits={  } }
-create_country_leader={ name = "Pieter Jelles Troelstra" desc=HOL_Pieter_DESC picture="gfx/leaders/HOL_pieter.dds" expire="1935.1.1" ideology=marxism traits={  } }
 
+##########################
+### COUNTRY LEADERS ######
+##########################
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = HOL_wilhelmina_DESC
+	picture = "gfx/leaders/HOL_wilhelmina.dds"
+	expire = "1935.1.1"
+	ideology = socialism
+	traits = {
 
-#################################
-##### Field Marshals ############
-#################################
+	}
+}
+create_country_leader = {
+	name = "Abraham Kuyper"
+	desc = HOL_Abraham_DESC
+	picture = "gfx/leaders/HOL_Abraham.dds"
+	expire = "1935.1.1"
+	ideology = centrism
+	traits = {
 
-create_field_marshal={  
-	name = "Gustav A. Ilgen" 
-	id=39030 
-	portrait_path="gfx/fieldmarshal/HOL_gustav_a_ilgen.tga" 
-	traits={ 
-		defensive_doctrine  
-		} 
-	skill=2
-	attack_skill=2
-	defense_skill=2
-	planning_skill=2
-	logistics_skill=2 
+	}
+}
+create_country_leader = {
+	name = "Pieter Jelles Troelstra"
+	desc = HOL_Pieter_DESC
+	picture = "gfx/leaders/HOL_pieter.dds"
+	expire = "1935.1.1"
+	ideology = marxism
+	traits = {
+
+	}
 }
 
-create_field_marshal={  
-	name = "Cornelis Snijders" 
-	id=39032 
-	portrait_path="gfx/hoi4tgw_portraits/HOL/army_generals/HOL_Cornelis_Snijders.dds" 
-	traits={ 
-		defensive_doctrine 
-		} 
-	skill=2
-	attack_skill=2
-	defense_skill=2
-	planning_skill=2
-	logistics_skill=2 
+##########################
+### FIELD MARSHALS #######
+##########################
+
+create_field_marshal = {
+	name = "Gustav A. Ilgen"
+	id = 39030 
+	portrait_path = "gfx/fieldmarshal/HOL_gustav_a_ilgen.tga"
+	traits = {
+		defensive_doctrine
+		}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Cornelis Snijders"
+	id = 39032
+	portrait_path = "gfx/hoi4tgw_portraits/HOL/army_generals/HOL_Cornelis_Snijders.dds"
+	traits = {
+		defensive_doctrine
+		}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 	}
 
-#################################
-#### Corps Commanders ###########
-#################################
+###########################
+### CORPS COMMANDERS ######
+###########################
 
-create_corps_commander={  
-	name = "Dufour" 
-	id=39002 
-	portrait_path="gfx/generals/HOL_dufour.tga" 
-	traits={   } 
-	skill=2 	
+create_corps_commander = {
+	name = "Dufour"
+	id = 39002
+	portrait_path = "gfx/generals/HOL_dufour.tga"
+	traits = {
+
+	}
+	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1 
+	logistics_skill = 1
 	}
 
-create_corps_commander={  
-	name = "Van Der Ber" 
-	id=39003 
-	portrait_path="gfx/generals/HOL_cool.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=1
-	defense_skill=1
-	planning_skill=2
-	logistics_skill=2
+create_corps_commander = {
+	name = "Van Der Ber"
+	id = 39003
+	portrait_path = "gfx/generals/HOL_cool.tga" 
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 	}
 
-create_corps_commander={  
-	name = "Weber" 
-	id=39004 
-	portrait_path="gfx/generals/HOL_weber.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=2
-	defense_skill=2
-	planning_skill=2
-	logistics_skill=3
+create_corps_commander = {
+	name = "Weber"
+	id = 39004
+	portrait_path = "gfx/generals/HOL_weber.tga"
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 	}
 
-create_corps_commander={  
-	name = "Forbes Wels" 
-	id=39005 
-	portrait_path="gfx/generals/HOL_forbes_wels.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=1
-	defense_skill=2
-	planning_skill=1
-	logistics_skill=2
+create_corps_commander = {
+	name = "Forbes Wels"
+	id = 39005
+	portrait_path = "gfx/generals/HOL_forbes_wels.tga"
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 	}
 
-create_corps_commander={  
-	name = "Pop" 
-	id=39006 
-	portrait_path="gfx/generals/HOL_pop.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=1
-	defense_skill=2
-	planning_skill=1
-	logistics_skill=2
+create_corps_commander = {
+	name = "Pop"
+	id = 39006
+	portrait_path = "gfx/generals/HOL_pop.tga"
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 	}
 
-create_corps_commander={  
-	name = "Neeteson" 
-	id=39013 
-	portrait_path="gfx/generals/HOL_neeteson.tga" 
-	traits={   } 
-	skill=1 
-	attack_skill=1
-	defense_skill=1
-	planning_skill=1
-	logistics_skill=1
+create_corps_commander = {
+	name = "Neeteson"
+	id = 39013
+	portrait_path = "gfx/generals/HOL_neeteson.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 	}
 
-create_corps_commander={  
-	name = "van Terwisga" 
-	id=39016 
-	portrait_path="gfx/generals/HOL_van_terwisga.tga" 
-	traits={   } 
-	skill=2
-	attack_skill=2
-	defense_skill=1
-	planning_skill=1
-	logistics_skill=1
+create_corps_commander = {
+	name = "van Terwisga"
+	id = 39016 
+	portrait_path = "gfx/generals/HOL_van_terwisga.tga"
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 	}
 
-create_corps_commander={  
-	name = "Latour" 
-	id=39017 
-	portrait_path="gfx/generals/HOL_latour.tga" 
-	traits={   } 
-	skill=2
-	attack_skill=2
-	defense_skill=2
-	planning_skill=1
-	logistics_skill=1 
+create_corps_commander = {
+	name = "Latour"
+	id = 39017
+	portrait_path = "gfx/generals/HOL_latour.tga"
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 	}
 
-create_corps_commander={  
-	name = "Michielsen" 
-	id=39021 portrait_path="gfx/generals/HOL_michielsen.tga" 
-	traits={   } 
-	skill=3 
-	attack_skill=2
-	defense_skill=2
-	planning_skill=3
-	logistics_skill=3
+create_corps_commander = {
+	name = "Michielsen"
+	id = 39021 portrait_path = "gfx/generals/HOL_michielsen.tga"
+	traits = {
+
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 	}
 
-create_corps_commander={  
-	name = "de Greve" 
-	id=39022 
-	portrait_path="gfx/generals/HOL_de_greve.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=1
-	defense_skill=2
-	planning_skill=1
-	logistics_skill=2}
+create_corps_commander = {
+	name = "de Greve"
+	id = 39022
+	portrait_path = "gfx/generals/HOL_de_greve.tga"
+	traits = {
 
-create_corps_commander={  
-	name = "van Rietschoten" 
-	id=39023 
-	portrait_path="gfx/generals/HOL_van_rietschoten.tga" 
-	traits={  
-	 } 
-	skill=3 
-	attack_skill=1
-	defense_skill=2
-	planning_skill=2
-	logistics_skill=3
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "van Rietschoten"
+	id = 39023
+	portrait_path = "gfx/generals/HOL_van_rietschoten.tga"
+	traits = {
+
+	}
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 	}
 
-create_corps_commander={  
-	name = "Dijkstra" 
-	id=39024 
-	portrait_path="gfx/generals/HOL_dijkstra.tga" 
-	traits={
-	  } 
-	skill=1 
-	attack_skill=1
-	defense_skill=2
-	planning_skill=1
-	logistics_skill=1
+create_corps_commander = {
+	name = "Dijkstra"
+	id = 39024
+	portrait_path = "gfx/generals/HOL_dijkstra.tga" 
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 	}
 
-create_corps_commander={  
-	name = "Burger" 
-	id=39025
-	portrait_path="gfx/generals/HOL_burger.tga" 
-	traits={ 
-	 } 
-	skill=3
-	attack_skill=3
-	defense_skill=2
-	planning_skill=2
-	logistics_skill=2 
+create_corps_commander = {
+	name = "Burger"
+	id = 39025
+	portrait_path = "gfx/generals/HOL_burger.tga" 
+	traits = {
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 	}
 
-create_corps_commander={  
-	name = "Thiange" 
-	id=39026 
-	portrait_path="gfx/generals/HOL_thiange.tga" 
-	traits={ 
-	  } 
-	skill=3 
-	attack_skill=2
-	defense_skill=2
-	planning_skill=2
-	logistics_skill=2
+create_corps_commander = {
+	name = "Thiange"
+	id = 39026
+	portrait_path = "gfx/generals/HOL_thiange.tga"
+	traits = {
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 	}
 
-create_corps_commander={  
-	name = "Hein Ter Poorten" 
-	id=39027 
-	portrait_path="gfx/generals/HOL_hein_ter_poorten.tga" 
-	traits={  
-		fortress_buster 
-		} 
-	skill=2
-	attack_skill=2
-	defense_skill=2
-	planning_skill=2
-	logistics_skill=2 
+create_corps_commander = {
+	name = "Hein Ter Poorten"
+	id = 39027
+	portrait_path = "gfx/generals/HOL_hein_ter_poorten.tga"
+	traits = {
+		fortress_buster
+		}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 	}
 
-create_corps_commander={  
-	name = "Gerardus J. Berenschot" 
-	id=39028 
-	portrait_path="gfx/generals/HOL_gerardus_j_berenschot.tga" 
-	traits={   
+create_corps_commander = {
+	name = "Gerardus J. Berenschot"
+	id = 39028 
+	portrait_path = "gfx/generals/HOL_gerardus_j_berenschot.tga"
+	traits = {
 	} 
-	skill=1 
-	attack_skill=1
-	defense_skill=1
-	planning_skill=1
-	logistics_skill=1
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 	}
-create_corps_commander={  
-	name = "Jacob J. Pesman" 
-	id=39029 
-	portrait_path="gfx/generals/HOL_jacob_j_pesman.tga" 
-	traits={ 
-		panzer_leader  
+create_corps_commander = {
+	name = "Jacob J. Pesman"
+	id = 39029
+	portrait_path = "gfx/generals/HOL_jacob_j_pesman.tga"
+	traits = {
+		panzer_leader
 		} 
-	skill=1 
-	attack_skill=1
-	defense_skill=1
-	planning_skill=1
-	logistics_skill=1
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 	}
 
 
 ##########################
 ### NAVY COMMANDERS ######
 ##########################
-create_navy_leader={  
+create_navy_leader = {
 	name = "Pinke" 
-	id=39007
-	portrait_path="gfx/admiral/HOL_pinke.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=2
-	defense_skill=2
+	id = 39007
+	portrait_path = "gfx/admiral/HOL_pinke.tga" 
+	traits = {
+
+	}
+	skill = 2 
+	attack_skill = 2 #temp values
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
 	}
 
-create_navy_leader={  
+create_navy_leader = {  
 	name = "Rambonnet" 
-	id=39008
-	portrait_path="gfx/admiral/HOL_rambonnet.tga" 
-	traits={   } 
-	skill=2
-	attack_skill=2
-	defense_skill=2
+	id = 39008
+	portrait_path = "gfx/admiral/HOL_rambonnet.tga" 
+	traits = {   } 
+	skill = 2
+	attack_skill = 2 #temp values
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
 	}
 
-create_navy_leader={  
+create_navy_leader = {  
 	name = "ten Cate" 
-	id=39009 
-	portrait_path="gfx/admiral/HOL_ten_cate.tga" 
-	traits={   } 
-	skill=2
-	attack_skill=2
-	defense_skill=2 
+	id = 39009 
+	portrait_path = "gfx/admiral/HOL_ten_cate.tga" 
+	traits = {   } 
+	skill = 2
+	attack_skill = 2 #temp values
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
 	}
 
-create_navy_leader={  
+create_navy_leader = {  
 	name = "Wentholt" 
-	id=39010 
-	portrait_path="gfx/admiral/HOL_wentholt.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=2
-	defense_skill=2
+	id = 39010 
+	portrait_path = "gfx/admiral/HOL_wentholt.tga" 
+	traits = {   } 
+	skill = 2 
+	attack_skill = 2 #temp values
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
 	}
 
-create_navy_leader={  
-	name = "Ellis" 
-	id=39011 
-	portrait_path="gfx/admiral/HOL_ellis.tga" 
-	traits={   } 
-	skill=2
-	attack_skill=2
-	defense_skill=2 
+create_navy_leader = {
+	name = "Ellis"
+	id = 39011
+	portrait_path = "gfx/admiral/HOL_ellis.tga"
+	traits = {
+		
 	}
-create_navy_leader={  
-	name = "Tydeman" 
-	id=39014 
-	portrait_path="gfx/admiral/HOL_tydeman.tga" 
-	traits={   } 
-	skill=2 
-	attack_skill=2
-	defense_skill=2
+	skill = 2
+	attack_skill = 2 #temp values
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+
 	}
-create_navy_leader={  
-	name = "Conrad E. L. Helfrich" 
-	id=39031 
-	portrait_path="gfx/admiral/HOL_conrad_e_l_helfrich.tga" 
-	traits={   } 
-	skill=1 
-	attack_skill=1
-	defense_skill=1
+create_navy_leader = {
+	name = "Tydeman"
+	id = 39014
+	portrait_path = "gfx/admiral/HOL_tydeman.tga"
+	traits = {
+
+	}
+	skill = 2 
+	attack_skill = 2 #temp values
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+
+	}
+create_navy_leader = {
+	name = "Conrad E. L. Helfrich"
+	id = 39031 
+	portrait_path = "gfx/admiral/HOL_conrad_e_l_helfrich.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1 #temp values
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+
 	}
 
 1910.1.1 = {
@@ -350,7 +427,6 @@ create_navy_leader={
 		infantry_binoculars = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -378,7 +454,7 @@ create_navy_leader={
 		transport = 1
 		ww1_submarine0 = 1
 		ww1_heavy_cruiser0 = 1
-		ww1_heavy_cruiser1= 1
+		ww1_heavy_cruiser1 =  1
 		# Air
 
 		# Engineering
@@ -386,8 +462,8 @@ create_navy_leader={
 
 		# Industry
 	}
-
 	set_politics = {
+<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
 	    ruling_party = democratic last_election = "1909.6.11"
 	    election_frequency = 48 elections_allowed = yes
 }
@@ -399,16 +475,27 @@ create_navy_leader={
         communism = 25
     }
 
+=======
+		ruling_party = democratic
+		last_election = "1909.6.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 60
+		fascism = 0
+		communism = 25
+		neutrality = 15
+	}
+>>>>>>> Political popularity fix et al
 	add_ideas = {
 		neutrality_idea
 	}
-
 
 }
 
 1913.8.10.12 = {
 	oob = "HOL_1914"
-
 
 	#-------------------------------------------------------
 	#							NF
@@ -504,8 +591,8 @@ create_navy_leader={
 		ww1_fortification1 = 1
 		ww1_fortification2 = 1
 	}
-
 	set_politics = {
+<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
 	    ruling_party = democratic last_election = "1913.6.17"
 	    election_frequency = 48 elections_allowed = yes
 }
@@ -517,6 +604,19 @@ create_navy_leader={
         communism = 3
     }
 
+=======
+		ruling_party = democratic
+		last_election = "1913.6.17"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 3
+		fascism = 4
+		communism = 3
+		neutrality = 90
+	}
+>>>>>>> Political popularity fix et al
 	add_ideas = {
 	}
 }

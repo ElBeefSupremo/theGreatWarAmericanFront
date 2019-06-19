@@ -10,9 +10,51 @@ set_convoys = 30
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Pehr Evind Svinhufvud" desc=FIN_pehr_evind_svinhufvud_DESC picture="gfx/leaders/FIN_pehr_evind_svinhufvud.dds" expire="1935.1.1" ideology=conservatism traits={  } }
-create_corps_commander={  name = "Mexmontan" id=31002 portrait_path="gfx/generals/FIN_mexmontan.tga" traits={ winter_specialist  } skill=2 }
-create_corps_commander={  name = "Theslöf" id=31003 portrait_path="gfx/generals/FIN_theslof.tga" traits={ winter_specialist  } skill=2 }
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Pehr Evind Svinhufvud"
+	desc = FIN_pehr_evind_svinhufvud_DESC
+	picture = "gfx/leaders/FIN_pehr_evind_svinhufvud.dds"
+	expire = "1935.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Mexmontan"
+	id = 31002
+	portrait_path = "gfx/generals/FIN_mexmontan.tga"
+	traits = {
+		winter_specialist
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Theslöf"
+	id = 31003
+	portrait_path = "gfx/generals/FIN_theslof.tga"
+	traits = {
+		winter_specialist
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 1910.1.1 = {
 	oob = "POR_1910"
@@ -67,7 +109,18 @@ create_corps_commander={  name = "Theslöf" id=31003 portrait_path="gfx/generals
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=79 }  fascism={ popularity=20 }  communism={ popularity=1 } }  ruling_party=democratic last_election="1919.1.1" election_frequency=36 elections_allowed=yes }
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1910.1.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 79
+		fascism = 20
+		communism = 1
+		neutrality = 0
+	}
 
 	add_ideas = {
 
@@ -154,7 +207,18 @@ create_corps_commander={  name = "Theslöf" id=31003 portrait_path="gfx/generals
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=79 }  fascism={ popularity=20 }  communism={ popularity=1 } }  ruling_party=democratic last_election="1919.1.1" election_frequency=36 elections_allowed=yes }
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1910.1.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 79
+		fascism = 20
+		communism = 1
+		neutrality = 0
+	}
 
 	add_ideas = {
 

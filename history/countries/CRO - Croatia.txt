@@ -32,24 +32,36 @@ set_technology={
 	#tech_logistics_company=1
 	#KiS #tech_signal_company=1
 }
-set_politics={  parties={ democratic={ popularity=15 }  fascism={ popularity=75 }  communism={ popularity=10 } }  ruling_party=fascism last_election="1910.1.1" election_frequency=12 elections_allowed=no }
+set_politics = {
+	ruling_party = fascism
+	last_election = "1910.1.1"
+	election_frequency = 12
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	fascism = 75
+	communism = 10
+	neutrality = 0
+}
+
 set_stability=0.75
 set_convoys=5
 
 1913.8.10.12 = {
-	oob="CRO_1914"
+	oob = "CRO_1914"
 
-	set_politics={
-		parties={
-			democratic = { popularity=15 }
-			fascism = { popularity=75 }
-			communism = { popularity=10 }
-		}
-
+	set_politics = {
 		ruling_party = fascism
 		last_election = "1910.1.1"
 		election_frequency = 12
 		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 15
+		fascism = 75
+		communism = 10
+		neutrality = 0
 	}
 
 	set_technology={
@@ -67,19 +79,7 @@ set_convoys=5
 		electronic_mechanical_engineering=1
 		#KiS #radio=1
 		mechanical_computing=1
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		infantry_weapons=1
 		ww1infantry_weapons1=1
 		marines=1
@@ -116,4 +116,17 @@ set_convoys=5
 	}
 }
 
-create_country_leader={ name="Tomislav II" desc=CRO_tomislav_ii_DESC picture="gfx/leaders/CRO_tomislav_ii.dds" expire="1935.1.1" ideology=fascism_ideology traits={  } }
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader={
+	name="Tomislav II"
+	desc=CRO_tomislav_ii_DESC
+	picture="gfx/leaders/CRO_tomislav_ii.dds"
+	expire="1935.1.1"
+	ideology=fascism_ideology
+	traits={
+		
+	}
+}

@@ -2,10 +2,25 @@
 
 set_research_slots = 2
 
+<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
 set_politics = {}
 
 set_popularities = {
     fascism = 33
     neutrality = 33
     communism = 34
+=======
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
+set_popularities = {
+	democratic = 0
+	fascism = 33
+	communism = 34
+	neutrality = 33
+>>>>>>> Political popularity fix et al
+}
+

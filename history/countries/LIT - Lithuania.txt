@@ -10,8 +10,39 @@ set_convoys = 10
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Antanas Smetona" desc=LIT_antanas_smetona_DESC picture="gfx/leaders/LIT_antanas_smetona.dds" expire="1935.1.1" ideology=despotism traits={  } }
-create_corps_commander={  name = "Voldermaras" id=52002 portrait_path="gfx/generals/LIT_voldermaras.tga" traits={   } skill=2 }
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Antanas Smetona"
+	desc = LIT_antanas_smetona_DESC
+	picture = "gfx/leaders/LIT_antanas_smetona.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Voldermaras"
+	id = 52002
+	portrait_path = "gfx/generals/LIT_voldermaras.tga"
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 
 1910.1.1 = {
@@ -31,7 +62,6 @@ create_corps_commander={  name = "Voldermaras" id=52002 portrait_path="gfx/gener
 		infantry_binoculars = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -66,9 +96,18 @@ create_corps_commander={  name = "Voldermaras" id=52002 portrait_path="gfx/gener
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=30 }  fascism={ popularity=15 }  communism={ popularity=15 }  neutrality={ popularity=50 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=120 elections_allowed=no }
-
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 120
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 20
+		fascism = 15
+		communism = 15
+		neutrality = 50
+	}
 	add_ideas = {
 
 	}	
@@ -76,7 +115,6 @@ create_corps_commander={  name = "Voldermaras" id=52002 portrait_path="gfx/gener
 
 1913.8.10.12 = {
 	oob = "LIT_1914"
-
 
 	#-------------------------------------------------------
 	#							NF
@@ -100,7 +138,6 @@ create_corps_commander={  name = "Voldermaras" id=52002 portrait_path="gfx/gener
 	complete_national_focus = ww1_diplomatic_effort
 	complete_national_focus = neutrality_focus
 	complete_national_focus = ww1_military_reserve
-	
 
 	#-------------------------------------------------------
 
@@ -114,7 +151,6 @@ create_corps_commander={  name = "Voldermaras" id=52002 portrait_path="gfx/gener
 		infantry_grenade = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -153,9 +189,18 @@ create_corps_commander={  name = "Voldermaras" id=52002 portrait_path="gfx/gener
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=30 }  fascism={ popularity=15 }  communism={ popularity=15 }  neutrality={ popularity=50 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=120 elections_allowed=no }
-
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 120
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 20
+		fascism = 15
+		communism = 15
+		neutrality = 50
+	}
 	add_ideas = {
 
 	}

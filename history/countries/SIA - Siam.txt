@@ -1,121 +1,201 @@
-﻿capital=289
-oob="SIA_1910"
-set_technology={ 
-	light_field_gun1=1
-	 
-	heavy_field_gun1=1
-	#KiS #heavy_howitzer1=1
-	motorised_infantry = 1 #KiS #siege_artillery1=1
-	electronic_mechanical_engineering=1
-	infantry_weapons=1
-	ww1_destroyer0=1
-	ww1_destroyer1=1
-	#KiS=1
-	#KiS=1
-	 
-	#KiS early_protected_cruiser=1
-	ww1_light_cruiser1=1
-	ww1_light_cruiser0=1
+﻿capital = 289
+oob = "SIA_1910"
+set_technology = { 
+	light_field_gun1 = 1
+	heavy_field_gun1 = 1
+	motorised_infantry = 1
+	electronic_mechanical_engineering = 1
+	infantry_weapons = 1
+	ww1_destroyer0 = 1
+	ww1_destroyer1 = 1
+	#KiS early_protected_cruiser = 1
+	ww1_light_cruiser1 = 1
+	ww1_light_cruiser0 = 1
 	ww1_light_cruiser2 = 1
-	 
-	 
-	#KiS=1
-	ww1_battleship0=1
-	ww1_battleship1=1
-	#early_dreadnought=1
-	transport=1
-	ww1_submarine1=1 ww1_coastal_submarine1=1
-	ww1_submarine2=1 ww1_coastal_submarine2=1
-	tech_support=1
-	tech_engineers=1
-	tech_recon=1
-	#tech_military_police=1
-	#tech_maintenance_company=1
-	#tech_field_hospital=1
-	#tech_logistics_company=1
-	#KiS #tech_signal_company=1
+	ww1_battleship0 = 1
+	ww1_battleship1 = 1
+	#early_dreadnought = 1
+	transport = 1
+	ww1_submarine1 = 1 ww1_coastal_submarine1 = 1
+	ww1_submarine2 = 1 ww1_coastal_submarine2 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	#tech_military_police = 1
+	#tech_maintenance_company = 1
+	#tech_field_hospital = 1
+	#tech_logistics_company = 1
+	#KiS #tech_signal_company = 1
+}
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Rama V"
+	desc = SIA_rama_v_DESC
+	picture = "gfx/leaders/SIA_rama_v.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+		
 	}
-set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=0 }  communism={ popularity=0  }  neutrality={ popularity=100 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
-set_stability=0.75
-set_convoys=15
-1913.8.10.12 = { oob="SIA_1914" }
-1913.8.10.12 = { set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=0 }  communism={ popularity=0  }  neutrality={ popularity=100 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no } }
-1910.10.23 = {
-	create_country_leader={ name = "Rama VI" desc=SIA_rama_vi_DESC picture="gfx/leaders/SIA_rama_vi.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-	set_country_flag=rama_dead
+}
+
+##########################
+### FIELD MARSHALS #######
+##########################
+
+create_field_marshal = {
+	name = "Chakrabongse Bhuvanart"
+	id = 83003
+	portrait_path = "gfx/fieldmarshal/SIA_chakrabongse_bhuvanart.tga"
+	traits = {
+		
 	}
-1913.8.10.12 = { set_technology={ 
-		#KiS #Scout1=1
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Prince Amoradhat"
+	id = 83002
+	portrait_path = "gfx/generals/SIA_prince_amoradhat.tga"
+	traits = {
 		
-		#KiS #airship1=1
-		light_field_gun1=1
-		light_field_gun2=1
-		 
-		 
-		heavy_field_gun1=1
-		heavy_field_gun2=1
-		#KiS #heavy_howitzer1=1
-		#KiS #heavy_howitzer2=1
-		motorised_infantry = 1 #KiS #siege_artillery1=1
-		#KiS #siege_artillery2=1
-		electronic_mechanical_engineering=1
-		#KiS #radio=1
-		mechanical_computing=1
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Damrong Rajanubhab"
+	id = 83004
+	portrait_path = "gfx/generals/SIA_damrong_rajanubhab.tga"
+	traits = {
 		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Nakhon Sawan Worapinit"
+	id = 83005
+	portrait_path = "gfx/generals/SIA_nakhon_sawan_worapinit.tga"
+	traits = {
 		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Nakhonchaisri Suradej"
+	id = 83006
+	portrait_path = "gfx/generals/SIA_nakhonchaisri_suradej.tga"
+	traits = {
 		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Purachatra Jayakara"
+	id = 83007
+	portrait_path = "gfx/generals/SIA_purachatra_jayakara.tga"
+	traits = {
 		
+	}
+	skill = 1
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+set_stability = 0.75
+set_convoys = 15
+1913.8.10.12 = {
+	oob = "SIA_1914"
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+	}
+
+1913.8.10.12 = { set_technology = { 
+		#KiS #Scout1 = 1
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		motorised_infantry = 1
+		electronic_mechanical_engineering = 1
+		#KiS #radio = 1
+		mechanical_computing = 1
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		marines = 1
+		tech_mountaineers = 1
+		ww1_destroyer0 = 1
+		#KiS #basic_machinegun = 1
+		ww1_destroyer1 = 1
+		ww1_destroyer2 = 1
+		#KiS early_protected_cruiser = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+
+		ww1_battleship0 = 1
+		ww1_battleship1 = 1
+		#early_dreadnought = 1
+		ww1_battleship0 = 1
+		transport = 1
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		infantry_weapons=1
-		ww1infantry_weapons1=1
-		marines=1
-		tech_mountaineers=1
-		ww1_destroyer0=1
-		#KiS #basic_machinegun=1
-		ww1_destroyer1=1
-		#KiS=1
-		#KiS=1
-		ww1_destroyer2=1
-		 
-		
-		#KiS early_protected_cruiser=1
-		ww1_light_cruiser1=1
-		ww1_light_cruiser0=1
-		 
-		 
-		 
-		
-		#KiS=1
-		ww1_battleship0=1
-		ww1_battleship1=1
-		#early_dreadnought=1
-		ww1_battleship0=1
-		transport=1
-		
-		ww1_submarine1=1 ww1_coastal_submarine1=1
-		ww1_submarine2=1 ww1_coastal_submarine2=1
-		#KiS #improved_coastal_submarine=1
-		tech_support=1
-		tech_engineers=1
-		tech_recon=1
-		tech_military_police=1
-		tech_maintenance_company=1
-		tech_field_hospital=1
-		tech_logistics_company=1
-		#KiS #tech_signal_company=1
-		} }
-create_country_leader={ name = "Rama V" desc=SIA_rama_v_DESC picture="gfx/leaders/SIA_rama_v.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_corps_commander={  name = "Prince Amoradhat" id=83002 portrait_path="gfx/generals/SIA_prince_amoradhat.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Damrong Rajanubhab" id=83004 portrait_path="gfx/generals/SIA_damrong_rajanubhab.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Nakhon Sawan Worapinit" id=83005 portrait_path="gfx/generals/SIA_nakhon_sawan_worapinit.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Nakhonchaisri Suradej" id=83006 portrait_path="gfx/generals/SIA_nakhonchaisri_suradej.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Purachatra Jayakara" id=83007 portrait_path="gfx/generals/SIA_purachatra_jayakara.tga" traits={   } skill=1 }
-create_field_marshal={  name = "Chakrabongse Bhuvanart" id=83003 portrait_path="gfx/fieldmarshal/SIA_chakrabongse_bhuvanart.tga" traits={   } skill=3 }
+		ww1_submarine1 = 1 ww1_coastal_submarine1 = 1
+		ww1_submarine2 = 1 ww1_coastal_submarine2 = 1
+		#KiS #improved_coastal_submarine = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+		#KiS #tech_signal_company = 1
+	}
+}

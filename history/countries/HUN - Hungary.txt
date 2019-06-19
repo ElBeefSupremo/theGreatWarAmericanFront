@@ -1,120 +1,146 @@
 ﻿#KiS_Later
-capital=43
-oob="HUN_1910"
-set_research_slots=3
-set_technology={ 
-	light_field_gun1=1
-	 
-	heavy_field_gun1=1
-	#KiS #heavy_howitzer1=1
-	motorised_infantry = 1 #KiS #siege_artillery1=1
-	electronic_mechanical_engineering=1
-	infantry_weapons=1
-	ww1_destroyer0=1
-	ww1_destroyer1=1
-	#KiS=1
-	#KiS=1
-	 
-	#KiS early_protected_cruiser=1
-	ww1_light_cruiser1=1
-	ww1_light_cruiser0=1
-	 
-	 
-	 
-	#KiS=1
-	ww1_battleship0=1
-	ww1_battleship1=1
-	#early_dreadnought=1
-	transport=1
-	ww1_submarine1=1 ww1_coastal_submarine1=1
-	ww1_submarine2=1 ww1_coastal_submarine2=1
-	tech_support=1
-	tech_engineers=1
-	tech_recon=1
-	#tech_military_police=1
-	#tech_maintenance_company=1
-	#tech_field_hospital=1
-	#tech_logistics_company=1
-	#KiS #tech_signal_company=1
+capital = 43
+oob = "HUN_1910"
+set_research_slots = 3
+set_technology = {
+	light_field_gun1 = 1
+
+	heavy_field_gun1 = 1
+	#KiS #heavy_howitzer1 = 1
+	motorised_infantry = 1 #KiS #siege_artillery1 = 1
+	electronic_mechanical_engineering = 1
+	infantry_weapons = 1
+	ww1_destroyer0 = 1
+	ww1_destroyer1 = 1
+	#KiS = 1
+	#KiS = 1
+
+	#KiS early_protected_cruiser = 1
+	ww1_light_cruiser1 = 1
+	ww1_light_cruiser0 = 1
+
+	#KiS = 1
+	ww1_battleship0 = 1
+	ww1_battleship1 = 1
+	#early_dreadnought = 1
+	transport = 1
+	ww1_submarine1 = 1 ww1_coastal_submarine1 = 1
+	ww1_submarine2 = 1 ww1_coastal_submarine2 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	#tech_military_police = 1
+	#tech_maintenance_company = 1
+	#tech_field_hospital = 1
+	#tech_logistics_company = 1
+	#KiS #tech_signal_company = 1
 	}
-set_politics={  parties={ neutrality={ popularity=92 }  fascism={ popularity=5 }  communism={ popularity=3 } }  ruling_party=neutrality last_election="1919.1.1" election_frequency=48 elections_allowed=yes }
-set_stability=0.75
-1913.8.10.12 = { oob="HUN_1914" }
-1913.8.10.12 = { set_politics={  parties={ democratic={ popularity=92 }  fascism={ popularity=5 }  communism={ popularity=3 } }  ruling_party=democratic last_election="1919.1.1" election_frequency=48 elections_allowed=yes } }
-1913.8.10.12 = { set_technology={ 
-		#KiS #Scout1=1
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 5
+		communism = 3
+		neutrality = 92
+	}
+set_stability = 0.75
+1913.8.10.12 = {
+	oob = "HUN_1914"
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 5
+		communism = 3
+		neutrality = 92
+	}
+	set_technology = { 
+		#KiS #Scout1 = 1
 		
-		#KiS #airship1=1
-		light_field_gun1=1
-		light_field_gun2=1
-		 
-		 
-		heavy_field_gun1=1
-		heavy_field_gun2=1
-		#KiS #heavy_howitzer1=1
-		#KiS #heavy_howitzer2=1
-		motorised_infantry = 1 #KiS #siege_artillery1=1
-		#KiS #siege_artillery2=1
-		electronic_mechanical_engineering=1
-		#KiS #radio=1
-		mechanical_computing=1
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		infantry_weapons=1
-		ww1infantry_weapons1=1
-		marines=1
-		tech_mountaineers=1
-		ww1_destroyer0=1
-		#KiS #basic_machinegun=1
-		ww1_destroyer1=1
-		#KiS=1
-		#KiS=1
-		ww1_destroyer2=1
-		 
-		
-		#KiS early_protected_cruiser=1
-		ww1_light_cruiser1=1
-		ww1_light_cruiser0=1
-		
-		#KiS=1
-		ww1_battleship0=1
-		ww1_battleship1=1
-		#early_dreadnought=1
-		ww1_battleship0=1
-		transport=1
-		
-		ww1_submarine1=1 ww1_coastal_submarine1=1
-		ww1_submarine2=1 ww1_coastal_submarine2=1
-		#KiS #improved_coastal_submarine=1
-		tech_support=1
-		tech_engineers=1
-		tech_recon=1
-		tech_military_police=1
-		tech_maintenance_company=1
-		tech_field_hospital=1
-		tech_logistics_company=1
-		#KiS #tech_signal_company=1
-		} }
+		#KiS #airship1 = 1
+		light_field_gun1 = 1
+		light_field_gun2 = 1
 
-#create_country_leader={ name = "Miklós Horthy" desc=HUN_miklos_horothy_DESC picture="gfx/leaders/HUN_miklos_horthy.dds" expire="1935.1.1" ideology=despotism traits={  } }
+		heavy_field_gun1 = 1
+		heavy_field_gun2 = 1
+		#KiS #heavy_howitzer1 = 1
+		#KiS #heavy_howitzer2 = 1
+		motorised_infantry = 1 #KiS #siege_artillery1 = 1
+		#KiS #siege_artillery2 = 1
+		electronic_mechanical_engineering = 1
+		#KiS #radio = 1
+		mechanical_computing = 1
 
-create_corps_commander={  name = "Tersztyánszky von Nádás" id=41003 portrait_path="gfx/generals/HUN_tersztyanszky_von_nadas.tga" traits={   } skill=1 }
-create_corps_commander={  name = "Kolossváry de Kolosvár" id=41004 portrait_path="gfx/generals/HUN_kolossvary_de_kolosvar.tga" traits={   } skill=3 }
-create_corps_commander={  name = "von Hegedüs" id=41007 portrait_path="gfx/generals/HUN_von_hegedus.tga" traits={   } skill=2 }
-create_corps_commander={  name = "von Hoffman" id=41008 portrait_path="gfx/generals/HUN_von_hoffman.tga" traits={   } skill=2 }
-create_corps_commander={  name = "von Mecenseffy" id=41009 portrait_path="gfx/generals/HUN_von_mecenseffy.tga" traits={   } skill=1 }
-create_corps_commander={  name = "Tamásy von Fogaras" id=41010 portrait_path="gfx/generals/HUN_tamasy_von_fogaras.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Bertalan" id=41012 portrait_path="gfx/generals/HUN_bertalan.tga" traits={ commando  } skill=4 }
-create_corps_commander={  name = "Poppr" id=41013 portrait_path="gfx/generals/HUN_poppr.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Riedl" id=41014 portrait_path="gfx/generals/HUN_riedl.tga" traits={   } skill=2 }
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		marines = 1
+		tech_mountaineers = 1
+		ww1_destroyer0 = 1
+		#KiS #basic_machinegun = 1
+		ww1_destroyer1 = 1
+		#KiS = 1
+		#KiS = 1
+		ww1_destroyer2 = 1
+
+		#KiS early_protected_cruiser = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+		
+		#KiS = 1
+		ww1_battleship0 = 1
+		ww1_battleship1 = 1
+		#early_dreadnought = 1
+		ww1_battleship0 = 1
+		transport = 1
+		
+		ww1_submarine1 = 1 ww1_coastal_submarine1 = 1
+		ww1_submarine2 = 1 ww1_coastal_submarine2 = 1
+		#KiS #improved_coastal_submarine = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+		#KiS #tech_signal_company = 1
+	}
+}
+
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+#create_country_leader = { name = "Miklós Horthy" desc = HUN_miklos_horothy_DESC picture = "gfx/leaders/HUN_miklos_horthy.dds" expire = "1935.1.1" ideology = despotism traits = {  } }
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Tersztyánszky von Nádás" id = 41003 portrait_path = "gfx/generals/HUN_tersztyanszky_von_nadas.tga" traits = {   } skill = 1 }
+create_corps_commander = {
+	name = "Kolossváry de Kolosvár" id = 41004 portrait_path = "gfx/generals/HUN_kolossvary_de_kolosvar.tga" traits = {   } skill = 3 }
+create_corps_commander = {
+	name = "von Hegedüs" id = 41007 portrait_path = "gfx/generals/HUN_von_hegedus.tga" traits = {   } skill = 2 }
+create_corps_commander = {
+	name = "von Hoffman" id = 41008 portrait_path = "gfx/generals/HUN_von_hoffman.tga" traits = {   } skill = 2 }
+create_corps_commander = {
+	name = "von Mecenseffy" id = 41009 portrait_path = "gfx/generals/HUN_von_mecenseffy.tga" traits = {   } skill = 1 }
+create_corps_commander = {
+	name = "Tamásy von Fogaras" id = 41010 portrait_path = "gfx/generals/HUN_tamasy_von_fogaras.tga" traits = {   } skill = 2 }
+create_corps_commander = {
+	name = "Bertalan" id = 41012 portrait_path = "gfx/generals/HUN_bertalan.tga" traits = { commando  } skill = 4 }
+create_corps_commander = {
+	name = "Poppr" id = 41013 portrait_path = "gfx/generals/HUN_poppr.tga" traits = {   } skill = 2 }
+create_corps_commander = {
+	name = "Riedl" id = 41014 portrait_path = "gfx/generals/HUN_riedl.tga" traits = {   } skill = 2 }

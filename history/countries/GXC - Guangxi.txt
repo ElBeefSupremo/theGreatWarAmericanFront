@@ -1,112 +1,132 @@
 ﻿#KiS_Later
-capital=594
-oob="GXC_1910"
-set_technology={ 
-	light_field_gun1=1
-	 
-	heavy_field_gun1=1
-	#KiS #heavy_howitzer1=1
-	motorised_infantry = 1 #KiS #siege_artillery1=1
-	electronic_mechanical_engineering=1
-	infantry_weapons=1
-	ww1_destroyer0=1
-	ww1_destroyer1=1
-	#KiS=1
-	#KiS=1
-	 
-	#KiS early_protected_cruiser=1
-	ww1_light_cruiser1=1
-	ww1_light_cruiser0=1
-	 
-	 
-	 
-	#KiS=1
-	ww1_battleship0=1
-	ww1_battleship1=1
-	#early_dreadnought=1
-	transport=1
-	ww1_submarine1=1 ww1_coastal_submarine1=1
-	ww1_submarine2=1 ww1_coastal_submarine2=1
-	tech_support=1
-	tech_engineers=1
-	tech_recon=1
-	#tech_military_police=1
-	#tech_maintenance_company=1
-	#tech_field_hospital=1
-	#tech_logistics_company=1
-	#KiS #tech_signal_company=1
+capital = 594
+oob = "GXC_1910"
+
+create_country_leader = {
+	name = "Li Zongren"
+	desc = GXC_li_zongren_DESC
+	picture = "gfx/leaders/GXC_li_zongren.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+
 	}
-set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=0 }  communism={ popularity=0  }  neutrality={ popularity=100 } } ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
-set_stability=0.75
-set_convoys=5
-1913.8.10.12 = { oob="GXC_1914" }
-1913.8.10.12 = { set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=0 }  communism={ popularity=0  }  neutrality={ popularity=100 } } ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no } }
-1913.8.10.12 = { set_technology={ 
-		#KiS #Scout1=1
+}
+set_technology = { 
+	light_field_gun1 = 1
+	 
+	heavy_field_gun1 = 1
+	#KiS #heavy_howitzer1 = 1
+	motorised_infantry = 1 #KiS #siege_artillery1 = 1
+	electronic_mechanical_engineering = 1
+	infantry_weapons = 1
+	ww1_destroyer0 = 1
+	ww1_destroyer1 = 1
+	#KiS = 1
+	#KiS = 1
+	
+	#KiS early_protected_cruiser = 1
+	ww1_light_cruiser1 = 1
+	ww1_light_cruiser0 = 1
+
+	#KiS = 1
+	ww1_battleship0 = 1
+	ww1_battleship1 = 1
+	#early_dreadnought = 1
+	transport = 1
+	ww1_submarine1 = 1 ww1_coastal_submarine1 = 1
+	ww1_submarine2 = 1 ww1_coastal_submarine2 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	#tech_military_police = 1
+	#tech_maintenance_company = 1
+	#tech_field_hospital = 1
+	#tech_logistics_company = 1
+	#KiS #tech_signal_company = 1
+	}
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+	}
+
+set_stability = 0.75
+set_convoys = 5
+
+1913.8.10.12 = {
+
+	oob = "GXC_1914"
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.4.11"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 30
+		fascism = 0
+		communism = 0
+		neutrality = 70
+	}
+
+	set_technology = {
+		#KiS #Scout1 = 1
 		
-		#KiS #airship1=1
-		light_field_gun1=1
-		light_field_gun2=1
-		 
-		 
-		heavy_field_gun1=1
-		heavy_field_gun2=1
-		#KiS #heavy_howitzer1=1
-		#KiS #heavy_howitzer2=1
-		motorised_infantry = 1 #KiS #siege_artillery1=1
-		#KiS #siege_artillery2=1
-		electronic_mechanical_engineering=1
-		#KiS #radio=1
-		mechanical_computing=1
+		#KiS #airship1 = 1
+		light_field_gun1 = 1
+		light_field_gun2 = 1
+
+		heavy_field_gun1 = 1
+		heavy_field_gun2 = 1
+		#KiS #heavy_howitzer1 = 1
+		#KiS #heavy_howitzer2 = 1
+		motorised_infantry = 1 #KiS #siege_artillery1 = 1
+		#KiS #siege_artillery2 = 1
+		electronic_mechanical_engineering = 1
+		#KiS #radio = 1
+		mechanical_computing = 1
+
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		marines = 1
+		tech_mountaineers = 1
+		ww1_destroyer0 = 1
+		#KiS #basic_machinegun = 1
+		ww1_destroyer1 = 1
+		#KiS = 1
+		#KiS = 1
+		ww1_destroyer2 = 1
+
+		#KiS early_protected_cruiser = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+
+		#KiS = 1
+		ww1_battleship0 = 1
+		ww1_battleship1 = 1
+		#early_dreadnought = 1
+		ww1_battleship0 = 1
+		transport = 1
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		infantry_weapons=1
-		ww1infantry_weapons1=1
-		marines=1
-		tech_mountaineers=1
-		ww1_destroyer0=1
-		#KiS #basic_machinegun=1
-		ww1_destroyer1=1
-		#KiS=1
-		#KiS=1
-		ww1_destroyer2=1
-		 
-		
-		#KiS early_protected_cruiser=1
-		ww1_light_cruiser1=1
-		ww1_light_cruiser0=1
-		 
-		 
-		 
-		
-		#KiS=1
-		ww1_battleship0=1
-		ww1_battleship1=1
-		#early_dreadnought=1
-		ww1_battleship0=1
-		transport=1
-		
-		ww1_submarine1=1 ww1_coastal_submarine1=1
-		ww1_submarine2=1 ww1_coastal_submarine2=1
-		#KiS #improved_coastal_submarine=1
-		tech_support=1
-		tech_engineers=1
-		tech_recon=1
-		tech_military_police=1
-		tech_maintenance_company=1
-		tech_field_hospital=1
-		tech_logistics_company=1
-		#KiS #tech_signal_company=1
-		} }
-create_country_leader={ name="Li Zongren" desc=GXC_li_zongren_DESC picture="gfx/leaders/GXC_li_zongren.dds" expire="1935.1.1" ideology=despotism traits={  } }
+		ww1_submarine1 = 1 ww1_coastal_submarine1 = 1
+		ww1_submarine2 = 1 ww1_coastal_submarine2 = 1
+		#KiS #improved_coastal_submarine = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+		#KiS #tech_signal_company = 1
+	}
+}

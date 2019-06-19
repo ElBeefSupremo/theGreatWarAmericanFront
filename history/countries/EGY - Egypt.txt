@@ -11,6 +11,20 @@ set_convoys = 20
 #					POLITICS & ARMY
 #-------------------------------------------------------
 
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Khedive Abbas Hilmi II"
+	desc = EGY_AbbasII_DESC
+	picture = "gfx/hoi4tgw_portraits/EGY/country_leaders/EGY_abbas_ii.dds"
+	expire = "1935.1.1"
+	ideology = autocracy
+	traits={
+
+	}
+}
 
 1910.1.1 = {
 	oob = "EGY_1910"
@@ -65,7 +79,18 @@ set_convoys = 20
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=20 }  communism={ popularity=0  }  neutrality={ popularity=80 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 1
+		fascism = 18
+		communism = 1
+		neutrality = 80
+	}
 
 	add_ideas = {
 
@@ -152,7 +177,18 @@ set_convoys = 20
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=20 }  communism={ popularity=0  }  neutrality={ popularity=80 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 1
+		fascism = 18
+		communism = 1
+		neutrality = 80
+	}
 
 	add_ideas = {
 

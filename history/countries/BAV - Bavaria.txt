@@ -7,24 +7,58 @@ capital = 52 # Munich
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
+oob = "BAV_1910"
 set_research_slots = 2
 set_stability = 0.86
 
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-#LEADERS
-create_country_leader={ name = "Luitpold" desc=BAV_Luitpold_DESC picture="gfx/hoi4tgw_portraits/BAV/country_leaders/BAV_Luitpold.dds" expire="1945.1.1" ideology=autocracy traits={  } }
 
-oob = "BAV_1910"
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Luitpold"
+	desc = BAV_Luitpold_DESC
+	picture = "gfx/hoi4tgw_portraits/BAV/country_leaders/BAV_Luitpold.dds"
+	expire = "1945.1.1"
+	ideology = autocracy
+	traits = {
+		
+	}
+}
 
 1913.8.10.12 = {
-	create_country_leader={ name = "Ludwig III" desc=BAV_Ludwig_III_DESC picture="gfx/hoi4tgw_portraits/BAV/country_leaders/BAV_Ludwig_III.dds" expire="1945.1.1" ideology=autocracy traits={  } }
+	create_country_leader = {
+		name = "Ludwig III"
+		desc = BAV_Ludwig_III_DESC
+		picture = "gfx/hoi4tgw_portraits/BAV/country_leaders/BAV_Ludwig_III.dds"
+		expire = "1945.1.1"
+		ideology = autocracy
+		traits = {
+			
+		}
+	}
 }
 
 set_politics = {
+<<<<<<< 000eebf9e203c5fcab3f04fbedb030958e05746f
 	ruling_party = neutrality last_election = "1910.1.1"
 	election_frequency = 48 elections_allowed = no
+=======
+	ruling_party = neutrality
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 3
+	fascism = 2
+	communism = 3
+	neutrality = 92
+>>>>>>> Political popularity fix et al
 }
 
 set_popularities = {

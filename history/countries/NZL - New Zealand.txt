@@ -10,9 +10,78 @@ set_convoys = 70
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "William Lee Plunket" desc=NZL_5th_baron_william_plunket_DESC picture="gfx/leaders/NZL_5th_baron_william_plunket.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_corps_commander={  name = "Russell,A.H." id=63002 portrait_path="gfx/generals/NZL_russell_ah.tga" traits={   } skill=3 }
-create_corps_commander={  name = "Chaytor" id=63004 portrait_path="gfx/generals/NZL_chaytor.tga" traits={   } skill=3 }
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "William Lee Plunket"
+	desc = NZL_5th_baron_william_plunket_DESC
+	picture = "gfx/leaders/NZL_5th_baron_william_plunket.dds"
+	expire = "1935.1.1"
+	ideology = liberalism
+	traits = {
+
+	}
+}
+1910.6.8 = {
+	create_country_leader = {
+		name = "The Lord Islington"
+		desc = NZL_the_lord_islington_DESC
+		picture = "gfx/leaders/NZL_the_lord_islington.dds"
+		expire = "1935.1.1"
+		ideology = liberalism
+		traits = {
+
+		}
+	}
+	set_country_flag = remove_plunket
+}
+1912.12.3 = {
+	create_country_leader = {
+		name = "Arthur Foljambe"
+		desc = NZL_arthur_foljambe_DESC
+		picture = "gfx/leaders/NZL_arthur_foljambe.dds"
+		expire = "1935.1.1"
+		ideology = liberalism
+		traits = {
+
+		}
+	}
+	set_country_flag = remove_islington
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Russell,A.H."
+	id = 63002
+	portrait_path = "gfx/generals/NZL_russell_ah.tga"
+	traits = {
+
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Chaytor"
+	id = 63004
+	portrait_path = "gfx/generals/NZL_chaytor.tga"
+	traits = {
+
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 1910.1.1 = {
 	oob = "NZL_1910"
@@ -31,7 +100,6 @@ create_corps_commander={  name = "Chaytor" id=63004 portrait_path="gfx/generals/
 		infantry_binoculars = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -67,24 +135,25 @@ create_corps_commander={  name = "Chaytor" id=63004 portrait_path="gfx/generals/
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=100 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=democratic last_election="1908.12.1" election_frequency=36 elections_allowed=yes }
-
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1908.12.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+		fascism = 0
+		communism = 0
+		neutrality = 0
+	}
 	add_ideas = {
 
-	}	
+	}
 }
-1910.6.8 = {
-	create_country_leader={ name = "The Lord Islington" desc=NZL_the_lord_islington_DESC picture="gfx/leaders/NZL_the_lord_islington.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-	set_country_flag=remove_plunket
-}
-1912.12.3 = {
-	create_country_leader={ name = "Arthur Foljambe" desc=NZL_arthur_foljambe_DESC picture="gfx/leaders/NZL_arthur_foljambe.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-	set_country_flag=remove_islington
-}
+
 1913.8.10.12 = {
 	oob = "NZL_1914"
-
 
 	#-------------------------------------------------------
 	#							NF
@@ -109,7 +178,6 @@ create_corps_commander={  name = "Chaytor" id=63004 portrait_path="gfx/generals/
 	complete_national_focus = neutrality_focus
 	complete_national_focus = ww1_military_reserve
 	
-
 	#-------------------------------------------------------
 
 	set_technology = {
@@ -122,7 +190,6 @@ create_corps_commander={  name = "Chaytor" id=63004 portrait_path="gfx/generals/
 		infantry_grenade = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -162,9 +229,18 @@ create_corps_commander={  name = "Chaytor" id=63004 portrait_path="gfx/generals/
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=100 }  fascism={ popularity=0 }  communism={ popularity=0  } }  ruling_party=democratic last_election="1911.12.19" election_frequency=36 elections_allowed=yes }
-
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1911.12.19"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+		fascism = 0
+		communism = 0
+		neutrality = 0
+	}
 	add_ideas = {
 
 	}
