@@ -10,9 +10,51 @@ set_convoys = 0
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Bogd Khan" desc=MON_bogd_khan_DESC picture="gfx/leaders/MON_bogd_khan.dds" expire="1935.1.1" ideology=autocracy traits={  } }
-create_corps_commander={  name = "Peljidiyn Genden" id=56002 portrait_path="gfx/generals/MON_peljidiyn_genden.tga" traits={   } skill=1 }
-create_corps_commander={  name = "Anandyn Amar" id=56003 portrait_path="gfx/generals/MON_anandyn_amar.tga" traits={   } skill=1 }
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Bogd Khan"
+	desc = MON_bogd_khan_DESC
+	picture = "gfx/leaders/MON_bogd_khan.dds"
+	expire = "1935.1.1"
+	ideology = autocracy
+	traits = {
+
+	}
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Peljidiyn Genden"
+	id = 56002
+	portrait_path = "gfx/generals/MON_peljidiyn_genden.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Anandyn Amar"
+	id = 56003
+	portrait_path = "gfx/generals/MON_anandyn_amar.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 1910.1.1 = {
 	oob = "MON_1910"
@@ -66,9 +108,18 @@ create_corps_commander={  name = "Anandyn Amar" id=56003 portrait_path="gfx/gene
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=0 banned=yes }  neutrality={ popularity=90 banned=yes }  communism={ popularity=10  } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
-
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 10
+		neutrality = 90
+	}
 	add_ideas = {
 		neutrality_idea
 		limited_conscription
@@ -154,9 +205,18 @@ create_corps_commander={  name = "Anandyn Amar" id=56003 portrait_path="gfx/gene
 
 		# Industry
 	}
-
-	set_politics={  parties={ democratic={ popularity=0 banned=yes }  neutrality={ popularity=90 banned=yes }  communism={ popularity=10  } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
-
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 10
+		neutrality = 90
+	}
 	add_ideas = {
 		neutrality_idea
 		limited_conscription

@@ -1,0 +1,17 @@
+state = {
+	id = 557
+	name = "STATE_557" # Mauritania
+	manpower = 429200
+	state_category = wasteland
+
+	provinces = { 5034 5077 7992 8058 10814 }
+	resources = {
+		wood = 0
+	}
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+}

@@ -13,121 +13,174 @@ set_convoys = 25
 #					POLITICS & ARMY
 #-------------------------------------------------------
 
-create_country_leader={ name = "Joseph F. Smith" desc="" picture="" expire="1918.3.1" ideology=fascism_ideology traits={  } }
-create_country_leader={ name = "James E. Talmage" desc="" picture="" expire="1935.1.1" ideology=fascism_ideology traits={  } }
-create_country_leader={ name = "Reed Smoot" desc="" picture="" expire="1935.1.1" ideology=fascism_ideology traits = { } }
+##########################
+### COUNTRY LEADERS ######
+##########################
 
-create_corps_commander={  name = "Hugh B. Brown" id="" portrait_path="" traits={   } skill=2 }
-create_corps_commander={ name = "Thomas E. Niebaur" id = "" portrait_path="" traits={ } skill=2 }
-create_corps_commander={ name = "Stanton Hinkley" id = "" portrait_path="" traits={ } skill=2 }
+create_country_leader = {
+	name = "Joseph F. Smith"
+	desc = ""
+	picture = ""
+	expire = "1918.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "James E. Talmage"
+	desc = ""
+	picture = ""
+	expire = "1935.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Reed Smoot"
+	desc = ""
+	picture = ""
+	expire = "1935.1.1"
+	ideology = fascism_ideology
+	traits = {
+
+	}
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Hugh B. Brown"
+	id = ""
+	portrait_path = ""
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Thomas E. Niebaur"
+	id = ""
+	portrait_path = ""
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Stanton Hinkley"
+	id = ""
+	portrait_path = ""
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 
-    1913.8.10.12 = {
-        oob = "DES_rebellion"
-        
-            #-------------------------------------------------------
-            #							NF
-            #-------------------------------------------------------
-        	#Army
-            complete_national_focus = army_effort
-            complete_national_focus = equipment_effort
-            complete_national_focus = ww1_artillery_effort_1
-            complete_national_focus = doctrine_effort
-            complete_national_focus = ww1_trenchwarfare
+1913.8.10.12 = {
+	oob = "DES_rebellion"
+	
+		#-------------------------------------------------------
+		#							NF
+		#-------------------------------------------------------
+		#Army
+		complete_national_focus = army_effort
+		complete_national_focus = equipment_effort
+		complete_national_focus = ww1_artillery_effort_1
+		complete_national_focus = doctrine_effort
+		complete_national_focus = ww1_trenchwarfare
+		#Industrial
+		complete_national_focus = industrial_effort
+		complete_national_focus = infrastructure_effort
+		#Political
+		complete_national_focus = political_effort
+		complete_national_focus = collectivist_ethos
+		complete_national_focus = nationalism_focus
+		#Diplomatic
+		complete_national_focus = ww1_diplomatic_effort
+		complete_national_focus = neutrality_focus
+		complete_national_focus = ww1_military_reserve
+		#-------------------------------------------------------
 
-            #Industrial
-            complete_national_focus = industrial_effort
-            complete_national_focus = infrastructure_effort
+	
+	set_technology = {
 
-            #Political
-            complete_national_focus = political_effort
-            complete_national_focus = collectivist_ethos
-            complete_national_focus = nationalism_focus
+		#Infantry
+		#--------------------------------------------------------------
+		infantry_weapons = 1				#1900 Basic Eq.
+		ww1infantry_weapons1 = 1			#1910 Weapons I
+		ww1_infantry_equip1 = 1			#1914 Improved Infantry Equipment I
+		infantry_binoculars = 1			#1900 Military Binoculars
+		infantry_grenade = 1				#1910 Hand Grenade
+		motorised_infantry = 1			#1900 Horse-drawn Vehicles
+		support_weapons = 1				#1900 Early Support Weapons I
+		support_weapons2 = 1				#1914 Early Support Weapons II
+		ww1_ambulance1 = 1				#1900 Horse-drawn Ambulance
+		#Armor
+		#--------------------------------------------------------------
+		gwtank = 1						#1910 Armored Car I
+		#Land Doctrines
+		#--------------------------------------------------------------
+		ww1_landdoctrine = 1				#Mass Charge
+		ww1_directfire = 1				#Entrenching Battalions
 
-            #Diplomatic
-            complete_national_focus = ww1_diplomatic_effort
-            complete_national_focus = neutrality_focus
-            complete_national_focus = ww1_military_reserve
-            #-------------------------------------------------------
-            #-------------------------------------------------------
-        
-            set_technology = {
-        
-                #Infantry
-                #--------------------------------------------------------------
-                infantry_weapons=1				#1900 Basic Eq.
-                ww1infantry_weapons1=1			#1910 Weapons I
-                ww1_infantry_equip1=1			#1914 Improved Infantry Equipment I
-                infantry_binoculars=1			#1900 Military Binoculars
-                infantry_grenade=1				#1910 Hand Grenade
-                motorised_infantry=1			#1900 Horse-drawn Vehicles
-                support_weapons=1				#1900 Early Support Weapons I
-                support_weapons2=1				#1914 Early Support Weapons II
-                ww1_ambulance1=1				#1900 Horse-drawn Ambulance
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
 
-                #Armor
-                #--------------------------------------------------------------
-                gwtank=1						#1910 Armored Car I
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
 
-                #Land Doctrines
-                #--------------------------------------------------------------
-                ww1_landdoctrine=1				#Mass Charge
-                ww1_directfire=1				#Entrenching Battalions
+		# Navy
+		ww1_destroyer0 = 1
+		ww1_destroyer1 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+		ww1_battlecruiser0 = 1
+		ww1_battleship0 = 1
+		ww1_submarine1 = 1
+		ww1_coastal_submarine1 = 1
+		transport = 1
 
-        
-                # Support
-                tech_support = 1
-                tech_engineers = 1
-                tech_recon = 1
-        
-        
-                # Artillery
-                light_field_gun1 = 1
-                heavy_field_gun1 = 1
-        
-                # Navy
-                ww1_destroyer0 = 1
-                ww1_destroyer1 = 1
-                ww1_light_cruiser1 = 1
-                ww1_light_cruiser0 = 1
-                ww1_battlecruiser0 = 1
-                ww1_battleship0 = 1
-                ww1_submarine1 = 1
-                ww1_coastal_submarine1 = 1
-                transport = 1
-        
-                # Air
-        
-                # Engineering
-                electronic_mechanical_engineering = 1
-        
-                # Industry
-            }
-        
-            set_politics={  
-                parties={ 
-                    democratic={ 
-                        popularity=0  
-                        banned = yes
-                    }  
-                    fascism={ 
-                        popularity=100                   
-                    } 
-                    neutrality={ 
-                        popularity=0 
-                        banned = yes 
-                        } 
-                    communism={ 
-                        popularity=0
-                        banned=yes 
-                    } 
-                    }  
-                ruling_party=fascism 
-                last_election="1910.1.1" 
-                election_frequency=48 
-                elections_allowed=no 
-                }
-        
-            add_ideas = {
-            }	
-        }
+		# Air
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+
+		# Industry
+	}
+
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 100
+		communism = 0
+		neutrality = 0
+	}
+	
+	add_ideas = {
+	}
+}

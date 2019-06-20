@@ -10,15 +10,146 @@ set_convoys = 0
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Zauditu" desc=ETH_zauditu_DESC picture="gfx/leaders/ETH_zauditu.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Menelik II" desc=ETH_menelik_ii_DESC picture="gfx/leaders/ETH_menelik_ii.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_corps_commander={  name = "Baria-Gabr" id=30002 portrait_path="gfx/generals/ETH_baria_gabr.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Menelik II" id=30012 portrait_path="gfx/generals/ETH_menelik_ii.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Yohannes" id=30014 portrait_path="gfx/generals/ETH_yohannes.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Saffo" id=30015 portrait_path="gfx/generals/ETH_saffo.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Aboye" id=30016 portrait_path="gfx/generals/ETH_aboye.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Haimanot" id=30017 portrait_path="gfx/generals/ETH_haimanot.tga" traits={   } skill=2 }
-create_field_marshal={  name = "Nessibu" id=30004 portrait_path="gfx/fieldmarshal/ETH_nessibu.tga" traits={   } skill=2 }
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+1913.12.12 = {
+	create_country_leader = {
+		name = "Iyasu V"
+		desc = ETH_iyasu_v_DESC
+		picture = "gfx/leaders/ETH_iyasu_v.dds"
+		expire = "1935.1.1"
+		ideology = despotism
+		traits = {
+			
+		}
+	}
+	set_country_flag = menelik_died
+}
+
+create_country_leader = {
+	name = "Zauditu"
+	desc = ETH_zauditu_DESC
+	picture = "gfx/leaders/ETH_zauditu.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Menelik II"
+	desc = ETH_menelik_ii_DESC
+	picture = "gfx/leaders/ETH_menelik_ii.dds"
+	expire = "1935.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+##########################
+### FIELD MARSHALS #######
+##########################
+
+create_field_marshal = {
+	name = "Nessibu"
+	id = 30004
+	portrait_path = "gfx/fieldmarshal/ETH_nessibu.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Baria-Gabr"
+	id = 30002
+	portrait_path = "gfx/generals/ETH_baria_gabr.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Menelik II"
+	id = 30012
+	portrait_path = "gfx/generals/ETH_menelik_ii.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Yohannes"
+	id = 30014
+	portrait_path = "gfx/generals/ETH_yohannes.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Saffo"
+	id = 30015
+	portrait_path = "gfx/generals/ETH_saffo.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Aboye"
+	id = 30016
+	portrait_path = "gfx/generals/ETH_aboye.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Haimanot"
+	id = 30017
+	portrait_path = "gfx/generals/ETH_haimanot.tga"
+	traits = {
+		
+	}
+	skill = 2
+		attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 1910.1.1 = {
 	oob = "ETH_1910"
@@ -73,16 +204,24 @@ create_field_marshal={  name = "Nessibu" id=30004 portrait_path="gfx/fieldmarsha
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=0 }  communism={ popularity=0  }  neutrality={ popularity=100 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+	}
 
 	add_ideas = {
 
 	}	
 }
-1913.12.12 = {
-	create_country_leader={ name = "Iyasu V" desc=ETH_iyasu_v_DESC picture="gfx/leaders/ETH_iyasu_v.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-	set_country_flag=menelik_died
-}
+
 1913.8.10.12 = {
 	oob = "ETH_1914"
 
@@ -163,7 +302,18 @@ create_field_marshal={  name = "Nessibu" id=30004 portrait_path="gfx/fieldmarsha
 		# Industry
 	}
 
-	set_politics={  parties={ democratic={ popularity=0 }  fascism={ popularity=0 }  communism={ popularity=0  }  neutrality={ popularity=100 } }  ruling_party=neutrality last_election="1910.1.1" election_frequency=48 elections_allowed=no }
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+	}
 
 	add_ideas = {
 

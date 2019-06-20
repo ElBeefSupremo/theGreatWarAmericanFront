@@ -1,14 +1,17 @@
-﻿#KiS_Later
-capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
+﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos
 
 set_research_slots = 2
-
-set_politics = {}
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 set_popularities = {
-    democratic = 25
-    communism = 35
-    neutrality = 40
+	democratic = 25
+	fascism = 0
+	communism = 35
+	neutrality = 40
 }
 
 create_country_leader = {

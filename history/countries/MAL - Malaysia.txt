@@ -1,15 +1,21 @@
-﻿#KiS_Later
-capital = 336 #Kuala Lumpur
-
+﻿capital = 336 #Kuala Lumpur
 set_research_slots = 2
-
-set_politics = {}
-
-set_popularities = {
-    democratic = 33
-    communism = 33
-    neutrality = 34
+set_politics = {
+	ruling_party = democratic
+	last_election = "1908.1.1"
+	election_frequency = 36
+	elections_allowed = yes
 }
+set_popularities = {
+	democratic = 33
+	fascism = 0
+	communism = 33
+	neutrality = 34
+}
+
+##########################
+### COUNTRY LEADERS ######
+##########################
 
 create_country_leader = {
 	name = "Lai Teck"

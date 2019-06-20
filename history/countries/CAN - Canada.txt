@@ -10,26 +10,279 @@ set_convoys = 100
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Wilfrid Laurier" desc=CAN_wilfrid_laurier_DESC picture="gfx/leaders/CAN_wilfrid_laurier.dds" expire="1935.1.1" ideology=liberalism traits = { } }
-create_corps_commander = { name = "Radcliffe" id=13002 portrait_path = "gfx/generals/CAN_radcliffe.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Turner" id=13003 portrait_path = "gfx/generals/CAN_turner.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Lipsett,L.J." id=13004 portrait_path = "gfx/generals/CAN_lipsett_lj.tga" traits = { fortress_buster } skill = 3 }
-create_corps_commander = { name = "Tuxford" id=13005 portrait_path = "gfx/generals/CAN_tuxford.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Loomis,C.B." id=13006 portrait_path = "gfx/generals/CAN_loomis_cb.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Hart-McHarg" id=13007 portrait_path = "gfx/generals/CAN_hart_mcharg.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Meighen" id=13008 portrait_path = "gfx/generals/CAN_meighen.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Boyle" id=13009 portrait_path = "gfx/generals/CAN_boyle.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Currie J.A." id=13015 portrait_path = "gfx/generals/CAN_currie_ja.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Mercer,M.S." id=13016 portrait_path = "gfx/generals/CAN_mercer_ms.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Burstall,H.E." id=13017 portrait_path = "gfx/generals/CAN_burstall_he.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Macdonell A.C." id=13018 portrait_path = "gfx/generals/CAN_macdonell_ac.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Steele" id=13019 portrait_path = "gfx/generals/CAN_steele.tga" traits = {  } skill = 3 }
-create_corps_commander = { name = "Hughes" id=13020 portrait_path = "gfx/generals/CAN_hughes.tga" traits = { commando } skill = 3 }
-create_corps_commander = { name = "O`Grady-Haly" id=13028 portrait_path = "gfx/generals/CAN_o`grady_haly.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Hutton" id=13029 portrait_path = "gfx/generals/CAN_hutton.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Otter" id=13030 portrait_path = "gfx/generals/CAN_otter.tga" traits = {  } skill = 2 }
-create_corps_commander = { name = "Lake" id=13031 portrait_path = "gfx/generals/CAN_lake.tga" traits = {  } skill = 2 }
-create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmarshal/CAN_cochrane.tga" traits = {  } skill = 2 }
+
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Wilfrid Laurier"
+	desc = CAN_wilfrid_laurier_DESC
+	picture = "gfx/leaders/CAN_wilfrid_laurier.dds"
+	expire = "1935.1.1"
+	ideology = liberalism
+	traits = {
+
+	}
+}
+
+##########################
+### FIELD MARSHALS #######
+##########################
+
+create_field_marshal = {
+	name = "Cochrane"
+	id = 13027
+	portrait_path = "gfx/fieldmarshal/CAN_cochrane.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Radcliffe"
+	id = 13002
+	portrait_path = "gfx/generals/CAN_radcliffe.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Turner"
+	id = 13003
+	portrait_path = "gfx/generals/CAN_turner.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Lipsett,L.J."
+	id = 13004
+	portrait_path = "gfx/generals/CAN_lipsett_lj.tga"
+	traits = {
+		fortress_buster
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Tuxford"
+	id = 13005
+	portrait_path = "gfx/generals/CAN_tuxford.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Loomis,C.B."
+	id = 13006
+	portrait_path = "gfx/generals/CAN_loomis_cb.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hart-McHarg"
+	id = 13007
+	portrait_path = "gfx/generals/CAN_hart_mcharg.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Meighen"
+	id = 13008
+	portrait_path = "gfx/generals/CAN_meighen.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Boyle"
+	id = 13009
+	portrait_path = "gfx/generals/CAN_boyle.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Currie J.A."
+	id = 13015
+	portrait_path = "gfx/generals/CAN_currie_ja.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Mercer,M.S."
+	id = 13016
+	portrait_path = "gfx/generals/CAN_mercer_ms.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Burstall,H.E."
+	id = 13017
+	portrait_path = "gfx/generals/CAN_burstall_he.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Macdonell A.C."
+	id = 13018
+	portrait_path = "gfx/generals/CAN_macdonell_ac.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Steele"
+	id = 13019
+	portrait_path = "gfx/generals/CAN_steele.tga"
+	traits = {
+		
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hughes"
+	id = 13020
+	portrait_path = "gfx/generals/CAN_hughes.tga"
+	traits = {
+		commando
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "O`Grady-Haly"
+	id = 13028
+	portrait_path = "gfx/generals/CAN_o`grady_haly.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hutton"
+	id = 13029
+	portrait_path = "gfx/generals/CAN_hutton.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Otter"
+	id = 13030
+	portrait_path = "gfx/generals/CAN_otter.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Lake"
+	id = 13031
+	portrait_path = "gfx/generals/CAN_lake.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 
 1913.8.10.12 = {
 	oob = "CAN_1914"
@@ -56,19 +309,15 @@ create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmars
 
 	#Navy
 
-
 	#Industrial
 	complete_national_focus = CAN_ww1_industrial_effort
 	complete_national_focus = CAN_ww1_infrastructure_effort
 	complete_national_focus = CAN_ww1_airfield_expansion_1
-	
-
 
 	#Political
 	complete_national_focus = CAN_ww1_political_effort
 	complete_national_focus = CAN_ww1_Reconciliation
 	complete_national_focus = CAN_ww1_student_movement_focus
-
 
 	#Diplomatic
 	complete_national_focus = CAN_ww1_diplomatic_effort
@@ -76,7 +325,6 @@ create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmars
 	complete_national_focus = CAN_ww1_assert_position
 	complete_national_focus = CAN_ww1_assert_position_east
 	complete_national_focus = CAN_ww1_anti_USA
-	
 
 	#-------------------------------------------------------
 
@@ -90,7 +338,6 @@ create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmars
 		infantry_grenade = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
-
 
 		# Support
 		tech_support = 1
@@ -109,64 +356,62 @@ create_field_marshal={ name = "Cochrane" id=13027 portrait_path = "gfx/fieldmars
 		bonus_artillery1 = 1
 		heavy_field_gun1 = 1
 		bonus_bertha1 = 1
-	# Navy
-	ww1_battleship0 = 1 #  ww1_battleship_1890 (Pre-Dreadnought I)
-	ww1_battleship1 = 1 #  ww1_battleship_1900 (Pre-Dreadnought II)
-	ww1_battleship2 = 0 #  ww1_battleship_1906 (Dreadnought I)
-	ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
-	ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
-
-	ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
-	ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-	ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
-
-	ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
-	ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
-
-	ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
-	ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
-	ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
-	ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
-	ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
-
-	ww1_destroyer0 = 1 # destroyer_1890 (Torpedo Boat I)
-	ww1_destroyer1 = 1 # destroyer_1900 (Destroyer I)
-	ww1_destroyer2 = 1 # destroyer_1906 (Destroyer II)
-	ww1_destroyer3 = 0 # destroyer_1910 (Destroyer III)
-	ww1_destroyer4 = 0 # destroyer_1914 (Destroyer IV)	
-
-	ww1_moduleMTG_mines = 1 # Mines
-
-	ww1_submarine0 = 1 # coastal_submarine_1900 (Coastal Submarine 1900, first available Submarine)
-	ww1_submarine1 = 0 # submarine_1906 (Submarine I)
-	ww1_submarine2 = 0 # submarine_1910 (Submarine II)
-	ww1_submarine3 = 0 # submarine_1914 (Submarine III)
-
-	transport = 1 # Naval Transport
-
+		# Navy
+		ww1_battleship0 = 1 #  ww1_battleship_1890 (Pre-Dreadnought I)
+		ww1_battleship1 = 1 #  ww1_battleship_1900 (Pre-Dreadnought II)
+		ww1_battleship2 = 0 #  ww1_battleship_1906 (Dreadnought I)
+		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
+		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
+		
+		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
+		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
+		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
+		
+		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
+		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
+		
+		ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
+		ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
+		ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
+		ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
+		ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
+		
+		ww1_destroyer0 = 1 # destroyer_1890 (Torpedo Boat I)
+		ww1_destroyer1 = 1 # destroyer_1900 (Destroyer I)
+		ww1_destroyer2 = 1 # destroyer_1906 (Destroyer II)
+		ww1_destroyer3 = 0 # destroyer_1910 (Destroyer III)
+		ww1_destroyer4 = 0 # destroyer_1914 (Destroyer IV)	
+		
+		ww1_moduleMTG_mines = 1 # Mines
+		
+		ww1_submarine0 = 1 # coastal_submarine_1900 (Coastal Submarine 1900, first available Submarine)
+		ww1_submarine1 = 0 # submarine_1906 (Submarine I)
+		ww1_submarine2 = 0 # submarine_1910 (Submarine II)
+		ww1_submarine3 = 0 # submarine_1914 (Submarine III)
+		
 		transport = 1 # Naval Transport
-
-
-
+		
 		# Air
 		ww1_fighter1 = 1
-
+		
 		# Engineering
 		electronic_mechanical_engineering = 1
-
+		
 		# Industry
 	}
 
 	set_politics = {
-		ruling_party = democratic last_election = "1913.5.31"
-		election_frequency = 36 elections_allowed = yes
-}
-
-    set_popularities = {
-        democratic = 98
-        fascism = 0
-        communism = 2
-    }
+		ruling_party = democratic
+		last_election = "1913.5.31"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 98
+		fascism = 0
+		communism = 2
+		neutrality = 0
+	}
 
 	add_ideas = {
 		limited_conscription

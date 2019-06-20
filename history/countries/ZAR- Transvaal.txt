@@ -1,6 +1,5 @@
 ﻿capital = 275
 
-
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
@@ -12,12 +11,84 @@ set_convoys = 25
 #					POLITICS & ARMY
 #-------------------------------------------------------
 
-create_country_leader={ name = "Christiaan De Wet" desc=SAF_christiaan_de_wet_DESC picture="gfx/leaders/SAF_christiaan_de_wet.dds" expire="1935.1.1" ideology=fascism_ideology traits={  } }
-create_country_leader={ name = "Manie Maritz" desc=SAF_sydney_buxton_DESC picture="gfx/leaders/SAF_sydney_buxton.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Manie Maritz" desc=SAF_sydney_buxton_DESC picture="gfx/leaders/SAF_sydney_buxton.dds" expire="1935.1.1" ideology=autocracy traits={  } }
-create_corps_commander={  name = "Manie Maritz" id=78002 portrait_path="gfx/generals/SAF_lukin.tga" traits={ trickster  } skill=3 }
-create_corps_commander={  name = "Christiaan de Wet" id=78003 portrait_path="gfx/generals/SAF_smuts_jc.tga" traits={   } skill=2 }
-create_corps_commander={  name = "Jan Kemp" id=78004 portrait_path="gfx/generals/SAF_van_deventer.tga" traits={ trickster  } skill=2 }
+##########################
+### COUNTRY LEADERS ######
+##########################
+
+create_country_leader = {
+	name = "Christiaan De Wet"
+	desc = SAF_christiaan_de_wet_DESC
+	picture = "gfx/leaders/SAF_christiaan_de_wet.dds"
+	expire = "1935.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Manie Maritz"
+	desc = SAF_sydney_buxton_DESC
+	picture = "gfx/leaders/SAF_sydney_buxton.dds"
+	expire = "1935.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Manie Maritz"
+	desc = SAF_sydney_buxton_DESC
+	picture = "gfx/leaders/SAF_sydney_buxton.dds"
+	expire = "1935.1.1"
+	ideology = autocracy
+	traits = {
+		
+	}
+}
+
+###########################
+### CORPS COMMANDERS ######
+###########################
+
+create_corps_commander = {
+	name = "Manie Maritz"
+	id = 78002
+	portrait_path = "gfx/generals/SAF_lukin.tga"
+	traits = {
+		trickster
+	}
+	skill = 3
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Christiaan de Wet"
+	id = 78003
+	portrait_path = "gfx/generals/SAF_smuts_jc.tga"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Jan Kemp"
+	id = 78004
+	portrait_path = "gfx/generals/SAF_van_deventer.tga"
+	traits = {
+		trickster
+	}
+	skill = 2
+	attack_skill = 1 #temp stats
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 1913.8.10.12 = {
 
@@ -97,16 +168,18 @@ create_corps_commander={  name = "Jan Kemp" id=78004 portrait_path="gfx/generals
 		# Industry
 	}
 
-	set_politics = {
-			ruling_party = neutrality
-			last_election="1910.9.15"
-			election_frequency=60
-			elections_allowed=yes
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1910.9.15"
+	election_frequency = 60
+	elections_allowed = yes
 }
-
-    set_popularities = {
-    }
-
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 95
+}
 	add_ideas = {
 
 	}
