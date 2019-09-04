@@ -147,7 +147,7 @@ news_event = {
 			SOV = {
 				RUS = {
 					every_owned_state = {
-						add_core_of = PREV.PREV
+						add_core_of = SOV
 					}
 				}
 
