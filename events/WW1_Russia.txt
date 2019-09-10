@@ -486,7 +486,14 @@ country_event = {
 				transfer_state = 12
 			}
 			SOV = {
-				country_event = { days = 2 id = ww1_russia.9 }
+				country_event = {
+					days = 2 id = ww1_russia.9
+				}
+				#removes SOV claims on FIN excepting Vyborg
+				remove_state_core = 111
+				remove_state_core = 149
+				remove_state_core = 150
+				remove_state_core = 148
 			}
 		}
 	}
@@ -526,7 +533,24 @@ country_event = {
 				transfer_state = 190
 			}
 			SOV = {
-				country_event = { days = 2 id = ww1_russia.10 }
+				country_event = {
+					days = 2
+					id = ww1_russia.10
+				}
+				
+				#remove SOV cores on POL LAT LIT EST
+				remove_state_core = 10
+				remove_state_core = 11
+				remove_state_core = 87
+				remove_state_core = 90
+				remove_state_core = 92
+				remove_state_core = 94
+				remove_state_core = 95
+				remove_state_core = 96
+				remove_state_core = 97
+				remove_state_core = 98
+				remove_state_core = 189
+				remove_state_core = 190
 			}
 		}
 	}
