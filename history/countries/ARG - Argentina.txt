@@ -185,35 +185,23 @@ create_country_leader = {
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 5
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 12
-	        }
-	        neutrality = {
-	            popularity = 78
-	        }
-	    }
-	    ruling_party = neutrality last_election = "1910.4.12"
-	    election_frequency = 72 elections_allowed = yes
+		ruling_party = neutrality
+		last_election = "1910.4.12"
+		election_frequency = 72
+		elections_allowed = yes
 	}
 
-    set_popularities = {
-        democratic = 5
-        fascism = 5
-        communism = 12
-        neutrality = 78
-    }
+	set_popularities = {
+		democratic = 5
+		fascism = 5
+		communism = 12
+		neutrality = 78
+	}
 
 	add_ideas = {
 		neutrality_idea
 		limited_conscription
-	}	
+	}
 
 	set_country_flag = monroe_doctrine
 }
