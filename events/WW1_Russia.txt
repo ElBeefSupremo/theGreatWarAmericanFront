@@ -15,7 +15,7 @@ country_event = {
 		tag = RUS
 		RUS = {
 			has_war_with = GER
-			owns_state = 195 
+			owns_state = 195
 		}
 	}
 
@@ -204,14 +204,14 @@ news_event = {
 					last_election = "1912.9.1"
 					election_frequency = 60
 					elections_allowed = no
-            }
+				}
 
-                set_popularities = {
-                    neutrality = 0
-                    democratic = 70
-                    fascism = 0
-                    communism = 30
-                }
+				set_popularities = {
+					neutrality = 0
+					democratic = 70
+					fascism = 0
+					communism = 30
+				}
 			}
 
 			ENG = {
@@ -329,20 +329,27 @@ news_event = {
 			RUS = {
 				set_country_flag = kis_octoberrevolutioncrushed
 				kill_country_leader = yes
-				create_country_leader = { name = "Nikolai II" desc = RUS_nikolai_ii_DESC picture = "gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_ii.dds" expire = "1935.1.1" ideology = autocracy traits = {  } }
+				create_country_leader = {
+					name = "Nikolai II"
+					desc = RUS_nikolai_ii_DESC
+					picture = "gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_ii.dds"
+					expire = "1935.1.1"
+					ideology = autocracy
+					traits = {  }
+				}
 				set_politics = {
 					ruling_party = neutrality
 					last_election = "1912.9.1"
 					election_frequency = 60
 					elections_allowed = no
-            }
+				}
 
-                set_popularities = {
-                    neutrality = 100
-                    democratic = 0
-                    fascism = 0
-                    communism = 0
-                }
+ 				set_popularities = {
+ 					neutrality = 100
+ 					democratic = 0
+ 					fascism = 0
+ 					communism = 0
+ 				}
 				annex_country = {
 					target = SOV
 					transfer_troops = no
@@ -380,7 +387,7 @@ news_event = {
 			has_war_with = SOV
 			surrender_progress > 0.50
 			NOT = {
-				has_global_flag = kis_brestlitovsk 
+				has_global_flag = kis_brestlitovsk
 				has_country_flag = kis_octoberrevolutioncrushed
 			}
 		}
@@ -390,12 +397,18 @@ news_event = {
 		hidden_effect = {
 			set_global_flag = kis_brestlitovsk
 			SOV = {
-				country_event = { days = 20 id = ww1_russia.7 }
-				country_event = { days = 2 id = ww1_russia.8 }
+				country_event = {
+					id = ww1_russia.7
+					days = 20
+				}
+				country_event = {
+					id = ww1_russia.8
+					days = 2
+				}
 				RUS = {
 					every_owned_state = {
 							add_core_of = SOV
-						}
+					}
 				}
 				diplomatic_relation = {
 					country = GER
@@ -487,7 +500,8 @@ country_event = {
 			}
 			SOV = {
 				country_event = {
-					days = 2 id = ww1_russia.9
+					id = ww1_russia.9
+					days = 2
 				}
 				#removes SOV claims on FIN excepting Vyborg
 				remove_state_core = 111
@@ -652,10 +666,10 @@ country_event = {
 # Troops Head Home
 #____________________________________________________________
 country_event = {
-	title = ww1_russia.7.t#Troops Head Home
-	desc = ww1_russia.7.d#After the treaty of Brest-Litovsk, most soldiers simply abandoned their posts and went home
 	id = ww1_russia.7
-	picture = GFX_news_event_generic_sign_treaty2
+	title = ww1_russia.7.t #Troops Head Home
+	desc = ww1_russia.7.d #After the treaty of Brest-Litovsk, most soldiers simply abandoned their posts and went home
+	picture = GFX_report_event_generic_read_write
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -722,23 +736,32 @@ news_event = {
 				create_faction = "White Movement"
 				set_global_flag = kis_whitesvsreds
 				kill_country_leader = yes
-				create_country_leader = { name = "Alexander Kolchak" desc = RUS_kolchak_ii_DESC picture = "gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds" expire = "1935.1.1" ideology = fascism_ideology traits = { } }
+				create_country_leader = {
+					name = "Alexander Kolchak"
+					desc = RUS_kolchak_ii_DESC
+					picture = "gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds"
+					expire = "1935.1.1"
+					ideology = fascism_ideology
+					traits = { }
+				}
 				set_politics = {
-				    ruling_party = fascism last_election = "1912.9.1"
-				    election_frequency = 60 elections_allowed = no
-            }
+					ruling_party = fascism
+					last_election = "1912.9.1"
+					election_frequency = 60
+					elections_allowed = no
+				}
 
-                set_popularities = {
-                    neutrality = 0
-                    democratic = 0
-                    fascism = 100
-                    communism = 0
-                }
+				set_popularities = {
+					neutrality = 0
+					democratic = 0
+					fascism = 100
+					communism = 0
+				}
 
 				declare_war_on = {
-		            type = annex_everything
-		            target = SOV
-		        }
+					type = annex_everything
+					target = SOV
+				}
 
 				transfer_state = 147
 				transfer_state = 137

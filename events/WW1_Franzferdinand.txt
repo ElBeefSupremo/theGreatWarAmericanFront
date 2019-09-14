@@ -350,19 +350,16 @@ country_event = {
 			SER = {
 				remove_from_faction = BUL
 				remove_from_faction = GRE
-				remove_from_faction = BUL
 				remove_from_faction = MTN
 			}
 			GRE = {
 				remove_from_faction = BUL
 				remove_from_faction = SER
-				remove_from_faction = BUL
 				remove_from_faction = MTN
 			}
 			BUL = {
 				remove_from_faction = SER
 				remove_from_faction = GRE
-				remove_from_faction = BUL
 				remove_from_faction = MTN
 			}
 		}

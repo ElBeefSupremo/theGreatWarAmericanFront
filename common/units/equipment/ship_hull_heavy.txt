@@ -326,7 +326,6 @@ equipments = {
 		naval_speed = 22
 		build_cost_ic = 3400
 		resources = {
-			#oil = 1
 			steel = 1
 			chromium = 1
 		}
@@ -390,7 +389,6 @@ equipments = {
 		
 		build_cost_ic = 3500
 		resources = {
-			#oil = 1
 			steel = 1
 			chromium = 1
 		}
@@ -454,7 +452,6 @@ equipments = {
 		reliability = 0.95
 		build_cost_ic = 3600
 		resources = {
-			#oil = 1
 			steel = 1
 			chromium = 1
 		}
@@ -648,7 +645,6 @@ equipments = {
 		
 		build_cost_ic = 1540
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -748,7 +744,6 @@ equipments = {
 		
 		build_cost_ic = 2870
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -848,7 +843,6 @@ equipments = {
 		
 		build_cost_ic = 5540
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -948,7 +942,6 @@ equipments = {
 		
 		build_cost_ic = 6430
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -1048,7 +1041,6 @@ equipments = {
 		
 		build_cost_ic = 7350
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -1148,7 +1140,6 @@ equipments = {
 		
 		build_cost_ic = 8730
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -1255,7 +1246,6 @@ equipments = {
 		
 		build_cost_ic = 5600
 		resources = {
-			#oil = 1
 			steel = 1
 			chromium = 1
 		}
@@ -1309,7 +1299,6 @@ equipments = {
 
 		build_cost_ic = 5400
 		resources = {
-			#oil = 2
 			steel = 1
 			chromium = 1
 		}
@@ -1364,7 +1353,6 @@ equipments = {
 		
 		build_cost_ic = 5200
 		resources = {
-			#oil = 2
 			steel = 1
 			chromium = 1
 		}
@@ -1419,7 +1407,6 @@ equipments = {
 		
 		build_cost_ic = 6000
 		resources = {
-			#oil = 2
 			steel = 1
 			chromium = 1
 		}
@@ -1538,7 +1525,6 @@ equipments = {
 		
 		build_cost_ic = 8500
 		resources = {
-			#oil = 2
 			steel = 4
 			chromium = 1
 		}
@@ -1658,7 +1644,6 @@ equipments = {
 		
 		build_cost_ic = 13000
 		resources = {
-			#oil = 2
 			steel = 1
 			chromium = 1
 		}
@@ -1705,7 +1690,6 @@ equipments = {
 		fuel_consumption = 67		
 		build_cost_ic = 3510
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -1750,7 +1734,6 @@ equipments = {
 		fuel_consumption = 67		
 		build_cost_ic = 3660
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -1795,7 +1778,6 @@ equipments = {
 		fuel_consumption = 67		
 		build_cost_ic = 5310
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -1840,7 +1822,6 @@ equipments = {
 		fuel_consumption = 67		
 		build_cost_ic = 6820
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -1894,7 +1875,6 @@ equipments = {
 		
 		build_cost_ic = 2500
 		resources = {
-			#oil = 1
 			steel = 1
 			chromium = 1
 		}
@@ -1949,7 +1929,6 @@ equipments = {
 
 		build_cost_ic = 4000
 		resources = {
-			#oil = 1
 			steel = 1
 			chromium = 1
 		}

@@ -1,0 +1,79 @@
+
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+GER_western_front_focus = {
+	enable = {
+
+		GER = { has_war_with = FRA }
+		date < 1915.6.1
+	}
+
+	abort = {
+		date > 1915.6.1
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "LUX"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "BEL"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 800
+	}
+	
+}
+
+#casually protect african colonies
+GER_wants_keep_colonies = {
+
+	enable = {
+		original_tag = GER
+	}
+
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = southern_africa
+		value = 10
+	}
+
+}
+#germany ignores TUR borders
+GER_dont_defend_TUR = {
+	enable = {
+		tag = GER
+		is_in_faction_with = TUR
+		GER = { has_war_with = FRA }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "TUR"
+		value = 100
+	}
+
+}

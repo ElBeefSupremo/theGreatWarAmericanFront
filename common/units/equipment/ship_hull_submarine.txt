@@ -127,7 +127,6 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			#oil = 1
 			steel = 2
 		}
 		type = { 
@@ -332,7 +331,6 @@ equipments = {
 		
 		build_cost_ic = 60
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 		
@@ -369,7 +367,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 120
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 80
@@ -405,7 +402,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 160
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 90
@@ -441,7 +437,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 170
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 100
@@ -477,7 +472,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 175
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 120
@@ -512,7 +506,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 270
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 140
@@ -548,7 +541,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 760
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 260
@@ -583,7 +575,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 230
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 130
@@ -619,7 +610,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 300
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 150
@@ -655,7 +645,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 380
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 160
@@ -691,7 +680,6 @@ equipments = {
 		fuel_consumption = 1		
 		build_cost_ic = 410
 		resources = {
-			#oil = 1
 			steel = 1
 		}		
 		manpower = 180
@@ -737,7 +725,6 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 		
@@ -781,7 +768,6 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			#oil = 1
 			steel = 2
 		}
 		type = { 
@@ -826,7 +812,6 @@ equipments = {
 		
 		build_cost_ic = 550
 		resources = {
-			#oil = 2
 			steel = 2
 		}
 		type = { 
@@ -871,7 +856,6 @@ equipments = {
 		
 		build_cost_ic = 200
 		resources = {
-			#oil = 2
 			steel = 3
 			chromium = 1
 		}

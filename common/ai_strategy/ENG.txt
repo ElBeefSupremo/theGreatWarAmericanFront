@@ -1,0 +1,149 @@
+
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+#Protect Belgium
+ENG_protect_belgium = {
+	enable = {
+		tag = ENG
+		has_war_with = GER
+		OR = {
+			BEL = { has_capitulated = no }
+		}
+	}
+	
+	abort = {
+		OR = {
+			BEL = { has_capitulated = yes }
+		}
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "BEL"
+		value = 100
+	}
+
+}
+
+ENG_belgium_lost = {
+	enable = {
+		tag = ENG
+		has_war_with = GER
+		OR = {
+			BEL = { has_capitulated = yes }
+		}
+	}
+	
+	abort = {
+		OR = {
+			BEL = { has_capitulated = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "BEL"
+		value = 100
+	}
+}
+
+#Protect France
+ENG_protect_FRA = {
+	enable = {
+		ENG = { has_war_with = GER }
+		FRA = { has_war_with = GER }
+		BEL = { has_capitulated = yes }
+	}
+
+	abort = {
+		FRA = { has_capitulated = yes }
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = FRA
+		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = eastern_canada
+		value = 50
+	}
+}
+
+# Protect the Suez
+ENG_protect_suez = {
+	enable = {
+		original_tag = ENG
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = suez
+		value = 30 # this is extra on top of 50 base
+	}
+}
+
+#Crush Irish Rebellion
+ENG_crush_IRE = {
+	enable = {
+		ENG = { has_war_with = IRE }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invade
+		id = IRE
+		value = 50
+	}
+}
+
+#Protect Canada
+ENG_protect_CAN = {
+	enable = {
+		CAN = { has_war_with = USA }
+		ENG = { has_war_with = USA }
+	}
+
+	abort = {
+		CAN = { has_capitulated = yes }
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = CAN
+		value = 50
+	}
+
+}
+
+ENG_interest_CAN = {
+	enable = {
+		original_tag = ENG
+	}
+
+	abort = {
+		CAN = { has_capitulated = yes }
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = eastern_canada
+		value = 40
+	}
+}
