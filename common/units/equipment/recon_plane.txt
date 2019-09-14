@@ -33,7 +33,6 @@ equipments = {
 		
 		#build_cost_ic = 22
 		#resources = {
-		#	oil = 1
 		#	aluminium = 2
 		#	rubber = 1
 		#}

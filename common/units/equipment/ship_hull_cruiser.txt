@@ -693,7 +693,6 @@ equipments = {
 		}
 		build_cost_ic = 2000
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 		manpower = 800
@@ -744,7 +743,6 @@ equipments = {
 		}
 		build_cost_ic = 1700
 		resources = {
-			#oil = 2
 			steel = 3
 		}
 		manpower = 960
@@ -796,7 +794,6 @@ equipments = {
 		}
 		build_cost_ic = 2000
 		resources = {
-			#oil = 2
 			steel = 2
 			chromium = 1
 		}
@@ -898,7 +895,6 @@ equipments = {
 
 		build_cost_ic = 1250
 		resources = {
-			#oil = 1
 			steel = 3
 		}		
 		manpower = 1100
@@ -998,7 +994,6 @@ equipments = {
 
 		build_cost_ic = 2240
 		resources = {
-			#oil = 1
 			steel = 3
 		}		
 		manpower = 1820
@@ -1108,7 +1103,6 @@ equipments = {
 		
 		build_cost_ic = 2200
 		resources = {
-			#oil = 1
 			steel = 2
 		}
 		
@@ -1158,7 +1152,6 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			#oil = 1
 			steel = 2
 		}		
 		manpower = 1700
@@ -1208,7 +1201,6 @@ equipments = {
 
 		build_cost_ic = 3000
 		resources = {
-			#oil = 2
 			steel = 2
 		}		
 		manpower = 1900
@@ -1259,7 +1251,6 @@ equipments = {
 
 		build_cost_ic = 3400
 		resources = {
-			#oil = 2
 			steel = 3
 			chromium = 1
 		}		
@@ -1319,7 +1310,6 @@ equipments = {
 		
 		build_cost_ic = 1700
 		resources = {
-			#oil = 2
 			steel = 2
 		}
 		
@@ -1411,7 +1401,6 @@ equipments = {
 		
 		build_cost_ic = 1700
 		resources = {
-			#oil = 2
 			steel = 3
 		}
 		
