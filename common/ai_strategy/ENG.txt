@@ -147,3 +147,14 @@ ENG_interest_CAN = {
 		value = 40
 	}
 }
+
+ENG_nice_to_SER = {
+	enable = {
+		original_tag = ENG
+	}
+	ai_strategy = {
+		type = befriend
+		id = SER
+		value = 100
+	}
+}
