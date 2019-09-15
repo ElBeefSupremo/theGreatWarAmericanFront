@@ -872,7 +872,7 @@ focus_tree = {
 
 		icon = GFX_goal_demand_sudetenland   
 		completion_reward = {
-			add_manpower = 30000
+			add_manpower = 350000
 			army_experience=5 navy_experience=5 air_experience=5
 		}    
 		ai_will_do = { factor = 2000 }
