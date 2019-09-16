@@ -138,6 +138,51 @@ news_event = {
 		}		
 	}
 }
+
+#____________________________________________________________
+
+# Argentine food imports cut off from britain
+#____________________________________________________________
+country_event = {
+	id = wwi_england.21
+	title = "Britain cut off from Argentine trade!"
+	desc = "Britain's trade with Argentina is her most vital source of foodstuffs and raw materials. Losing it is quite the blow!"
+	picture = ww1_england_1
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	major = yes
+
+	trigger = {
+		tag = ENG
+		ENG = {
+			has_war_with = USA
+		}
+		ARG = {
+			has_capitulated = yes
+		}
+	}
+
+	immediate = {
+		ENG = {
+			remove_ideas = argentina_britain_trade
+		}
+	}
+
+	option = {
+		name = "How will we feed our people and our troops!?"
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+
+}
 #____________________________________________________________
 
 # Communist Take Power

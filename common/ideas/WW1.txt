@@ -282,5 +282,20 @@ ideas = {
 				army_morale_factor = 0.05
 			}
 		}
+
+		argentina_britain_trade = {
+			picture = generic_manpower_bonus
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				army_morale_factor = 0.01
+				army_org_Factor = 0.01
+				stability_factor = 0.02
+				war_support_factor = 0.02
+			}
+		}
 	}
 }

@@ -4,8 +4,8 @@
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_research_slots = 4
-set_stability = 0.6
-set_war_support = 0.70
+set_stability = 0.60
+set_war_support = 0.60
 set_convoys = 800
 
 # DIPLOMACY
@@ -21,7 +21,7 @@ if = {
 	set_autonomy = {
 		target = RAJ
 		autonomous_state = autonomy_colony
-		freedom_level = 0.35
+		freedom_level = 0.3
 	}
 	set_autonomy = {
 		target = AST
@@ -947,6 +947,7 @@ create_navy_leader = {
 		ww1_Scramble_for_Africa
 		stiff_upper_lip
 		limited_conscription
+		argentina_britain_trade
 		#ENG_Staff
 	}
 
