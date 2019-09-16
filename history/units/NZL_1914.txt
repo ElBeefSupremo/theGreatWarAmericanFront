@@ -62,7 +62,7 @@ units = {
 
 	Fleet = {
 		name = "New Zealand Royal Navy Command"
-		naval_basen = 1814 # Wellington
+		naval_base = 1814 # Wellington
 		task_force = {
 			name = "Royal New Zealand Navy"
 			location=1814 # Wellington

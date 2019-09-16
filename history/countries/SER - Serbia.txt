@@ -324,7 +324,7 @@ create_corps_commander = {
 
 	}
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1911.5.31"
 		election_frequency = 36
 		elections_allowed = yes

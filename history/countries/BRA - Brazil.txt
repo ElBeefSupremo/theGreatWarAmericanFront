@@ -361,8 +361,10 @@ create_navy_leader = {
 
 	#Diplomatic
 	complete_national_focus = ww1_diplomatic_effort
-	complete_national_focus = neutrality_focus
-	complete_national_focus = ww1_military_reserve
+	complete_national_focus = ww1_takeposition
+	complete_national_focus = ww1_supportgermany
+	complete_national_focus = ww1_supportaustria
+	complete_national_focus = interventionism_focus
 	
 
 	#-------------------------------------------------------
@@ -442,20 +444,19 @@ create_navy_leader = {
 	}
 
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1913.5.31"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 98
+		democratic = 25
 		fascism = 0
 		communism = 2
-		neutrality = 0
+		neutrality = 75
 	}
 
 	add_ideas = {
-		neutrality_idea
 		limited_conscription
 	}
 }

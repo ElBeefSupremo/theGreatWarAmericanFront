@@ -130,10 +130,10 @@ create_country_leader = {
 		tech_support = 1
 		tech_engineers = 1
 		tech_recon = 1
-		#tech_military_police = 1
-		#tech_maintenance_company = 1
-		#tech_field_hospital = 1
-		#tech_logistics_company = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
 
 		# Armor
 
@@ -217,6 +217,7 @@ create_country_leader = {
 	}
 	set_country_flag = roque_died
 }
+
 1913.8.10.12 = {
 	oob = "ARG_1914"
 
@@ -240,8 +241,10 @@ create_country_leader = {
 
 	#Diplomatic
 	complete_national_focus = ww1_diplomatic_effort
-	complete_national_focus = neutrality_focus
-	complete_national_focus = ww1_military_reserve
+	complete_national_focus = ww1_takeposition
+	complete_national_focus = ww1_supportfrance
+	complete_national_focus = ww1_supportrussia
+	complete_national_focus = interventionism_focus
 
 	#-------------------------------------------------------
 
@@ -333,8 +336,8 @@ create_country_leader = {
 	}
 	
 	add_ideas = {
-		neutrality_idea
 		limited_conscription
+		argentine_conscription
 	}
 
 	set_country_flag = monroe_doctrine

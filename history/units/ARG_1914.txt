@@ -75,13 +75,13 @@ units = {
 	Fleet = {
 		name = "Argentine Naval Command"
 		naval_base = 12364 # Buenos Aires
-		navy = {
+		task_force = {
 			name = "Armada Argentina"
 			location = 12364 # Buenos Aires
-			ship = { name = "ARA La Plata" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Los Andes" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Almirante Brown" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ARG } } }#KiS#version_name = "Almirante Brown Class" } } }
-			ship = { name = "ARA Independencia" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ARG } } }#KiS#version_name = "Libertad Class" } } }
+			ship = { name = "ARA La Plata" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Los Andes" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Almirante Brown" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ARG } } }#KiS#version_name = "Almirante Brown Class" } } }
+			ship = { name = "ARA Independencia" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = ARG } } }#KiS#version_name = "Libertad Class" } } }
 			ship = { name = "ARA Libertad" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = ARG } } }#KiS#version_name = "Libertad Class" } } }
 			ship = { name = "ARA Patagonia" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA Veinticinco de Mayo" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = ARG } } }#KiS#version_name = "25 De Mayo Class" } } }
@@ -98,10 +98,10 @@ units = {
 			ship = { name = "ARA Jujuy" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA La Plata" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA Cordoba" definition = destroyer equipment = { destroyer_1914 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA San Luis" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Santa Fe" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Tucuman" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Santiago" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA San Luis" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Santa Fe" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Tucuman" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Santiago" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = ARG } } }
 		}
 }
 air_wings = { 
