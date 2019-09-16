@@ -26,6 +26,7 @@ news_event = {
 				load_oob="DES_rebellion"
 				add_state_claim = 380
 				add_state_claim = 379
+				create_faction = "The Mormons"
 			}
 		}
 	}

@@ -25,7 +25,8 @@ news_event = {
 				}
 				transfer_state = 364
 				load_oob = "CSR_Red_Rebellion"
-				add_state_claim = 364
+				add_state_claim = 364 
+				create_faction = "Black Belt Socialist Republics"
 			}
 		}
 	}
