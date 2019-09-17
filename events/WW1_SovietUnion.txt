@@ -3,3 +3,305 @@
 ###########################
 
 add_namespace = ww1_soviet
+
+		## SOVIET REVOLUTION INITIAL TROOP SPAWN ##
+		
+country_event = {
+	id = ww1_soviet.1
+	title = "Bolcheviks Rise Up!"
+	desc = "Comrades, let us overthrow the Tsar!"
+	picture = COUNTRY_hoi4tgw_report_lenin
+
+	is_triggered_only = yes
+
+		#option = { name = ww1_soviet.1.a }
+
+	immediate = {
+		
+
+		SOV = {
+			declare_war_on = {
+			target = RUS
+			type = annex_everything
+			}
+		}
+
+		division_template = {
+			name = "Infantry Division"
+			#division_names_group = 
+			#is_locked = no
+
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 0 y = 3 }
+				infantry = { x = 0 y = 4 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+				infantry = { x = 1 y = 2 }
+				infantry = { x = 1 y = 3 }
+				infantry = { x = 1 y = 4 }
+			}
+			support = {
+			}
+			#priority = 2
+		}
+		division_template = {
+			name = "Bolsheviks Partisan"
+			#division_names_group = 
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+			support = {
+			}
+			priority = 0
+		}
+		division_template = {
+			name = "Cavalry Division"
+			#division_names_group = 
+			regiments = {
+				cavalry = { x = 0 y = 0 }
+				cavalry = { x = 0 y = 1 }
+				cavalry = { x = 0 y = 2 }
+				cavalry = { x = 1 y = 0 }
+				cavalry = { x = 1 y = 1 }
+			}
+			support = {
+			}
+		}
+		# Spawn around the Saint Petersburg State
+				195 = {
+					#Infantry Divisions
+					create_unit = {
+						division = "name = \"1. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"2. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"3. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"4. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"5. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"6. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"7. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"8. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					#Cavalry Divisions
+					create_unit = {
+						division = "name = \"1. Bolsheviks Cavalry Division\" division_template = \"Cavalry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+				}
+
+			# Spawn around the Moscow State
+				219 = {
+					#Infantry Divisions
+					create_unit = {
+						division = "name = \"9. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"10. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"11. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"12. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"13. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"14. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"15. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"16. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"17. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"18. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"19. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"20. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"21. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"22. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"23. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"24. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"25. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"26. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"27. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"28. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"29. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"30. Bolsheviks Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					#Bolsheviks Partisan
+					create_unit = {
+						division = "name = \"1. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"2. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"3. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"4. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"5. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"6. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"7. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"8. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+					create_unit = {
+						division = "name = \"9. Bolsheviks Tangarov Division\" division_template = \"Bolsheviks Partisan\" start_experience_factor = 0.8"
+						owner = SOV
+					}
+				}
+			
+		}
+	}
+#}
+
+##################################################
+# When Petrograd or Moscow belong to Bolcheviks
+##################################################
+
+country_event = {
+	id = ww1_soviet.2
+	title = "Bolcheviks Volunteers"
+	desc = "More Bolcheviks Volonteers join us in our fight in Petrograd against the Russian Empire!"
+	picture = COUNTRY_hoi4tgw_report_lenin
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		OR = {
+			195 = {
+				controller = {
+					TAG = SOV
+				}
+			}
+			219 = {
+				controller = {
+					TAG = SOV
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = kis_secondrevoltsov
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = kis_sov_petrograd_captured
+			add_manpower = 10000
+			load_oob="SOV_Revolt_02"
+			set_country_flag = kis_secondrevoltsov
+			SOV = {
+				transfer_state = 516 #Northwest Siberia
+				transfer_state = 562 #Okhotsk
+				transfer_state = 574 #Yakutsk
+				transfer_state = 575 #Kirensk
+				transfer_state = 576 #Yeniseisk
+				transfer_state = 577 #Surgut
+				transfer_state = 579 #Salekhard
+				transfer_state = 580 #Tobolsk
+				transfer_state = 637 #Kamchatka
+				transfer_state = 644 #Northeast Siberia
+			}
+		}
+	}
+
+	option = { name = "Join the fight, comrades!" }
+}
+#____________________________________________________________

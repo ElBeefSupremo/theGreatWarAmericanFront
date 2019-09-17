@@ -160,7 +160,7 @@
 # [SOVIET UNION] Aviation Effort
 #=========================================================================
  SOV_ww1_airship_focus:0 "Airship Focus"
-SOV_ww1_airship_focus_desc:0 "" #KAISER_ANONY
+ SOV_ww1_airship_focus_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_aviation_effort:0 "Form VVS"
  SOV_ww1_aviation_effort_desc:0 "TODO"
@@ -207,61 +207,61 @@ SOV_ww1_airship_focus_desc:0 "" #KAISER_ANONY
 # [SOVIET UNION] Industrial Effort
 #=========================================================================
  SOV_ww1_industrial_effort:0 "Industrial Effort"
-SOV_ww1_industrial_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_industrial_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_construction_effort:0 "Construction Effort"
-SOV_ww1_construction_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_construction_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_construction_effort_2:0 "Construction Effort II"
-SOV_ww1_construction_effort_2_desc:0 "" #KAISER_ANONY
+ SOV_ww1_construction_effort_2_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_construction_effort_3:0 "Construction Effort III"
-SOV_ww1_construction_effort_3_desc:0 "" #KAISER_ANONY
+ SOV_ww1_construction_effort_3_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_production_effort:0 "Armament Effort"
-SOV_ww1_production_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_production_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_production_effort_2:0 "Armament Effort II"
-SOV_ww1_production_effort_2_desc:0 "" #KAISER_ANONY
+ SOV_ww1_production_effort_2_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_production_effort_3:0 "Armament Effort III"
-SOV_ww1_production_effort_3_desc:0 "" #KAISER_ANONY
+ SOV_ww1_production_effort_3_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_dockyard_effort_1:0 "Dockyard Expansion"
-SOV_ww1_dockyard_effort_1_desc:0 "" #KAISER_ANONY
+ SOV_ww1_dockyard_effort_1_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_dockyard_effort_2:0 "Dockyard Expansion II"
-SOV_ww1_dockyard_effort_2_desc:0 "" #KAISER_ANONY
+ SOV_ww1_dockyard_effort_2_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_dockyard_effort_3:0 "Dockyard Expansion III"
-SOV_ww1_dockyard_effort_3_desc:0 "" #KAISER_ANONY
+ SOV_ww1_dockyard_effort_3_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_airfield_expansion_1:0 "Airfield Expansion"
-SOV_ww1_airfield_expansion_1_desc:0 "" #KAISER_ANONY
+ SOV_ww1_airfield_expansion_1_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_airfield_expansion_2:0 "Airfield Expansion II"
-SOV_ww1_airfield_expansion_2_desc:0 "" #KAISER_ANONY
+ SOV_ww1_airfield_expansion_2_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_airfield_expansion_3:0 "Airfield Expansion III"
-SOV_ww1_airfield_expansion_3_desc:0 "" #KAISER_ANONY
+ SOV_ww1_airfield_expansion_3_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_infrastructure_effort:0 "Infrastructure Effort"
-SOV_ww1_infrastructure_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_infrastructure_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_infrastructure_effort_2:0 "Infrastructure Effort II"
-SOV_ww1_infrastructure_effort_2_desc:0 "" #KAISER_ANONY
+ SOV_ww1_infrastructure_effort_2_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_infrastructure_effort_3:0 "Infrastructure Effort III"
-SOV_ww1_infrastructure_effort_3_desc:0 "" #KAISER_ANONY
+ SOV_ww1_infrastructure_effort_3_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_infrastructure_effort_4:0 "Infrastructure Effort IV"
-SOV_ww1_infrastructure_effort_4_desc:0 "" #KAISER_ANONY
+ SOV_ww1_infrastructure_effort_4_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_extra_tech_slot:0 "Extra Research Slot"
-SOV_ww1_extra_tech_slot_desc:0 "" #KAISER_ANONY
+ SOV_ww1_extra_tech_slot_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_extra_tech_slot_2:0 "Extra Research Slot II"
-SOV_ww1_extra_tech_slot_2_desc:0 "" #KAISER_ANONY
+ SOV_ww1_extra_tech_slot_2_desc:0 "" #KAISER_ANONY
 
 #--------------------------------------------------------------
 
@@ -272,43 +272,43 @@ SOV_ww1_extra_tech_slot_2_desc:0 "" #KAISER_ANONY
  SOV_ww1_naval_effort_desc:0 "As we already have the premier Army in Europe, our Navy must be attended to as well, to attempt to keep pace with the Royal Navy and ensure Germany can defend herself and her territory in any way she chooses. If we focus on continually building up in our arms race against the United Kingdom, we will be well on our way to naval dominance."
 
  SOV_ww1_newnavalcanons_1:0 "Naval Gun Effort"
-SOV_ww1_newnavalcanons_1_desc:0 "" #KAISER_ANONY
+ SOV_ww1_newnavalcanons_1_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_newnavalcanons_2:0 "Naval Gun Effort II"
-SOV_ww1_newnavalcanons_2_desc:0 "" #KAISER_ANONY
+ SOV_ww1_newnavalcanons_2_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_newnavalcanons_3:0 "Naval Gun Effort III"
-SOV_ww1_newnavalcanons_3_desc:0 "" #KAISER_ANONY
+ SOV_ww1_newnavalcanons_3_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_dreadnought_effort:0 "Dreadnought Effort"
-SOV_ww1_dreadnought_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_dreadnought_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_flexible_navy:0 "Flexible Navy"
-SOV_ww1_flexible_navy_desc:0 "" #KAISER_ANONY
+ SOV_ww1_flexible_navy_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_large_navy:0 "Large Navy"
-SOV_ww1_large_navy_desc:0 "" #KAISER_ANONY
+ SOV_ww1_large_navy_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_navyreform:0 "Navy Deployment"
-SOV_ww1_navyreform_desc:0 "" #KAISER_ANONY
+ SOV_ww1_navyreform_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_submarine_effort:0 "Unterseeboot Effort"
-SOV_ww1_submarine_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_submarine_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_cruiser_effort:0 "Cruiser Effort"
-SOV_ww1_cruiser_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_cruiser_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_destroyer_effort:0 "Destroyer Effort"
-SOV_ww1_destroyer_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_destroyer_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_capital_ships_effort:0 "Capital Ship Effort"
-SOV_ww1_capital_ships_effort_desc:0 "" #KAISER_ANONY
+ SOV_ww1_capital_ships_effort_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_carrier_focus:0 "Carrier Effort"
-SOV_ww1_carrier_focus_desc:0 "" #KAISER_ANONY
+ SOV_ww1_carrier_focus_desc:0 "" #KAISER_ANONY
 
  SOV_ww1_antisubmarine:0 "Anti-Submarine Warfare"
-SOV_ww1_antisubmarine_desc:0 "" #KAISER_ANONY
+ SOV_ww1_antisubmarine_desc:0 "" #KAISER_ANONY
 
 ###### other stuff ######
  
@@ -330,18 +330,23 @@ SOV_ww1_antisubmarine_desc:0 "" #KAISER_ANONY
 
 ##### Events #####
 
- ww1_soviet.1.t:0 "Our Independence"
- ww1_soviet.1.d:0 "We can gain independence from Soviets. But they can answer with forces to this. What should we do?"
- ww1_soviet.1.a:0 "We are free!"
- ww1_soviet.1.b:0 "We must not risk"
- ww1_soviet.2.t:0 "Caucasus Uprisings"
- ww1_soviet.2.d:0 "Not everyone agrees with revolution. For a long time tensions in Caucasus Region were growing."
- ww1_soviet.2.uprising:0 "This is not good"
- ww1_soviet.2.anothersov:0 "At least order restored"
- ww1_soviet.2.notsov:0 "And what?"
- ww1_soviet.999.t:0 "Peoples's Army"
- ww1_soviet.999.d:0 "Many people support our revolution. They want fight for freedom of proletariate."
- ww1_soviet.999.a:0 "This will help us."
- soviet.1.t:0 "Bolcheviks Volunteers"
- soviet.1.d:0 "More Bolcheviks Volonteers join us in our fight in Petrograd against the Russian Empire!"
- soviet.1.a:0 "It will help us"
+# ww1_soviet.1.t:0 "Our Independence"
+# ww1_soviet.1.d:0 "We can gain independence from Soviets. But they can answer with forces to this. What should we do?"
+# ww1_soviet.1.a:0 "We are free!"
+# ww1_soviet.1.b:0 "We must not risk"
+# ww1_soviet.2.t:0 "Caucasus Uprisings"
+# ww1_soviet.2.d:0 "Not everyone agrees with revolution. For a long time tensions in Caucasus Region were growing."
+# ww1_soviet.2.uprising:0 "This is not good"
+# ww1_soviet.2.anothersov:0 "At least order restored"
+# ww1_soviet.2.notsov:0 "And what?"
+# ww1_soviet.999.t:0 "Peoples's Army"
+# ww1_soviet.999.d:0 "Many people support our revolution. They want fight for freedom of proletariate."
+# ww1_soviet.999.a:0 "This will help us."
+
+ ww1_soviet.1.t:0 "Bolcheviks Rise Up!"
+ ww1_soviet.1.d:0 "Comrades, let us overthrow the Tsar!"
+ ww1_soviet.1.a:0 "Urrah!"
+ 
+ ww1_soviet.2.t:0 "Bolcheviks Volunteers"
+ ww1_soviet.2.d:0 "More Bolcheviks Volunteers join us in our fight in Petrograd against the Russian Empire!"
+ ww1_soviet.2.a:0 "It will help us"
