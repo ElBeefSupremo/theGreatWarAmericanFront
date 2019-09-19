@@ -269,7 +269,7 @@ equipments = {
 		reliability = 0.80
 		fuel_consumption = 67
 		
-		build_cost_ic = 3300
+		build_cost_ic = 1700
 	}
 
 	ship_hull_heavy_2 = {
@@ -324,7 +324,7 @@ equipments = {
 		reliability = 0.85
 		fuel_consumption = 67
 		naval_speed = 22
-		build_cost_ic = 3400
+		build_cost_ic = 1750
 		resources = {
 			steel = 1
 			chromium = 1
@@ -387,7 +387,7 @@ equipments = {
 		reliability = 0.9
 		fuel_consumption = 67
 		
-		build_cost_ic = 3500
+		build_cost_ic = 1750
 		resources = {
 			steel = 1
 			chromium = 1
@@ -450,7 +450,7 @@ equipments = {
 		naval_speed = 26
 		fuel_consumption = 67
 		reliability = 0.95
-		build_cost_ic = 3600
+		build_cost_ic = 1300
 		resources = {
 			steel = 1
 			chromium = 1
@@ -543,7 +543,7 @@ equipments = {
 		max_strength = 700
 		fuel_consumption = 75
 		reliability = 0.80
-		build_cost_ic = 5500
+		build_cost_ic = 2725
 		resources = {
 			steel = 1
 			chromium = 1
@@ -643,7 +643,7 @@ equipments = {
 		max_strength = 56
 		fuel_consumption = 67
 		
-		build_cost_ic = 1540
+		build_cost_ic = 750
 		resources = {
 			steel = 3
 			chromium = 1
@@ -742,7 +742,7 @@ equipments = {
 		max_strength = 104
 		fuel_consumption = 67
 		
-		build_cost_ic = 2870
+		build_cost_ic = 1400
 		resources = {
 			steel = 3
 			chromium = 1
@@ -841,7 +841,7 @@ equipments = {
 		max_strength = 202
 		fuel_consumption = 67
 		
-		build_cost_ic = 5540
+		build_cost_ic = 2700
 		resources = {
 			steel = 3
 			chromium = 1
@@ -940,7 +940,7 @@ equipments = {
 		max_strength = 234
 		fuel_consumption = 67
 		
-		build_cost_ic = 6430
+		build_cost_ic = 3200
 		resources = {
 			steel = 3
 			chromium = 1
@@ -1039,7 +1039,7 @@ equipments = {
 		max_strength = 268
 		fuel_consumption = 67
 		
-		build_cost_ic = 7350
+		build_cost_ic = 3150
 		resources = {
 			steel = 3
 			chromium = 1
@@ -1138,7 +1138,7 @@ equipments = {
 		max_strength = 318
 		fuel_consumption = 67
 		
-		build_cost_ic = 8730
+		build_cost_ic = 4730
 		resources = {
 			steel = 3
 			chromium = 1
@@ -1244,7 +1244,7 @@ equipments = {
 
 		fuel_consumption = 67
 		
-		build_cost_ic = 5600
+		build_cost_ic = 2600
 		resources = {
 			steel = 1
 			chromium = 1
@@ -1297,7 +1297,7 @@ equipments = {
 		max_strength = 450		
 
 
-		build_cost_ic = 5400
+		build_cost_ic = 2600
 		resources = {
 			steel = 1
 			chromium = 1

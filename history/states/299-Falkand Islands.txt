@@ -10,7 +10,6 @@ state={
 	history={
 		owner=ENG
 		add_core_of=ENG
-		add_claim_by=ARG
 		1936.1.1={ 
 			owner=ENG
 			add_core_of=ENG
@@ -22,7 +21,7 @@ state={
 			}
 		buildings={
 			infrastructure=2
-			12960={ naval_base=1 }
+			12960={ naval_base=3 }
 			}
 		}
 	}

@@ -102,7 +102,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 2450
+		build_cost_ic = 1250
 		resources = {
 			steel = 3
 			chromium = 1
@@ -162,7 +162,7 @@ equipments = {
 		
 
 
-		build_cost_ic = 2600
+		build_cost_ic = 1300
 		resources = {
 			steel = 4
 			chromium = 1
@@ -220,7 +220,7 @@ equipments = {
 		
 
 
-		build_cost_ic = 3250
+		build_cost_ic = 1650
 		resources = {
 			steel = 4
 			chromium = 2
@@ -264,7 +264,7 @@ equipments = {
 		naval_speed = 23
 
 
-		build_cost_ic = 2700
+		build_cost_ic = 1400
 		resources = {
 			steel = 4
 			chromium = 1
@@ -304,7 +304,7 @@ equipments = {
 		
 
 		naval_speed = 20
-		build_cost_ic = 2700
+		build_cost_ic = 1400
 		resources = {
 			steel = 3
 		}
@@ -392,7 +392,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 3820
+		build_cost_ic = 1420
 		resources = {
 			steel = 3
 			chromium = 1
@@ -481,7 +481,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 7950
+		build_cost_ic = 1550
 		resources = {
 			steel = 3
 			chromium = 1
@@ -572,7 +572,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 3750
+		build_cost_ic = 1850
 		resources = {
 			steel = 3
 			chromium = 1
@@ -702,7 +702,7 @@ equipments = {
 		
 
 
-		build_cost_ic = 5250
+		build_cost_ic = 2650
 		resources = {
 			steel = 4
 			chromium = 2
@@ -748,7 +748,7 @@ equipments = {
 		
 
 
-		build_cost_ic = 6000
+		build_cost_ic = 3000
 		resources = {
 			steel = 5
 			chromium = 2
