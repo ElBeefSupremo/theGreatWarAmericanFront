@@ -104,7 +104,7 @@ equipments = {
 
 		fuel_consumption = 0
 		
-		build_cost_ic = 400
+		build_cost_ic = 300
 		resources = {
 			steel = 2
 		}
@@ -161,7 +161,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1800
 		max_strength = 40
-		build_cost_ic = 500
+		build_cost_ic = 300
 		resources = {
 			steel = 2
 		}
@@ -226,7 +226,7 @@ equipments = {
 		reliability = 0.90
 		naval_range = 2000
 		max_strength = 50
-		build_cost_ic = 550
+		build_cost_ic = 350
 		manpower = 400
 	}
 
@@ -283,7 +283,7 @@ equipments = {
 		reliability = 0.92
 		naval_range = 2500
 		max_strength = 60
-		build_cost_ic = 600
+		build_cost_ic = 370
 		resources = {
 			steel = 4
 			chromium = 1
@@ -326,7 +326,7 @@ equipments = {
 		max_strength = 6
 		fuel_consumption = 7
 		
-		build_cost_ic = 210
+		build_cost_ic = 110
 		resources = {
 			steel = 2
 		}		
@@ -367,7 +367,7 @@ equipments = {
 		max_strength = 9
 		fuel_consumption = 7
 		
-		build_cost_ic = 310
+		build_cost_ic = 130
 		resources = {
 			steel = 2
 		}		
@@ -408,7 +408,7 @@ equipments = {
 		max_strength = 12
 		fuel_consumption = 7
 		
-		build_cost_ic = 430
+		build_cost_ic = 230
 		resources = {
 			steel = 2
 		}		
@@ -449,7 +449,7 @@ equipments = {
 		max_strength = 17
 		fuel_consumption = 7
 		
-		build_cost_ic = 630
+		build_cost_ic = 245
 		resources = {
 			steel = 2
 		}		
@@ -490,7 +490,7 @@ equipments = {
 		max_strength = 19
 		fuel_consumption = 7
 		
-		build_cost_ic = 700
+		build_cost_ic = 275
 		resources = {
 			steel = 2
 		}		
@@ -531,7 +531,7 @@ equipments = {
 		max_strength = 23
 		fuel_consumption = 7
 		
-		build_cost_ic = 820
+		build_cost_ic = 300
 		resources = {
 			steel = 2
 		}		
@@ -630,7 +630,7 @@ equipments = {
 			anti_air
 		}
 
-		build_cost_ic = 500
+		build_cost_ic = 400
 		resources = {
 			steel = 3
 		}		
@@ -680,7 +680,7 @@ equipments = {
 			screen_ship
 			anti_air
 		}
-		build_cost_ic = 1080
+		build_cost_ic = 680
 		resources = {
 			steel = 3
 		}
@@ -731,7 +731,7 @@ equipments = {
 			anti_air
 		}
 
-		build_cost_ic = 500
+		build_cost_ic = 300
 		resources = {
 			steel = 4
 			chromium = 1
