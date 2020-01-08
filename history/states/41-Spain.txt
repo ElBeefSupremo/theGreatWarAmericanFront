@@ -8,13 +8,13 @@ state={
 		wood=0
 		}
 	history={
-		victory_points={ 3938 30.0 }
+		victory_points={ 3938 30 }
 		owner=SPR
 		add_core_of=SPR
 		1936.1.1={ 
 			owner=SPR
 			add_core_of=SPR
-			victory_points={ 3938 30.0 }
+			victory_points={ 3938 30 }
 			buildings={
 				infrastructure=6
 				industrial_complex=3
