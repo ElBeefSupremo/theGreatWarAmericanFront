@@ -152,6 +152,7 @@ news_event = {
 				}
 
 				transfer_state = 195
+				transfer_state = 218
 				transfer_state = 219
 				transfer_state = 244
 				transfer_state = 263
@@ -226,8 +227,8 @@ news_event = {
 				set_war_support = 1.0
 				add_political_power = 800
 				add_manpower = 500000
-				load_oob = "SOV_Revolt_01"
 				create_faction = "Comintern"
+				load_oob = "SOV_Revolt_01"
 				diplomatic_relation = {
 					country = GER
 					relation = non_aggression_pact
@@ -247,10 +248,6 @@ news_event = {
 					country = USA
 					relation = non_aggression_pact
 					active = yes
-				}
-				declare_war_on = {
-					target = RUS
-					type = annex_everything
 				}
 
 				#Army
@@ -283,7 +280,7 @@ news_event = {
 
 	option = {
 		name = ww1_russia.4.a
-		#ai_chance = { factor = 100 }
+		SOV = { country_event = { id = ww1_soviet.1 hours = 2 } }
 	}
 }
 #____________________________________________________________
