@@ -36,7 +36,6 @@ autonomy_state = {
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
 			NOT = { OVERLORD = { original_tag = JAP } }
-			NOT = { OVERLORD = { original_tag = MAN } }
 		}
 	}
 	

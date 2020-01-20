@@ -12,7 +12,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 597
 			controls_state = 597
@@ -62,7 +62,7 @@ prospect_for_resources = {
 			state = 621
 		}
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 621
 			controls_state = 621
@@ -112,7 +112,7 @@ prospect_for_resources = {
 			state = 714
 		}
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_oil1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 714
 			controls_state = 714
@@ -161,7 +161,7 @@ prospect_for_resources = {
 			state = 714
 		}
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_oil1
 			num_of_civilian_factories_available_for_projects > 4
 			owns_state = 714
 			controls_state = 714
@@ -209,7 +209,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 325
 			controls_state = 325
@@ -254,12 +254,10 @@ prospect_for_resources = {
 		
 		icon = aluminium
 
-		allowed = {
-			NOT = { tag = MAN }
-		}
+
 
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 328
 			controls_state = 328
@@ -309,7 +307,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 605
 			controls_state = 605
@@ -363,7 +361,7 @@ prospect_for_resources = {
 			owns_state = 623
 			controls_state = 623
 			num_of_civilian_factories_available_for_projects > 2
-			has_tech = excavation3
+			has_tech = ww1_mining2
 		}
 		highlight_states = {
 			state = 623
@@ -415,7 +413,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 627
 			controls_state = 627
@@ -463,7 +461,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 625
 			controls_state = 625
@@ -516,7 +514,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 725
 			controls_state = 725
@@ -573,7 +571,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 671
 			controls_state = 671
@@ -625,7 +623,7 @@ prospect_for_resources = {
 		}
 
 		available = {	
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 336
 			controls_state = 336
@@ -679,7 +677,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 662
 			controls_state = 662
@@ -735,7 +733,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_oil1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 450
 			controls_state = 450
@@ -748,7 +746,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 450
 			controls_state = 450
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			450 = {
 				NOT = {
 					has_state_flag = benghazi_oil_developed
@@ -776,7 +774,7 @@ prospect_for_resources = {
 			450 = {
 				add_resource = {
 					type = oil
-					amount = 4
+					amount = 25
 				}
 			}
 		}
@@ -790,7 +788,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 518
 			controls_state = 518
@@ -844,7 +842,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 556
 			controls_state = 556
@@ -898,7 +896,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 556
 			controls_state = 556
@@ -911,7 +909,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 556
 			controls_state = 556
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			556 = {
 				has_state_flag = west_Africa_aluminium_developed
 			}
@@ -1128,7 +1126,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_oil1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 56
 			controls_state = 56
@@ -1137,7 +1135,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 56
 			controls_state = 56
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			56 = {
 				NOT = {
 					has_state_flag = ems_oil_developed
@@ -1180,7 +1178,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_oil1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 4
 			controls_state = 4
@@ -1193,7 +1191,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 4
 			controls_state = 4
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			4 = {
 				NOT = {
 					has_state_flag = ems_oil_developed
@@ -1221,7 +1219,7 @@ prospect_for_resources = {
 			4 = {
 				add_resource = {
 					type = oil
-					amount = 4
+					amount = 14
 				}
 			}
 		}
@@ -1239,7 +1237,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_oil1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 36
 			controls_state = 36
@@ -1248,7 +1246,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 36
 			controls_state = 36
-			has_tech = excavation3
+			has_tech = ww1_mining1
 			36 = {
 				NOT = {
 					has_state_flag = friesland_oil_developed
@@ -1273,7 +1271,7 @@ prospect_for_resources = {
 			36 = {
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 12
 				}
 				
 			}
@@ -1292,7 +1290,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 347
 			controls_state = 347
@@ -1344,7 +1342,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 331
 			controls_state = 331
@@ -1398,7 +1396,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			466 = {
 				infrastructure > 2
@@ -1458,7 +1456,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 315
 			controls_state = 315
@@ -1513,7 +1511,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 372
 			controls_state = 372
@@ -1596,7 +1594,7 @@ prospect_for_resources = {
 			state = 358
 		}
 		available = {
-			has_tech = construction2
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 358
 			controls_state = 358
@@ -1677,7 +1675,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction2
+			has_tech = ww1_mining2
 			owns_state = 368
 			controls_state = 368
 			num_of_civilian_factories_available_for_projects > 11
@@ -1762,7 +1760,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction2
+			has_tech = ww1_mining2
 			owns_state = 386
 			controls_state = 386
 			num_of_civilian_factories_available_for_projects > 11
@@ -1851,7 +1849,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 387
 			controls_state = 387
@@ -1936,7 +1934,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 378
 			controls_state = 378
@@ -2017,7 +2015,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 391
 			controls_state = 391
@@ -2106,7 +2104,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 360
 			controls_state = 360
@@ -2188,7 +2186,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 261
 			controls_state = 261
@@ -2277,7 +2275,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 396
 			controls_state = 396
@@ -2363,7 +2361,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 388
 			controls_state = 388
@@ -2372,7 +2370,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 388
 			controls_state = 388
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			388 = {
 				NOT = {
 					has_state_flag = { 
@@ -2450,7 +2448,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 378
 			controls_state = 378
@@ -2459,7 +2457,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 378
 			controls_state = 378
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			378 = {
 				NOT = {
 					has_state_flag = { 
@@ -2538,7 +2536,7 @@ prospect_for_resources = {
 		available = {
 			has_full_control_of_state = 537
 			num_of_civilian_factories_available_for_projects > 2
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			controls_state = 537
 		}
 
@@ -2585,7 +2583,7 @@ prospect_for_resources = {
 		available = {
 			has_full_control_of_state = 647
 			num_of_civilian_factories_available_for_projects > 2
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			controls_state = 647
 		}
 
@@ -2626,7 +2624,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 123
 			controls_state = 123
@@ -2683,7 +2681,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 4
 			owns_state = 123
 			controls_state = 123
@@ -2741,7 +2739,7 @@ prospect_for_resources = {
 		available = {
 			has_full_control_of_state = 195
 			num_of_civilian_factories_available_for_projects > 2
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			controls_state = 195
 		}
 
@@ -2787,7 +2785,7 @@ prospect_for_resources = {
 		available = {
 			has_full_control_of_state = 653
 			num_of_civilian_factories_available_for_projects > 2
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			controls_state = 653
 		}
 
@@ -2833,7 +2831,7 @@ prospect_for_resources = {
 		available = {
 			has_full_control_of_state = 217
 			num_of_civilian_factories_available_for_projects > 2
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			controls_state = 217
 		}
 
@@ -2880,7 +2878,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 233
 			controls_state = 233
@@ -2938,7 +2936,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 4
 			owns_state = 233
 			controls_state = 233
@@ -2997,7 +2995,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 404
 			controls_state = 404
@@ -3010,7 +3008,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 404
 			controls_state = 404
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			404 = {
 				NOT = {
 					has_state_flag = kyzla_tungsten_developed
@@ -3056,11 +3054,11 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 4
 			owns_state = 572
 			controls_state = 572
-			has_tech = construction3
+			has_tech = ww1_mining2
 		}
 
 		highlight_states = {
@@ -3070,7 +3068,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 572
 			controls_state = 572
-			has_tech = construction3
+			has_tech = ww1_mining2
 			572 = {
 				NOT = {
 					has_state_flag = { 
@@ -3137,7 +3135,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 573
 			controls_state = 573
@@ -3195,7 +3193,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 4
 			owns_state = 573
 			controls_state = 573
@@ -3258,7 +3256,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 8
 			owns_state = 220
 			controls_state = 220
@@ -3345,7 +3343,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 220
 			controls_state = 220
@@ -3436,7 +3434,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 14
 			owns_state = 220
 			controls_state = 220
@@ -3527,7 +3525,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			num_of_civilian_factories_available_for_projects > 8
 			owns_state = 240
 			controls_state = 240
@@ -3614,7 +3612,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 240
 			controls_state = 240
@@ -3705,7 +3703,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 14
 			owns_state = 240
 			controls_state = 240
@@ -3792,7 +3790,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 407
 			controls_state = 407
@@ -3850,7 +3848,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_mining2
 			owns_state = 407
 			controls_state = 407
 			num_of_civilian_factories_available_for_projects > 4
@@ -3913,9 +3911,8 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction3
 			num_of_civilian_factories_available_for_projects > 2
-			has_tech = excavation1
+			has_tech = ww1_mining1
 			owns_state = 716
 			controls_state = 716
 		}
@@ -3967,7 +3964,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 4
 			owns_state = 527
 			controls_state = 527
@@ -4049,7 +4046,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 6
 			owns_state = 658
 			controls_state = 658
@@ -4058,7 +4055,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 658
 			controls_state = 658
-			has_tech = excavation5
+			has_tech = ww1_mining2
 			658 = {
 				NOT = {
 					has_state_flag = abu_dhabi_developed
@@ -4100,7 +4097,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_mining2
 			owns_state = 656
 			controls_state = 656
 			num_of_civilian_factories_available_for_projects > 11
@@ -4113,7 +4110,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 656
 			controls_state = 656
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			656 = {
 				NOT = {
 					has_state_flag = { 
@@ -4185,7 +4182,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 8
 			owns_state = 413
 			controls_state = 413
@@ -4194,7 +4191,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 413
 			controls_state = 413
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			413 = {
 				NOT = {
 					has_state_flag = khuzestan_developed
@@ -4240,7 +4237,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 412
 			controls_state = 412
@@ -4249,7 +4246,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 412
 			controls_state = 412
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			412 = {
 				NOT = {
 					has_state_flag = fars_developed
@@ -4295,7 +4292,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 11
 			owns_state = 291
 			controls_state = 291
@@ -4304,7 +4301,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 291
 			controls_state = 291
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			291 = {
 				NOT = {
 					has_state_flag = baghdad_developed
@@ -4358,7 +4355,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 676
 			controls_state = 676
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			676 = {
 				NOT = {
 					has_state_flag = mosul_developed
@@ -4400,7 +4397,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
+			has_tech = ww1_mining2
 			owns_state = 292
 			controls_state = 292
 			num_of_civilian_factories_available_for_projects > 14
@@ -4413,7 +4410,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 292 
 			controls_state = 292 
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			292 = {
 				NOT = {
 					has_state_flag = { 
@@ -4485,7 +4482,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation3
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 457
 			controls_state = 457
@@ -4494,7 +4491,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 457
 			controls_state = 457
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			457 = {
 				NOT = {
 					has_state_flag = eastern_desert_developed
@@ -4540,7 +4537,7 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation4
+			has_tech = ww1_mining2
 			num_of_civilian_factories_available_for_projects > 5
 			owns_state = 765
 			controls_state = 765
@@ -4549,7 +4546,7 @@ prospect_for_resources = {
 		visible = {
 			owns_state = 765
 			controls_state = 765
-			has_tech = excavation2
+			has_tech = ww1_mining1
 			765 = {
 				NOT = {
 					has_state_flag = qatar_developed
