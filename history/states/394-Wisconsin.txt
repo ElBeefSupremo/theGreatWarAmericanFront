@@ -12,18 +12,19 @@ state={
 		victory_points={ 12357 5 }
 		owner=USA
 		add_core_of=USA
-		1936.1.1={ 
-			owner=USA
-			add_core_of=USA
-			victory_points={ 12357 5 }
-			buildings={
-				infrastructure=6
-				industrial_complex=3
-				}
-			}
+		# 1936.1.1={ 
+		# 	owner=USA
+		# 	add_core_of=USA
+		# 	victory_points={ 12357 5 }
+		# 	buildings={
+		# 		infrastructure=6
+		# 		industrial_complex=3
+		# 		}
+		# 	}
 		buildings={
-			infrastructure=6
+			infrastructure=7
 			industrial_complex=2
+			arms_factory=2
 			}
 		}
 	}
