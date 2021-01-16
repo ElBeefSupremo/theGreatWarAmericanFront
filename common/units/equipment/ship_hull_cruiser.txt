@@ -113,7 +113,7 @@ equipments = {
 
 		fuel_consumption = 20
 		
-		build_cost_ic = 1800
+		build_cost_ic = 900
 		resources = {
 			steel = 1
 		}
@@ -139,7 +139,7 @@ equipments = {
 		parent = ship_hull_cruiser_1
 		manpower = 800
 		naval_speed = 25
-		build_cost_ic = 1900
+		build_cost_ic = 950
 		naval_range = 3000
 		max_strength = 110
 		resources = {
@@ -200,7 +200,7 @@ equipments = {
 		priority = 1900
 		parent = ship_hull_cruiser_2
 		naval_speed = 27
-		build_cost_ic = 2000
+		build_cost_ic = 1000
 		max_strength = 120
 		naval_range = 4000
 		manpower = 1200
@@ -275,7 +275,7 @@ equipments = {
 		parent = ship_hull_cruiser_3
 		naval_speed = 28
 		manpower = 1400
-		build_cost_ic = 2100
+		build_cost_ic = 1100
 		naval_range = 4500
 		max_strength = 130
 		resources = {
@@ -384,7 +384,7 @@ equipments = {
 		parent = light_cruiser_1890
 		priority = 30
 		module_slots = inherit
-		build_cost_ic = 1420
+		build_cost_ic = 720
 		type = { 
 			screen_ship
 			anti_air
@@ -429,7 +429,7 @@ equipments = {
 		parent = light_cruiser_1900
 		priority = 30
 		module_slots = inherit
-		build_cost_ic = 1460
+		build_cost_ic = 730
 		type = { 
 			screen_ship
 			anti_air
@@ -474,7 +474,7 @@ equipments = {
 		parent = light_cruiser_1906
 		priority = 30
 		module_slots = inherit
-		build_cost_ic = 2040
+		build_cost_ic = 1020
 		type = { 
 			screen_ship
 			anti_air
@@ -519,7 +519,7 @@ equipments = {
 		parent = light_cruiser_1910
 		priority = 30
 		module_slots = inherit
-		build_cost_ic = 2500
+		build_cost_ic = 1125
 		type = { 
 			screen_ship
 			anti_air
@@ -564,7 +564,7 @@ equipments = {
 		parent = light_cruiser_1914
 		priority = 30
 		module_slots = inherit
-		build_cost_ic = 2820
+		build_cost_ic = 1420
 		type = { 
 			screen_ship
 			anti_air
@@ -691,7 +691,7 @@ equipments = {
 			screen_ship
 			anti_air
 		}
-		build_cost_ic = 2000
+		build_cost_ic = 1000
 		resources = {
 			steel = 1
 		}
@@ -741,7 +741,7 @@ equipments = {
 			screen_ship
 			anti_air
 		}
-		build_cost_ic = 1700
+		build_cost_ic = 850
 		resources = {
 			steel = 3
 		}
@@ -792,7 +792,7 @@ equipments = {
 			screen_ship
 			anti_air
 		}
-		build_cost_ic = 2000
+		build_cost_ic = 1000
 		resources = {
 			steel = 2
 			chromium = 1
@@ -893,7 +893,7 @@ equipments = {
 		max_strength = 58
 		fuel_consumption = 33
 
-		build_cost_ic = 1250
+		build_cost_ic = 675
 		resources = {
 			steel = 3
 		}		
@@ -992,7 +992,7 @@ equipments = {
 		max_strength = 105
 		fuel_consumption = 33
 
-		build_cost_ic = 2240
+		build_cost_ic = 1120
 		resources = {
 			steel = 3
 		}		
@@ -1101,7 +1101,7 @@ equipments = {
 
 		fuel_consumption = 33
 		
-		build_cost_ic = 2200
+		build_cost_ic = 1100
 		resources = {
 			steel = 2
 		}
@@ -1150,7 +1150,7 @@ equipments = {
 		
 
 
-		build_cost_ic = 2600
+		build_cost_ic = 1300
 		resources = {
 			steel = 2
 		}		
@@ -1199,7 +1199,7 @@ equipments = {
 		
 
 
-		build_cost_ic = 3000
+		build_cost_ic = 1500
 		resources = {
 			steel = 2
 		}		
@@ -1249,7 +1249,7 @@ equipments = {
 		
 
 
-		build_cost_ic = 3400
+		build_cost_ic = 1700
 		resources = {
 			steel = 3
 			chromium = 1
@@ -1308,7 +1308,7 @@ equipments = {
 		
 
 		
-		build_cost_ic = 1700
+		build_cost_ic = 860
 		resources = {
 			steel = 2
 		}
@@ -1412,7 +1412,7 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1850
 		manpower = 1800
-		build_cost_ic = 3500
+		build_cost_ic = 1250
 		naval_speed = 20
 		surface_visibility = 22
 		naval_range = 7500
@@ -1471,7 +1471,7 @@ equipments = {
 		priority = 1850
 		
 		manpower = 1800
-		build_cost_ic = 3500
+		build_cost_ic = 1700
 		resources = {
 			steel = 3
 		}

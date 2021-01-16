@@ -330,16 +330,19 @@ create_corps_commander = {
 
 	set_technology = {
 
-		# Infantry
+		#Infantry
 		infantry_weapons = 1
 		ww1infantry_weapons1 = 1
+		ww1_infantry_equip1 = 1
 		support_weapons = 1
+		support_weapons2 = 1
 		infantry_binoculars = 1
 		infantry_grenade = 1
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
+		tech_mountaineers = 1
 
-		# Support
+		#Support
 		tech_support = 1
 		tech_engineers = 1
 		tech_recon = 1
@@ -348,56 +351,72 @@ create_corps_commander = {
 		tech_field_hospital = 1
 		tech_logistics_company = 1
 
-		# Armor
-		gwtank = 1 # 1910 Armored Car
+		#Armor
+		gwtank = 1 #1910 Armored Car
+		ww1_armored_car_2 = 1
 
-		# Artillery
+		#Artillery
 		light_field_gun1 = 1
 		bonus_artillery1 = 1
 		heavy_field_gun1 = 1
-		bonus_bertha1 = 1
-		# Navy
-		ww1_battleship0 = 1 #  ww1_battleship_1890 (Pre-Dreadnought I)
-		ww1_battleship1 = 1 #  ww1_battleship_1900 (Pre-Dreadnought II)
-		ww1_battleship2 = 0 #  ww1_battleship_1906 (Dreadnought I)
-		ww1_battleship3 = 0 #  ww1_battleship_1910 (Dreadnought II)
-		ww1_battleship4 = 0 #  ww1_battleship_1914 (Dreadnought III)
+
+		#Land Doctrine
+		ww1_landdoctrine = 1
+		ww1_directfire = 1
+		ww1_rifle_ammo = 1
+
+		#Navy
+		ww1_destroyer0 = 1
+		ww1_destroyer1 = 1
+		ww1_destroyer2 = 1
+		ww1_destroyer3 = 1
+		ww1_light_cruiser0 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser2 = 1
+		ww1_light_cruiser3 = 1
+		ww1_battlecruiser0 = 1
+		ww1_battlecruiser1 = 1
+		ww1_battleship0 = 1
+		ww1_battleship1 = 1
+		ww1_battleship2 = 1
+		ww1_battleship3 = 1
+		ww1_submarine0 = 1
+		ww1_submarine1 = 1
+		ww1_submarine2 = 1
+		ww1_submarine3 = 1
+		transport = 1
+		ww1_coastal_submarine1 = 1
+		ww1_coastal_submarine2 = 1
+		ww1_coastal_submarine3 = 1
+		ww1_heavy_cruiser0 = 1
+		ww1_heavy_cruiser1 = 1
 		
-		ww1_battlecruiser1 = 0 # ww1_battlecruiser_1906 (Battlecruiser I)
-		ww1_battlecruiser2 = 0 # ww1_battlecruiser_1910 (Battlecruiser II)
-		ww1_battlecruiser3 = 0 # ww1_battlecruiser_1914 (Battlecruiser III)
-		
-		ww1_heavy_cruiser0 = 1 # heavy_cruiser_1890 (Armored Cruiser I)
-		ww1_heavy_cruiser1 = 1 # heavy_cruiser_1900 (Armored Cruiser II)
-		
-		ww1_light_cruiser0 = 1 # light_cruiser_1890 (Protected Cruiser I)
-		ww1_light_cruiser1 = 1 # light_cruiser_1900 (Protected Cruiser II)
-		ww1_light_cruiser2 = 1 # light_cruiser_1906 (Light Cruiser I)
-		ww1_light_cruiser3 = 0 # light_cruiser_1910 (Light Cruiser II)
-		ww1_light_cruiser4 = 0 # light_cruiser_1914 (Light Cruiser III)
-		
-		ww1_destroyer0 = 1 # destroyer_1890 (Torpedo Boat I)
-		ww1_destroyer1 = 1 # destroyer_1900 (Destroyer I)
-		ww1_destroyer2 = 1 # destroyer_1906 (Destroyer II)
-		ww1_destroyer3 = 0 # destroyer_1910 (Destroyer III)
-		ww1_destroyer4 = 0 # destroyer_1914 (Destroyer IV)	
-		
-		ww1_moduleMTG_mines = 1 # Mines
-		
-		ww1_submarine0 = 1 # coastal_submarine_1900 (Coastal Submarine 1900, first available Submarine)
-		ww1_submarine1 = 0 # submarine_1906 (Submarine I)
-		ww1_submarine2 = 0 # submarine_1910 (Submarine II)
-		ww1_submarine3 = 0 # submarine_1914 (Submarine III)
-		
-		transport = 1 # Naval Transport
-		
-		# Air
+		#Air
 		ww1_fighter1 = 1
-		
-		# Engineering
+		ww1_fighter1b = 1
+		ww1_zeppelin1 = 1
+
+		#Air Doctrine
+		ww1_airdoctrine = 1
+		ww1_airdoctrine_2 = 1
+		ww1_airdoctrine_3 = 1
+
+		#Navy Doctrine
+		ww1_navaldoctrine = 1
+		ww1_navaldoctrine_2 = 1
+		ww1_navaldoctrine_3 = 1
+
+		#Engineering
 		electronic_mechanical_engineering = 1
-		
-		# Industry
+		mechanical_computing = 1
+		chemical_research = 1
+
+		#Industry
+		ww1_tools1 = 1
+		ww1_medicine1 = 1
+		ww1_fortification1 = 1
+		ww1_fortification2 = 1
+
 	}
 
 	set_politics = {

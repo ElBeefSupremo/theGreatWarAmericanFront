@@ -5,7 +5,7 @@ technologies = {
 
 	tank_unlocker1 = {
 
-		research_speed_factor = -0.01
+		research_speed_factor = 0.03
 		
 		path = {
 			leads_to_tech = tank_unlocker2
@@ -63,7 +63,7 @@ technologies = {
 
 	chemical_research = {
 
-		research_speed_factor = -0.01
+		research_speed_factor = 0.03
 		
 		path = {
 			leads_to_tech = chemical_research2
